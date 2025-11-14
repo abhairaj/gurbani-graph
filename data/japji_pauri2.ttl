@@ -1,0 +1,225 @@
+@prefix shabd: <http://gurbani-graph.org/shabd#> .
+@prefix sggs:  <http://gurbani-graph.org/sggs#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+#################################################################
+### Core reference nodes (Scripture, Person, Ang)
+#################################################################
+
+sggs:SGGS a shabd:Scripture ;
+    shabd:scriptureName "Sri Guru Granth Sahib Ji"@en .
+
+sggs:GuruNanakDevJi a shabd:Person ;
+    shabd:personName "Guru Nanak Dev Ji"@pa ;
+    shabd:personRole "Guru"@en .
+
+sggs:Ang1 a shabd:AngReference ;
+    shabd:angNumber "1"^^xsd:integer .
+
+#################################################################
+### Theme nodes used in Japji Sahib – Pauri 2
+#################################################################
+
+shabd:Hukam a shabd:Theme ;
+    shabd:themeLabelEn "Hukam (Divine Command / Order)"@en .
+
+shabd:Creation a shabd:Theme ;
+    shabd:themeLabelEn "Creation of forms and beings"@en .
+
+shabd:GloryStatus a shabd:Theme ;
+    shabd:themeLabelEn "Glory, rank, and status"@en .
+
+shabd:HighLow a shabd:Theme ;
+    shabd:themeLabelEn "High and low states"@en .
+
+shabd:SufferingJoy a shabd:Theme ;
+    shabd:themeLabelEn "Suffering and joy (dukh / sukh)"@en .
+
+shabd:GraceTheme a shabd:Theme ;
+    shabd:themeLabelEn "Divine grace and selection"@en .
+
+shabd:WanderingTheme a shabd:Theme ;
+    shabd:themeLabelEn "Endless wandering / bhavanaa"@en .
+
+shabd:UniversalityOfHukam a shabd:Theme ;
+    shabd:themeLabelEn "Universality of Hukam (none outside it)"@en .
+
+shabd:EgoTheme a shabd:Theme ;
+    shabd:themeLabelEn "Ego (haumai) and its dissolution"@en .
+
+shabd:UnderstandingHukam a shabd:Theme ;
+    shabd:themeLabelEn "Realization of Hukam as spiritual key"@en .
+
+#################################################################
+### Japji Sahib – Pauri 2 (modeled as a Pauri / Shabd)
+#################################################################
+
+sggs:japji_pauri2 a shabd:Pauri ;
+    shabd:shabdId "sggs-japji-pauri2" ;
+    dct:title "Japji Sahib – Pauri 2"@en ;
+    shabd:titleEn "Japji Sahib – Pauri 2"@en ;
+    shabd:sequenceInAng "2"^^xsd:integer ;
+    shabd:hasAuthor sggs:GuruNanakDevJi ;
+    shabd:inScripture sggs:SGGS ;
+    shabd:hasAng sggs:Ang1 ;
+    shabd:hasTheme shabd:Hukam,
+                   shabd:Creation,
+                   shabd:GloryStatus,
+                   shabd:HighLow,
+                   shabd:SufferingJoy,
+                   shabd:GraceTheme,
+                   shabd:WanderingTheme,
+                   shabd:UniversalityOfHukam,
+                   shabd:EgoTheme,
+                   shabd:UnderstandingHukam ;
+    shabd:overallCommentaryEn "Japji Pauri 2 teaches that all forms, beings, status, suffering, joy, grace, and wandering arise under Hukam, the Divine Command; nothing is outside this Order. Spiritual realization lies in understanding Hukam so deeply that ego no longer asserts itself."@en ;
+    shabd:hasLine sggs:japji_pauri2_line1,
+                  sggs:japji_pauri2_line2,
+                  sggs:japji_pauri2_line3,
+                  sggs:japji_pauri2_line4,
+                  sggs:japji_pauri2_line5,
+                  sggs:japji_pauri2_line6 .
+
+#################################################################
+### Line 1
+### ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥
+#################################################################
+
+sggs:japji_pauri2_line1 a shabd:Line ;
+    shabd:lineId "sggs-japji-pauri2-line1" ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:belongsTo sggs:japji_pauri2 ;
+    shabd:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥"@pa ;
+    shabd:transliteration "Hukmī hovan ākār hukam na kahiā jāī."@en-Latn ;
+    shabd:translationEn "By His Hukam, forms come into being; His Hukam cannot be fully described."@en ;
+    shabd:hasTheme shabd:Hukam,
+                   shabd:Creation ;
+    shabd:commentaryKeypoint "All manifest forms arise under Divine Command, yet the nature of Hukam itself transcends complete description or conceptual capture."@en .
+
+#################################################################
+### Line 2
+### ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥
+#################################################################
+
+sggs:japji_pauri2_line2 a shabd:Line ;
+    shabd:lineId "sggs-japji-pauri2-line2" ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:belongsTo sggs:japji_pauri2 ;
+    shabd:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥"@pa ;
+    shabd:transliteration "Hukmī hovan jīa hukam milai vaḍiāī."@en-Latn ;
+    shabd:translationEn "By His Hukam, beings come into existence; by His Hukam, honor and greatness are received."@en ;
+    shabd:hasTheme shabd:Hukam,
+                   shabd:Creation,
+                   shabd:GloryStatus ;
+    shabd:commentaryKeypoint "Not only life itself but also any honor or greatness one receives flows from Hukam, not from independent personal merit."@en .
+
+#################################################################
+### Line 3
+### ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥
+#################################################################
+
+sggs:japji_pauri2_line3 a shabd:Line ;
+    shabd:lineId "sggs-japji-pauri2-line3" ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:belongsTo sggs:japji_pauri2 ;
+    shabd:gurmukhi "ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥"@pa ;
+    shabd:transliteration "Hukmī utam nīc hukam likh dukh sukh pāīah(i)."@en-Latn ;
+    shabd:translationEn "By His Hukam, some are high and some low; by His Hukam, suffering and joy are inscribed and experienced."@en ;
+    shabd:hasTheme shabd:Hukam,
+                   shabd:HighLow,
+                   shabd:SufferingJoy ;
+    shabd:commentaryKeypoint "States of high and low, as well as experiences of pain and pleasure, are written under Hukam, undermining egoic claims of absolute control."@en .
+
+#################################################################
+### Line 4
+### ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥
+#################################################################
+
+sggs:japji_pauri2_line4 a shabd:Line ;
+    shabd:lineId "sggs-japji-pauri2-line4" ;
+    shabd:index "4"^^xsd:integer ;
+    shabd:belongsTo sggs:japji_pauri2 ;
+    shabd:gurmukhi "ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥"@pa ;
+    shabd:transliteration "Ikna hukmī bakhsīs ik hukmī sadā bhavāīah(i)."@en-Latn ;
+    shabd:translationEn "By His Hukam, some are blessed with grace; by His Hukam, others are made to wander forever."@en ;
+    shabd:hasTheme shabd:Hukam,
+                   shabd:GraceTheme,
+                   shabd:WanderingTheme ;
+    shabd:commentaryKeypoint "Both grace and wandering are under Hukam; the contrast emphasizes Divine sovereignty and the mystery of why some awaken while others remain lost."@en .
+
+#################################################################
+### Line 5
+### ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥
+#################################################################
+
+sggs:japji_pauri2_line5 a shabd:Line ;
+    shabd:lineId "sggs-japji-pauri2-line5" ;
+    shabd:index "5"^^xsd:integer ;
+    shabd:belongsTo sggs:japji_pauri2 ;
+    shabd:gurmukhi "ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥"@pa ;
+    shabd:transliteration "Hukmai andar sabh ko bāhar hukam na koe."@en-Latn ;
+    shabd:translationEn "All are within Hukam; none at all is outside His Command."@en ;
+    shabd:hasTheme shabd:Hukam,
+                   shabd:UniversalityOfHukam ;
+    shabd:commentaryKeypoint "Hukam is all-encompassing; no being, event, or state of existence lies outside Divine Order."@en .
+
+#################################################################
+### Line 6
+### ਨਾਨਕ ਹੁਕਮੈ ਜੇ ਬੁਝੈ ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ ॥੨॥
+#################################################################
+
+sggs:japji_pauri2_line6 a shabd:Line ;
+    shabd:lineId "sggs-japji-pauri2-line6" ;
+    shabd:index "6"^^xsd:integer ;
+    shabd:belongsTo sggs:japji_pauri2 ;
+    shabd:gurmukhi "ਨਾਨਕ ਹੁਕਮੈ ਜੇ ਬੁਝੈ ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ ॥੨॥"@pa ;
+    shabd:transliteration "Nānak hukmai je bujhai ta haumai kahai na koe. ||2||"@en-Latn ;
+    shabd:translationEn "O Nanak, one who truly understands Hukam no longer speaks from ego."@en ;
+    shabd:hasTheme shabd:Hukam,
+                   shabd:EgoTheme,
+                   shabd:UnderstandingHukam ;
+    shabd:commentaryKeypoint "Realization of Hukam dissolves ego; the one who understands Divine Order ceases to assert ‘I’ as the ultimate doer or controller."@en .
+
+@prefix shabd: <http://gurbani-graph.org/shabd#> .
+@prefix sggs:  <http://gurbani-graph.org/sggs#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+### Existing line (shortened to focus on phrases)
+
+sggs:japji_pauri2_line1 a shabd:Line ;
+    shabd:lineId "sggs-japji-pauri2-line1" ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥"@pa ;
+    shabd:transliteration "Hukmī hovan ākār hukam na kahiā jāī."@en-Latn ;
+    shabd:translationEn "By His Hukam, forms come into being; His Hukam cannot be fully described."@en ;
+    shabd:hasPhrase sggs:japji_pauri2_line1_p1,
+                    sggs:japji_pauri2_line1_p2,
+                    sggs:japji_pauri2_line1_p3 .
+
+### Phrase 1: ਹੁਕਮੀ
+
+sggs:japji_pauri2_line1_p1 a shabd:Phrase ;
+    shabd:phraseIndex "1"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਹੁਕਮੀ"@pa ;
+    shabd:phraseTransliteration "Hukmī"@en-Latn ;
+    shabd:phraseGlossEn "by His Command; under Hukam"@en .
+
+### Phrase 2: ਹੋਵਨਿ ਆਕਾਰ
+
+sggs:japji_pauri2_line1_p2 a shabd:Phrase ;
+    shabd:phraseIndex "2"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਹੋਵਨਿ ਆਕਾਰ"@pa ;
+    shabd:phraseTransliteration "hovan ākār"@en-Latn ;
+    shabd:phraseGlossEn "forms come into being; forms arise"@en .
+
+### Phrase 3: ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ
+
+sggs:japji_pauri2_line1_p3 a shabd:Phrase ;
+    shabd:phraseIndex "3"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ"@pa ;
+    shabd:phraseTransliteration "hukam na kahiā jāī"@en-Latn ;
+    shabd:phraseGlossEn "Hukam cannot be fully spoken or described"@en .
+

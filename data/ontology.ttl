@@ -254,3 +254,44 @@ shabd:commentaryTextEn a owl:DatatypeProperty ;
     rdfs:comment "Extended commentary text on a line or shabd, stored as a separate Commentary node when finer granularity is desired."@en ;
     rdfs:domain shabd:Commentary ;
     rdfs:range xsd:string .
+
+### New class
+
+shabd:Phrase a owl:Class ;
+    rdfs:label "Phrase"@en ;
+    rdfs:comment "A sub-span of a Line with its own literal gloss/meaning."@en .
+
+### Object property: Line → Phrase
+
+shabd:hasPhrase a owl:ObjectProperty ;
+    rdfs:label "has phrase"@en ;
+    rdfs:comment "Associates a Line with one or more phrase-level units."@en ;
+    rdfs:domain shabd:Line ;
+    rdfs:range shabd:Phrase .
+
+### Datatype properties for Phrase
+
+shabd:phraseGurmukhi a owl:DatatypeProperty ;
+    rdfs:label "phrase Gurmukhi"@en ;
+    rdfs:comment "Gurmukhi text for a sub-phrase of a Line."@en ;
+    rdfs:domain shabd:Phrase ;
+    rdfs:range xsd:string .
+
+shabd:phraseTransliteration a owl:DatatypeProperty ;
+    rdfs:label "phrase transliteration"@en ;
+    rdfs:comment "Roman transliteration for a sub-phrase."@en ;
+    rdfs:domain shabd:Phrase ;
+    rdfs:range xsd:string .
+
+shabd:phraseGlossEn a owl:DatatypeProperty ;
+    rdfs:label "phrase gloss (English)"@en ;
+    rdfs:comment "Literal English gloss for the phrase."@en ;
+    rdfs:domain shabd:Phrase ;
+    rdfs:range xsd:string .
+
+shabd:phraseIndex a owl:DatatypeProperty ;
+    rdfs:label "phrase index"@en ;
+    rdfs:comment "Ordering of the phrase within the line (1-based)."@en ;
+    rdfs:domain shabd:Phrase ;
+    rdfs:range xsd:integer .
+
