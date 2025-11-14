@@ -1,0 +1,348 @@
+@prefix shabd: <http://gurbani-graph.org/shabd#> .
+@prefix sggs:  <http://gurbani-graph.org/sggs#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+#################################################################
+### Core reference nodes (Scripture, Person, Ang)
+#################################################################
+
+sggs:SGGS a shabd:Scripture ;
+    shabd:scriptureName "Sri Guru Granth Sahib Ji"@en .
+
+sggs:GuruNanakDevJi a shabd:Person ;
+    shabd:personName "Guru Nanak Dev Ji"@pa ;
+    shabd:personRole "Guru"@en .
+
+sggs:Ang1 a shabd:AngReference ;
+    shabd:angNumber "1"^^xsd:integer .
+
+#################################################################
+### Theme nodes used in Japji Sahib – Pauri 4
+#################################################################
+
+shabd:DivineName a shabd:Theme ;
+    shabd:themeLabelEn "Divine Name (Sach Naam)"@en .
+
+shabd:DevotionalLove a shabd:Theme ;
+    shabd:themeLabelEn "Devotional Love / Bhāo"@en .
+
+shabd:PrayerAndAsking a shabd:Theme ;
+    shabd:themeLabelEn "Prayer, Asking, and Receiving"@en .
+
+shabd:DivineGifts a shabd:Theme ;
+    shabd:themeLabelEn "Divine Gifts and Giving"@en .
+
+shabd:RightOffering a shabd:Theme ;
+    shabd:themeLabelEn "What to Offer / How to Approach"@en .
+
+shabd:AmritVelaTheme a shabd:Theme ;
+    shabd:themeLabelEn "Amrit Vela, True Name, and Contemplation"@en .
+
+shabd:GraceAndKarma a shabd:Theme ;
+    shabd:themeLabelEn "Interplay of Karma (Karmi) and Grace (Nadar)"@en .
+
+shabd:LiberationDoor a shabd:Theme ;
+    shabd:themeLabelEn "Gate of Liberation (Mokh Duar)"@en .
+
+shabd:DivineSovereignty a shabd:Theme ;
+    shabd:themeLabelEn "Divine Sovereignty / God Alone is True"@en .
+
+#################################################################
+### Japji Sahib – Pauri 4
+#################################################################
+
+sggs:japji_pauri4 a shabd:Pauri ;
+    shabd:shabdId "sggs-japji-pauri4" ;
+    dct:title "Japji Sahib – Pauri 4"@en ;
+    shabd:titleEn "Japji Sahib – Pauri 4"@en ;
+    shabd:sequenceInAng "4"^^xsd:integer ;
+    shabd:hasAuthor sggs:GuruNanakDevJi ;
+    shabd:inScripture sggs:SGGS ;
+    shabd:hasAng sggs:Ang1 ;
+    shabd:hasTheme shabd:Truth,
+                   shabd:DivineName,
+                   shabd:DevotionalLove,
+                   shabd:PrayerAndAsking,
+                   shabd:DivineGifts,
+                   shabd:RightOffering,
+                   shabd:AmritVelaTheme,
+                   shabd:GraceAndKarma,
+                   shabd:LiberationDoor,
+                   shabd:DivineSovereignty ;
+    shabd:overallCommentaryEn "Pauri 4 affirms the True Lord and True Name, notes how beings constantly ask and receive from the Giver, and then asks what to offer and how to speak so that we truly please Him. The answer points to Amrit Vela contemplation of the True Name and Divine greatness, and explains that the human body comes via karma, but liberation is by grace. Ultimately, one realizes that the True Lord Himself alone is the truly Truthful One."@en ;
+    shabd:hasLine sggs:japji_pauri4_line1,
+                  sggs:japji_pauri4_line2,
+                  sggs:japji_pauri4_line3,
+                  sggs:japji_pauri4_line4,
+                  sggs:japji_pauri4_line5,
+                  sggs:japji_pauri4_line6,
+                  sggs:japji_pauri4_line7 .
+
+#################################################################
+### Line 1
+### ਸਾਚਾ ਸਾਹਿਬੁ ਸਾਚੁ ਨਾਉ ਭਾਖਿਆ ਭਾਉ ਅਪਾਰ ॥
+#################################################################
+
+sggs:japji_pauri4_line1 a shabd:Line ;
+    shabd:lineId "sggs-japji-pauri4-line1" ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:belongsTo sggs:japji_pauri4 ;
+    shabd:gurmukhi "ਸਾਚਾ ਸਾਹਿਬੁ ਸਾਚੁ ਨਾਉ ਭਾਖਿਆ ਭਾਉ ਅਪਾਰ ॥"@pa ;
+    shabd:transliteration "Sācẖā sāhib sācẖ nāo, bẖākẖiā bẖāo apār."@en-Latn ;
+    shabd:translationEn "The Master is True, His Name is True; He is described with love that is boundless."@en ;
+    shabd:hasTheme shabd:Truth,
+                   shabd:DivineName,
+                   shabd:DevotionalLove ;
+    shabd:commentaryKeypoint "God and His Name are eternally True; the right way to relate is loving devotion, not dry description."@en ;
+    shabd:hasPhrase sggs:japji_pauri4_line1_p1,
+                    sggs:japji_pauri4_line1_p2,
+                    sggs:japji_pauri4_line1_p3 .
+
+sggs:japji_pauri4_line1_p1 a shabd:Phrase ;
+    shabd:phraseIndex "1"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਸਾਚਾ ਸਾਹਿਬੁ"@pa ;
+    shabd:phraseTransliteration "sācẖā sāhib"@en-Latn ;
+    shabd:phraseGlossEn "the True Master / Lord"@en .
+
+sggs:japji_pauri4_line1_p2 a shabd:Phrase ;
+    shabd:phraseIndex "2"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਸਾਚੁ ਨਾਉ"@pa ;
+    shabd:phraseTransliteration "sācẖ nāo"@en-Latn ;
+    shabd:phraseGlossEn "the True Name"@en .
+
+sggs:japji_pauri4_line1_p3 a shabd:Phrase ;
+    shabd:phraseIndex "3"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਭਾਖਿਆ ਭਾਉ ਅਪਾਰ"@pa ;
+    shabd:phraseTransliteration "bẖākẖiā bẖāo apār"@en-Latn ;
+    shabd:phraseGlossEn "He is spoken of with love that is limitless"@en .
+
+#################################################################
+### Line 2
+### ਆਖਹਿ ਮੰਗਹਿ ਦੇਹਿ ਦੇਹਿ ਦਾਤਿ ਕਰੇ ਦਾਤਾਰੁ ॥
+#################################################################
+
+sggs:japji_pauri4_line2 a shabd:Line ;
+    shabd:lineId "sggs-japji-pauri4-line2" ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:belongsTo sggs:japji_pauri4 ;
+    shabd:gurmukhi "ਆਖਹਿ ਮੰਗਹਿ ਦੇਹਿ ਦੇਹਿ ਦਾਤਿ ਕਰੇ ਦਾਤਾਰੁ ॥"@pa ;
+    shabd:transliteration "Ākheh mangheh deh deh, dāt kare dātār."@en-Latn ;
+    shabd:translationEn "People speak to Him, they ask and ask; the Giver keeps on giving His gifts."@en ;
+    shabd:hasTheme shabd:PrayerAndAsking,
+                   shabd:DivineGifts ;
+    shabd:commentaryKeypoint "Creation is constantly asking for more, and the Divine Giver continuously bestows."@en ;
+    shabd:hasPhrase sggs:japji_pauri4_line2_p1,
+                    sggs:japji_pauri4_line2_p2,
+                    sggs:japji_pauri4_line2_p3 .
+
+sggs:japji_pauri4_line2_p1 a shabd:Phrase ;
+    shabd:phraseIndex "1"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਆਖਹਿ ਮੰਗਹਿ"@pa ;
+    shabd:phraseTransliteration "ākheh mangheh"@en-Latn ;
+    shabd:phraseGlossEn "they speak and ask; they petition"@en .
+
+sggs:japji_pauri4_line2_p2 a shabd:Phrase ;
+    shabd:phraseIndex "2"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਦੇਹਿ ਦੇਹਿ"@pa ;
+    shabd:phraseTransliteration "deh deh"@en-Latn ;
+    shabd:phraseGlossEn "\"give, give\" – they keep begging"@en .
+
+sggs:japji_pauri4_line2_p3 a shabd:Phrase ;
+    shabd:phraseIndex "3"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਦਾਤਿ ਕਰੇ ਦਾਤਾਰੁ"@pa ;
+    shabd:phraseTransliteration "dāt kare dātār"@en-Latn ;
+    shabd:phraseGlossEn "the Giver keeps on giving gifts"@en .
+
+#################################################################
+### Line 3
+### ਫੇਰਿ ਕਿ ਅਗੈ ਰਖੀਐ ਜਿਤੁ ਦਿਸੈ ਦਰਬਾਰੁ ॥
+#################################################################
+
+sggs:japji_pauri4_line3 a shabd:Line ;
+    shabd:lineId "sggs-japji-pauri4-line3" ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:belongsTo sggs:japji_pauri4 ;
+    shabd:gurmukhi "ਫੇਰਿ ਕਿ ਅਗੈ ਰਖੀਐ ਜਿਤੁ ਦਿਸੈ ਦਰਬਾਰੁ ॥"@pa ;
+    shabd:transliteration "Pher ki agai rakhīai, jit disai darbār."@en-Latn ;
+    shabd:translationEn "So then, what offering should we place before Him, by which His Court may be seen?"@en ;
+    shabd:hasTheme shabd:RightOffering ;
+    shabd:commentaryKeypoint "After acknowledging endless asking and giving, Guru Nanak asks what offering truly opens the vision of the Divine Court."@en ;
+    shabd:hasPhrase sggs:japji_pauri4_line3_p1,
+                    sggs:japji_pauri4_line3_p2,
+                    sggs:japji_pauri4_line3_p3 .
+
+sggs:japji_pauri4_line3_p1 a shabd:Phrase ;
+    shabd:phraseIndex "1"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਫੇਰਿ ਕਿ ਅਗੈ ਰਖੀਐ"@pa ;
+    shabd:phraseTransliteration "pher ki agai rakhīai"@en-Latn ;
+    shabd:phraseGlossEn "then what should we place before Him?"@en .
+
+sggs:japji_pauri4_line3_p2 a shabd:Phrase ;
+    shabd:phraseIndex "2"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਜਿਤੁ ਦਿਸੈ"@pa ;
+    shabd:phraseTransliteration "jit disai"@en-Latn ;
+    shabd:phraseGlossEn "by which we may behold"@en .
+
+sggs:japji_pauri4_line3_p3 a shabd:Phrase ;
+    shabd:phraseIndex "3"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਦਰਬਾਰੁ"@pa ;
+    shabd:phraseTransliteration "darbār"@en-Latn ;
+    shabd:phraseGlossEn "the Divine Court; His Presence"@en .
+
+#################################################################
+### Line 4
+### ਮੁਹੌ ਕਿ ਬੋਲਣੁ ਬੋਲੀਐ ਜਿਤੁ ਸੁਣਿ ਧਰੇ ਪਿਆਰੁ ॥
+#################################################################
+
+sggs:japji_pauri4_line4 a shabd:Line ;
+    shabd:lineId "sggs:japji-pauri4-line4" ;
+    shabd:index "4"^^xsd:integer ;
+    shabd:belongsTo sggs:japji_pauri4 ;
+    shabd:gurmukhi "ਮੁਹੌ ਕਿ ਬੋਲਣੁ ਬੋਲੀਐ ਜਿਤੁ ਸੁਣਿ ਧਰੇ ਪਿਆਰੁ ॥"@pa ;
+    shabd:transliteration "Muhau ki bolaṇ bolīai, jit suṇ dhare piār."@en-Latn ;
+    shabd:translationEn "What words should we utter with our mouth, by hearing which He bestows His love?"@en ;
+    shabd:hasTheme shabd:RightOffering,
+                   shabd:DevotionalLove ;
+    shabd:commentaryKeypoint "The real question becomes: what speech springs from such a place that, on hearing it, the Divine responds with love?"@en ;
+    shabd:hasPhrase sggs:japji_pauri4_line4_p1,
+                    sggs:japji_pauri4_line4_p2,
+                    sggs:japji_pauri4_line4_p3 .
+
+sggs:japji_pauri4_line4_p1 a shabd:Phrase ;
+    shabd:phraseIndex "1"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਮੁਹੌ ਕਿ ਬੋਲਣੁ ਬੋਲੀਐ"@pa ;
+    shabd:phraseTransliteration "muhau ki bolaṇ bolīai"@en-Latn ;
+    shabd:phraseGlossEn "what should we speak with our mouth?"@en .
+
+sggs:japji_pauri4_line4_p2 a shabd:Phrase ;
+    shabd:phraseIndex "2"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਜਿਤੁ ਸੁਣਿ"@pa ;
+    shabd:phraseTransliteration "jit suṇ"@en-Latn ;
+    shabd:phraseGlossEn "such that, when He hears it"@en .
+
+sggs:japji_pauri4_line4_p3 a shabd:Phrase ;
+    shabd:phraseIndex "3"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਧਰੇ ਪਿਆਰੁ"@pa ;
+    shabd:phraseTransliteration "dhare piār"@en-Latn ;
+    shabd:phraseGlossEn "He places His love; He shows loving favor"@en .
+
+#################################################################
+### Line 5
+### ਅਮ੍ਰਿਤ ਵੇਲਾ ਸਚੁ ਨਾਉ ਵਡਿਆਈ ਵੀਚਾਰੁ ॥
+#################################################################
+
+sggs:japji_pauri4_line5 a shabd:Line ;
+    shabd:lineId "sggs:japji-pauri4-line5" ;
+    shabd:index "5"^^xsd:integer ;
+    shabd:belongsTo sggs:japji_pauri4 ;
+    shabd:gurmukhi "ਅਮ੍ਰਿਤ ਵੇਲਾ ਸਚੁ ਨਾਉ ਵਡਿਆਈ ਵੀਚਾਰੁ ॥"@pa ;
+    shabd:transliteration "Amrit velā sacẖ nāo, vaḍiāī vīcẖār."@en-Latn ;
+    shabd:translationEn "In the ambrosial hours, contemplate the True Name and His greatness."@en ;
+    shabd:hasTheme shabd:AmritVelaTheme,
+                   shabd:DivineName ;
+    shabd:commentaryKeypoint "Guru Nanak directs the seeker to the inner ambrosial time—when one meditates on the True Name and reflects on Divine greatness."@en ;
+    shabd:hasPhrase sggs:japji_pauri4_line5_p1,
+                    sggs:japji_pauri4_line5_p2,
+                    sggs:japji_pauri4_line5_p3 .
+
+sggs:japji_pauri4_line5_p1 a shabd:Phrase ;
+    shabd:phraseIndex "1"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਅਮ੍ਰਿਤ ਵੇਲਾ"@pa ;
+    shabd:phraseTransliteration "amrit velā"@en-Latn ;
+    shabd:phraseGlossEn "the ambrosial time; early dawn of spiritual awareness"@en .
+
+sggs:japji_pauri4_line5_p2 a shabd:Phrase ;
+    shabd:phraseIndex "2"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਸਚੁ ਨਾਉ"@pa ;
+    shabd:phraseTransliteration "sacẖ nāo"@en-Latn ;
+    shabd:phraseGlossEn "the True Name"@en .
+
+sggs:japji_pauri4_line5_p3 a shabd:Phrase ;
+    shabd:phraseIndex "3"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਵਡਿਆਈ ਵੀਚਾਰੁ"@pa ;
+    shabd:phraseTransliteration "vaḍiāī vīcẖār"@en-Latn ;
+    shabd:phraseGlossEn "contemplation of His greatness"@en .
+
+#################################################################
+### Line 6
+### ਕਰਮੀ ਆਵੈ ਕਪੜਾ ਨਦਰੀ ਮੋਖੁ ਦੁਆਰੁ ॥
+#################################################################
+
+sggs:japji_pauri4_line6 a shabd:Line ;
+    shabd:lineId "sggs:japji-pauri4-line6" ;
+    shabd:index "6"^^xsd:integer ;
+    shabd:belongsTo sggs:japji_pauri4 ;
+    shabd:gurmukhi "ਕਰਮੀ ਆਵੈ ਕਪੜਾ ਨਦਰੀ ਮੋਖੁ ਦੁਆਰੁ ॥"@pa ;
+    shabd:transliteration "Karmī āvai kapaṛā, nadarī mokh duār."@en-Latn ;
+    shabd:translationEn "By karma one receives the robe of this body; by His gracious glance, the gate of liberation is found."@en ;
+    shabd:hasTheme shabd:GraceAndKarma,
+                   shabd:LiberationDoor ;
+    shabd:commentaryKeypoint "Actions bring the human body, but only Divine grace opens the doorway to liberation."@en ;
+    shabd:hasPhrase sggs:japji_pauri4_line6_p1,
+                    sggs:japji_pauri4_line6_p2,
+                    sggs:japji_pauri4_line6_p3,
+                    sggs:japji_pauri4_line6_p4 .
+
+sggs:japji_pauri4_line6_p1 a shabd:Phrase ;
+    shabd:phraseIndex "1"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਕਰਮੀ"@pa ;
+    shabd:phraseTransliteration "karmī"@en-Latn ;
+    shabd:phraseGlossEn "by karma; through previous actions"@en .
+
+sggs:japji_pauri4_line6_p2 a shabd:Phrase ;
+    shabd:phraseIndex "2"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਆਵੈ ਕਪੜਾ"@pa ;
+    shabd:phraseTransliteration "āvai kapaṛā"@en-Latn ;
+    shabd:phraseGlossEn "the robe (human body) is obtained"@en .
+
+sggs:japji_pauri4_line6_p3 a shabd:Phrase ;
+    shabd:phraseIndex "3"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਨਦਰੀ"@pa ;
+    shabd:phraseTransliteration "nadarī"@en-Latn ;
+    shabd:phraseGlossEn "by His glance of grace"@en .
+
+sggs:japji_pauri4_line6_p4 a shabd:Phrase ;
+    shabd:phraseIndex "4"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਮੋਖੁ ਦੁਆਰੁ"@pa ;
+    shabd:phraseTransliteration "mokh duār"@en-Latn ;
+    shabd:phraseGlossEn "the gate of liberation (mukti)"@en .
+
+#################################################################
+### Line 7
+### ਨਾਨਕ ਏਵੈ ਜਾਣੀਐ ਸਭੁ ਆਪੇ ਸਚਿਆਰੁ ॥੪॥
+#################################################################
+
+sggs:japji_pauri4_line7 a shabd:Line ;
+    shabd:lineId "sggs:japji-pauri4-line7" ;
+    shabd:index "7"^^xsd:integer ;
+    shabd:belongsTo sggs:japji_pauri4 ;
+    shabd:gurmukhi "ਨਾਨਕ ਏਵੈ ਜਾਣੀਐ ਸਭੁ ਆਪੇ ਸਚਿਆਰੁ ॥੪॥"@pa ;
+    shabd:transliteration "Nānak evai jāṇīai, sabh āpe sacẖiār. ||4||"@en-Latn ;
+    shabd:translationEn "O Nanak, know this: the True One Himself alone is the all-pervading Truthful One."@en ;
+    shabd:hasTheme shabd:Truth,
+                   shabd:DivineSovereignty ;
+    shabd:commentaryKeypoint "The conclusion is realization: all is under and within the True One, who alone is truly the Truthful."@en ;
+    shabd:hasPhrase sggs:japji_pauri4_line7_p1,
+                    sggs:japji_pauri4_line7_p2,
+                    sggs:japji_pauri4_line7_p3 .
+
+sggs:japji_pauri4_line7_p1 a shabd:Phrase ;
+    shabd:phraseIndex "1"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਨਾਨਕ ਏਵੈ ਜਾਣੀਐ"@pa ;
+    shabd:phraseTransliteration "Nānak evai jāṇīai"@en-Latn ;
+    shabd:phraseGlossEn "O Nanak, understand it thus"@en .
+
+sggs:japji_pauri4_line7_p2 a shabd:Phrase ;
+    shabd:phraseIndex "2"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਸਭੁ ਆਪੇ"@pa ;
+    shabd:phraseTransliteration "sabh āpe"@en-Latn ;
+    shabd:phraseGlossEn "He Himself is all"@en .
+
+sggs:japji_pauri4_line7_p3 a shabd:Phrase ;
+    shabd:phraseIndex "3"^^xsd:integer ;
+    shabd:phraseGurmukhi "ਸਚਿਆਰੁ"@pa ;
+    shabd:phraseTransliteration "sacẖiār"@en-Latn ;
+    shabd:phraseGlossEn "the truly True, Truthful One"@en .
