@@ -1,0 +1,256 @@
+@prefix shabd: <http://gurbani-graph.org/shabd#> .
+@prefix sggs:  <http://gurbani-graph.org/sggs#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+#################################################################
+### Ontology header
+#################################################################
+
+<http://gurbani-graph.org/shabd>
+    a owl:Ontology ;
+    dct:title "Gurbani Graph – Shabd Ontology"@en ;
+    dct:creator "Gurbani Graph (shabd ontology for Sri Guru Granth Sahib Ji and related bani)"@en ;
+    dct:description "An ontology for modeling shabds, lines, themes, authors, raags, and scriptural structure (ang, pauri, etc.) in a graph database."@en ;
+    owl:versionInfo "0.1.0"@en .
+
+#################################################################
+### Core classes
+#################################################################
+
+shabd:Shabd a owl:Class ;
+    rdfs:label "Shabd"@en ;
+    rdfs:comment "A distinct hymn or composition unit, e.g., a shabd on a given ang or a pauri of Japji Sahib modeled as a composition node."@en .
+
+shabd:Line a owl:Class ;
+    rdfs:label "Line"@en ;
+    rdfs:comment "A single line (tuk) of Gurbani belonging to a Shabd or pauri."@en .
+
+shabd:Theme a owl:Class ;
+    rdfs:label "Theme"@en ;
+    rdfs:comment "A conceptual or semantic theme such as Naam, Hukam, Divine Grace, etc., that can be associated to shabds or lines."@en .
+
+shabd:Person a owl:Class ;
+    rdfs:label "Person"@en ;
+    rdfs:comment "A person related to the bani, such as Guru Sahib, Bhagat, or other authors/commentators."@en .
+
+shabd:Scripture a owl:Class ;
+    rdfs:label "Scripture"@en ;
+    rdfs:comment "A scriptural volume or collection, e.g. Sri Guru Granth Sahib Ji, Dasam Granth, etc."@en .
+
+shabd:Raag a owl:Class ;
+    rdfs:label "Raag"@en ;
+    rdfs:comment "A musical raag in which a shabd is composed, e.g., Raag Vadhans, Raag Asa, etc."@en .
+
+shabd:AngReference a owl:Class ;
+    rdfs:label "Ang Reference"@en ;
+    rdfs:comment "A structural reference to an ang (page) within a scripture, used if you want explicit page nodes rather than simple literals."@en .
+
+shabd:Pauri a owl:Class ;
+    rdfs:label "Pauri"@en ;
+    rdfs:comment "A stanza-like structural unit, e.g., pauris of Japji Sahib; can be modeled as a specialized Shabd if preferred."@en ;
+    rdfs:subClassOf shabd:Shabd .
+
+shabd:Commentary a owl:Class ;
+    rdfs:label "Commentary"@en ;
+    rdfs:comment "A commentary node for attaching extended explanation, translations, or exegesis to a line or shabd."@en .
+
+#################################################################
+### Object properties
+#################################################################
+
+shabd:hasLine a owl:ObjectProperty ;
+    rdfs:label "has line"@en ;
+    rdfs:comment "Links a Shabd (or Pauri) to the Lines that make it up."@en ;
+    rdfs:domain shabd:Shabd ;
+    rdfs:range shabd:Line .
+
+shabd:belongsTo a owl:ObjectProperty ;
+    rdfs:label "belongs to"@en ;
+    rdfs:comment "Links a Line back to the Shabd (or Pauri) it belongs to."@en ;
+    rdfs:domain shabd:Line ;
+    rdfs:range shabd:Shabd ;
+    owl:inverseOf shabd:hasLine .
+
+shabd:hasTheme a owl:ObjectProperty ;
+    rdfs:label "has theme"@en ;
+    rdfs:comment "Associates a Shabd or Line with one or more conceptual themes."@en ;
+    rdfs:domain [ a owl:Class ;
+                  owl:unionOf ( shabd:Shabd shabd:Line ) ] ;
+    rdfs:range shabd:Theme .
+
+shabd:hasAuthor a owl:ObjectProperty ;
+    rdfs:label "has author"@en ;
+    rdfs:comment "Relates a Shabd (or Pauri) to the Person who authored the bani (e.g., Guru Nanak Dev Ji)."@en ;
+    rdfs:domain shabd:Shabd ;
+    rdfs:range shabd:Person .
+
+shabd:inScripture a owl:ObjectProperty ;
+    rdfs:label "in scripture"@en ;
+    rdfs:comment "Indicates which Scripture a given Shabd appears in."@en ;
+    rdfs:domain shabd:Shabd ;
+    rdfs:range shabd:Scripture .
+
+shabd:inRaag a owl:ObjectProperty ;
+    rdfs:label "in raag"@en ;
+    rdfs:comment "Indicates the Raag in which a Shabd is composed."@en ;
+    rdfs:domain shabd:Shabd ;
+    rdfs:range shabd:Raag .
+
+shabd:hasAng a owl:ObjectProperty ;
+    rdfs:label "has ang reference"@en ;
+    rdfs:comment "Links a Shabd to an explicit AngReference node (optional structural modeling)."@en ;
+    rdfs:domain shabd:Shabd ;
+    rdfs:range shabd:AngReference .
+
+shabd:hasCommentary a owl:ObjectProperty ;
+    rdfs:label "has commentary"@en ;
+    rdfs:comment "Links a Shabd or Line to one or more Commentary nodes."@en ;
+    rdfs:domain [ a owl:Class ;
+                  owl:unionOf ( shabd:Shabd shabd:Line ) ] ;
+    rdfs:range shabd:Commentary .
+
+shabd:referencesLine a owl:ObjectProperty ;
+    rdfs:label "references line"@en ;
+    rdfs:comment "Used by Commentary nodes to explicitly reference one or more Lines they are commenting on."@en ;
+    rdfs:domain shabd:Commentary ;
+    rdfs:range shabd:Line .
+
+shabd:seeAlsoLine a owl:ObjectProperty ;
+    rdfs:label "see also line"@en ;
+    rdfs:comment "Cross-reference to other Lines that illuminate or relate to a given line (e.g., similar theme elsewhere in Gurbani)."@en ;
+    rdfs:domain shabd:Line ;
+    rdfs:range shabd:Line .
+
+#################################################################
+### Datatype properties – Shabd / Pauri level
+#################################################################
+
+shabd:shabdId a owl:DatatypeProperty ;
+    rdfs:label "shabd id"@en ;
+    rdfs:comment "A stable identifier for a Shabd within the Gurbani Graph (e.g., sggs-ang555-shabd17, japji-pauri1)."@en ;
+    rdfs:domain shabd:Shabd ;
+    rdfs:range xsd:string .
+
+shabd:titleEn a owl:DatatypeProperty ;
+    rdfs:label "title (English)"@en ;
+    rdfs:comment "A human-friendly English title or handle for the Shabd (not part of original Gurbani)."@en ;
+    rdfs:domain shabd:Shabd ;
+    rdfs:range xsd:string .
+
+shabd:titlePa a owl:DatatypeProperty ;
+    rdfs:label "title (Punjabi)"@en ;
+    rdfs:comment "A Punjabi title or traditional name for the Shabd, if applicable."@en ;
+    rdfs:domain shabd:Shabd ;
+    rdfs:range xsd:string .
+
+shabd:sequenceInAng a owl:DatatypeProperty ;
+    rdfs:label "sequence in ang"@en ;
+    rdfs:comment "The ordinal position of the Shabd on its ang/page."@en ;
+    rdfs:domain shabd:Shabd ;
+    rdfs:range xsd:integer .
+
+shabd:overallCommentaryEn a owl:DatatypeProperty ;
+    rdfs:label "overall commentary (English)"@en ;
+    rdfs:comment "A brief English summary of the core teaching or theme of the entire Shabd."@en ;
+    rdfs:domain shabd:Shabd ;
+    rdfs:range xsd:string .
+
+#################################################################
+### Datatype properties – Line level
+#################################################################
+
+shabd:lineId a owl:DatatypeProperty ;
+    rdfs:label "line id"@en ;
+    rdfs:comment "A stable identifier for a single line/tuk (e.g., sggs-ang555-shabd17-line3)."@en ;
+    rdfs:domain shabd:Line ;
+    rdfs:range xsd:string .
+
+shabd:index a owl:DatatypeProperty ;
+    rdfs:label "index"@en ;
+    rdfs:comment "The position of a line within its Shabd (1-based index)."@en ;
+    rdfs:domain shabd:Line ;
+    rdfs:range xsd:integer .
+
+shabd:gurmukhi a owl:DatatypeProperty ;
+    rdfs:label "Gurmukhi text"@en ;
+    rdfs:comment "The original line text in Gurmukhi script."@en ;
+    rdfs:domain shabd:Line ;
+    rdfs:range xsd:string .
+
+shabd:transliteration a owl:DatatypeProperty ;
+    rdfs:label "transliteration"@en ;
+    rdfs:comment "Roman transliteration of the line."@en ;
+    rdfs:domain shabd:Line ;
+    rdfs:range xsd:string .
+
+shabd:translationEn a owl:DatatypeProperty ;
+    rdfs:label "translation (English)"@en ;
+    rdfs:comment "An English translation of the line."@en ;
+    rdfs:domain shabd:Line ;
+    rdfs:range xsd:string .
+
+shabd:commentaryKeypoint a owl:DatatypeProperty ;
+    rdfs:label "commentary keypoint"@en ;
+    rdfs:comment "A concise commentary insight for this line, used for quick semantic queries and summaries."@en ;
+    rdfs:domain shabd:Line ;
+    rdfs:range xsd:string .
+
+#################################################################
+### Datatype properties – Scripture / Raag / AngReference / Person
+#################################################################
+
+shabd:scriptureName a owl:DatatypeProperty ;
+    rdfs:label "scripture name"@en ;
+    rdfs:comment "Human-readable name for a Scripture (e.g., Sri Guru Granth Sahib Ji)."@en ;
+    rdfs:domain shabd:Scripture ;
+    rdfs:range xsd:string .
+
+shabd:raagName a owl:DatatypeProperty ;
+    rdfs:label "raag name"@en ;
+    rdfs:comment "Name of the raag (e.g., Vadhans, Asa, Gauri)."@en ;
+    rdfs:domain shabd:Raag ;
+    rdfs:range xsd:string .
+
+shabd:angNumber a owl:DatatypeProperty ;
+    rdfs:label "ang number"@en ;
+    rdfs:comment "Ang (page) number within a scripture."@en ;
+    rdfs:domain shabd:AngReference ;
+    rdfs:range xsd:integer .
+
+shabd:personName a owl:DatatypeProperty ;
+    rdfs:label "person name"@en ;
+    rdfs:comment "Name of a Person (e.g., Guru Nanak Dev Ji, Guru Arjan Dev Ji, Bhagat Kabir Ji)."@en ;
+    rdfs:domain shabd:Person ;
+    rdfs:range xsd:string .
+
+shabd:personRole a owl:DatatypeProperty ;
+    rdfs:label "person role"@en ;
+    rdfs:comment "Role of the person in the context of Gurbani: Guru, Bhagat, Compiler, Commentator, etc."@en ;
+    rdfs:domain shabd:Person ;
+    rdfs:range xsd:string .
+
+#################################################################
+### Datatype properties – Theme & Commentary
+#################################################################
+
+shabd:themeLabelEn a owl:DatatypeProperty ;
+    rdfs:label "theme label (English)"@en ;
+    rdfs:comment "Canonical English label for a Theme node."@en ;
+    rdfs:domain shabd:Theme ;
+    rdfs:range xsd:string .
+
+shabd:themeDescriptionEn a owl:DatatypeProperty ;
+    rdfs:label "theme description (English)"@en ;
+    rdfs:comment "Optional description of the theme’s meaning or scope."@en ;
+    rdfs:domain shabd:Theme ;
+    rdfs:range xsd:string .
+
+shabd:commentaryTextEn a owl:DatatypeProperty ;
+    rdfs:label "commentary text (English)"@en ;
+    rdfs:comment "Extended commentary text on a line or shabd, stored as a separate Commentary node when finer granularity is desired."@en ;
+    rdfs:domain shabd:Commentary ;
+    rdfs:range xsd:string .
