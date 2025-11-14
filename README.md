@@ -74,16 +74,10 @@ When you include any of the above instructions, I will:
 
 ---
 
-If you'd like, I can also prepare:
+To use ChaptGPT to create TTL, start from a prompt that includes a link to the ontology
 
-* A ready-to-paste **“developer note”** you can store in your project repo
-* A **VS Code snippet** to automate prompting
-* A **Gurbani Graph CLI prompt template**
-
-Just let me know.
-
+For example:
 Use the Gurbani Graph Ontology at:
 https://github.com/abhairaj/gurbani-graph/data/ontology.ttl
 
 Please output in GGO-TTL format.
-
