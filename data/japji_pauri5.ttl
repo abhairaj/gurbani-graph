@@ -6,52 +6,10 @@
 @prefix dct:   <http://purl.org/dc/terms/> .
 
 #################################################################
-### Core references
-#################################################################
-
-sggs:SGGS a shabd:Scripture ;
-    shabd:scriptureName "Sri Guru Granth Sahib Ji"@en .
-
-sggs:GuruNanakDevJi a shabd:Person ;
-    shabd:personName "Guru Nanak Dev Ji"@pa ;
-    shabd:personRole "Guru"@en .
-
-sggs:Ang1 a shabd:AngReference ;
-    shabd:angNumber "1"^^xsd:integer .
-
-#################################################################
 ### Theme nodes – Pauri 5
 #################################################################
 
-shabd:UncreatedDivine a shabd:Theme ;
-    shabd:themeLabelEn "Uncreated, Self-Existent Divine"@en .
 
-shabd:NiranjanTheme a shabd:Theme ;
-    shabd:themeLabelEn "Niranjan – Immaculate, Beyond Maya"@en .
-
-shabd:ServiceAndHonor a shabd:Theme ;
-    shabd:themeLabelEn "Service (Seva) and Honor (Mān)"@en .
-
-shabd:PraiseSinging a shabd:Theme ;
-    shabd:themeLabelEn "Singing Divine Praises"@en .
-
-shabd:ListeningAndLove a shabd:Theme ;
-    shabd:themeLabelEn "Singing, Listening, and Keeping Love in the Mind"@en .
-
-shabd:SufferingRemoved a shabd:Theme ;
-    shabd:themeLabelEn "Removal of Suffering, Attainment of Peace"@en .
-
-shabd:GurmukhPath a shabd:Theme ;
-    shabd:themeLabelEn "Gurmukh – sound, knowledge, and Divine pervasion"@en .
-
-shabd:GuruAsDivineForm a shabd:Theme ;
-    shabd:themeLabelEn "Guru as embodiment of Divine powers"@en .
-
-shabd:IneffabilityTheme a shabd:Theme ;
-    shabd:themeLabelEn "Inexpressibility of the Divine"@en .
-
-shabd:OneGiverTheme a shabd:Theme ;
-    shabd:themeLabelEn "The One Giver of all beings"@en .
 
 #################################################################
 ### Japji Sahib – Pauri 5
@@ -66,15 +24,15 @@ sggs:japji_pauri5 a shabd:Pauri ;
     shabd:inScripture sggs:SGGS ;
     shabd:hasAng sggs:Ang1 ;
     shabd:hasTheme shabd:UncreatedDivine,
-                   shabd:NiranjanTheme,
+                   shabd:Niranjan,
                    shabd:ServiceAndHonor,
-                   shabd:PraiseSinging,
+                   shabd:Praise,
                    shabd:ListeningAndLove,
-                   shabd:SufferingRemoved,
+                   shabd:SufferingJoy,
                    shabd:GurmukhPath,
                    shabd:GuruAsDivineForm,
-                   shabd:IneffabilityTheme,
-                   shabd:OneGiverTheme ;
+                   shabd:Ineffability,
+                   shabd:OneGiver ;
     shabd:overallCommentaryEn "Pauri 5 proclaims that the Lord is not installed or manufactured; He is self-existent and immaculate. Serving such a One brings true honor. The pauri urges singing, listening, and lovingly holding the Divine within, which removes suffering and brings peace home. Through the Guru-centered way, Divine sound, knowledge, and pervasion are realized; the Guru is honored as the embodiment of Divine powers. Ultimately, the Guru gives one essential understanding: there is one Giver of all beings, who must never be forgotten."@en ;
     shabd:hasLine sggs:japji_pauri5_line1,
                   sggs:japji_pauri5_line2,
@@ -130,7 +88,7 @@ sggs:japji_pauri5_line2 a shabd:Line ;
     shabd:transliteration "Āpe āp niranjan soe."@en-Latn ;
     shabd:translationEn "He Himself is by Himself, immaculate and pure."@en ;
     shabd:hasTheme shabd:UncreatedDivine,
-                   shabd:NiranjanTheme ;
+                   shabd:Niranjan ;
     shabd:commentaryKeypoint "The Lord is self-existent and free from the stain of Maya."@en ;
     shabd:hasPhrase sggs:japji_pauri5_line2_p1,
                     sggs:japji_pauri5_line2_p2 .
@@ -188,7 +146,7 @@ sggs:japji_pauri5_line4 a shabd:Line ;
     shabd:gurmukhi "ਨਾਨਕ ਗਾਵੀਐ ਗੁਣੀ ਨਿਧਾਨੁ ॥"@pa ;
     shabd:transliteration "Nānak gāvīai guṇī niḏhān."@en-Latn ;
     shabd:translationEn "O Nanak, sing of Him, the treasure of virtues."@en ;
-    shabd:hasTheme shabd:PraiseSinging ;
+    shabd:hasTheme shabd:Praise ;
     shabd:commentaryKeypoint "Guru Nanak urges continual singing of the Virtue-Treasure, the Lord filled with countless excellences."@en ;
     shabd:hasPhrase sggs:japji_pauri5_line4_p1,
                     sggs:japji_pauri5_line4_p2 .
@@ -217,7 +175,7 @@ sggs:japji_pauri5_line5 a shabd:Line ;
     shabd:gurmukhi "ਗਾਵੀਐ ਸੁਣੀਐ ਮਨਿ ਰਖੀਐ ਭਾਉ ॥"@pa ;
     shabd:transliteration "Gāvīai suṇīai man rakhīai bẖāo."@en-Latn ;
     shabd:translationEn "Sing of Him, listen, and keep love for Him in your mind."@en ;
-    shabd:hasTheme shabd:PraiseSinging,
+    shabd:hasTheme shabd:Praise,
                    shabd:ListeningAndLove ;
     shabd:commentaryKeypoint "The path blends voicing, listening, and inwardly holding loving devotion."@en ;
     shabd:hasPhrase sggs:japji_pauri5_line5_p1,
@@ -254,7 +212,7 @@ sggs:japji_pauri5_line6 a shabd:Line ;
     shabd:gurmukhi "ਦੁਖੁ ਪਰਹਰਿ ਸੁਖੁ ਘਰਿ ਲੈ ਜਾਇ ॥"@pa ;
     shabd:transliteration "Dukh parhar, sukh ghar lai jāi."@en-Latn ;
     shabd:translationEn "Thus suffering is driven out, and peace is brought home."@en ;
-    shabd:hasTheme shabd:SufferingRemoved ;
+    shabd:hasTheme shabd:SufferingJoy ;
     shabd:commentaryKeypoint "Such singing, listening, and loving contemplation uproot suffering and bring abiding peace within."@en ;
     shabd:hasPhrase sggs:japji_pauri5_line6_p1,
                     sggs:japji_pauri5_line6_p2,
@@ -406,7 +364,7 @@ sggs:japji_pauri5_line10 a shabd:Line ;
     shabd:gurmukhi "ਜੇ ਹਉ ਜਾਣਾ ਆਖਾ ਨਾਹਿ ਕਹਣਾ ਕਥਨੁ ਨ ਜਾਈ ॥"@pa ;
     shabd:transliteration "Je hau jāṇā ākhā nāhi, kahṇā kathan na jāī."@en-Latn ;
     shabd:translationEn "Even if I were to know Him, I could not describe Him; He cannot be fully expressed in words."@en ;
-    shabd:hasTheme shabd:IneffabilityTheme ;
+    shabd:hasTheme shabd:Ineffability ;
     shabd:commentaryKeypoint "Divine reality surpasses complete verbalization, even if one has direct knowing."@en ;
     shabd:hasPhrase sggs:japji_pauri5_line10_p1,
                     sggs:japji_pauri5_line10_p2,
@@ -442,8 +400,8 @@ sggs:japji_pauri5_line11 a shabd:Line ;
     shabd:gurmukhi "ਗੁਰਾ ਇਕੁ ਦੇਹਿ ਬੁਝਾਈ ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ ਸੋ ਮੈ ਵਿਸਰਿ ਨ ਜਾਈ ॥੫॥"@pa ;
     shabd:transliteration "Gurā ik dehi bujẖāī; sabhnā jīā kā ik dātā so mai visar na jāī. ||5||"@en-Latn ;
     shabd:translationEn "The Guru has given me this one understanding: there is One Giver for all beings—may I never forget that One."@en ;
-    shabd:hasTheme shabd:OneGiverTheme,
-                   shabd:OneGiverTheme ;
+    shabd:hasTheme shabd:OneGiver,
+                   shabd:OneGiver ;
     shabd:commentaryKeypoint "The distilled insight: all beings have only one Giver; spiritual life is to never forget that One."@en ;
     shabd:hasPhrase sggs:japji_pauri5_line11_p1,
                     sggs:japji_pauri5_line11_p2,

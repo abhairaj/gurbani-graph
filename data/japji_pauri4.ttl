@@ -5,50 +5,6 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 
-#################################################################
-### Core reference nodes (Scripture, Person, Ang)
-#################################################################
-
-sggs:SGGS a shabd:Scripture ;
-    shabd:scriptureName "Sri Guru Granth Sahib Ji"@en .
-
-sggs:GuruNanakDevJi a shabd:Person ;
-    shabd:personName "Guru Nanak Dev Ji"@pa ;
-    shabd:personRole "Guru"@en .
-
-sggs:Ang1 a shabd:AngReference ;
-    shabd:angNumber "1"^^xsd:integer .
-
-#################################################################
-### Theme nodes used in Japji Sahib – Pauri 4
-#################################################################
-
-shabd:DivineName a shabd:Theme ;
-    shabd:themeLabelEn "Divine Name (Sach Naam)"@en .
-
-shabd:DevotionalLove a shabd:Theme ;
-    shabd:themeLabelEn "Devotional Love / Bhāo"@en .
-
-shabd:PrayerAndAsking a shabd:Theme ;
-    shabd:themeLabelEn "Prayer, Asking, and Receiving"@en .
-
-shabd:DivineGifts a shabd:Theme ;
-    shabd:themeLabelEn "Divine Gifts and Giving"@en .
-
-shabd:RightOffering a shabd:Theme ;
-    shabd:themeLabelEn "What to Offer / How to Approach"@en .
-
-shabd:AmritVelaTheme a shabd:Theme ;
-    shabd:themeLabelEn "Amrit Vela, True Name, and Contemplation"@en .
-
-shabd:GraceAndKarma a shabd:Theme ;
-    shabd:themeLabelEn "Interplay of Karma (Karmi) and Grace (Nadar)"@en .
-
-shabd:LiberationDoor a shabd:Theme ;
-    shabd:themeLabelEn "Gate of Liberation (Mokh Duar)"@en .
-
-shabd:DivineSovereignty a shabd:Theme ;
-    shabd:themeLabelEn "Divine Sovereignty / God Alone is True"@en .
 
 #################################################################
 ### Japji Sahib – Pauri 4
@@ -58,17 +14,17 @@ sggs:japji_pauri4 a shabd:Pauri ;
     shabd:shabdId "sggs-japji-pauri4" ;
     dct:title "Japji Sahib – Pauri 4"@en ;
     shabd:titleEn "Japji Sahib – Pauri 4"@en ;
+    shabd:ang "1"^^xsd:integer ;
     shabd:sequenceInAng "4"^^xsd:integer ;
     shabd:hasAuthor sggs:GuruNanakDevJi ;
     shabd:inScripture sggs:SGGS ;
-    shabd:hasAng sggs:Ang1 ;
     shabd:hasTheme shabd:Truth,
                    shabd:DivineName,
                    shabd:DevotionalLove,
                    shabd:PrayerAndAsking,
                    shabd:DivineGifts,
                    shabd:RightOffering,
-                   shabd:AmritVelaTheme,
+                   shabd:AmritVela,
                    shabd:GraceAndKarma,
                    shabd:LiberationDoor,
                    shabd:DivineSovereignty ;
@@ -241,7 +197,7 @@ sggs:japji_pauri4_line5 a shabd:Line ;
     shabd:gurmukhi "ਅਮ੍ਰਿਤ ਵੇਲਾ ਸਚੁ ਨਾਉ ਵਡਿਆਈ ਵੀਚਾਰੁ ॥"@pa ;
     shabd:transliteration "Amrit velā sacẖ nāo, vaḍiāī vīcẖār."@en-Latn ;
     shabd:translationEn "In the ambrosial hours, contemplate the True Name and His greatness."@en ;
-    shabd:hasTheme shabd:AmritVelaTheme,
+    shabd:hasTheme shabd:AmritVela,
                    shabd:DivineName ;
     shabd:commentaryKeypoint "Guru Nanak directs the seeker to the inner ambrosial time—when one meditates on the True Name and reflects on Divine greatness."@en ;
     shabd:hasPhrase sggs:japji_pauri4_line5_p1,

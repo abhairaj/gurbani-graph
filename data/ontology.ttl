@@ -45,10 +45,6 @@ shabd:Raag a owl:Class ;
     rdfs:label "Raag"@en ;
     rdfs:comment "A musical raag in which a shabd is composed, e.g., Raag Vadhans, Raag Asa, etc."@en .
 
-shabd:AngReference a owl:Class ;
-    rdfs:label "Ang Reference"@en ;
-    rdfs:comment "A structural reference to an ang (page) within a scripture, used if you want explicit page nodes rather than simple literals."@en .
-
 shabd:Pauri a owl:Class ;
     rdfs:label "Pauri"@en ;
     rdfs:comment "A stanza-like structural unit, e.g., pauris of Japji Sahib; can be modeled as a specialized Shabd if preferred."@en ;
@@ -57,6 +53,10 @@ shabd:Pauri a owl:Class ;
 shabd:Commentary a owl:Class ;
     rdfs:label "Commentary"@en ;
     rdfs:comment "A commentary node for attaching extended explanation, translations, or exegesis to a line or shabd."@en .
+
+shabd:Phrase a owl:Class ;
+    rdfs:label "Phrase"@en ;
+    rdfs:comment "A sub-span of a Line with its own literal gloss/meaning."@en .
 
 #################################################################
 ### Object properties
@@ -215,10 +215,10 @@ shabd:raagName a owl:DatatypeProperty ;
     rdfs:domain shabd:Raag ;
     rdfs:range xsd:string .
 
-shabd:angNumber a owl:DatatypeProperty ;
+shabd:ang a owl:DatatypeProperty ;
     rdfs:label "ang number"@en ;
-    rdfs:comment "Ang (page) number within a scripture."@en ;
-    rdfs:domain shabd:AngReference ;
+    rdfs:comment "Ang (page) number within a scripture that the first line of a Pauri or Shabd."@en ;
+    rdfs:domain shabd:Pauri, shabd:Shabd ;
     rdfs:range xsd:integer .
 
 shabd:personName a owl:DatatypeProperty ;
@@ -254,12 +254,6 @@ shabd:commentaryTextEn a owl:DatatypeProperty ;
     rdfs:comment "Extended commentary text on a line or shabd, stored as a separate Commentary node when finer granularity is desired."@en ;
     rdfs:domain shabd:Commentary ;
     rdfs:range xsd:string .
-
-### New class
-
-shabd:Phrase a owl:Class ;
-    rdfs:label "Phrase"@en ;
-    rdfs:comment "A sub-span of a Line with its own literal gloss/meaning."@en .
 
 ### Object property: Line → Phrase
 

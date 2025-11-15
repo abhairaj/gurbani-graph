@@ -1,0 +1,185 @@
+@prefix shabd: <http://gurbani-graph.org/shabd#> .
+@prefix sggs:  <http://gurbani-graph.org/sggs#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+#################################################################
+### Core reference nodes (Scripture, Person, Ang)
+#################################################################
+
+sggs:SGGS a shabd:Scripture ;
+    shabd:scriptureName "Sri Guru Granth Sahib Ji"@en .
+
+sggs:GuruNanakDevJi a shabd:Person ;
+    shabd:personName "Guru Nanak Dev Ji"@pa ;
+    shabd:personRole "Guru"@en .
+
+sggs:GuruArjanDevJi a shabd:Person ;
+    shabd:personName "Guru Arjan Dev Ji"@pa ;
+    shabd:personRole "Guru"@en .
+
+sggs:RaagVadhans a shabd:Raag ;
+    shabd:raagName "Vadhans"@pa .
+
+#################################################################
+### Theme nodes used in Japji Sahib – Pauri 1
+#################################################################
+
+shabd:AmritVela a shabd:Theme ;
+    shabd:themeLabelEn "Amrit Vela, True Name, and Contemplation"@en .
+
+shabd:Bhagat a shabd:Theme ;
+    shabd:themeLabelEn "Bhagat / Devotee"@en .
+
+shabd:CarefreeDivine a shabd:Theme ;
+    shabd:themeLabelEn "Carefree, Ever-Blissful Divine (Veparvāhu)"@en .
+
+shabd:CreationDestruction a shabd:Theme ;
+    shabd:themeLabelEn "Creation and Dissolution of Forms"@en .
+
+shabd:DevotionalLove a shabd:Theme ;
+    shabd:themeLabelEn "Devotional Love / Bhāo"@en .
+
+shabd:Desire a shabd:Theme ;
+    shabd:themeLabelEn "Desire / Craving / Bhukh"@en .
+
+shabd:DivineDelight a shabd:Theme ;
+    shabd:themeLabelEn "Divine Delight in the Devotee"@en .
+
+shabd:DivineGifts a shabd:Theme ;
+    shabd:themeLabelEn "Divine Gifts / Bounty"@en .
+
+shabd:DivineGrace a shabd:Theme ;
+    shabd:themeLabelEn "Divine grace and selection"@en .
+
+shabd:DivineHumility a shabd:Theme ;
+    shabd:themeLabelEn "Divine Humility (God exalting the devotee)"@en .
+
+shabd:DivineName a shabd:Theme ;
+    shabd:themeLabelEn "Divine Name (Sach Naam)"@en .
+
+shabd:DivinePower a shabd:Theme ;
+    shabd:themeLabelEn "Divine Power / Might"@en .
+
+shabd:DivineProtection a shabd:Theme ;
+    shabd:themeLabelEn "Divine Protection / Preservation of Honor"@en .
+
+shabd:DivineWill a shabd:Theme ;
+    shabd:themeLabelEn "Divine Will / Raza"@en .
+
+shabd:DivineSovereignty a shabd:Theme ;
+    shabd:themeLabelEn "Divine Sovereignty / God Alone is True"@en .
+
+shabd:Ego a shabd:Theme ;
+    shabd:themeLabelEn "Ego (haumai) and its dissolution"@en .
+
+shabd:GivingReceiving a shabd:Theme ;
+    shabd:themeLabelEn "Endless Giving and Receiving"@en .
+
+shabd:GloryStatus a shabd:Theme ;
+    shabd:themeLabelEn "Glory, rank, and status"@en .
+
+shabd:GraceAndKarma a shabd:Theme ;
+    shabd:themeLabelEn "Interplay of Karma (Karmi) and Grace (Nadar)"@en .
+
+shabd:GurmukhPath a shabd:Theme ;
+    shabd:themeLabelEn "Gurmukh – sound, knowledge, and Divine pervasion"@en .
+
+shabd:GuruAsDivineForm a shabd:Theme ;
+    shabd:themeLabelEn "Guru as embodiment of Divine powers"@en .
+
+shabd:GuruTeaching a shabd:Theme ;
+    shabd:themeLabelEn "Transformative Guru-Teaching"@en .
+
+shabd:HighLow a shabd:Theme ;
+    shabd:themeLabelEn "High and low states"@en .
+
+shabd:Hukam a shabd:Theme ;
+    shabd:themeLabelEn "Hukam (Divine Command / Order)"@en .
+
+shabd:Ineffability a shabd:Theme ;
+    shabd:themeLabelEn "Ineffability of Divine Description"@en .
+
+shabd:InnerJewels a shabd:Theme ;
+    shabd:themeLabelEn "Inner Gems, Jewels, and Rubies"@en .
+
+shabd:Intellect a shabd:Theme ;
+    shabd:themeLabelEn "Intellect / Cleverness / Siaṇap"@en .
+
+shabd:Karma a shabd:Theme ;
+    shabd:themeLabelEn "Karma and Receiving"@en .
+
+shabd:LiberationDoor a shabd:Theme ;
+    shabd:themeLabelEn "Gate of Liberation (Mokh Duar)"@en .
+
+shabd:LifeDeathCycle a shabd:Theme ;
+    shabd:themeLabelEn "Taking and Giving of Life"@en .
+
+shabd:ListeningAndLove a shabd:Theme ;
+    shabd:themeLabelEn "Singing, Listening, and Keeping Love in the Mind"@en .
+
+shabd:Naam a shabd:Theme ;
+    shabd:themeLabelEn "Naam (Divine Name / Remembrance)"@en .
+
+shabd:Niranjan a shabd:Theme ;
+    shabd:themeLabelEn "Niranjan – Immaculate, Beyond Maya"@en .
+
+shabd:OneGiver a shabd:Theme ;
+    shabd:themeLabelEn "The One Giver of all beings"@en .
+
+shabd:Peace a shabd:Theme ;
+    shabd:themeLabelEn "Spiritual Peace / Sukh"@en .
+
+shabd:PilgrimageRitual a shabd:Theme ;
+    shabd:themeLabelEn "Outer Pilgrimage vs Inner Divine Pleasure"@en .
+
+shabd:Praise a shabd:Theme ;
+    shabd:themeLabelEn "Praise (Gāvai – singing Divine qualities)"@en .
+
+shabd:PrayerAndAsking a shabd:Theme ;
+    shabd:themeLabelEn "Prayer, Asking, and Receiving"@en .
+
+shabd:Provision a shabd:Theme ;
+    shabd:themeLabelEn "Provision Across Ages (Jugs)"@en .
+
+shabd:Restlessness a shabd:Theme ;
+    shabd:themeLabelEn "Restless Wandering / Coming and Going"@en .
+
+shabd:RightOffering a shabd:Theme ;
+    shabd:themeLabelEn "What to Offer / How to Approach"@en .
+
+shabd:Satguru a shabd:Theme ;
+    shabd:themeLabelEn "Satguru (True Guru Principle)"@en .
+
+shabd:ServiceAndHonor a shabd:Theme ;
+    shabd:themeLabelEn "Service (Seva) and Honor (Mān)"@en .
+
+shabd:SpiritualMethodFailure a shabd:Theme ;
+    shabd:themeLabelEn "Failure of superficial methods to realize Truth"@en .
+    
+shabd:SufferingJoy a shabd:Theme ;
+    shabd:themeLabelEn "Suffering and joy (dukh / sukh)"@en .
+
+shabd:TranscendenceImmanence a shabd:Theme ;
+    shabd:themeLabelEn "Divine as Distant and Present (Transcendent/Immanent)"@en .
+
+shabd:Truth a shabd:Theme ;
+    shabd:themeLabelEn "Truth / Sach"@en .
+
+shabd:UncreatedDivine a shabd:Theme ;
+    shabd:themeLabelEn "Uncreated, Self-Existent Divine"@en .
+
+shabd:UniversalLove a shabd:Theme ;
+    shabd:themeLabelEn "Universal Love"@en .
+
+shabd:Virtues a shabd:Theme ;
+    shabd:themeLabelEn "Divine Virtues and Glory"@en .
+
+shabd:Wandering a shabd:Theme ;
+    shabd:themeLabelEn "Endless wandering / bhavanaa"@en .
+
+shabd:Wisdom a shabd:Theme ;
+    shabd:themeLabelEn "Spiritual Wisdom and Contemplation"@en .
+

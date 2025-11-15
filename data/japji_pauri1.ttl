@@ -6,45 +6,6 @@
 @prefix dct:   <http://purl.org/dc/terms/> .
 
 #################################################################
-### Core reference nodes (Scripture, Person, Ang)
-#################################################################
-
-sggs:SGGS a shabd:Scripture ;
-    shabd:scriptureName "Sri Guru Granth Sahib Ji"@en .
-
-sggs:GuruNanakDevJi a shabd:Person ;
-    shabd:personName "Guru Nanak Dev Ji"@pa ;
-    shabd:personRole "Guru"@en .
-
-sggs:Ang1 a shabd:AngReference ;
-    shabd:angNumber "1"^^xsd:integer .
-
-#################################################################
-### Theme nodes used in Japji Sahib – Pauri 1
-#################################################################
-
-shabd:Truth a shabd:Theme ;
-    shabd:themeLabelEn "Truth / Sach"@en .
-
-shabd:Hukam a shabd:Theme ;
-    shabd:themeLabelEn "Hukam (Divine Order)"@en .
-
-shabd:DivineWill a shabd:Theme ;
-    shabd:themeLabelEn "Divine Will / Raza"@en .
-
-shabd:EgoEffort a shabd:Theme ;
-    shabd:themeLabelEn "Ego-based Effort / Self-powered Spirituality"@en .
-
-shabd:Desire a shabd:Theme ;
-    shabd:themeLabelEn "Desire / Craving / Bhukh"@en .
-
-shabd:Intellect a shabd:Theme ;
-    shabd:themeLabelEn "Intellect / Cleverness / Siaṇap"@en .
-
-shabd:SpiritualMethodFailure a shabd:Theme ;
-    shabd:themeLabelEn "Failure of superficial methods to realize Truth"@en .
-
-#################################################################
 ### Japji Sahib – Pauri 1 (modeled as a Pauri / Shabd)
 #################################################################
 
@@ -52,14 +13,14 @@ sggs:japji_pauri1 a shabd:Pauri ;
     shabd:shabdId "sggs-japji-pauri1" ;
     dct:title "Japji Sahib – Pauri 1"@en ;
     shabd:titleEn "Japji Sahib – Pauri 1"@en ;
+    shabd:ang "1"^^xsd:integer ;
     shabd:sequenceInAng "1"^^xsd:integer ;
     shabd:hasAuthor sggs:GuruNanakDevJi ;
     shabd:inScripture sggs:SGGS ;
-    shabd:hasAng sggs:Ang1 ;
     shabd:hasTheme shabd:Truth,
                    shabd:Hukam,
                    shabd:DivineWill,
-                   shabd:EgoEffort,
+                   shabd:Ego,
                    shabd:Desire,
                    shabd:Intellect,
                    shabd:SpiritualMethodFailure ;
@@ -83,7 +44,7 @@ sggs:japji_pauri1_line1 a shabd:Line ;
     shabd:gurmukhi "ਸੋਚੈ ਸੋਚਿ ਨ ਹੋਵਈ ਜੇ ਸੋਚੀ ਲਖ ਵਾਰ ॥"@pa ;
     shabd:transliteration "Socẖai socẖ na hovee je socẖī lakh vār."@en-Latn ;
     shabd:translationEn "By thinking and thinking, one does not become pure, even if one thinks hundreds of thousands of times."@en ;
-    shabd:hasTheme shabd:EgoEffort,
+    shabd:hasTheme shabd:Ego,
                    shabd:Intellect,
                    shabd:SpiritualMethodFailure ;
     shabd:commentaryKeypoint "Mere mental effort, analysis, or contemplation alone cannot realize Truth or purify the self, no matter how intensely it is repeated."@en ;
@@ -137,7 +98,7 @@ sggs:japji_pauri1_line2 a shabd:Line ;
     shabd:transliteration "Cupai cup na hovee je lāe rahā liv tār."@en-Latn ;
     shabd:translationEn "By remaining silent, silence is not obtained, even if one remains absorbed in deep inward focus."@en ;
     shabd:hasTheme shabd:SpiritualMethodFailure,
-                   shabd:EgoEffort ;
+                   shabd:Ego ;
     shabd:commentaryKeypoint "External or self-willed silence is not the same as true inner stillness; forced practices without alignment to Hukam cannot yield real peace."@en ;
     shabd:hasPhrase sggs:japji_pauri1_line2_p1,
                     sggs:japji_pauri1_line2_p2,
@@ -189,7 +150,7 @@ sggs:japji_pauri1_line3 a shabd:Line ;
     shabd:transliteration "Bhukẖiā bhukẖ na utrī je bannā purīā bhār."@en-Latn ;
     shabd:translationEn "The hunger of the hungry is not appeased, even if they amass loads and loads of worldly goods."@en ;
     shabd:hasTheme shabd:Desire,
-                   shabd:EgoEffort,
+                   shabd:Ego,
                    shabd:SpiritualMethodFailure ;
     shabd:commentaryKeypoint "Accumulation of material wealth or experiences cannot satisfy the deeper existential hunger of the soul; craving only multiplies through indulgence."@en ;
     shabd:hasPhrase sggs:japji_pauri1_line3_p1,
@@ -242,7 +203,7 @@ sggs:japji_pauri1_line4 a shabd:Line ;
     shabd:transliteration "Sahas siaṇapā lakh hoveh, ta ik na cẖalai nāl."@en-Latn ;
     shabd:translationEn "One may possess hundreds of thousands of clever ideas, yet not even one of them will go along in the end."@en ;
     shabd:hasTheme shabd:Intellect,
-                   shabd:EgoEffort ;
+                   shabd:Ego ;
     shabd:commentaryKeypoint "No amount of cleverness or intellectual strategy survives death or leads to Truth by itself; intellect without surrender remains barren spiritually."@en ;
     shabd:hasPhrase sggs:japji_pauri1_line4_p1,
                     sggs:japji_pauri1_line4_p2,

@@ -5,38 +5,6 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 
-#################################################################
-### Core references
-#################################################################
-
-sggs:SGGS a shabd:Scripture ;
-    shabd:scriptureName "Sri Guru Granth Sahib Ji"@en .
-
-sggs:GuruNanakDevJi a shabd:Person ;
-    shabd:personName "Guru Nanak Dev Ji"@pa ;
-    shabd:personRole "Guru"@en .
-
-sggs:Ang1 a shabd:AngReference ;
-    shabd:angNumber "1"^^xsd:integer .
-
-#################################################################
-### Theme nodes – Pauri 6
-#################################################################
-
-shabd:PilgrimageRitual a shabd:Theme ;
-    shabd:themeLabelEn "Outer Pilgrimage vs Inner Divine Pleasure"@en .
-
-shabd:KarmaDoctrine a shabd:Theme ;
-    shabd:themeLabelEn "Karma and Receiving"@en .
-
-shabd:InnerJewels a shabd:Theme ;
-    shabd:themeLabelEn "Inner Gems, Jewels, and Rubies"@en .
-
-shabd:GuruTeachingTheme a shabd:Theme ;
-    shabd:themeLabelEn "Transformative Guru-Teaching"@en .
-
-shabd:OneGiverTheme a shabd:Theme ;
-    shabd:themeLabelEn "The One Giver of all beings"@en .
 
 #################################################################
 ### Japji Sahib – Pauri 6
@@ -46,15 +14,15 @@ sggs:japji_pauri6 a shabd:Pauri ;
     shabd:shabdId "sggs-japji-pauri6" ;
     dct:title "Japji Sahib – Pauri 6"@en ;
     shabd:titleEn "Japji Sahib – Pauri 6"@en ;
+    shabd:ang "1"^^xsd:integer ;
     shabd:sequenceInAng "6"^^xsd:integer ;
     shabd:hasAuthor sggs:GuruNanakDevJi ;
     shabd:inScripture sggs:SGGS ;
-    shabd:hasAng sggs:Ang1 ;
     shabd:hasTheme shabd:PilgrimageRitual,
-                   shabd:KarmaDoctrine,
+                   shabd:Karma,
                    shabd:InnerJewels,
-                   shabd:GuruTeachingTheme,
-                   shabd:OneGiverTheme ;
+                   shabd:GuruTeaching,
+                   shabd:OneGiver ;
     shabd:overallCommentaryEn "Pauri 6 contrasts outward pilgrimage-bathing with inner alignment to Divine pleasure, and stresses that without good karma, beings cannot receive. It reveals that the mind itself holds priceless jewels if one listens even once to the Guru’s teaching. The Guru gives the core understanding that there is a single Giver of all beings, who must not be forgotten."@en ;
     shabd:hasLine sggs:japji_pauri6_line1,
                   sggs:japji_pauri6_line2,
@@ -110,7 +78,7 @@ sggs:japji_pauri6_line2 a shabd:Line ;
     shabd:gurmukhi "ਜੇਤੀ ਸਿਰਠਿ ਉਪਾਈ ਵੇਖਾ ਵਿਣੁ ਕਰਮਾ ਕਿ ਮਿਲੈ ਲਈ ॥"@pa ;
     shabd:transliteration "Jetī sirath upāī vekhā, viṇ karmā ki milai laī."@en-Latn ;
     shabd:translationEn "As I behold all the creation He has brought forth, without good deeds, what can they receive?"@en ;
-    shabd:hasTheme shabd:KarmaDoctrine ;
+    shabd:hasTheme shabd:Karma ;
     shabd:commentaryKeypoint "Creation is vast, but what beings receive depends on the karma written for them."@en ;
     shabd:hasPhrase sggs:japji_pauri6_line2_p1,
                     sggs:japji_pauri6_line2_p2,
@@ -147,7 +115,7 @@ sggs:japji_pauri6_line3 a shabd:Line ;
     shabd:transliteration "Mat vicẖ ratan javāhar māṇik, je ik gur kī sikh suṇī."@en-Latn ;
     shabd:translationEn "Within the understanding are gems, jewels, and rubies—if one listens even once to the Guru’s teaching."@en ;
     shabd:hasTheme shabd:InnerJewels,
-                   shabd:GuruTeachingTheme ;
+                   shabd:GuruTeaching ;
     shabd:commentaryKeypoint "The human mind holds priceless spiritual treasures, unlocked when even a single teaching of the Guru is truly heard."@en ;
     shabd:hasPhrase sggs:japji_pauri6_line3_p1,
                     sggs:japji_pauri6_line3_p2,
@@ -183,7 +151,7 @@ sggs:japji_pauri6_line4 a shabd:Line ;
     shabd:gurmukhi "ਗੁਰਾ ਇਕੁ ਦੇਹਿ ਬੁਝਾਈ ॥"@pa ;
     shabd:transliteration "Gurā ik dehi bujẖāī."@en-Latn ;
     shabd:translationEn "The Guru has given this one understanding."@en ;
-    shabd:hasTheme shabd:GuruTeachingTheme ;
+    shabd:hasTheme shabd:GuruTeaching ;
     shabd:commentaryKeypoint "Again Guru Nanak emphasizes a single, distilled insight imparted by the Guru."@en ;
     shabd:hasPhrase sggs:japji_pauri6_line4_p1 .
 
@@ -205,7 +173,7 @@ sggs:japji_pauri6_line5 a shabd:Line ;
     shabd:gurmukhi "ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ ਸੋ ਮੈ ਵਿਸਰਿ ਨ ਜਾਈ ॥੬॥"@pa ;
     shabd:transliteration "Sabhnā jīā kā ik dātā, so mai visar na jāī. ||6||"@en-Latn ;
     shabd:translationEn "There is one Giver for all beings—may I never forget that One."@en ;
-    shabd:hasTheme shabd:OneGiverTheme ;
+    shabd:hasTheme shabd:OneGiver ;
     shabd:commentaryKeypoint "The insight given by the Guru is the same core truth as in Pauri 5: all beings have one Giver, who must not be forgotten."@en ;
     shabd:hasPhrase sggs:japji_pauri6_line5_p1,
                     sggs:japji_pauri6_line5_p2,

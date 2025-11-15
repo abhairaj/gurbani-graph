@@ -5,59 +5,7 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 @prefix dct:   <http://purl.org/dc/terms/> .
 
-#################################################################
-### Core reference nodes (Scripture, Person, Raag, Ang)
-#################################################################
 
-sggs:SGGS a shabd:Scripture ;
-    shabd:scriptureName "Sri Guru Granth Sahib Ji"@en .
-
-sggs:GuruArjanDevJi a shabd:Person ;
-    shabd:personName "Guru Arjan Dev Ji"@pa ;
-    shabd:personRole "Guru"@en .
-
-sggs:RaagVadhans a shabd:Raag ;
-    shabd:raagName "Vadhans"@pa .
-
-sggs:Ang555 a shabd:AngReference ;
-    shabd:angNumber "555"^^xsd:integer .
-
-#################################################################
-### Theme nodes used in this shabd
-#################################################################
-
-shabd:DivineGrace a shabd:Theme ;
-    shabd:themeLabelEn "Divine Grace"@en .
-
-shabd:Naam a shabd:Theme ;
-    shabd:themeLabelEn "Naam (Divine Name / Remembrance)"@en .
-
-shabd:Satguru a shabd:Theme ;
-    shabd:themeLabelEn "Satguru (True Guru Principle)"@en .
-
-shabd:Peace a shabd:Theme ;
-    shabd:themeLabelEn "Spiritual Peace / Sukh"@en .
-
-shabd:DivineDelight a shabd:Theme ;
-    shabd:themeLabelEn "Divine Delight in the Devotee"@en .
-
-shabd:DivineProtection a shabd:Theme ;
-    shabd:themeLabelEn "Divine Protection / Preservation of Honor"@en .
-
-shabd:DivineHumility a shabd:Theme ;
-    shabd:themeLabelEn "Divine Humility (God exalting the devotee)"@en .
-
-shabd:BhagatTheme a shabd:Theme ;
-    shabd:themeLabelEn "Bhagat / Devotee"@en .
-
-shabd:KarmicTranscendence a shabd:Theme ;
-    shabd:themeLabelEn "Karmic Transcendence / Beyond Dharam Rai"@en .
-
-shabd:UniversalLove a shabd:Theme ;
-    shabd:themeLabelEn "Universal Love"@en .
-
-shabd:Restlessness a shabd:Theme ;
-    shabd:themeLabelEn "Restless Wandering / Coming and Going"@en .
 
 #################################################################
 ### Shabd: "Jo Har Kaa Piaraa" (Ang 555, sequence 17)
@@ -67,11 +15,11 @@ sggs:ang555_shabd17 a shabd:Shabd ;
     shabd:shabdId "sggs-ang555-shabd17" ;
     dct:title "Jo Har Kaa Piaraa"@en ;
     shabd:titleEn "Jo Har Kaa Piaraa"@en ;
+    shabd:ang "555"^^xsd:integer ;
     shabd:sequenceInAng "17"^^xsd:integer ;
     shabd:hasAuthor sggs:GuruArjanDevJi ;
     shabd:inScripture sggs:SGGS ;
     shabd:inRaag sggs:RaagVadhans ;
-    shabd:hasAng sggs:Ang555 ;
     shabd:hasTheme shabd:DivineGrace,
                    shabd:Naam,
                    shabd:Satguru,
@@ -79,8 +27,8 @@ sggs:ang555_shabd17 a shabd:Shabd ;
                    shabd:DivineDelight,
                    shabd:DivineProtection,
                    shabd:DivineHumility,
-                   shabd:BhagatTheme,
-                   shabd:KarmicTranscendence,
+                   shabd:Bhagat,
+                   shabd:Karma,
                    shabd:UniversalLove,
                    shabd:Restlessness ;
     shabd:overallCommentaryEn "This shabd describes a grace-driven spiritual journey: God awakens Naam, unites the soul with the Satguru and peace, protects and exalts the devotee, lifts them beyond karmic judgment, and makes the beloved of the Lord into a source of universal love, while those without this connection remain in restless wandering."@en ;
@@ -200,7 +148,7 @@ sggs:ang555_shabd17_line3 a shabd:Line ;
     shabd:translationEn "He Himself preserves the honor of His servants; He Himself bows at the feet of His devotees."@en ;
     shabd:hasTheme shabd:DivineProtection,
                    shabd:DivineHumility,
-                   shabd:BhagatTheme ;
+                   shabd:Bhagat ;
     shabd:commentaryKeypoint "God personally safeguards the honor of His servants and exalts His devotees with such love that He is poetically described as bowing at their feet, revealing Divine humility."@en ;
     shabd:hasPhrase sggs:ang555_shabd17_line3_p1,
                     sggs:ang555_shabd17_line3_p2,
@@ -251,7 +199,7 @@ sggs:ang555_shabd17_line4 a shabd:Line ;
     shabd:gurmukhi "ਧਰਮ ਰਾਇ ਹੈ ਹਰਿ ਕਾ ਕੀਆ ਹਰਿ ਜਨ ਸੇਵਕ ਨੇੜਿ ਨ ਆਵੈ ॥"@pa ;
     shabd:transliteration "Dharam rāe hai har kā kīā, har jan sevak neṛ na āvai."@en-Latn ;
     shabd:translationEn "Dharam Rai, the judge, is created by the Lord; he does not come near the Lord’s devotees."@en ;
-    shabd:hasTheme shabd:KarmicTranscendence ;
+    shabd:hasTheme shabd:Karma ;
     shabd:commentaryKeypoint "Dharam Rai, representing karmic judgment, is merely a servant of the Divine and has no claim over those whom the Lord embraces as His own devotees."@en ;
     shabd:hasPhrase sggs:ang555_shabd17_line4_p1,
                     sggs:ang555_shabd17_line4_p2,

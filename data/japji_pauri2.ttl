@@ -9,49 +9,9 @@
 ### Core reference nodes (Scripture, Person, Ang)
 #################################################################
 
-sggs:SGGS a shabd:Scripture ;
-    shabd:scriptureName "Sri Guru Granth Sahib Ji"@en .
-
-sggs:GuruNanakDevJi a shabd:Person ;
-    shabd:personName "Guru Nanak Dev Ji"@pa ;
-    shabd:personRole "Guru"@en .
-
 sggs:Ang1 a shabd:AngReference ;
     shabd:angNumber "1"^^xsd:integer .
 
-#################################################################
-### Theme nodes used in Japji Sahib – Pauri 2
-#################################################################
-
-shabd:Hukam a shabd:Theme ;
-    shabd:themeLabelEn "Hukam (Divine Command / Order)"@en .
-
-shabd:Creation a shabd:Theme ;
-    shabd:themeLabelEn "Creation of forms and beings"@en .
-
-shabd:GloryStatus a shabd:Theme ;
-    shabd:themeLabelEn "Glory, rank, and status"@en .
-
-shabd:HighLow a shabd:Theme ;
-    shabd:themeLabelEn "High and low states"@en .
-
-shabd:SufferingJoy a shabd:Theme ;
-    shabd:themeLabelEn "Suffering and joy (dukh / sukh)"@en .
-
-shabd:GraceTheme a shabd:Theme ;
-    shabd:themeLabelEn "Divine grace and selection"@en .
-
-shabd:WanderingTheme a shabd:Theme ;
-    shabd:themeLabelEn "Endless wandering / bhavanaa"@en .
-
-shabd:UniversalityOfHukam a shabd:Theme ;
-    shabd:themeLabelEn "Universality of Hukam (none outside it)"@en .
-
-shabd:EgoTheme a shabd:Theme ;
-    shabd:themeLabelEn "Ego (haumai) and its dissolution"@en .
-
-shabd:UnderstandingHukam a shabd:Theme ;
-    shabd:themeLabelEn "Realization of Hukam as spiritual key"@en .
 
 #################################################################
 ### Japji Sahib – Pauri 2 (modeled as a Pauri / Shabd)
@@ -61,20 +21,18 @@ sggs:japji_pauri2 a shabd:Pauri ;
     shabd:shabdId "sggs-japji-pauri2" ;
     dct:title "Japji Sahib – Pauri 2"@en ;
     shabd:titleEn "Japji Sahib – Pauri 2"@en ;
+    shabd:ang "1"^^xsd:integer ;
     shabd:sequenceInAng "2"^^xsd:integer ;
     shabd:hasAuthor sggs:GuruNanakDevJi ;
     shabd:inScripture sggs:SGGS ;
-    shabd:hasAng sggs:Ang1 ;
     shabd:hasTheme shabd:Hukam,
-                   shabd:Creation,
+                   shabd:CreationDestruction,
                    shabd:GloryStatus,
                    shabd:HighLow,
                    shabd:SufferingJoy,
-                   shabd:GraceTheme,
-                   shabd:WanderingTheme,
-                   shabd:UniversalityOfHukam,
-                   shabd:EgoTheme,
-                   shabd:UnderstandingHukam ;
+                   shabd:DivineGrace,
+                   shabd:Wandering,
+                   shabd:Ego ;
     shabd:overallCommentaryEn "Japji Pauri 2 teaches that all forms, beings, status, suffering, joy, grace, and wandering arise under Hukam, the Divine Command; nothing is outside this Order. Spiritual realization lies in understanding Hukam so deeply that ego no longer asserts itself."@en ;
     shabd:hasLine sggs:japji_pauri2_line1,
                   sggs:japji_pauri2_line2,
@@ -96,7 +54,7 @@ sggs:japji_pauri2_line1 a shabd:Line ;
     shabd:transliteration "Hukmī hovan ākār hukam na kahiā jāī."@en-Latn ;
     shabd:translationEn "By His Hukam, forms come into being; His Hukam cannot be fully described."@en ;
     shabd:hasTheme shabd:Hukam,
-                   shabd:Creation ;
+                   shabd:CreationDestruction ;
     shabd:commentaryKeypoint "All manifest forms arise under Divine Command, yet the nature of Hukam itself transcends complete description or conceptual capture."@en ;
     shabd:hasPhrase sggs:japji_pauri2_line1_p1,
                     sggs:japji_pauri2_line1_p2,
@@ -139,7 +97,7 @@ sggs:japji_pauri2_line2 a shabd:Line ;
     shabd:transliteration "Hukmī hovan jīa hukam milai vaḍiāī."@en-Latn ;
     shabd:translationEn "By His Hukam, beings come into existence; by His Hukam, honor and greatness are received."@en ;
     shabd:hasTheme shabd:Hukam,
-                   shabd:Creation,
+                   shabd:CreationDestruction,
                    shabd:GloryStatus ;
     shabd:commentaryKeypoint "Not only life itself but also any honor or greatness one receives flows from Hukam, not from independent personal merit."@en ;
     shabd:hasPhrase sggs:japji_pauri2_line2_p1,
@@ -245,8 +203,8 @@ sggs:japji_pauri2_line4 a shabd:Line ;
     shabd:transliteration "Ikna hukmī bakhsīs ik hukmī sadā bhavāīah(i)."@en-Latn ;
     shabd:translationEn "By His Hukam, some are blessed with grace; by His Hukam, others are made to wander forever."@en ;
     shabd:hasTheme shabd:Hukam,
-                   shabd:GraceTheme,
-                   shabd:WanderingTheme ;
+                   shabd:DivineGrace,
+                   shabd:Wandering ;
     shabd:commentaryKeypoint "Both grace and wandering are under Hukam; the contrast emphasizes Divine sovereignty and the mystery of why some awaken while others remain lost."@en ;
     shabd:hasPhrase sggs:japji_pauri2_line4_p1,
                     sggs:japji_pauri2_line4_p2,
@@ -297,8 +255,7 @@ sggs:japji_pauri2_line5 a shabd:Line ;
     shabd:gurmukhi "ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥"@pa ;
     shabd:transliteration "Hukmai andar sabh ko bāhar hukam na koe."@en-Latn ;
     shabd:translationEn "All are within Hukam; none at all is outside His Command."@en ;
-    shabd:hasTheme shabd:Hukam,
-                   shabd:UniversalityOfHukam ;
+    shabd:hasTheme shabd:Hukam ;
     shabd:commentaryKeypoint "Hukam is all-encompassing; no being, event, or state of existence lies outside Divine Order."@en ;
     shabd:hasPhrase sggs:japji_pauri2_line5_p1,
                     sggs:japji_pauri2_line5_p2,
@@ -341,8 +298,7 @@ sggs:japji_pauri2_line6 a shabd:Line ;
     shabd:transliteration "Nānak hukmai je bujhai ta haumai kahai na koe. ||2||"@en-Latn ;
     shabd:translationEn "O Nanak, one who truly understands Hukam no longer speaks from ego."@en ;
     shabd:hasTheme shabd:Hukam,
-                   shabd:EgoTheme,
-                   shabd:UnderstandingHukam ;
+                   shabd:Ego ;
     shabd:commentaryKeypoint "Realization of Hukam dissolves ego; the one who understands Divine Order ceases to assert ‘I’ as the ultimate doer or controller."@en ;
     shabd:hasPhrase sggs:japji_pauri2_line6_p1,
                     sggs:japji_pauri2_line6_p2,
