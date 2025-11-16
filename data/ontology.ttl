@@ -105,9 +105,8 @@ shabd:inRaag a owl:ObjectProperty ;
 #################################################################
 
 shabd:id a owl:DatatypeProperty ;
-    rdfs:label "shabd id"@en ;
+    rdfs:label "id"@en ;
     rdfs:comment "A stable identifier for a Shabd or Line within the Gurbani Graph (e.g., sggs-ang555-shabd17, sggs-japji-pauri1)."@en ;
-    rdfs:domain shabd:Shabd, shabd:Line ;
     rdfs:range xsd:string .
 
 shabd:sequenceInAng a owl:DatatypeProperty ;
