@@ -165,6 +165,12 @@ shabd:role a owl:DatatypeProperty ;
 
 shabd:hasGlossUnit a owl:ObjectProperty ;
     rdfs:label "has gloss unit"@en ;
-    rdfs:comment "Associates a Line with one or more gloss units."@en ;
+    rdfs:comment "Associates a Line with one or more GlossUnits."@en ;
     rdfs:domain shabd:Line ;
     rdfs:range shabd:GlossUnit .
+
+shabd:hasMorpheme a owl:ObjectProperty ;
+    rdfs:label "has gloss unit"@en ;
+    rdfs:comment "Associates a GlossUnit with one or more Morphemes."@en ;
+    rdfs:domain shabd:GlossUnit ;
+    rdfs:range shabd:Morpheme .
