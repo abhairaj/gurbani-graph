@@ -9,7 +9,7 @@ Whenever you want me to generate RDF/Turtle that conforms *exactly* to the **Gur
 
 ## **1. Strict Mode (Recommended)**
 
-**Use this phrase:**
+**Use this glossUnit:**
 
 > **“Please generate TTL normalized to the Gurbani Graph ontology exactly, with no deviations or new predicates.”**
 

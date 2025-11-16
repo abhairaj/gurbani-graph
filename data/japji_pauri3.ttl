@@ -10,9 +10,8 @@
 #################################################################
 
 sggs:japji_pauri3 a shabd:Pauri ;
-    shabd:shabdId "sggs-japji-pauri3" ;
+    shabd:id "sggs-japji-pauri3" ;
     dct:title "Japji Sahib – Pauri 3"@en ;
-    shabd:titleEn "Japji Sahib – Pauri 3"@en ;
     shabd:ang "1"^^xsd:integer ;
     shabd:sequenceInAng "3"^^xsd:integer ;
     shabd:hasAuthor sggs:GuruNanakDevJi ;
@@ -30,7 +29,7 @@ sggs:japji_pauri3 a shabd:Pauri ;
                    shabd:Provision,
                    shabd:Hukam,
                    shabd:CarefreeDivine ;
-    shabd:overallCommentaryEn "Japji Pauri 3 describes how countless beings sing of Divine power, gifts, virtues, wisdom, creation and dissolution, life and death, and the Lord’s nearness and distance. Despite endless praise and giving, the Divine remains beyond all description, tirelessly giving across ages. Ultimately, Hukam directs the path, while the carefree, unconcerned Lord ever rejoices."@en ;
+    rdfs:comment "Japji Pauri 3 describes how countless beings sing of Divine power, gifts, virtues, wisdom, creation and dissolution, life and death, and the Lord’s nearness and distance. Despite endless praise and giving, the Divine remains beyond all description, tirelessly giving across ages. Ultimately, Hukam directs the path, while the carefree, unconcerned Lord ever rejoices."@en ;
     shabd:hasLine sggs:japji_pauri3_line1,
                   sggs:japji_pauri3_line2,
                   sggs:japji_pauri3_line3,
@@ -52,33 +51,33 @@ sggs:japji_pauri3 a shabd:Pauri ;
 #################################################################
 
 sggs:japji_pauri3_line1 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri3-line1" ;
+    shabd:id "sggs-japji-pauri3-line1" ;
     shabd:index "1"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri3 ;
     shabd:gurmukhi "ਗਾਵੈ ਕੋ ਤਾਣੁ ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ ॥"@pa ;
     shabd:transliteration "Gāvai ko tāṇ hovai kisai tāṇ."@en-Latn ;
-    shabd:translationEn "Some sing of His power, if any power comes to anyone, it is from Him."@en ;
+    shabd:translation "Some sing of His power, if any power comes to anyone, it is from Him."@en ;
     shabd:hasTheme shabd:Praise,
                    shabd:DivinePower ;
-    shabd:commentaryKeypoint "Some praise the Lord’s might, recognizing that whatever power anyone has is only by His granting."@en ;
-    shabd:hasPhrase sggs:japji_pauri3_line1_p1,
-                    sggs:japji_pauri3_line1_p2 .
+    rdfs:comment "Some praise the Lord’s might, recognizing that whatever power anyone has is only by His granting."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri3_line1_gu1,
+                    sggs:japji_pauri3_line1_gu2 .
 
-### Line 1 – Phrase 1: ਗਾਵੈ ਕੋ ਤਾਣੁ
+### Line 1 – GlossUnit 1: ਗਾਵੈ ਕੋ ਤਾਣੁ
 
-sggs:japji_pauri3_line1_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਗਾਵੈ ਕੋ ਤਾਣੁ"@pa ;
-    shabd:phraseTransliteration "gāvai ko tāṇ"@en-Latn ;
-    shabd:phraseGlossEn "some sing of (His) power and might"@en .
+sggs:japji_pauri3_line1_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਗਾਵੈ ਕੋ ਤਾਣੁ"@pa ;
+    shabd:transliteration "gāvai ko tāṇ"@en-Latn ;
+    shabd:translation "some sing of (His) power and might"@en .
 
-### Line 1 – Phrase 2: ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ
+### Line 1 – GlossUnit 2: ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ
 
-sggs:japji_pauri3_line1_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ"@pa ;
-    shabd:phraseTransliteration "hovai kisai tāṇ"@en-Latn ;
-    shabd:phraseGlossEn "if any power is in anyone, it is by Him"@en .
+sggs:japji_pauri3_line1_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ"@pa ;
+    shabd:transliteration "hovai kisai tāṇ"@en-Latn ;
+    shabd:translation "if any power is in anyone, it is by Him"@en .
 
 #################################################################
 ### Line 2
@@ -86,33 +85,33 @@ sggs:japji_pauri3_line1_p2 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri3_line2 a shabd:Line ;
-    shabd:lineId "sggs-japji_pauri3-line2" ;
+    shabd:id "sggs-japji_pauri3-line2" ;
     shabd:index "2"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri3 ;
     shabd:gurmukhi "ਗਾਵੈ ਕੋ ਦਾਤਿ ਜਾਣੈ ਨੀਸਾਣੁ ॥"@pa ;
     shabd:transliteration "Gāvai ko dāt jāṇai nīsāṇ."@en-Latn ;
-    shabd:translationEn "Some sing of His gifts, recognizing the signs of His generosity."@en ;
+    shabd:translation "Some sing of His gifts, recognizing the signs of His generosity."@en ;
     shabd:hasTheme shabd:Praise,
                    shabd:DivineGifts ;
-    shabd:commentaryKeypoint "Some praise the Lord’s gifts, seeing the marks and signs of His generosity in all that is bestowed."@en ;
-    shabd:hasPhrase sggs:japji_pauri3_line2_p1,
-                    sggs:japji_pauri3_line2_p2 .
+    rdfs:comment "Some praise the Lord’s gifts, seeing the marks and signs of His generosity in all that is bestowed."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri3_line2_gu1,
+                    sggs:japji_pauri3_line2_gu2 .
 
-### Line 2 – Phrase 1: ਗਾਵੈ ਕੋ ਦਾਤਿ
+### Line 2 – GlossUnit 1: ਗਾਵੈ ਕੋ ਦਾਤਿ
 
-sggs:japji_pauri3_line2_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਗਾਵੈ ਕੋ ਦਾਤਿ"@pa ;
-    shabd:phraseTransliteration "gāvai ko dāt"@en-Latn ;
-    shabd:phraseGlossEn "some sing of His gifts and bestowals"@en .
+sggs:japji_pauri3_line2_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਗਾਵੈ ਕੋ ਦਾਤਿ"@pa ;
+    shabd:transliteration "gāvai ko dāt"@en-Latn ;
+    shabd:translation "some sing of His gifts and bestowals"@en .
 
-### Line 2 – Phrase 2: ਜਾਣੈ ਨੀਸਾਣੁ
+### Line 2 – GlossUnit 2: ਜਾਣੈ ਨੀਸਾਣੁ
 
-sggs:japji_pauri3_line2_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਜਾਣੈ ਨੀਸਾਣੁ"@pa ;
-    shabd:phraseTransliteration "jāṇai nīsāṇ"@en-Latn ;
-    shabd:phraseGlossEn "recognizing the signs and marks of His generosity"@en .
+sggs:japji_pauri3_line2_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਜਾਣੈ ਨੀਸਾਣੁ"@pa ;
+    shabd:transliteration "jāṇai nīsāṇ"@en-Latn ;
+    shabd:translation "recognizing the signs and marks of His generosity"@en .
 
 #################################################################
 ### Line 3
@@ -120,33 +119,33 @@ sggs:japji_pauri3_line2_p2 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri3_line3 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri3-line3" ;
+    shabd:id "sggs-japji-pauri3-line3" ;
     shabd:index "3"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri3 ;
     shabd:gurmukhi "ਗਾਵੈ ਕੋ ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ ॥"@pa ;
     shabd:transliteration "Gāvai ko guṇ vaḍiāīā cẖār."@en-Latn ;
-    shabd:translationEn "Some sing of His virtues and glorious excellences."@en ;
+    shabd:translation "Some sing of His virtues and glorious excellences."@en ;
     shabd:hasTheme shabd:Praise,
                    shabd:Virtues ;
-    shabd:commentaryKeypoint "Some praise His many virtues and exalted glories, contemplating His praiseworthy qualities."@en ;
-    shabd:hasPhrase sggs:japji_pauri3_line3_p1,
-                    sggs:japji_pauri3_line3_p2 .
+    rdfs:comment "Some praise His many virtues and exalted glories, contemplating His praiseworthy qualities."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri3_line3_gu1,
+                    sggs:japji_pauri3_line3_gu2 .
 
-### Line 3 – Phrase 1: ਗਾਵੈ ਕੋ
+### Line 3 – GlossUnit 1: ਗਾਵੈ ਕੋ
 
-sggs:japji_pauri3_line3_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਗਾਵੈ ਕੋ"@pa ;
-    shabd:phraseTransliteration "gāvai ko"@en-Latn ;
-    shabd:phraseGlossEn "some sing"@en .
+sggs:japji_pauri3_line3_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਗਾਵੈ ਕੋ"@pa ;
+    shabd:transliteration "gāvai ko"@en-Latn ;
+    shabd:translation "some sing"@en .
 
-### Line 3 – Phrase 2: ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ
+### Line 3 – GlossUnit 2: ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ
 
-sggs:japji_pauri3_line3_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ"@pa ;
-    shabd:phraseTransliteration "guṇ vaḍiāīā cẖār"@en-Latn ;
-    shabd:phraseGlossEn "of His virtues and glorious excellences (many-fold)"@en .
+sggs:japji_pauri3_line3_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ"@pa ;
+    shabd:transliteration "guṇ vaḍiāīā cẖār"@en-Latn ;
+    shabd:translation "of His virtues and glorious excellences (many-fold)"@en .
 
 #################################################################
 ### Line 4
@@ -154,33 +153,33 @@ sggs:japji_pauri3_line3_p2 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri3_line4 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri3-line4" ;
+    shabd:id "sggs-japji-pauri3-line4" ;
     shabd:index "4"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri3 ;
     shabd:gurmukhi "ਗਾਵੈ ਕੋ ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ ॥"@pa ;
     shabd:transliteration "Gāvai ko vidiā vikham vīcẖār."@en-Latn ;
-    shabd:translationEn "Some sing of the difficult discipline of spiritual wisdom and contemplation."@en ;
+    shabd:translation "Some sing of the difficult discipline of spiritual wisdom and contemplation."@en ;
     shabd:hasTheme shabd:Praise,
                    shabd:Wisdom ;
-    shabd:commentaryKeypoint "Some praise the profound and demanding contemplation of Divine wisdom, the subtle disciplines of understanding."@en ;
-    shabd:hasPhrase sggs:japji_pauri3_line4_p1,
-                    sggs:japji_pauri3_line4_p2 .
+    rdfs:comment "Some praise the profound and demanding contemplation of Divine wisdom, the subtle disciplines of understanding."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri3_line4_gu1,
+                    sggs:japji_pauri3_line4_gu2 .
 
-### Line 4 – Phrase 1: ਗਾਵੈ ਕੋ
+### Line 4 – GlossUnit 1: ਗਾਵੈ ਕੋ
 
-sggs:japji_pauri3_line4_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਗਾਵੈ ਕੋ"@pa ;
-    shabd:phraseTransliteration "gāvai ko"@en-Latn ;
-    shabd:phraseGlossEn "some sing"@en .
+sggs:japji_pauri3_line4_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਗਾਵੈ ਕੋ"@pa ;
+    shabd:transliteration "gāvai ko"@en-Latn ;
+    shabd:translation "some sing"@en .
 
-### Line 4 – Phrase 2: ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ
+### Line 4 – GlossUnit 2: ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ
 
-sggs:japji_pauri3_line4_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ"@pa ;
-    shabd:phraseTransliteration "vidiā vikham vīcẖār"@en-Latn ;
-    shabd:phraseGlossEn "of the difficult contemplation of wisdom; the arduous inquiry into Divine knowledge"@en .
+sggs:japji_pauri3_line4_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ"@pa ;
+    shabd:transliteration "vidiā vikham vīcẖār"@en-Latn ;
+    shabd:translation "of the difficult contemplation of wisdom; the arduous inquiry into Divine knowledge"@en .
 
 #################################################################
 ### Line 5
@@ -188,42 +187,42 @@ sggs:japji_pauri3_line4_p2 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri3_line5 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri3-line5" ;
+    shabd:id "sggs-japji-pauri3-line5" ;
     shabd:index "5"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri3 ;
     shabd:gurmukhi "ਗਾਵੈ ਕੋ ਸਾਜਿ ਕਰੇ ਤਨੁ ਖੇਹ ॥"@pa ;
     shabd:transliteration "Gāvai ko sāj kare tan kheh."@en-Latn ;
-    shabd:translationEn "Some sing that He fashions and then reduces the body to dust."@en ;
+    shabd:translation "Some sing that He fashions and then reduces the body to dust."@en ;
     shabd:hasTheme shabd:Praise,
                    shabd:CreationDestruction ;
-    shabd:commentaryKeypoint "Some praise the Lord as the One who creates forms and then dissolves them back into dust."@en ;
-    shabd:hasPhrase sggs:japji_pauri3_line5_p1,
-                    sggs:japji_pauri3_line5_p2,
-                    sggs:japji_pauri3_line5_p3 .
+    rdfs:comment "Some praise the Lord as the One who creates forms and then dissolves them back into dust."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri3_line5_gu1,
+                    sggs:japji_pauri3_line5_gu2,
+                    sggs:japji_pauri3_line5_gu3 .
 
-### Line 5 – Phrase 1: ਗਾਵੈ ਕੋ
+### Line 5 – GlossUnit 1: ਗਾਵੈ ਕੋ
 
-sggs:japji_pauri3_line5_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਗਾਵੈ ਕੋ"@pa ;
-    shabd:phraseTransliteration "gāvai ko"@en-Latn ;
-    shabd:phraseGlossEn "some sing"@en .
+sggs:japji_pauri3_line5_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਗਾਵੈ ਕੋ"@pa ;
+    shabd:transliteration "gāvai ko"@en-Latn ;
+    shabd:translation "some sing"@en .
 
-### Line 5 – Phrase 2: ਸਾਜਿ ਕਰੇ
+### Line 5 – GlossUnit 2: ਸਾਜਿ ਕਰੇ
 
-sggs:japji_pauri3_line5_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਸਾਜਿ ਕਰੇ"@pa ;
-    shabd:phraseTransliteration "sāj kare"@en-Latn ;
-    shabd:phraseGlossEn "that He fashions; that He creates (the body/form)"@en .
+sggs:japji_pauri3_line5_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਸਾਜਿ ਕਰੇ"@pa ;
+    shabd:transliteration "sāj kare"@en-Latn ;
+    shabd:translation "that He fashions; that He creates (the body/form)"@en .
 
-### Line 5 – Phrase 3: ਤਨੁ ਖੇਹ
+### Line 5 – GlossUnit 3: ਤਨੁ ਖੇਹ
 
-sggs:japji_pauri3_line5_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਤਨੁ ਖੇਹ"@pa ;
-    shabd:phraseTransliteration "tan kheh"@en-Latn ;
-    shabd:phraseGlossEn "and makes the body into dust"@en .
+sggs:japji_pauri3_line5_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਤਨੁ ਖੇਹ"@pa ;
+    shabd:transliteration "tan kheh"@en-Latn ;
+    shabd:translation "and makes the body into dust"@en .
 
 #################################################################
 ### Line 6
@@ -231,42 +230,42 @@ sggs:japji_pauri3_line5_p3 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri3_line6 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri3-line6" ;
+    shabd:id "sggs-japji-pauri3-line6" ;
     shabd:index "6"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri3 ;
     shabd:gurmukhi "ਗਾਵੈ ਕੋ ਜੀਅ ਲੈ ਫਿਰਿ ਦੇਹ ॥"@pa ;
     shabd:transliteration "Gāvai ko jīa lai fir deh."@en-Latn ;
-    shabd:translationEn "Some sing that He takes away life and then restores it again."@en ;
+    shabd:translation "Some sing that He takes away life and then restores it again."@en ;
     shabd:hasTheme shabd:Praise,
                    shabd:LifeDeathCycle ;
-    shabd:commentaryKeypoint "Some praise Him as the One who takes the life-force and again gives bodies and life according to His Will."@en ;
-    shabd:hasPhrase sggs:japji_pauri3_line6_p1,
-                    sggs:japji_pauri3_line6_p2,
-                    sggs:japji_pauri3_line6_p3 .
+    rdfs:comment "Some praise Him as the One who takes the life-force and again gives bodies and life according to His Will."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri3_line6_gu1,
+                    sggs:japji_pauri3_line6_gu2,
+                    sggs:japji_pauri3_line6_gu3 .
 
-### Line 6 – Phrase 1: ਗਾਵੈ ਕੋ
+### Line 6 – GlossUnit 1: ਗਾਵੈ ਕੋ
 
-sggs:japji_pauri3_line6_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਗਾਵੈ ਕੋ"@pa ;
-    shabd:phraseTransliteration "gāvai ko"@en-Latn ;
-    shabd:phraseGlossEn "some sing"@en .
+sggs:japji_pauri3_line6_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਗਾਵੈ ਕੋ"@pa ;
+    shabd:transliteration "gāvai ko"@en-Latn ;
+    shabd:translation "some sing"@en .
 
-### Line 6 – Phrase 2: ਜੀਅ ਲੈ
+### Line 6 – GlossUnit 2: ਜੀਅ ਲੈ
 
-sggs:japji_pauri3_line6_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਜੀਅ ਲੈ"@pa ;
-    shabd:phraseTransliteration "jīa lai"@en-Latn ;
-    shabd:phraseGlossEn "that He takes away the life (soul-breath)"@en .
+sggs:japji_pauri3_line6_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਜੀਅ ਲੈ"@pa ;
+    shabd:transliteration "jīa lai"@en-Latn ;
+    shabd:translation "that He takes away the life (soul-breath)"@en .
 
-### Line 6 – Phrase 3: ਫਿਰਿ ਦੇਹ
+### Line 6 – GlossUnit 3: ਫਿਰਿ ਦੇਹ
 
-sggs:japji_pauri3_line6_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਫਿਰਿ ਦੇਹ"@pa ;
-    shabd:phraseTransliteration "fir deh"@en-Latn ;
-    shabd:phraseGlossEn "and again gives a body / life"@en .
+sggs:japji_pauri3_line6_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਫਿਰਿ ਦੇਹ"@pa ;
+    shabd:transliteration "fir deh"@en-Latn ;
+    shabd:translation "and again gives a body / life"@en .
 
 #################################################################
 ### Line 7
@@ -274,42 +273,42 @@ sggs:japji_pauri3_line6_p3 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri3_line7 a shabd:Line ;
-    shabd:lineId "sggs:japji_pauri3-line7" ;
+    shabd:id "sggs:japji_pauri3-line7" ;
     shabd:index "7"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri3 ;
     shabd:gurmukhi "ਗਾਵੈ ਕੋ ਜਾਪੈ ਦਿਸੈ ਦੂਰਿ ॥"@pa ;
     shabd:transliteration "Gāvai ko jāpai disai dūr."@en-Latn ;
-    shabd:translationEn "Some sing that He seems to be far away, appearing distant."@en ;
+    shabd:translation "Some sing that He seems to be far away, appearing distant."@en ;
     shabd:hasTheme shabd:Praise,
                    shabd:TranscendenceImmanence ;
-    shabd:commentaryKeypoint "Some praise Him as the One who appears far away, beyond perception and reach."@en ;
-    shabd:hasPhrase sggs:japji_pauri3_line7_p1,
-                    sggs:japji_pauri3_line7_p2,
-                    sggs:japji_pauri3_line7_p3 .
+    rdfs:comment "Some praise Him as the One who appears far away, beyond perception and reach."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri3_line7_gu1,
+                    sggs:japji_pauri3_line7_gu2,
+                    sggs:japji_pauri3_line7_gu3 .
 
-### Line 7 – Phrase 1: ਗਾਵੈ ਕੋ
+### Line 7 – GlossUnit 1: ਗਾਵੈ ਕੋ
 
-sggs:japji_pauri3_line7_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਗਾਵੈ ਕੋ"@pa ;
-    shabd:phraseTransliteration "gāvai ko"@en-Latn ;
-    shabd:phraseGlossEn "some sing"@en .
+sggs:japji_pauri3_line7_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਗਾਵੈ ਕੋ"@pa ;
+    shabd:transliteration "gāvai ko"@en-Latn ;
+    shabd:translation "some sing"@en .
 
-### Line 7 – Phrase 2: ਜਾਪੈ
+### Line 7 – GlossUnit 2: ਜਾਪੈ
 
-sggs:japji_pauri3_line7_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਜਾਪੈ"@pa ;
-    shabd:phraseTransliteration "jāpai"@en-Latn ;
-    shabd:phraseGlossEn "that He appears; seems"@en .
+sggs:japji_pauri3_line7_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਜਾਪੈ"@pa ;
+    shabd:transliteration "jāpai"@en-Latn ;
+    shabd:translation "that He appears; seems"@en .
 
-### Line 7 – Phrase 3: ਦਿਸੈ ਦੂਰਿ
+### Line 7 – GlossUnit 3: ਦਿਸੈ ਦੂਰਿ
 
-sggs:japji_pauri3_line7_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਦਿਸੈ ਦੂਰਿ"@pa ;
-    shabd:phraseTransliteration "disai dūr"@en-Latn ;
-    shabd:phraseGlossEn "seen as far away; appearing distant"@en .
+sggs:japji_pauri3_line7_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਦਿਸੈ ਦੂਰਿ"@pa ;
+    shabd:transliteration "disai dūr"@en-Latn ;
+    shabd:translation "seen as far away; appearing distant"@en .
 
 #################################################################
 ### Line 8
@@ -317,42 +316,42 @@ sggs:japji_pauri3_line7_p3 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri3_line8 a shabd:Line ;
-    shabd:lineId "sggs-japji_pauri3-line8" ;
+    shabd:id "sggs-japji_pauri3-line8" ;
     shabd:index "8"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri3 ;
     shabd:gurmukhi "ਗਾਵੈ ਕੋ ਵੇਖੈ ਹਾਦਰਾ ਹਦੂਰਿ ॥"@pa ;
     shabd:transliteration "Gāvai ko vekhai hādarā hadūr."@en-Latn ;
-    shabd:translationEn "Some sing that He is seen to be ever-present, here and near at hand."@en ;
+    shabd:translation "Some sing that He is seen to be ever-present, here and near at hand."@en ;
     shabd:hasTheme shabd:Praise,
                    shabd:TranscendenceImmanence ;
-    shabd:commentaryKeypoint "Some praise Him as the One who is present here and now, immediately near and close."@en ;
-    shabd:hasPhrase sggs:japji_pauri3_line8_p1,
-                    sggs:japji_pauri3_line8_p2,
-                    sggs:japji_pauri3_line8_p3 .
+    rdfs:comment "Some praise Him as the One who is present here and now, immediately near and close."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri3_line8_gu1,
+                    sggs:japji_pauri3_line8_gu2,
+                    sggs:japji_pauri3_line8_gu3 .
 
-### Line 8 – Phrase 1: ਗਾਵੈ ਕੋ
+### Line 8 – GlossUnit 1: ਗਾਵੈ ਕੋ
 
-sggs:japji_pauri3_line8_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਗਾਵੈ ਕੋ"@pa ;
-    shabd:phraseTransliteration "gāvai ko"@en-Latn ;
-    shabd:phraseGlossEn "some sing"@en .
+sggs:japji_pauri3_line8_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਗਾਵੈ ਕੋ"@pa ;
+    shabd:transliteration "gāvai ko"@en-Latn ;
+    shabd:translation "some sing"@en .
 
-### Line 8 – Phrase 2: ਵੇਖੈ
+### Line 8 – GlossUnit 2: ਵੇਖੈ
 
-sggs:japji_pauri3_line8_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਵੇਖੈ"@pa ;
-    shabd:phraseTransliteration "vekhai"@en-Latn ;
-    shabd:phraseGlossEn "that (He) is seen"@en .
+sggs:japji_pauri3_line8_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਵੇਖੈ"@pa ;
+    shabd:transliteration "vekhai"@en-Latn ;
+    shabd:translation "that (He) is seen"@en .
 
-### Line 8 – Phrase 3: ਹਾਦਰਾ ਹਦੂਰਿ
+### Line 8 – GlossUnit 3: ਹਾਦਰਾ ਹਦੂਰਿ
 
-sggs:japji_pauri3_line8_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹਾਦਰਾ ਹਦੂਰਿ"@pa ;
-    shabd:phraseTransliteration "hādarā hadūr"@en-Latn ;
-    shabd:phraseGlossEn "here and present, close at hand"@en .
+sggs:japji_pauri3_line8_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਹਾਦਰਾ ਹਦੂਰਿ"@pa ;
+    shabd:transliteration "hādarā hadūr"@en-Latn ;
+    shabd:translation "here and present, close at hand"@en .
 
 #################################################################
 ### Line 9
@@ -360,42 +359,42 @@ sggs:japji_pauri3_line8_p3 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri3_line9 a shabd:Line ;
-    shabd:lineId "sggs-japji_pauri3-line9" ;
+    shabd:id "sggs-japji_pauri3-line9" ;
     shabd:index "9"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri3 ;
     shabd:gurmukhi "ਕਥਨਾ ਕਥੀ ਨ ਆਵੈ ਤੋਟਿ ॥"@pa ;
     shabd:transliteration "Kathnā kathī na āvai ṭot."@en-Latn ;
-    shabd:translationEn "In speaking and describing, His story never comes to an end."@en ;
+    shabd:translation "In speaking and describing, His story never comes to an end."@en ;
     shabd:hasTheme shabd:Ineffability,
                    shabd:Praise ;
-    shabd:commentaryKeypoint "No matter how much is said about the Divine, His description never runs short; He is beyond full telling."@en ;
-    shabd:hasPhrase sggs:japji_pauri3_line9_p1,
-                    sggs:japji_pauri3_line9_p2,
-                    sggs:japji_pauri3_line9_p3 .
+    rdfs:comment "No matter how much is said about the Divine, His description never runs short; He is beyond full telling."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri3_line9_gu1,
+                    sggs:japji_pauri3_line9_gu2,
+                    sggs:japji_pauri3_line9_gu3 .
 
-### Line 9 – Phrase 1: ਕਥਨਾ
+### Line 9 – GlossUnit 1: ਕਥਨਾ
 
-sggs:japji_pauri3_line9_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਕਥਨਾ"@pa ;
-    shabd:phraseTransliteration "kathnā"@en-Latn ;
-    shabd:phraseGlossEn "the act of speaking / narrating"@en .
+sggs:japji_pauri3_line9_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਕਥਨਾ"@pa ;
+    shabd:transliteration "kathnā"@en-Latn ;
+    shabd:translation "the act of speaking / narrating"@en .
 
-### Line 9 – Phrase 2: ਕਥੀ ਨ ਆਵੈ
+### Line 9 – GlossUnit 2: ਕਥੀ ਨ ਆਵੈ
 
-sggs:japji_pauri3_line9_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਕਥੀ ਨ ਆਵੈ"@pa ;
-    shabd:phraseTransliteration "kathī na āvai"@en-Latn ;
-    shabd:phraseGlossEn "cannot be fully told; does not come to completion"@en .
+sggs:japji_pauri3_line9_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਕਥੀ ਨ ਆਵੈ"@pa ;
+    shabd:transliteration "kathī na āvai"@en-Latn ;
+    shabd:translation "cannot be fully told; does not come to completion"@en .
 
-### Line 9 – Phrase 3: ਤੋਟਿ
+### Line 9 – GlossUnit 3: ਤੋਟਿ
 
-sggs:japji_pauri3_line9_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਤੋਟਿ"@pa ;
-    shabd:phraseTransliteration "ṭot"@en-Latn ;
-    shabd:phraseGlossEn "shortage, limit, end"@en .
+sggs:japji_pauri3_line9_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਤੋਟਿ"@pa ;
+    shabd:transliteration "ṭot"@en-Latn ;
+    shabd:translation "shortage, limit, end"@en .
 
 #################################################################
 ### Line 10
@@ -403,34 +402,34 @@ sggs:japji_pauri3_line9_p3 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri3_line10 a shabd:Line ;
-    shabd:lineId "sggs-japji_pauri3-line10" ;
+    shabd:id "sggs-japji_pauri3-line10" ;
     shabd:index "10"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri3 ;
     shabd:gurmukhi "ਕਥਿ ਕਥਿ ਕਥੀ ਕੋਟੀ ਕੋਟਿ ਕੋਟਿ ॥"@pa ;
     shabd:transliteration "Kath kath kathī koṭī koṭ kot."@en-Latn ;
-    shabd:translationEn "Speaking and speaking in many ways, millions upon millions continue to describe Him."@en ;
+    shabd:translation "Speaking and speaking in many ways, millions upon millions continue to describe Him."@en ;
     shabd:hasTheme shabd:Ineffability,
                    shabd:Praise ;
-    shabd:commentaryKeypoint "Countless beings keep on speaking His praises in infinite ways, yet He still remains beyond full description."@en ;
-    shabd:hasPhrase sggs:japji_pauri3_line10_p1,
-                    sggs:japji_pauri3_line10_p2,
-                    sggs:japji_pauri3_line10_p3 .
+    rdfs:comment "Countless beings keep on speaking His praises in infinite ways, yet He still remains beyond full description."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri3_line10_gu1,
+                    sggs:japji_pauri3_line10_gu2,
+                    sggs:japji_pauri3_line10_gu3 .
 
-### Line 10 – Phrase 1: ਕਥਿ ਕਥਿ ਕਥੀ
+### Line 10 – GlossUnit 1: ਕਥਿ ਕਥਿ ਕਥੀ
 
-sggs:japji_pauri3_line10_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਕਥਿ ਕਥਿ ਕਥੀ"@pa ;
-    shabd:phraseTransliteration "kath kath kathī"@en-Latn ;
-    shabd:phraseGlossEn "speaking and speaking, they speak"@en .
+sggs:japji_pauri3_line10_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਕਥਿ ਕਥਿ ਕਥੀ"@pa ;
+    shabd:transliteration "kath kath kathī"@en-Latn ;
+    shabd:translation "speaking and speaking, they speak"@en .
 
-### Line 10 – Phrase 2: ਕੋਟੀ ਕੋਟਿ ਕੋਟਿ
+### Line 10 – GlossUnit 2: ਕੋਟੀ ਕੋਟਿ ਕੋਟਿ
 
-sggs:japji_pauri3_line10_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਕੋਟੀ ਕੋਟਿ ਕੋਟਿ"@pa ;
-    shabd:phraseTransliteration "koṭī koṭ kot"@en-Latn ;
-    shabd:phraseGlossEn "millions upon millions; countless multitudes"@en .
+sggs:japji_pauri3_line10_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਕੋਟੀ ਕੋਟਿ ਕੋਟਿ"@pa ;
+    shabd:transliteration "koṭī koṭ kot"@en-Latn ;
+    shabd:translation "millions upon millions; countless multitudes"@en .
 
 #################################################################
 ### Line 11
@@ -438,42 +437,42 @@ sggs:japji_pauri3_line10_p2 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri3_line11 a shabd:Line ;
-    shabd:lineId "sggs-japji_pauri3-line11" ;
+    shabd:id "sggs-japji_pauri3-line11" ;
     shabd:index "11"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri3 ;
     shabd:gurmukhi "ਦੇਦੇ ਲੈਂਦੇ ਥਕਿ ਪਾਹਿ ॥"@pa ;
     shabd:transliteration "Dede lainde thak pāh."@en-Latn ;
-    shabd:translationEn "Those who receive grow weary of receiving, but His giving never stops."@en ;
+    shabd:translation "Those who receive grow weary of receiving, but His giving never stops."@en ;
     shabd:hasTheme shabd:GivingReceiving,
                    shabd:DivineGifts ;
-    shabd:commentaryKeypoint "In the endless exchange of giving and receiving, receivers may tire, but the Giver never tires of giving."@en ;
-    shabd:hasPhrase sggs:japji_pauri3_line11_p1,
-                    sggs:japji_pauri3_line11_p2,
-                    sggs:japji_pauri3_line11_p3 .
+    rdfs:comment "In the endless exchange of giving and receiving, receivers may tire, but the Giver never tires of giving."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri3_line11_gu1,
+                    sggs:japji_pauri3_line11_gu2,
+                    sggs:japji_pauri3_line11_gu3 .
 
-### Line 11 – Phrase 1: ਦੇਦੇ
+### Line 11 – GlossUnit 1: ਦੇਦੇ
 
-sggs:japji_pauri3_line11_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਦੇਦੇ"@pa ;
-    shabd:phraseTransliteration "dede"@en-Latn ;
-    shabd:phraseGlossEn "He keeps on giving"@en .
+sggs:japji_pauri3_line11_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਦੇਦੇ"@pa ;
+    shabd:transliteration "dede"@en-Latn ;
+    shabd:translation "He keeps on giving"@en .
 
-### Line 11 – Phrase 2: ਲੈਂਦੇ
+### Line 11 – GlossUnit 2: ਲੈਂਦੇ
 
-sggs:japji_pauri3_line11_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਲੈਂਦੇ"@pa ;
-    shabd:phraseTransliteration "lainde"@en-Latn ;
-    shabd:phraseGlossEn "they keep on receiving"@en .
+sggs:japji_pauri3_line11_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਲੈਂਦੇ"@pa ;
+    shabd:transliteration "lainde"@en-Latn ;
+    shabd:translation "they keep on receiving"@en .
 
-### Line 11 – Phrase 3: ਥਕਿ ਪਾਹਿ
+### Line 11 – GlossUnit 3: ਥਕਿ ਪਾਹਿ
 
-sggs:japji_pauri3_line11_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਥਕਿ ਪਾਹਿ"@pa ;
-    shabd:phraseTransliteration "thak pāh"@en-Latn ;
-    shabd:phraseGlossEn "they grow weary; they become exhausted"@en .
+sggs:japji_pauri3_line11_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਥਕਿ ਪਾਹਿ"@pa ;
+    shabd:transliteration "thak pāh"@en-Latn ;
+    shabd:translation "they grow weary; they become exhausted"@en .
 
 #################################################################
 ### Line 12
@@ -481,33 +480,33 @@ sggs:japji_pauri3_line11_p3 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri3_line12 a shabd:Line ;
-    shabd:lineId "sggs-japji_pauri3-line12" ;
+    shabd:id "sggs-japji_pauri3-line12" ;
     shabd:index "12"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri3 ;
     shabd:gurmukhi "ਜੁਗਾ ਜੁਗੰਤਰਿ ਖਾਹੀ ਖਾਹਿ ॥"@pa ;
     shabd:transliteration "Jugā jugantar khāhī khāh."@en-Latn ;
-    shabd:translationEn "For ages upon ages, beings consume and keep on consuming His gifts."@en ;
+    shabd:translation "For ages upon ages, beings consume and keep on consuming His gifts."@en ;
     shabd:hasTheme shabd:Provision,
                    shabd:GivingReceiving ;
-    shabd:commentaryKeypoint "Across countless ages, beings keep partaking of what He provides; His sustenance never ceases."@en ;
-    shabd:hasPhrase sggs:japji_pauri3_line12_p1,
-                    sggs:japji_pauri3_line12_p2 .
+    rdfs:comment "Across countless ages, beings keep partaking of what He provides; His sustenance never ceases."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri3_line12_gu1,
+                    sggs:japji_pauri3_line12_gu2 .
 
-### Line 12 – Phrase 1: ਜੁਗਾ ਜੁਗੰਤਰਿ
+### Line 12 – GlossUnit 1: ਜੁਗਾ ਜੁਗੰਤਰਿ
 
-sggs:japji_pauri3_line12_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਜੁਗਾ ਜੁਗੰਤਰਿ"@pa ;
-    shabd:phraseTransliteration "jugā jugantar"@en-Latn ;
-    shabd:phraseGlossEn "for ages upon ages; through long eons"@en .
+sggs:japji_pauri3_line12_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਜੁਗਾ ਜੁਗੰਤਰਿ"@pa ;
+    shabd:transliteration "jugā jugantar"@en-Latn ;
+    shabd:translation "for ages upon ages; through long eons"@en .
 
-### Line 12 – Phrase 2: ਖਾਹੀ ਖਾਹਿ
+### Line 12 – GlossUnit 2: ਖਾਹੀ ਖਾਹਿ
 
-sggs:japji_pauri3_line12_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਖਾਹੀ ਖਾਹਿ"@pa ;
-    shabd:phraseTransliteration "khāhī khāh"@en-Latn ;
-    shabd:phraseGlossEn "they eat and keep on eating; continue to consume"@en .
+sggs:japji_pauri3_line12_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਖਾਹੀ ਖਾਹਿ"@pa ;
+    shabd:transliteration "khāhī khāh"@en-Latn ;
+    shabd:translation "they eat and keep on eating; continue to consume"@en .
 
 #################################################################
 ### Line 13
@@ -515,41 +514,41 @@ sggs:japji_pauri3_line12_p2 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri3_line13 a shabd:Line ;
-    shabd:lineId "sggs-japji_pauri3-line13" ;
+    shabd:id "sggs-japji_pauri3-line13" ;
     shabd:index "13"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri3 ;
     shabd:gurmukhi "ਹੁਕਮੀ ਹੁਕਮੁ ਚਲਾਏ ਰਾਹੁ ॥"@pa ;
     shabd:transliteration "Hukmī hukam calāe rāh."@en-Latn ;
-    shabd:translationEn "By His command, He directs the path of Hukam."@en ;
+    shabd:translation "By His command, He directs the path of Hukam."@en ;
     shabd:hasTheme shabd:Hukam ;
-    shabd:commentaryKeypoint "The Sovereign One Himself issues and sets in motion the Hukam that governs the pathways of all beings."@en ;
-    shabd:hasPhrase sggs:japji_pauri3_line13_p1,
-                    sggs:japji_pauri3_line13_p2,
-                    sggs:japji_pauri3_line13_p3 .
+    rdfs:comment "The Sovereign One Himself issues and sets in motion the Hukam that governs the pathways of all beings."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri3_line13_gu1,
+                    sggs:japji_pauri3_line13_gu2,
+                    sggs:japji_pauri3_line13_gu3 .
 
-### Line 13 – Phrase 1: ਹੁਕਮੀ
+### Line 13 – GlossUnit 1: ਹੁਕਮੀ
 
-sggs:japji_pauri3_line13_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੁਕਮੀ"@pa ;
-    shabd:phraseTransliteration "hukmī"@en-Latn ;
-    shabd:phraseGlossEn "the Sovereign One; the Commander"@en .
+sggs:japji_pauri3_line13_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਹੁਕਮੀ"@pa ;
+    shabd:transliteration "hukmī"@en-Latn ;
+    shabd:translation "the Sovereign One; the Commander"@en .
 
-### Line 13 – Phrase 2: ਹੁਕਮੁ ਚਲਾਏ
+### Line 13 – GlossUnit 2: ਹੁਕਮੁ ਚਲਾਏ
 
-sggs:japji_pauri3_line13_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੁਕਮੁ ਚਲਾਏ"@pa ;
-    shabd:phraseTransliteration "hukam calāe"@en-Latn ;
-    shabd:phraseGlossEn "causes Hukam to operate; sets His command in motion"@en .
+sggs:japji_pauri3_line13_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਹੁਕਮੁ ਚਲਾਏ"@pa ;
+    shabd:transliteration "hukam calāe"@en-Latn ;
+    shabd:translation "causes Hukam to operate; sets His command in motion"@en .
 
-### Line 13 – Phrase 3: ਰਾਹੁ
+### Line 13 – GlossUnit 3: ਰਾਹੁ
 
-sggs:japji_pauri3_line13_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਰਾਹੁ"@pa ;
-    shabd:phraseTransliteration "rāh"@en-Latn ;
-    shabd:phraseGlossEn "the path; the way (of all beings)"@en .
+sggs:japji_pauri3_line13_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਰਾਹੁ"@pa ;
+    shabd:transliteration "rāh"@en-Latn ;
+    shabd:translation "the path; the way (of all beings)"@en .
 
 #################################################################
 ### Line 14
@@ -557,39 +556,39 @@ sggs:japji_pauri3_line13_p3 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri3_line14 a shabd:Line ;
-    shabd:lineId "sggs-japji_pauri3-line14" ;
+    shabd:id "sggs-japji_pauri3-line14" ;
     shabd:index "14"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri3 ;
     shabd:gurmukhi "ਨਾਨਕ ਵਿਗਸੈ ਵੇਪਰਵਾਹੁ ॥੩॥"@pa ;
     shabd:transliteration "Nānak vigasai veparvāh. ||3||"@en-Latn ;
-    shabd:translationEn "O Nanak, the carefree Lord ever blossoms in joy, beyond all anxiety."@en ;
+    shabd:translation "O Nanak, the carefree Lord ever blossoms in joy, beyond all anxiety."@en ;
     shabd:hasTheme shabd:CarefreeDivine,
                    shabd:Hukam ;
-    shabd:commentaryKeypoint "Nanak declares that the carefree, unconcerned Lord rejoices eternally, untouched by worry or limitation; all unfolds under His Hukam."@en ;
-    shabd:hasPhrase sggs:japji_pauri3_line14_p1,
-                    sggs:japji_pauri3_line14_p2,
-                    sggs:japji_pauri3_line14_p3 .
+    rdfs:comment "Nanak declares that the carefree, unconcerned Lord rejoices eternally, untouched by worry or limitation; all unfolds under His Hukam."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri3_line14_gu1,
+                    sggs:japji_pauri3_line14_gu2,
+                    sggs:japji_pauri3_line14_gu3 .
 
-### Line 14 – Phrase 1: ਨਾਨਕ
+### Line 14 – GlossUnit 1: ਨਾਨਕ
 
-sggs:japji_pauri3_line14_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਨਾਨਕ"@pa ;
-    shabd:phraseTransliteration "Nānak"@en-Latn ;
-    shabd:phraseGlossEn "O Nanak (Guru’s self-reference)"@en .
+sggs:japji_pauri3_line14_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਨਾਨਕ"@pa ;
+    shabd:transliteration "Nānak"@en-Latn ;
+    shabd:translation "O Nanak (Guru’s self-reference)"@en .
 
-### Line 14 – Phrase 2: ਵਿਗਸੈ
+### Line 14 – GlossUnit 2: ਵਿਗਸੈ
 
-sggs:japji_pauri3_line14_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਵਿਗਸੈ"@pa ;
-    shabd:phraseTransliteration "vigasai"@en-Latn ;
-    shabd:phraseGlossEn "He blossoms; rejoices; is radiant in joy"@en .
+sggs:japji_pauri3_line14_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਵਿਗਸੈ"@pa ;
+    shabd:transliteration "vigasai"@en-Latn ;
+    shabd:translation "He blossoms; rejoices; is radiant in joy"@en .
 
-### Line 14 – Phrase 3: ਵੇਪਰਵਾਹੁ
+### Line 14 – GlossUnit 3: ਵੇਪਰਵਾਹੁ
 
-sggs:japji_pauri3_line14_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਵੇਪਰਵਾਹੁ"@pa ;
-    shabd:phraseTransliteration "veparvāh"@en-Latn ;
-    shabd:phraseGlossEn "carefree; beyond anxiety or concern"@en .
+sggs:japji_pauri3_line14_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਵੇਪਰਵਾਹੁ"@pa ;
+    shabd:transliteration "veparvāh"@en-Latn ;
+    shabd:translation "carefree; beyond anxiety or concern"@en .

@@ -10,9 +10,8 @@
 #################################################################
 
 sggs:japji_pauri1 a shabd:Pauri ;
-    shabd:shabdId "sggs-japji-pauri1" ;
+    shabd:id "sggs-japji-pauri1" ;
     dct:title "Japji Sahib – Pauri 1"@en ;
-    shabd:titleEn "Japji Sahib – Pauri 1"@en ;
     shabd:ang "1"^^xsd:integer ;
     shabd:sequenceInAng "1"^^xsd:integer ;
     shabd:hasAuthor sggs:GuruNanakDevJi ;
@@ -24,7 +23,7 @@ sggs:japji_pauri1 a shabd:Pauri ;
                    shabd:Desire,
                    shabd:Intellect,
                    shabd:SpiritualMethodFailure ;
-    shabd:overallCommentaryEn "Japji Pauri 1 negates self-powered methods such as mere thinking, silence, accumulation, and cleverness as paths to Truth, then poses the core question of how to become truthful and break falsehood. The answer: to walk in harmony with Hukam, Divine Will, rather than ego."@en ;
+    rdfs:comment "Japji Pauri 1 negates self-powered methods such as mere thinking, silence, accumulation, and cleverness as paths to Truth, then poses the core question of how to become truthful and break falsehood. The answer: to walk in harmony with Hukam, Divine Will, rather than ego."@en ;
     shabd:hasLine sggs:japji_pauri1_line1,
                   sggs:japji_pauri1_line2,
                   sggs:japji_pauri1_line3,
@@ -38,52 +37,52 @@ sggs:japji_pauri1 a shabd:Pauri ;
 #################################################################
 
 sggs:japji_pauri1_line1 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri1-line1" ;
+    shabd:id "sggs-japji-pauri1-line1" ;
     shabd:index "1"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri1 ;
     shabd:gurmukhi "ਸੋਚੈ ਸੋਚਿ ਨ ਹੋਵਈ ਜੇ ਸੋਚੀ ਲਖ ਵਾਰ ॥"@pa ;
     shabd:transliteration "Socẖai socẖ na hovee je socẖī lakh vār."@en-Latn ;
-    shabd:translationEn "By thinking and thinking, one does not become pure, even if one thinks hundreds of thousands of times."@en ;
+    shabd:translation "By thinking and thinking, one does not become pure, even if one thinks hundreds of thousands of times."@en ;
     shabd:hasTheme shabd:Ego,
                    shabd:Intellect,
                    shabd:SpiritualMethodFailure ;
-    shabd:commentaryKeypoint "Mere mental effort, analysis, or contemplation alone cannot realize Truth or purify the self, no matter how intensely it is repeated."@en ;
-    shabd:hasPhrase sggs:japji_pauri1_line1_p1,
-                    sggs:japji_pauri1_line1_p2,
-                    sggs:japji_pauri1_line1_p3,
-                    sggs:japji_pauri1_line1_p4 .
+    rdfs:comment "Mere mental effort, analysis, or contemplation alone cannot realize Truth or purify the self, no matter how intensely it is repeated."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri1_line1_gu1,
+                    sggs:japji_pauri1_line1_gu2,
+                    sggs:japji_pauri1_line1_gu3,
+                    sggs:japji_pauri1_line1_gu4 .
 
-### Line 1 – Phrase 1: ਸੋਚੈ
+### Line 1 – GlossUnit 1: ਸੋਚੈ
 
-sggs:japji_pauri1_line1_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਸੋਚੈ"@pa ;
-    shabd:phraseTransliteration "socẖai"@en-Latn ;
-    shabd:phraseGlossEn "by thinking; through thought"@en .
+sggs:japji_pauri1_line1_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਸੋਚੈ"@pa ;
+    shabd:transliteration "socẖai"@en-Latn ;
+    shabd:translation "by thinking; through thought"@en .
 
-### Line 1 – Phrase 2: ਸੋਚਿ ਨ ਹੋਵਈ
+### Line 1 – GlossUnit 2: ਸੋਚਿ ਨ ਹੋਵਈ
 
-sggs:japji_pauri1_line1_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਸੋਚਿ ਨ ਹੋਵਈ"@pa ;
-    shabd:phraseTransliteration "socẖ na hovee"@en-Latn ;
-    shabd:phraseGlossEn "purity / realization does not occur"@en .
+sggs:japji_pauri1_line1_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਸੋਚਿ ਨ ਹੋਵਈ"@pa ;
+    shabd:transliteration "socẖ na hovee"@en-Latn ;
+    shabd:translation "purity / realization does not occur"@en .
 
-### Line 1 – Phrase 3: ਜੇ ਸੋਚੀ
+### Line 1 – GlossUnit 3: ਜੇ ਸੋਚੀ
 
-sggs:japji_pauri1_line1_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਜੇ ਸੋਚੀ"@pa ;
-    shabd:phraseTransliteration "je socẖī"@en-Latn ;
-    shabd:phraseGlossEn "even if one keeps on thinking"@en .
+sggs:japji_pauri1_line1_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਜੇ ਸੋਚੀ"@pa ;
+    shabd:transliteration "je socẖī"@en-Latn ;
+    shabd:translation "even if one keeps on thinking"@en .
 
-### Line 1 – Phrase 4: ਲਖ ਵਾਰ
+### Line 1 – GlossUnit 4: ਲਖ ਵਾਰ
 
-sggs:japji_pauri1_line1_p4 a shabd:Phrase ;
-    shabd:phraseIndex "4"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਲਖ ਵਾਰ"@pa ;
-    shabd:phraseTransliteration "lakh vār"@en-Latn ;
-    shabd:phraseGlossEn "hundreds of thousands of times"@en .
+sggs:japji_pauri1_line1_gu4 a shabd:GlossUnit ;
+    shabd:index "4"^^xsd:integer ;
+    shabd:gurmukhi "ਲਖ ਵਾਰ"@pa ;
+    shabd:transliteration "lakh vār"@en-Latn ;
+    shabd:translation "hundreds of thousands of times"@en .
 
 #################################################################
 ### Line 2
@@ -91,51 +90,51 @@ sggs:japji_pauri1_line1_p4 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri1_line2 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri1-line2" ;
+    shabd:id "sggs-japji-pauri1-line2" ;
     shabd:index "2"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri1 ;
     shabd:gurmukhi "ਚੁਪੈ ਚੁਪ ਨ ਹੋਵਈ ਜੇ ਲਾਇ ਰਹਾ ਲਿਵ ਤਾਰ ॥"@pa ;
     shabd:transliteration "Cupai cup na hovee je lāe rahā liv tār."@en-Latn ;
-    shabd:translationEn "By remaining silent, silence is not obtained, even if one remains absorbed in deep inward focus."@en ;
+    shabd:translation "By remaining silent, silence is not obtained, even if one remains absorbed in deep inward focus."@en ;
     shabd:hasTheme shabd:SpiritualMethodFailure,
                    shabd:Ego ;
-    shabd:commentaryKeypoint "External or self-willed silence is not the same as true inner stillness; forced practices without alignment to Hukam cannot yield real peace."@en ;
-    shabd:hasPhrase sggs:japji_pauri1_line2_p1,
-                    sggs:japji_pauri1_line2_p2,
-                    sggs:japji_pauri1_line2_p3,
-                    sggs:japji_pauri1_line2_p4 .
+    rdfs:comment "External or self-willed silence is not the same as true inner stillness; forced practices without alignment to Hukam cannot yield real peace."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri1_line2_gu1,
+                    sggs:japji_pauri1_line2_gu2,
+                    sggs:japji_pauri1_line2_gu3,
+                    sggs:japji_pauri1_line2_gu4 .
 
-### Line 2 – Phrase 1: ਚੁਪੈ
+### Line 2 – GlossUnit 1: ਚੁਪੈ
 
-sggs:japji_pauri1_line2_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਚੁਪੈ"@pa ;
-    shabd:phraseTransliteration "cupai"@en-Latn ;
-    shabd:phraseGlossEn "by keeping silent; through silence"@en .
+sggs:japji_pauri1_line2_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਚੁਪੈ"@pa ;
+    shabd:transliteration "cupai"@en-Latn ;
+    shabd:translation "by keeping silent; through silence"@en .
 
-### Line 2 – Phrase 2: ਚੁਪ ਨ ਹੋਵਈ
+### Line 2 – GlossUnit 2: ਚੁਪ ਨ ਹੋਵਈ
 
-sggs:japji_pauri1_line2_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਚੁਪ ਨ ਹੋਵਈ"@pa ;
-    shabd:phraseTransliteration "cup na hovee"@en-Latn ;
-    shabd:phraseGlossEn "true silence / stillness is not attained"@en .
+sggs:japji_pauri1_line2_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਚੁਪ ਨ ਹੋਵਈ"@pa ;
+    shabd:transliteration "cup na hovee"@en-Latn ;
+    shabd:translation "true silence / stillness is not attained"@en .
 
-### Line 2 – Phrase 3: ਜੇ ਲਾਇ ਰਹਾ
+### Line 2 – GlossUnit 3: ਜੇ ਲਾਇ ਰਹਾ
 
-sggs:japji_pauri1_line2_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਜੇ ਲਾਇ ਰਹਾ"@pa ;
-    shabd:phraseTransliteration "je lāe rahā"@en-Latn ;
-    shabd:phraseGlossEn "even if one keeps oneself fixed / absorbed"@en .
+sggs:japji_pauri1_line2_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਜੇ ਲਾਇ ਰਹਾ"@pa ;
+    shabd:transliteration "je lāe rahā"@en-Latn ;
+    shabd:translation "even if one keeps oneself fixed / absorbed"@en .
 
-### Line 2 – Phrase 4: ਲਿਵ ਤਾਰ
+### Line 2 – GlossUnit 4: ਲਿਵ ਤਾਰ
 
-sggs:japji_pauri1_line2_p4 a shabd:Phrase ;
-    shabd:phraseIndex "4"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਲਿਵ ਤਾਰ"@pa ;
-    shabd:phraseTransliteration "liv tār"@en-Latn ;
-    shabd:phraseGlossEn "in a continuous thread of focused absorption"@en .
+sggs:japji_pauri1_line2_gu4 a shabd:GlossUnit ;
+    shabd:index "4"^^xsd:integer ;
+    shabd:gurmukhi "ਲਿਵ ਤਾਰ"@pa ;
+    shabd:transliteration "liv tār"@en-Latn ;
+    shabd:translation "in a continuous thread of focused absorption"@en .
 
 #################################################################
 ### Line 3
@@ -143,52 +142,52 @@ sggs:japji_pauri1_line2_p4 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri1_line3 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri1-line3" ;
+    shabd:id "sggs-japji-pauri1-line3" ;
     shabd:index "3"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri1 ;
     shabd:gurmukhi "ਭੁਖਿਆ ਭੁਖ ਨ ਉਤਰੀ ਜੇ ਬੰਨਾ ਪੁਰੀਆ ਭਾਰ ॥"@pa ;
     shabd:transliteration "Bhukẖiā bhukẖ na utrī je bannā purīā bhār."@en-Latn ;
-    shabd:translationEn "The hunger of the hungry is not appeased, even if they amass loads and loads of worldly goods."@en ;
+    shabd:translation "The hunger of the hungry is not appeased, even if they amass loads and loads of worldly goods."@en ;
     shabd:hasTheme shabd:Desire,
                    shabd:Ego,
                    shabd:SpiritualMethodFailure ;
-    shabd:commentaryKeypoint "Accumulation of material wealth or experiences cannot satisfy the deeper existential hunger of the soul; craving only multiplies through indulgence."@en ;
-    shabd:hasPhrase sggs:japji_pauri1_line3_p1,
-                    sggs:japji_pauri1_line3_p2,
-                    sggs:japji_pauri1_line3_p3,
-                    sggs:japji_pauri1_line3_p4 .
+    rdfs:comment "Accumulation of material wealth or experiences cannot satisfy the deeper existential hunger of the soul; craving only multiplies through indulgence."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri1_line3_gu1,
+                    sggs:japji_pauri1_line3_gu2,
+                    sggs:japji_pauri1_line3_gu3,
+                    sggs:japji_pauri1_line3_gu4 .
 
-### Line 3 – Phrase 1: ਭੁਖਿਆ ਭੁਖ
+### Line 3 – GlossUnit 1: ਭੁਖਿਆ ਭੁਖ
 
-sggs:japji_pauri1_line3_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਭੁਖਿਆ ਭੁਖ"@pa ;
-    shabd:phraseTransliteration "bhukẖiā bhukẖ"@en-Latn ;
-    shabd:phraseGlossEn "the hunger of the hungry; those driven by craving"@en .
+sggs:japji_pauri1_line3_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਭੁਖਿਆ ਭੁਖ"@pa ;
+    shabd:transliteration "bhukẖiā bhukẖ"@en-Latn ;
+    shabd:translation "the hunger of the hungry; those driven by craving"@en .
 
-### Line 3 – Phrase 2: ਨ ਉਤਰੀ
+### Line 3 – GlossUnit 2: ਨ ਉਤਰੀ
 
-sggs:japji_pauri1_line3_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਨ ਉਤਰੀ"@pa ;
-    shabd:phraseTransliteration "na utrī"@en-Latn ;
-    shabd:phraseGlossEn "does not depart; is not satisfied"@en .
+sggs:japji_pauri1_line3_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਨ ਉਤਰੀ"@pa ;
+    shabd:transliteration "na utrī"@en-Latn ;
+    shabd:translation "does not depart; is not satisfied"@en .
 
-### Line 3 – Phrase 3: ਜੇ ਬੰਨਾ
+### Line 3 – GlossUnit 3: ਜੇ ਬੰਨਾ
 
-sggs:japji_pauri1_line3_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਜੇ ਬੰਨਾ"@pa ;
-    shabd:phraseTransliteration "je bannā"@en-Latn ;
-    shabd:phraseGlossEn "even if one should gather / accumulate"@en .
+sggs:japji_pauri1_line3_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਜੇ ਬੰਨਾ"@pa ;
+    shabd:transliteration "je bannā"@en-Latn ;
+    shabd:translation "even if one should gather / accumulate"@en .
 
-### Line 3 – Phrase 4: ਪੁਰੀਆ ਭਾਰ
+### Line 3 – GlossUnit 4: ਪੁਰੀਆ ਭਾਰ
 
-sggs:japji_pauri1_line3_p4 a shabd:Phrase ;
-    shabd:phraseIndex "4"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਪੁਰੀਆ ਭਾਰ"@pa ;
-    shabd:phraseTransliteration "purīā bhār"@en-Latn ;
-    shabd:phraseGlossEn "loads upon loads; great heaps of possessions"@en .
+sggs:japji_pauri1_line3_gu4 a shabd:GlossUnit ;
+    shabd:index "4"^^xsd:integer ;
+    shabd:gurmukhi "ਪੁਰੀਆ ਭਾਰ"@pa ;
+    shabd:transliteration "purīā bhār"@en-Latn ;
+    shabd:translation "loads upon loads; great heaps of possessions"@en .
 
 #################################################################
 ### Line 4
@@ -196,51 +195,51 @@ sggs:japji_pauri1_line3_p4 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri1_line4 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri1-line4" ;
+    shabd:id "sggs-japji-pauri1-line4" ;
     shabd:index "4"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri1 ;
     shabd:gurmukhi "ਸਹਸ ਸਿਆਣਪਾ ਲਖ ਹੋਹਿ ਤ ਇਕ ਨ ਚਲੈ ਨਾਲਿ ॥"@pa ;
     shabd:transliteration "Sahas siaṇapā lakh hoveh, ta ik na cẖalai nāl."@en-Latn ;
-    shabd:translationEn "One may possess hundreds of thousands of clever ideas, yet not even one of them will go along in the end."@en ;
+    shabd:translation "One may possess hundreds of thousands of clever ideas, yet not even one of them will go along in the end."@en ;
     shabd:hasTheme shabd:Intellect,
                    shabd:Ego ;
-    shabd:commentaryKeypoint "No amount of cleverness or intellectual strategy survives death or leads to Truth by itself; intellect without surrender remains barren spiritually."@en ;
-    shabd:hasPhrase sggs:japji_pauri1_line4_p1,
-                    sggs:japji_pauri1_line4_p2,
-                    sggs:japji_pauri1_line4_p3,
-                    sggs:japji_pauri1_line4_p4 .
+    rdfs:comment "No amount of cleverness or intellectual strategy survives death or leads to Truth by itself; intellect without surrender remains barren spiritually."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri1_line4_gu1,
+                    sggs:japji_pauri1_line4_gu2,
+                    sggs:japji_pauri1_line4_gu3,
+                    sggs:japji_pauri1_line4_gu4 .
 
-### Line 4 – Phrase 1: ਸਹਸ ਸਿਆਣਪਾ
+### Line 4 – GlossUnit 1: ਸਹਸ ਸਿਆਣਪਾ
 
-sggs:japji_pauri1_line4_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਸਹਸ ਸਿਆਣਪਾ"@pa ;
-    shabd:phraseTransliteration "sahas siaṇapā"@en-Latn ;
-    shabd:phraseGlossEn "thousands of clevernesses; countless clever ideas"@en .
+sggs:japji_pauri1_line4_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਸਹਸ ਸਿਆਣਪਾ"@pa ;
+    shabd:transliteration "sahas siaṇapā"@en-Latn ;
+    shabd:translation "thousands of clevernesses; countless clever ideas"@en .
 
-### Line 4 – Phrase 2: ਲਖ ਹੋਹਿ
+### Line 4 – GlossUnit 2: ਲਖ ਹੋਹਿ
 
-sggs:japji_pauri1_line4_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਲਖ ਹੋਹਿ"@pa ;
-    shabd:phraseTransliteration "lakh hoveh"@en-Latn ;
-    shabd:phraseGlossEn "even if there are hundreds of thousands (of them)"@en .
+sggs:japji_pauri1_line4_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਲਖ ਹੋਹਿ"@pa ;
+    shabd:transliteration "lakh hoveh"@en-Latn ;
+    shabd:translation "even if there are hundreds of thousands (of them)"@en .
 
-### Line 4 – Phrase 3: ਤ ਇਕ ਨ ਚਲੈ
+### Line 4 – GlossUnit 3: ਤ ਇਕ ਨ ਚਲੈ
 
-sggs:japji_pauri1_line4_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਤ ਇਕ ਨ ਚਲੈ"@pa ;
-    shabd:phraseTransliteration "ta ik na cẖalai"@en-Latn ;
-    shabd:phraseGlossEn "then not even a single one will be of use / will go along"@en .
+sggs:japji_pauri1_line4_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਤ ਇਕ ਨ ਚਲੈ"@pa ;
+    shabd:transliteration "ta ik na cẖalai"@en-Latn ;
+    shabd:translation "then not even a single one will be of use / will go along"@en .
 
-### Line 4 – Phrase 4: ਨਾਲਿ
+### Line 4 – GlossUnit 4: ਨਾਲਿ
 
-sggs:japji_pauri1_line4_p4 a shabd:Phrase ;
-    shabd:phraseIndex "4"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਨਾਲਿ"@pa ;
-    shabd:phraseTransliteration "nāl"@en-Latn ;
-    shabd:phraseGlossEn "with (you, in the end)"@en .
+sggs:japji_pauri1_line4_gu4 a shabd:GlossUnit ;
+    shabd:index "4"^^xsd:integer ;
+    shabd:gurmukhi "ਨਾਲਿ"@pa ;
+    shabd:transliteration "nāl"@en-Latn ;
+    shabd:translation "with (you, in the end)"@en .
 
 #################################################################
 ### Line 5
@@ -248,42 +247,42 @@ sggs:japji_pauri1_line4_p4 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri1_line5 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri1-line5" ;
+    shabd:id "sggs-japji-pauri1-line5" ;
     shabd:index "5"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri1 ;
     shabd:gurmukhi "ਕਿਵ ਸਚਿਆਰਾ ਹੋਈਐ ਕਿਵ ਕੂੜੈ ਤੁਟੈ ਪਾਲਿ ॥"@pa ;
     shabd:transliteration "Kiv sacẖiārā hoeeai, kiv Kūṛai ṭutai pāl."@en-Latn ;
-    shabd:translationEn "So then, how can one become truthful? How can the wall of falsehood be torn down?"@en ;
+    shabd:translation "So then, how can one become truthful? How can the wall of falsehood be torn down?"@en ;
     shabd:hasTheme shabd:Truth,
                    shabd:SpiritualMethodFailure ;
-    shabd:commentaryKeypoint "After negating ineffective approaches, Guru Nanak poses the central question: by what means does one align with Truth and break the veil of falsehood?"@en ;
-    shabd:hasPhrase sggs:japji_pauri1_line5_p1,
-                    sggs:japji_pauri1_line5_p2,
-                    sggs:japji_pauri1_line5_p3 .
+    rdfs:comment "After negating ineffective approaches, Guru Nanak poses the central question: by what means does one align with Truth and break the veil of falsehood?"@en ;
+    shabd:hasGlossUnit sggs:japji_pauri1_line5_gu1,
+                    sggs:japji_pauri1_line5_gu2,
+                    sggs:japji_pauri1_line5_gu3 .
 
-### Line 5 – Phrase 1: ਕਿਵ ਸਚਿਆਰਾ ਹੋਈਐ
+### Line 5 – GlossUnit 1: ਕਿਵ ਸਚਿਆਰਾ ਹੋਈਐ
 
-sggs:japji_pauri1_line5_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਕਿਵ ਸਚਿਆਰਾ ਹੋਈਐ"@pa ;
-    shabd:phraseTransliteration "kiv sacẖiārā hoeeai"@en-Latn ;
-    shabd:phraseGlossEn "how can one become truthful; how to live in Truth"@en .
+sggs:japji_pauri1_line5_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਕਿਵ ਸਚਿਆਰਾ ਹੋਈਐ"@pa ;
+    shabd:transliteration "kiv sacẖiārā hoeeai"@en-Latn ;
+    shabd:translation "how can one become truthful; how to live in Truth"@en .
 
-### Line 5 – Phrase 2: ਕਿਵ ਕੂੜੈ
+### Line 5 – GlossUnit 2: ਕਿਵ ਕੂੜੈ
 
-sggs:japji_pauri1_line5_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਕਿਵ ਕੂੜੈ"@pa ;
-    shabd:phraseTransliteration "kiv Kūṛai"@en-Latn ;
-    shabd:phraseGlossEn "how can (this) falsehood"@en .
+sggs:japji_pauri1_line5_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਕਿਵ ਕੂੜੈ"@pa ;
+    shabd:transliteration "kiv Kūṛai"@en-Latn ;
+    shabd:translation "how can (this) falsehood"@en .
 
-### Line 5 – Phrase 3: ਤੁਟੈ ਪਾਲਿ
+### Line 5 – GlossUnit 3: ਤੁਟੈ ਪਾਲਿ
 
-sggs:japji_pauri1_line5_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਤੁਟੈ ਪਾਲਿ"@pa ;
-    shabd:phraseTransliteration "ṭutai pāl"@en-Latn ;
-    shabd:phraseGlossEn "be torn down; how can the wall / barrier be broken"@en .
+sggs:japji_pauri1_line5_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਤੁਟੈ ਪਾਲਿ"@pa ;
+    shabd:transliteration "ṭutai pāl"@en-Latn ;
+    shabd:translation "be torn down; how can the wall / barrier be broken"@en .
 
 #################################################################
 ### Line 6
@@ -291,40 +290,40 @@ sggs:japji_pauri1_line5_p3 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri1_line6 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri1-line6" ;
+    shabd:id "sggs-japji-pauri1-line6" ;
     shabd:index "6"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri1 ;
     shabd:gurmukhi "ਹੁਕਮਿ ਰਜਾਈ ਚਲਣਾ ਨਾਨਕ ਲਿਖਿਆ ਨਾਲਿ ॥੧॥"@pa ;
     shabd:transliteration "Hukam rajāī cẖalṇā Nānak likẖiā nāl. ||1||"@en-Latn ;
-    shabd:translationEn "O Nanak, one becomes truthful by walking in accordance with Hukam, the Divine Will, which is inscribed together with all beings."@en ;
+    shabd:translation "O Nanak, one becomes truthful by walking in accordance with Hukam, the Divine Will, which is inscribed together with all beings."@en ;
     shabd:hasTheme shabd:Hukam,
                    shabd:DivineWill,
                    shabd:Truth ;
-    shabd:commentaryKeypoint "The answer: live in harmony with Hukam—Divine Order/Will—rather than ego. Truthful living is surrender to what the Divine has inscribed into existence, not self-invented paths."@en ;
-    shabd:hasPhrase sggs:japji_pauri1_line6_p1,
-                    sggs:japji_pauri1_line6_p2,
-                    sggs:japji_pauri1_line6_p3 .
+    rdfs:comment "The answer: live in harmony with Hukam—Divine Order/Will—rather than ego. Truthful living is surrender to what the Divine has inscribed into existence, not self-invented paths."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri1_line6_gu1,
+                    sggs:japji_pauri1_line6_gu2,
+                    sggs:japji_pauri1_line6_gu3 .
 
-### Line 6 – Phrase 1: ਹੁਕਮਿ ਰਜਾਈ ਚਲਣਾ
+### Line 6 – GlossUnit 1: ਹੁਕਮਿ ਰਜਾਈ ਚਲਣਾ
 
-sggs:japji_pauri1_line6_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੁਕਮਿ ਰਜਾਈ ਚਲਣਾ"@pa ;
-    shabd:phraseTransliteration "hukam rajāī cẖalṇā"@en-Latn ;
-    shabd:phraseGlossEn "to walk in accordance with Hukam and Divine Will; to move in harmony with His command"@en .
+sggs:japji_pauri1_line6_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਹੁਕਮਿ ਰਜਾਈ ਚਲਣਾ"@pa ;
+    shabd:transliteration "hukam rajāī cẖalṇā"@en-Latn ;
+    shabd:translation "to walk in accordance with Hukam and Divine Will; to move in harmony with His command"@en .
 
-### Line 6 – Phrase 2: ਨਾਨਕ
+### Line 6 – GlossUnit 2: ਨਾਨਕ
 
-sggs:japji_pauri1_line6_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਨਾਨਕ"@pa ;
-    shabd:phraseTransliteration "Nānak"@en-Latn ;
-    shabd:phraseGlossEn "O Nanak (signature / address of the Guru)"@en .
+sggs:japji_pauri1_line6_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਨਾਨਕ"@pa ;
+    shabd:transliteration "Nānak"@en-Latn ;
+    shabd:translation "O Nanak (signature / address of the Guru)"@en .
 
-### Line 6 – Phrase 3: ਲਿਖਿਆ ਨਾਲਿ
+### Line 6 – GlossUnit 3: ਲਿਖਿਆ ਨਾਲਿ
 
-sggs:japji_pauri1_line6_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਲਿਖਿਆ ਨਾਲਿ"@pa ;
-    shabd:phraseTransliteration "likẖiā nāl"@en-Latn ;
-    shabd:phraseGlossEn "that which is written together with (one); inscribed along with the being"@en .
+sggs:japji_pauri1_line6_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਲਿਖਿਆ ਨਾਲਿ"@pa ;
+    shabd:transliteration "likẖiā nāl"@en-Latn ;
+    shabd:translation "that which is written together with (one); inscribed along with the being"@en .

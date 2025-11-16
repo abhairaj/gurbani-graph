@@ -18,9 +18,8 @@ sggs:Ang1 a shabd:AngReference ;
 #################################################################
 
 sggs:japji_pauri2 a shabd:Pauri ;
-    shabd:shabdId "sggs-japji-pauri2" ;
+    shabd:id "sggs-japji-pauri2" ;
     dct:title "Japji Sahib – Pauri 2"@en ;
-    shabd:titleEn "Japji Sahib – Pauri 2"@en ;
     shabd:ang "1"^^xsd:integer ;
     shabd:sequenceInAng "2"^^xsd:integer ;
     shabd:hasAuthor sggs:GuruNanakDevJi ;
@@ -33,7 +32,7 @@ sggs:japji_pauri2 a shabd:Pauri ;
                    shabd:DivineGrace,
                    shabd:Wandering,
                    shabd:Ego ;
-    shabd:overallCommentaryEn "Japji Pauri 2 teaches that all forms, beings, status, suffering, joy, grace, and wandering arise under Hukam, the Divine Command; nothing is outside this Order. Spiritual realization lies in understanding Hukam so deeply that ego no longer asserts itself."@en ;
+    rdfs:comment "Japji Pauri 2 teaches that all forms, beings, status, suffering, joy, grace, and wandering arise under Hukam, the Divine Command; nothing is outside this Order. Spiritual realization lies in understanding Hukam so deeply that ego no longer asserts itself."@en ;
     shabd:hasLine sggs:japji_pauri2_line1,
                   sggs:japji_pauri2_line2,
                   sggs:japji_pauri2_line3,
@@ -47,42 +46,42 @@ sggs:japji_pauri2 a shabd:Pauri ;
 #################################################################
 
 sggs:japji_pauri2_line1 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri2-line1" ;
+    shabd:id "sggs-japji-pauri2-line1" ;
     shabd:index "1"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri2 ;
     shabd:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥"@pa ;
     shabd:transliteration "Hukmī hovan ākār hukam na kahiā jāī."@en-Latn ;
-    shabd:translationEn "By His Hukam, forms come into being; His Hukam cannot be fully described."@en ;
+    shabd:translation "By His Hukam, forms come into being; His Hukam cannot be fully described."@en ;
     shabd:hasTheme shabd:Hukam,
                    shabd:CreationDestruction ;
-    shabd:commentaryKeypoint "All manifest forms arise under Divine Command, yet the nature of Hukam itself transcends complete description or conceptual capture."@en ;
-    shabd:hasPhrase sggs:japji_pauri2_line1_p1,
-                    sggs:japji_pauri2_line1_p2,
-                    sggs:japji_pauri2_line1_p3 .
+    rdfs:comment "All manifest forms arise under Divine Command, yet the nature of Hukam itself transcends complete description or conceptual capture."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri2_line1_gu1,
+                    sggs:japji_pauri2_line1_gu2,
+                    sggs:japji_pauri2_line1_gu3 .
 
-### Line 1 – Phrase 1: ਹੁਕਮੀ
+### Line 1 – GlossUnit 1: ਹੁਕਮੀ
 
-sggs:japji_pauri2_line1_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੁਕਮੀ"@pa ;
-    shabd:phraseTransliteration "Hukmī"@en-Latn ;
-    shabd:phraseGlossEn "by His Command; under Hukam"@en .
+sggs:japji_pauri2_line1_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਹੁਕਮੀ"@pa ;
+    shabd:transliteration "Hukmī"@en-Latn ;
+    shabd:translation "by His Command; under Hukam"@en .
 
-### Line 1 – Phrase 2: ਹੋਵਨਿ ਆਕਾਰ
+### Line 1 – GlossUnit 2: ਹੋਵਨਿ ਆਕਾਰ
 
-sggs:japji_pauri2_line1_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੋਵਨਿ ਆਕਾਰ"@pa ;
-    shabd:phraseTransliteration "hovan ākār"@en-Latn ;
-    shabd:phraseGlossEn "forms come into being; forms arise"@en .
+sggs:japji_pauri2_line1_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਹੋਵਨਿ ਆਕਾਰ"@pa ;
+    shabd:transliteration "hovan ākār"@en-Latn ;
+    shabd:translation "forms come into being; forms arise"@en .
 
-### Line 1 – Phrase 3: ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ
+### Line 1 – GlossUnit 3: ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ
 
-sggs:japji_pauri2_line1_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ"@pa ;
-    shabd:phraseTransliteration "hukam na kahiā jāī"@en-Latn ;
-    shabd:phraseGlossEn "Hukam cannot be fully spoken or described"@en .
+sggs:japji_pauri2_line1_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ"@pa ;
+    shabd:transliteration "hukam na kahiā jāī"@en-Latn ;
+    shabd:translation "Hukam cannot be fully spoken or described"@en .
 
 #################################################################
 ### Line 2
@@ -90,52 +89,52 @@ sggs:japji_pauri2_line1_p3 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri2_line2 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri2-line2" ;
+    shabd:id "sggs-japji-pauri2-line2" ;
     shabd:index "2"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri2 ;
     shabd:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥"@pa ;
     shabd:transliteration "Hukmī hovan jīa hukam milai vaḍiāī."@en-Latn ;
-    shabd:translationEn "By His Hukam, beings come into existence; by His Hukam, honor and greatness are received."@en ;
+    shabd:translation "By His Hukam, beings come into existence; by His Hukam, honor and greatness are received."@en ;
     shabd:hasTheme shabd:Hukam,
                    shabd:CreationDestruction,
                    shabd:GloryStatus ;
-    shabd:commentaryKeypoint "Not only life itself but also any honor or greatness one receives flows from Hukam, not from independent personal merit."@en ;
-    shabd:hasPhrase sggs:japji_pauri2_line2_p1,
-                    sggs:japji_pauri2_line2_p2,
-                    sggs:japji_pauri2_line2_p3,
-                    sggs:japji_pauri2_line2_p4 .
+    rdfs:comment "Not only life itself but also any honor or greatness one receives flows from Hukam, not from independent personal merit."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri2_line2_gu1,
+                    sggs:japji_pauri2_line2_gu2,
+                    sggs:japji_pauri2_line2_gu3,
+                    sggs:japji_pauri2_line2_gu4 .
 
-### Line 2 – Phrase 1: ਹੁਕਮੀ
+### Line 2 – GlossUnit 1: ਹੁਕਮੀ
 
-sggs:japji_pauri2_line2_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੁਕਮੀ"@pa ;
-    shabd:phraseTransliteration "Hukmī"@en-Latn ;
-    shabd:phraseGlossEn "by His Command; under Hukam"@en .
+sggs:japji_pauri2_line2_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਹੁਕਮੀ"@pa ;
+    shabd:transliteration "Hukmī"@en-Latn ;
+    shabd:translation "by His Command; under Hukam"@en .
 
-### Line 2 – Phrase 2: ਹੋਵਨਿ ਜੀਅ
+### Line 2 – GlossUnit 2: ਹੋਵਨਿ ਜੀਅ
 
-sggs:japji_pauri2_line2_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੋਵਨਿ ਜੀਅ"@pa ;
-    shabd:phraseTransliteration "hovan jīa"@en-Latn ;
-    shabd:phraseGlossEn "beings come into existence; lives arise"@en .
+sggs:japji_pauri2_line2_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਹੋਵਨਿ ਜੀਅ"@pa ;
+    shabd:transliteration "hovan jīa"@en-Latn ;
+    shabd:translation "beings come into existence; lives arise"@en .
 
-### Line 2 – Phrase 3: ਹੁਕਮਿ ਮਿਲੈ
+### Line 2 – GlossUnit 3: ਹੁਕਮਿ ਮਿਲੈ
 
-sggs:japji_pauri2_line2_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੁਕਮਿ ਮਿਲੈ"@pa ;
-    shabd:phraseTransliteration "hukam milai"@en-Latn ;
-    shabd:phraseGlossEn "by His Hukam one is given; one receives through Hukam"@en .
+sggs:japji_pauri2_line2_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਹੁਕਮਿ ਮਿਲੈ"@pa ;
+    shabd:transliteration "hukam milai"@en-Latn ;
+    shabd:translation "by His Hukam one is given; one receives through Hukam"@en .
 
-### Line 2 – Phrase 4: ਵਡਿਆਈ
+### Line 2 – GlossUnit 4: ਵਡਿਆਈ
 
-sggs:japji_pauri2_line2_p4 a shabd:Phrase ;
-    shabd:phraseIndex "4"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਵਡਿਆਈ"@pa ;
-    shabd:phraseTransliteration "vaḍiāī"@en-Latn ;
-    shabd:phraseGlossEn "honor; greatness; glory"@en .
+sggs:japji_pauri2_line2_gu4 a shabd:GlossUnit ;
+    shabd:index "4"^^xsd:integer ;
+    shabd:gurmukhi "ਵਡਿਆਈ"@pa ;
+    shabd:transliteration "vaḍiāī"@en-Latn ;
+    shabd:translation "honor; greatness; glory"@en .
 
 #################################################################
 ### Line 3
@@ -143,52 +142,52 @@ sggs:japji_pauri2_line2_p4 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri2_line3 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri2-line3" ;
+    shabd:id "sggs-japji-pauri2-line3" ;
     shabd:index "3"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri2 ;
     shabd:gurmukhi "ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥"@pa ;
     shabd:transliteration "Hukmī utam nīc hukam likh dukh sukh pāīah(i)."@en-Latn ;
-    shabd:translationEn "By His Hukam, some are high and some low; by His Hukam, suffering and joy are inscribed and experienced."@en ;
+    shabd:translation "By His Hukam, some are high and some low; by His Hukam, suffering and joy are inscribed and experienced."@en ;
     shabd:hasTheme shabd:Hukam,
                    shabd:HighLow,
                    shabd:SufferingJoy ;
-    shabd:commentaryKeypoint "States of high and low, as well as experiences of pain and pleasure, are written under Hukam, undermining egoic claims of absolute control."@en ;
-    shabd:hasPhrase sggs:japji_pauri2_line3_p1,
-                    sggs:japji_pauri2_line3_p2,
-                    sggs:japji_pauri2_line3_p3,
-                    sggs:japji_pauri2_line3_p4 .
+    rdfs:comment "States of high and low, as well as experiences of pain and pleasure, are written under Hukam, undermining egoic claims of absolute control."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri2_line3_gu1,
+                    sggs:japji_pauri2_line3_gu2,
+                    sggs:japji_pauri2_line3_gu3,
+                    sggs:japji_pauri2_line3_gu4 .
 
-### Line 3 – Phrase 1: ਹੁਕਮੀ
+### Line 3 – GlossUnit 1: ਹੁਕਮੀ
 
-sggs:japji_pauri2_line3_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੁਕਮੀ"@pa ;
-    shabd:phraseTransliteration "Hukmī"@en-Latn ;
-    shabd:phraseGlossEn "by His Command; under Hukam"@en .
+sggs:japji_pauri2_line3_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਹੁਕਮੀ"@pa ;
+    shabd:transliteration "Hukmī"@en-Latn ;
+    shabd:translation "by His Command; under Hukam"@en .
 
-### Line 3 – Phrase 2: ਉਤਮੁ ਨੀਚੁ
+### Line 3 – GlossUnit 2: ਉਤਮੁ ਨੀਚੁ
 
-sggs:japji_pauri2_line3_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਉਤਮੁ ਨੀਚੁ"@pa ;
-    shabd:phraseTransliteration "utam nīc"@en-Latn ;
-    shabd:phraseGlossEn "high and low; exalted and humble states"@en .
+sggs:japji_pauri2_line3_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਉਤਮੁ ਨੀਚੁ"@pa ;
+    shabd:transliteration "utam nīc"@en-Latn ;
+    shabd:translation "high and low; exalted and humble states"@en .
 
-### Line 3 – Phrase 3: ਹੁਕਮਿ ਲਿਖਿ
+### Line 3 – GlossUnit 3: ਹੁਕਮਿ ਲਿਖਿ
 
-sggs:japji_pauri2_line3_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੁਕਮਿ ਲਿਖਿ"@pa ;
-    shabd:phraseTransliteration "hukam likh"@en-Latn ;
-    shabd:phraseGlossEn "written by Hukam; inscribed by Divine Command"@en .
+sggs:japji_pauri2_line3_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਹੁਕਮਿ ਲਿਖਿ"@pa ;
+    shabd:transliteration "hukam likh"@en-Latn ;
+    shabd:translation "written by Hukam; inscribed by Divine Command"@en .
 
-### Line 3 – Phrase 4: ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ
+### Line 3 – GlossUnit 4: ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ
 
-sggs:japji_pauri2_line3_p4 a shabd:Phrase ;
-    shabd:phraseIndex "4"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ"@pa ;
-    shabd:phraseTransliteration "dukh sukh pāīah(i)"@en-Latn ;
-    shabd:phraseGlossEn "they receive and experience pain and pleasure"@en .
+sggs:japji_pauri2_line3_gu4 a shabd:GlossUnit ;
+    shabd:index "4"^^xsd:integer ;
+    shabd:gurmukhi "ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ"@pa ;
+    shabd:transliteration "dukh sukh pāīah(i)"@en-Latn ;
+    shabd:translation "they receive and experience pain and pleasure"@en .
 
 #################################################################
 ### Line 4
@@ -196,52 +195,52 @@ sggs:japji_pauri2_line3_p4 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri2_line4 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri2-line4" ;
+    shabd:id "sggs-japji-pauri2-line4" ;
     shabd:index "4"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri2 ;
     shabd:gurmukhi "ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥"@pa ;
     shabd:transliteration "Ikna hukmī bakhsīs ik hukmī sadā bhavāīah(i)."@en-Latn ;
-    shabd:translationEn "By His Hukam, some are blessed with grace; by His Hukam, others are made to wander forever."@en ;
+    shabd:translation "By His Hukam, some are blessed with grace; by His Hukam, others are made to wander forever."@en ;
     shabd:hasTheme shabd:Hukam,
                    shabd:DivineGrace,
                    shabd:Wandering ;
-    shabd:commentaryKeypoint "Both grace and wandering are under Hukam; the contrast emphasizes Divine sovereignty and the mystery of why some awaken while others remain lost."@en ;
-    shabd:hasPhrase sggs:japji_pauri2_line4_p1,
-                    sggs:japji_pauri2_line4_p2,
-                    sggs:japji_pauri2_line4_p3,
-                    sggs:japji_pauri2_line4_p4 .
+    rdfs:comment "Both grace and wandering are under Hukam; the contrast emphasizes Divine sovereignty and the mystery of why some awaken while others remain lost."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri2_line4_gu1,
+                    sggs:japji_pauri2_line4_gu2,
+                    sggs:japji_pauri2_line4_gu3,
+                    sggs:japji_pauri2_line4_gu4 .
 
-### Line 4 – Phrase 1: ਇਕਨਾ
+### Line 4 – GlossUnit 1: ਇਕਨਾ
 
-sggs:japji_pauri2_line4_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਇਕਨਾ"@pa ;
-    shabd:phraseTransliteration "iknā"@en-Latn ;
-    shabd:phraseGlossEn "to some; for certain ones"@en .
+sggs:japji_pauri2_line4_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਇਕਨਾ"@pa ;
+    shabd:transliteration "iknā"@en-Latn ;
+    shabd:translation "to some; for certain ones"@en .
 
-### Line 4 – Phrase 2: ਹੁਕਮੀ ਬਖਸੀਸ
+### Line 4 – GlossUnit 2: ਹੁਕਮੀ ਬਖਸੀਸ
 
-sggs:japji_pauri2_line4_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੁਕਮੀ ਬਖਸੀਸ"@pa ;
-    shabd:phraseTransliteration "hukmī bakhsīs"@en-Latn ;
-    shabd:phraseGlossEn "by His Hukam there is grace; they receive Divine gift"@en .
+sggs:japji_pauri2_line4_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਹੁਕਮੀ ਬਖਸੀਸ"@pa ;
+    shabd:transliteration "hukmī bakhsīs"@en-Latn ;
+    shabd:translation "by His Hukam there is grace; they receive Divine gift"@en .
 
-### Line 4 – Phrase 3: ਇਕਿ
+### Line 4 – GlossUnit 3: ਇਕਿ
 
-sggs:japji_pauri2_line4_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਇਕਿ"@pa ;
-    shabd:phraseTransliteration "ik"@en-Latn ;
-    shabd:phraseGlossEn "others; another group"@en .
+sggs:japji_pauri2_line4_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਇਕਿ"@pa ;
+    shabd:transliteration "ik"@en-Latn ;
+    shabd:translation "others; another group"@en .
 
-### Line 4 – Phrase 4: ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ
+### Line 4 – GlossUnit 4: ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ
 
-sggs:japji_pauri2_line4_p4 a shabd:Phrase ;
-    shabd:phraseIndex "4"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ"@pa ;
-    shabd:phraseTransliteration "hukmī sadā bhavāīah(i)"@en-Latn ;
-    shabd:phraseGlossEn "by His Hukam they are made to wander forever"@en .
+sggs:japji_pauri2_line4_gu4 a shabd:GlossUnit ;
+    shabd:index "4"^^xsd:integer ;
+    shabd:gurmukhi "ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ"@pa ;
+    shabd:transliteration "hukmī sadā bhavāīah(i)"@en-Latn ;
+    shabd:translation "by His Hukam they are made to wander forever"@en .
 
 #################################################################
 ### Line 5
@@ -249,41 +248,41 @@ sggs:japji_pauri2_line4_p4 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri2_line5 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri2-line5" ;
+    shabd:id "sggs-japji-pauri2-line5" ;
     shabd:index "5"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri2 ;
     shabd:gurmukhi "ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥"@pa ;
     shabd:transliteration "Hukmai andar sabh ko bāhar hukam na koe."@en-Latn ;
-    shabd:translationEn "All are within Hukam; none at all is outside His Command."@en ;
+    shabd:translation "All are within Hukam; none at all is outside His Command."@en ;
     shabd:hasTheme shabd:Hukam ;
-    shabd:commentaryKeypoint "Hukam is all-encompassing; no being, event, or state of existence lies outside Divine Order."@en ;
-    shabd:hasPhrase sggs:japji_pauri2_line5_p1,
-                    sggs:japji_pauri2_line5_p2,
-                    sggs:japji_pauri2_line5_p3 .
+    rdfs:comment "Hukam is all-encompassing; no being, event, or state of existence lies outside Divine Order."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri2_line5_gu1,
+                    sggs:japji_pauri2_line5_gu2,
+                    sggs:japji_pauri2_line5_gu3 .
 
-### Line 5 – Phrase 1: ਹੁਕਮੈ ਅੰਦਰਿ
+### Line 5 – GlossUnit 1: ਹੁਕਮੈ ਅੰਦਰਿ
 
-sggs:japji_pauri2_line5_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੁਕਮੈ ਅੰਦਰਿ"@pa ;
-    shabd:phraseTransliteration "hukmai andar"@en-Latn ;
-    shabd:phraseGlossEn "within Hukam; inside Divine Command"@en .
+sggs:japji_pauri2_line5_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਹੁਕਮੈ ਅੰਦਰਿ"@pa ;
+    shabd:transliteration "hukmai andar"@en-Latn ;
+    shabd:translation "within Hukam; inside Divine Command"@en .
 
-### Line 5 – Phrase 2: ਸਭੁ ਕੋ
+### Line 5 – GlossUnit 2: ਸਭੁ ਕੋ
 
-sggs:japji_pauri2_line5_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਸਭੁ ਕੋ"@pa ;
-    shabd:phraseTransliteration "sabh ko"@en-Latn ;
-    shabd:phraseGlossEn "everyone; all beings"@en .
+sggs:japji_pauri2_line5_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਸਭੁ ਕੋ"@pa ;
+    shabd:transliteration "sabh ko"@en-Latn ;
+    shabd:translation "everyone; all beings"@en .
 
-### Line 5 – Phrase 3: ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ
+### Line 5 – GlossUnit 3: ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ
 
-sggs:japji_pauri2_line5_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ"@pa ;
-    shabd:phraseTransliteration "bāhar hukam na koe"@en-Latn ;
-    shabd:phraseGlossEn "none at all is outside Hukam"@en .
+sggs:japji_pauri2_line5_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ"@pa ;
+    shabd:transliteration "bāhar hukam na koe"@en-Latn ;
+    shabd:translation "none at all is outside Hukam"@en .
 
 #################################################################
 ### Line 6
@@ -291,39 +290,39 @@ sggs:japji_pauri2_line5_p3 a shabd:Phrase ;
 #################################################################
 
 sggs:japji_pauri2_line6 a shabd:Line ;
-    shabd:lineId "sggs-japji-pauri2-line6" ;
+    shabd:id "sggs-japji-pauri2-line6" ;
     shabd:index "6"^^xsd:integer ;
     shabd:belongsTo sggs:japji_pauri2 ;
     shabd:gurmukhi "ਨਾਨਕ ਹੁਕਮੈ ਜੇ ਬੁਝੈ ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ ॥੨॥"@pa ;
     shabd:transliteration "Nānak hukmai je bujhai ta haumai kahai na koe. ||2||"@en-Latn ;
-    shabd:translationEn "O Nanak, one who truly understands Hukam no longer speaks from ego."@en ;
+    shabd:translation "O Nanak, one who truly understands Hukam no longer speaks from ego."@en ;
     shabd:hasTheme shabd:Hukam,
                    shabd:Ego ;
-    shabd:commentaryKeypoint "Realization of Hukam dissolves ego; the one who understands Divine Order ceases to assert ‘I’ as the ultimate doer or controller."@en ;
-    shabd:hasPhrase sggs:japji_pauri2_line6_p1,
-                    sggs:japji_pauri2_line6_p2,
-                    sggs:japji_pauri2_line6_p3 .
+    rdfs:comment "Realization of Hukam dissolves ego; the one who understands Divine Order ceases to assert ‘I’ as the ultimate doer or controller."@en ;
+    shabd:hasGlossUnit sggs:japji_pauri2_line6_gu1,
+                    sggs:japji_pauri2_line6_gu2,
+                    sggs:japji_pauri2_line6_gu3 .
 
-### Line 6 – Phrase 1: ਨਾਨਕ
+### Line 6 – GlossUnit 1: ਨਾਨਕ
 
-sggs:japji_pauri2_line6_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਨਾਨਕ"@pa ;
-    shabd:phraseTransliteration "Nānak"@en-Latn ;
-    shabd:phraseGlossEn "O Nanak (signature / self-reference of the Guru)"@en .
+sggs:japji_pauri2_line6_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਨਾਨਕ"@pa ;
+    shabd:transliteration "Nānak"@en-Latn ;
+    shabd:translation "O Nanak (signature / self-reference of the Guru)"@en .
 
-### Line 6 – Phrase 2: ਹੁਕਮੈ ਜੇ ਬੁਝੈ
+### Line 6 – GlossUnit 2: ਹੁਕਮੈ ਜੇ ਬੁਝੈ
 
-sggs:japji_pauri2_line6_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੁਕਮੈ ਜੇ ਬੁਝੈ"@pa ;
-    shabd:phraseTransliteration "hukmai je bujhai"@en-Latn ;
-    shabd:phraseGlossEn "if one understands Hukam; should one truly realize Divine Order"@en .
+sggs:japji_pauri2_line6_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਹੁਕਮੈ ਜੇ ਬੁਝੈ"@pa ;
+    shabd:transliteration "hukmai je bujhai"@en-Latn ;
+    shabd:translation "if one understands Hukam; should one truly realize Divine Order"@en .
 
-### Line 6 – Phrase 3: ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ
+### Line 6 – GlossUnit 3: ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ
 
-sggs:japji_pauri2_line6_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ"@pa ;
-    shabd:phraseTransliteration "ta haumai kahai na koe"@en-Latn ;
-    shabd:phraseGlossEn "then no one speaks from ego; the claim of 'I' falls silent"@en .
+sggs:japji_pauri2_line6_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ"@pa ;
+    shabd:transliteration "ta haumai kahai na koe"@en-Latn ;
+    shabd:translation "then no one speaks from ego; the claim of 'I' falls silent"@en .

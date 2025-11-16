@@ -12,9 +12,9 @@
 #################################################################
 
 sggs:ang555_shabd17 a shabd:Shabd ;
-    shabd:shabdId "sggs-ang555-shabd17" ;
+    shabd:id "sggs-ang555-shabd17" ;
     dct:title "Jo Har Kaa Piaraa"@en ;
-    shabd:titleEn "Jo Har Kaa Piaraa"@en ;
+    dct:title "ਜੋ ਹਰਿ ਕਾ ਪਿਆਰਾ"@pa ;
     shabd:ang "555"^^xsd:integer ;
     shabd:sequenceInAng "17"^^xsd:integer ;
     shabd:hasAuthor sggs:GuruArjanDevJi ;
@@ -31,7 +31,7 @@ sggs:ang555_shabd17 a shabd:Shabd ;
                    shabd:Karma,
                    shabd:UniversalLove,
                    shabd:Restlessness ;
-    shabd:overallCommentaryEn "This shabd describes a grace-driven spiritual journey: God awakens Naam, unites the soul with the Satguru and peace, protects and exalts the devotee, lifts them beyond karmic judgment, and makes the beloved of the Lord into a source of universal love, while those without this connection remain in restless wandering."@en ;
+    rdfs:comment "This shabd describes a grace-driven spiritual journey: God awakens Naam, unites the soul with the Satguru and peace, protects and exalts the devotee, lifts them beyond karmic judgment, and makes the beloved of the Lord into a source of universal love, while those without this connection remain in restless wandering."@en ;
     shabd:hasLine sggs:ang555_shabd17_line1,
                   sggs:ang555_shabd17_line2,
                   sggs:ang555_shabd17_line3,
@@ -44,42 +44,42 @@ sggs:ang555_shabd17 a shabd:Shabd ;
 #################################################################
 
 sggs:ang555_shabd17_line1 a shabd:Line ;
-    shabd:lineId "sggs-ang555-shabd17-line1" ;
+    shabd:id "sggs-ang555-shabd17-line1" ;
     shabd:index "1"^^xsd:integer ;
     shabd:belongsTo sggs:ang555_shabd17 ;
     shabd:gurmukhi "ਜਾ ਆਪਿ ਕ੍ਰਿਪਾਲੁ ਹੋਵੈ ਹਰਿ ਸੁਆਮੀ ਤਾ ਆਪਣਾਂ ਨਾਉ ਹਰਿ ਆਪਿ ਜਪਾਵੈ ॥"@pa ;
     shabd:transliteration "Jā āp kirpāl hovai har suāmī, tā āpaṇāṅ nāu har āp japāvai."@en-Latn ;
-    shabd:translationEn "When the Lord, the Master, becomes merciful, then He Himself causes His Name to be chanted."@en ;
+    shabd:translation "When the Lord, the Master, becomes merciful, then He Himself causes His Name to be chanted."@en ;
     shabd:hasTheme shabd:DivineGrace,
                    shabd:Naam ;
-    shabd:commentaryKeypoint "Naam remembrance does not originate in ego-effort; it begins when the Lord Himself, out of His mercy, causes His Name to vibrate within the devotee."@en ;
-    shabd:hasPhrase sggs:ang555_shabd17_line1_p1,
-                    sggs:ang555_shabd17_line1_p2,
-                    sggs:ang555_shabd17_line1_p3 .
+    rdfs:comment "Naam remembrance does not originate in ego-effort; it begins when the Lord Himself, out of His mercy, causes His Name to vibrate within the devotee."@en ;
+    shabd:hasGlossUnit sggs:ang555_shabd17_line1_gu1,
+                    sggs:ang555_shabd17_line1_gu2,
+                    sggs:ang555_shabd17_line1_gu3 .
 
-### Line 1 – Phrase 1: ਜਾ
+### Line 1 – GlossUnit 1: ਜਾ
 
-sggs:ang555_shabd17_line1_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਜਾ"@pa ;
-    shabd:phraseTransliteration "Jā"@en-Latn ;
-    shabd:phraseGlossEn "when"@en .
+sggs:ang555_shabd17_line1_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਜਾ"@pa ;
+    shabd:transliteration "Jā"@en-Latn ;
+    shabd:translation "when"@en .
 
-### Line 1 – Phrase 2: ਆਪਿ ਕ੍ਰਿਪਾਲੁ ਹੋਵੈ ਹਰਿ ਸੁਆਮੀ
+### Line 1 – GlossUnit 2: ਆਪਿ ਕ੍ਰਿਪਾਲੁ ਹੋਵੈ ਹਰਿ ਸੁਆਮੀ
 
-sggs:ang555_shabd17_line1_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਆਪਿ ਕ੍ਰਿਪਾਲੁ ਹੋਵੈ ਹਰਿ ਸੁਆਮੀ"@pa ;
-    shabd:phraseTransliteration "āp kirpāl hovai har suāmī"@en-Latn ;
-    shabd:phraseGlossEn "when the Lord, the Master, Himself becomes merciful"@en .
+sggs:ang555_shabd17_line1_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਆਪਿ ਕ੍ਰਿਪਾਲੁ ਹੋਵੈ ਹਰਿ ਸੁਆਮੀ"@pa ;
+    shabd:transliteration "āp kirpāl hovai har suāmī"@en-Latn ;
+    shabd:translation "when the Lord, the Master, Himself becomes merciful"@en .
 
-### Line 1 – Phrase 3: ਤਾ ਆਪਣਾਂ ਨਾਉ ਹਰਿ ਆਪਿ ਜਪਾਵੈ
+### Line 1 – GlossUnit 3: ਤਾ ਆਪਣਾਂ ਨਾਉ ਹਰਿ ਆਪਿ ਜਪਾਵੈ
 
-sggs:ang555_shabd17_line1_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਤਾ ਆਪਣਾਂ ਨਾਉ ਹਰਿ ਆਪਿ ਜਪਾਵੈ"@pa ;
-    shabd:phraseTransliteration "tā āpaṇāṅ nāu har āp japāvai"@en-Latn ;
-    shabd:phraseGlossEn "then He Himself causes His own Name to be chanted"@en .
+sggs:ang555_shabd17_line1_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਤਾ ਆਪਣਾਂ ਨਾਉ ਹਰਿ ਆਪਿ ਜਪਾਵੈ"@pa ;
+    shabd:transliteration "tā āpaṇāṅ nāu har āp japāvai"@en-Latn ;
+    shabd:translation "then He Himself causes His own Name to be chanted"@en .
 
 #################################################################
 ### Line 2
@@ -87,52 +87,52 @@ sggs:ang555_shabd17_line1_p3 a shabd:Phrase ;
 #################################################################
 
 sggs:ang555_shabd17_line2 a shabd:Line ;
-    shabd:lineId "sggs-ang555-shabd17-line2" ;
+    shabd:id "sggs-ang555-shabd17-line2" ;
     shabd:index "2"^^xsd:integer ;
     shabd:belongsTo sggs:ang555_shabd17 ;
     shabd:gurmukhi "ਆਪੇ ਸਤਿਗੁਰੁ ਮੇਲਿ ਸੁਖੁ ਦੇਵੈ ਆਪਣਾਂ ਸੇਵਕੁ ਆਪਿ ਹਰਿ ਭਾਵੈ ॥"@pa ;
     shabd:transliteration "Āpe satigur mel sukh devai, āpaṇāṅ sevak āp har bhāvai."@en-Latn ;
-    shabd:translationEn "The Lord Himself unites one with the True Guru, grants peace, and He Himself becomes pleased with His servant."@en ;
+    shabd:translation "The Lord Himself unites one with the True Guru, grants peace, and He Himself becomes pleased with His servant."@en ;
     shabd:hasTheme shabd:Satguru,
                    shabd:Peace,
                    shabd:DivineDelight ;
-    shabd:commentaryKeypoint "Meeting the Satguru and receiving inner peace are acts of Divine Will; God delights in the devotee who is brought into alignment with Truth."@en ;
-    shabd:hasPhrase sggs:ang555_shabd17_line2_p1,
-                    sggs:ang555_shabd17_line2_p2,
-                    sggs:ang555_shabd17_line2_p3,
-                    sggs:ang555_shabd17_line2_p4 .
+    rdfs:comment "Meeting the Satguru and receiving inner peace are acts of Divine Will; God delights in the devotee who is brought into alignment with Truth."@en ;
+    shabd:hasGlossUnit sggs:ang555_shabd17_line2_gu1,
+                    sggs:ang555_shabd17_line2_gu2,
+                    sggs:ang555_shabd17_line2_gu3,
+                    sggs:ang555_shabd17_line2_gu4 .
 
-### Line 2 – Phrase 1: ਆਪੇ ਸਤਿਗੁਰੁ ਮੇਲਿ
+### Line 2 – GlossUnit 1: ਆਪੇ ਸਤਿਗੁਰੁ ਮੇਲਿ
 
-sggs:ang555_shabd17_line2_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਆਪੇ ਸਤਿਗੁਰੁ ਮੇਲਿ"@pa ;
-    shabd:phraseTransliteration "āpe satigur mel"@en-Latn ;
-    shabd:phraseGlossEn "He Himself unites with the True Guru"@en .
+sggs:ang555_shabd17_line2_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਆਪੇ ਸਤਿਗੁਰੁ ਮੇਲਿ"@pa ;
+    shabd:transliteration "āpe satigur mel"@en-Latn ;
+    shabd:translation "He Himself unites with the True Guru"@en .
 
-### Line 2 – Phrase 2: ਸੁਖੁ ਦੇਵੈ
+### Line 2 – GlossUnit 2: ਸੁਖੁ ਦੇਵੈ
 
-sggs:ang555_shabd17_line2_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਸੁਖੁ ਦੇਵੈ"@pa ;
-    shabd:phraseTransliteration "sukh devai"@en-Latn ;
-    shabd:phraseGlossEn "He grants peace"@en .
+sggs:ang555_shabd17_line2_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਸੁਖੁ ਦੇਵੈ"@pa ;
+    shabd:transliteration "sukh devai"@en-Latn ;
+    shabd:translation "He grants peace"@en .
 
-### Line 2 – Phrase 3: ਆਪਣਾਂ ਸੇਵਕੁ
+### Line 2 – GlossUnit 3: ਆਪਣਾਂ ਸੇਵਕੁ
 
-sggs:ang555_shabd17_line2_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਆਪਣਾਂ ਸੇਵਕੁ"@pa ;
-    shabd:phraseTransliteration "āpaṇāṅ sevak"@en-Latn ;
-    shabd:phraseGlossEn "His own servant, His devotee"@en .
+sggs:ang555_shabd17_line2_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਆਪਣਾਂ ਸੇਵਕੁ"@pa ;
+    shabd:transliteration "āpaṇāṅ sevak"@en-Latn ;
+    shabd:translation "His own servant, His devotee"@en .
 
-### Line 2 – Phrase 4: ਆਪਿ ਹਰਿ ਭਾਵੈ
+### Line 2 – GlossUnit 4: ਆਪਿ ਹਰਿ ਭਾਵੈ
 
-sggs:ang555_shabd17_line2_p4 a shabd:Phrase ;
-    shabd:phraseIndex "4"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਆਪਿ ਹਰਿ ਭਾਵੈ"@pa ;
-    shabd:phraseTransliteration "āp har bhāvai"@en-Latn ;
-    shabd:phraseGlossEn "the Lord Himself is pleased with (that servant)"@en .
+sggs:ang555_shabd17_line2_gu4 a shabd:GlossUnit ;
+    shabd:index "4"^^xsd:integer ;
+    shabd:gurmukhi "ਆਪਿ ਹਰਿ ਭਾਵੈ"@pa ;
+    shabd:transliteration "āp har bhāvai"@en-Latn ;
+    shabd:translation "the Lord Himself is pleased with (that servant)"@en .
 
 #################################################################
 ### Line 3
@@ -140,52 +140,52 @@ sggs:ang555_shabd17_line2_p4 a shabd:Phrase ;
 #################################################################
 
 sggs:ang555_shabd17_line3 a shabd:Line ;
-    shabd:lineId "sggs-ang555-shabd17-line3" ;
+    shabd:id "sggs-ang555-shabd17-line3" ;
     shabd:index "3"^^xsd:integer ;
     shabd:belongsTo sggs:ang555_shabd17 ;
     shabd:gurmukhi "ਆਪਣਿਆ ਸੇਵਕਾ ਕੀ ਆਪਿ ਪੈਜ ਰਖੈ ਆਪਣਿਆ ਭਗਤਾ ਕੀ ਪੈਰੀ ਪਾਵੈ ॥"@pa ;
     shabd:transliteration "Āpaṇiā sevakā kī āp paij rakhai, āpaṇiā bhagtā kī pairī pāvai."@en-Latn ;
-    shabd:translationEn "He Himself preserves the honor of His servants; He Himself bows at the feet of His devotees."@en ;
+    shabd:translation "He Himself preserves the honor of His servants; He Himself bows at the feet of His devotees."@en ;
     shabd:hasTheme shabd:DivineProtection,
                    shabd:DivineHumility,
                    shabd:Bhagat ;
-    shabd:commentaryKeypoint "God personally safeguards the honor of His servants and exalts His devotees with such love that He is poetically described as bowing at their feet, revealing Divine humility."@en ;
-    shabd:hasPhrase sggs:ang555_shabd17_line3_p1,
-                    sggs:ang555_shabd17_line3_p2,
-                    sggs:ang555_shabd17_line3_p3,
-                    sggs:ang555_shabd17_line3_p4 .
+    rdfs:comment "God personally safeguards the honor of His servants and exalts His devotees with such love that He is poetically described as bowing at their feet, revealing Divine humility."@en ;
+    shabd:hasGlossUnit sggs:ang555_shabd17_line3_gu1,
+                    sggs:ang555_shabd17_line3_gu2,
+                    sggs:ang555_shabd17_line3_gu3,
+                    sggs:ang555_shabd17_line3_gu4 .
 
-### Line 3 – Phrase 1: ਆਪਣਿਆ ਸੇਵਕਾ ਕੀ
+### Line 3 – GlossUnit 1: ਆਪਣਿਆ ਸੇਵਕਾ ਕੀ
 
-sggs:ang555_shabd17_line3_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਆਪਣਿਆ ਸੇਵਕਾ ਕੀ"@pa ;
-    shabd:phraseTransliteration "āpaṇiā sevakā kī"@en-Latn ;
-    shabd:phraseGlossEn "of His own servants"@en .
+sggs:ang555_shabd17_line3_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਆਪਣਿਆ ਸੇਵਕਾ ਕੀ"@pa ;
+    shabd:transliteration "āpaṇiā sevakā kī"@en-Latn ;
+    shabd:translation "of His own servants"@en .
 
-### Line 3 – Phrase 2: ਆਪਿ ਪੈਜ ਰਖੈ
+### Line 3 – GlossUnit 2: ਆਪਿ ਪੈਜ ਰਖੈ
 
-sggs:ang555_shabd17_line3_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਆਪਿ ਪੈਜ ਰਖੈ"@pa ;
-    shabd:phraseTransliteration "āp paij rakhai"@en-Latn ;
-    shabd:phraseGlossEn "He Himself preserves their honor"@en .
+sggs:ang555_shabd17_line3_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਆਪਿ ਪੈਜ ਰਖੈ"@pa ;
+    shabd:transliteration "āp paij rakhai"@en-Latn ;
+    shabd:translation "He Himself preserves their honor"@en .
 
-### Line 3 – Phrase 3: ਆਪਣਿਆ ਭਗਤਾ ਕੀ
+### Line 3 – GlossUnit 3: ਆਪਣਿਆ ਭਗਤਾ ਕੀ
 
-sggs:ang555_shabd17_line3_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਆਪਣਿਆ ਭਗਤਾ ਕੀ"@pa ;
-    shabd:phraseTransliteration "āpaṇiā bhagtā kī"@en-Latn ;
-    shabd:phraseGlossEn "of His own devotees"@en .
+sggs:ang555_shabd17_line3_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਆਪਣਿਆ ਭਗਤਾ ਕੀ"@pa ;
+    shabd:transliteration "āpaṇiā bhagtā kī"@en-Latn ;
+    shabd:translation "of His own devotees"@en .
 
-### Line 3 – Phrase 4: ਪੈਰੀ ਪਾਵੈ
+### Line 3 – GlossUnit 4: ਪੈਰੀ ਪਾਵੈ
 
-sggs:ang555_shabd17_line3_p4 a shabd:Phrase ;
-    shabd:phraseIndex "4"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਪੈਰੀ ਪਾਵੈ"@pa ;
-    shabd:phraseTransliteration "pairī pāvai"@en-Latn ;
-    shabd:phraseGlossEn "He bows at their feet"@en .
+sggs:ang555_shabd17_line3_gu4 a shabd:GlossUnit ;
+    shabd:index "4"^^xsd:integer ;
+    shabd:gurmukhi "ਪੈਰੀ ਪਾਵੈ"@pa ;
+    shabd:transliteration "pairī pāvai"@en-Latn ;
+    shabd:translation "He bows at their feet"@en .
 
 #################################################################
 ### Line 4
@@ -193,50 +193,50 @@ sggs:ang555_shabd17_line3_p4 a shabd:Phrase ;
 #################################################################
 
 sggs:ang555_shabd17_line4 a shabd:Line ;
-    shabd:lineId "sggs-ang555-shabd17-line4" ;
+    shabd:id "sggs-ang555-shabd17-line4" ;
     shabd:index "4"^^xsd:integer ;
     shabd:belongsTo sggs:ang555_shabd17 ;
     shabd:gurmukhi "ਧਰਮ ਰਾਇ ਹੈ ਹਰਿ ਕਾ ਕੀਆ ਹਰਿ ਜਨ ਸੇਵਕ ਨੇੜਿ ਨ ਆਵੈ ॥"@pa ;
     shabd:transliteration "Dharam rāe hai har kā kīā, har jan sevak neṛ na āvai."@en-Latn ;
-    shabd:translationEn "Dharam Rai, the judge, is created by the Lord; he does not come near the Lord’s devotees."@en ;
+    shabd:translation "Dharam Rai, the judge, is created by the Lord; he does not come near the Lord’s devotees."@en ;
     shabd:hasTheme shabd:Karma ;
-    shabd:commentaryKeypoint "Dharam Rai, representing karmic judgment, is merely a servant of the Divine and has no claim over those whom the Lord embraces as His own devotees."@en ;
-    shabd:hasPhrase sggs:ang555_shabd17_line4_p1,
-                    sggs:ang555_shabd17_line4_p2,
-                    sggs:ang555_shabd17_line4_p3,
-                    sggs:ang555_shabd17_line4_p4 .
+    rdfs:comment "Dharam Rai, representing karmic judgment, is merely a servant of the Divine and has no claim over those whom the Lord embraces as His own devotees."@en ;
+    shabd:hasGlossUnit sggs:ang555_shabd17_line4_gu1,
+                    sggs:ang555_shabd17_line4_gu2,
+                    sggs:ang555_shabd17_line4_gu3,
+                    sggs:ang555_shabd17_line4_gu4 .
 
-### Line 4 – Phrase 1: ਧਰਮ ਰਾਇ
+### Line 4 – GlossUnit 1: ਧਰਮ ਰਾਇ
 
-sggs:ang555_shabd17_line4_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਧਰਮ ਰਾਇ"@pa ;
-    shabd:phraseTransliteration "dharam rāe"@en-Latn ;
-    shabd:phraseGlossEn "Dharam Rai, the divine judge"@en .
+sggs:ang555_shabd17_line4_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਧਰਮ ਰਾਇ"@pa ;
+    shabd:transliteration "dharam rāe"@en-Latn ;
+    shabd:translation "Dharam Rai, the divine judge"@en .
 
-### Line 4 – Phrase 2: ਹੈ ਹਰਿ ਕਾ ਕੀਆ
+### Line 4 – GlossUnit 2: ਹੈ ਹਰਿ ਕਾ ਕੀਆ
 
-sggs:ang555_shabd17_line4_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੈ ਹਰਿ ਕਾ ਕੀਆ"@pa ;
-    shabd:phraseTransliteration "hai har kā kīā"@en-Latn ;
-    shabd:phraseGlossEn "is a creation of the Lord"@en .
+sggs:ang555_shabd17_line4_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਹੈ ਹਰਿ ਕਾ ਕੀਆ"@pa ;
+    shabd:transliteration "hai har kā kīā"@en-Latn ;
+    shabd:translation "is a creation of the Lord"@en .
 
-### Line 4 – Phrase 3: ਹਰਿ ਜਨ ਸੇਵਕ
+### Line 4 – GlossUnit 3: ਹਰਿ ਜਨ ਸੇਵਕ
 
-sggs:ang555_shabd17_line4_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹਰਿ ਜਨ ਸੇਵਕ"@pa ;
-    shabd:phraseTransliteration "har jan sevak"@en-Latn ;
-    shabd:phraseGlossEn "the Lord’s humble devotees, His servants"@en .
+sggs:ang555_shabd17_line4_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਹਰਿ ਜਨ ਸੇਵਕ"@pa ;
+    shabd:transliteration "har jan sevak"@en-Latn ;
+    shabd:translation "the Lord’s humble devotees, His servants"@en .
 
-### Line 4 – Phrase 4: ਨੇੜਿ ਨ ਆਵੈ
+### Line 4 – GlossUnit 4: ਨੇੜਿ ਨ ਆਵੈ
 
-sggs:ang555_shabd17_line4_p4 a shabd:Phrase ;
-    shabd:phraseIndex "4"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਨੇੜਿ ਨ ਆਵੈ"@pa ;
-    shabd:phraseTransliteration "neṛ na āvai"@en-Latn ;
-    shabd:phraseGlossEn "does not come near them"@en .
+sggs:ang555_shabd17_line4_gu4 a shabd:GlossUnit ;
+    shabd:index "4"^^xsd:integer ;
+    shabd:gurmukhi "ਨੇੜਿ ਨ ਆਵੈ"@pa ;
+    shabd:transliteration "neṛ na āvai"@en-Latn ;
+    shabd:translation "does not come near them"@en .
 
 #################################################################
 ### Line 5
@@ -244,57 +244,57 @@ sggs:ang555_shabd17_line4_p4 a shabd:Phrase ;
 #################################################################
 
 sggs:ang555_shabd17_line5 a shabd:Line ;
-    shabd:lineId "sggs-ang555-shabd17-line5" ;
+    shabd:id "sggs-ang555-shabd17-line5" ;
     shabd:index "5"^^xsd:integer ;
     shabd:belongsTo sggs:ang555_shabd17 ;
     shabd:gurmukhi "ਜੋ ਹਰਿ ਕਾ ਪਿਆਰਾ ਸੋ ਸਭਨਾ ਕਾ ਪਿਆਰਾ ਹੋਰ ਕੇਤੀ ਝਖਿ ਝਖਿ ਆਵੈ ਜਾਵੈ ॥੧੭॥"@pa ;
     shabd:transliteration "Jo har kā piārā so sabhnā kā piārā; hor ketī jhakh jhakh āvai jāvai. ||17||"@en-Latn ;
-    shabd:translationEn "One who is beloved of the Lord becomes beloved of all. All others wander restlessly, coming and going again and again."@en ;
+    shabd:translation "One who is beloved of the Lord becomes beloved of all. All others wander restlessly, coming and going again and again."@en ;
     shabd:hasTheme shabd:UniversalLove,
                    shabd:Restlessness ;
-    shabd:commentaryKeypoint "The one loved by the Divine naturally becomes beloved of all beings, radiating universal love, while those without this Divine connection remain in cycles of restless wandering and coming and going."@en ;
-    shabd:hasPhrase sggs:ang555_shabd17_line5_p1,
-                    sggs:ang555_shabd17_line5_p2,
-                    sggs:ang555_shabd17_line5_p3,
-                    sggs:ang555_shabd17_line5_p4,
-                    sggs:ang555_shabd17_line5_p5 .
+    rdfs:comment "The one loved by the Divine naturally becomes beloved of all beings, radiating universal love, while those without this Divine connection remain in cycles of restless wandering and coming and going."@en ;
+    shabd:hasGlossUnit sggs:ang555_shabd17_line5_gu1,
+                    sggs:ang555_shabd17_line5_gu2,
+                    sggs:ang555_shabd17_line5_gu3,
+                    sggs:ang555_shabd17_line5_gu4,
+                    sggs:ang555_shabd17_line5_gu5 .
 
-### Line 5 – Phrase 1: ਜੋ ਹਰਿ ਕਾ ਪਿਆਰਾ
+### Line 5 – GlossUnit 1: ਜੋ ਹਰਿ ਕਾ ਪਿਆਰਾ
 
-sggs:ang555_shabd17_line5_p1 a shabd:Phrase ;
-    shabd:phraseIndex "1"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਜੋ ਹਰਿ ਕਾ ਪਿਆਰਾ"@pa ;
-    shabd:phraseTransliteration "jo har kā piārā"@en-Latn ;
-    shabd:phraseGlossEn "the one who is beloved of the Lord"@en .
+sggs:ang555_shabd17_line5_gu1 a shabd:GlossUnit ;
+    shabd:index "1"^^xsd:integer ;
+    shabd:gurmukhi "ਜੋ ਹਰਿ ਕਾ ਪਿਆਰਾ"@pa ;
+    shabd:transliteration "jo har kā piārā"@en-Latn ;
+    shabd:translation "the one who is beloved of the Lord"@en .
 
-### Line 5 – Phrase 2: ਸੋ ਸਭਨਾ ਕਾ ਪਿਆਰਾ
+### Line 5 – GlossUnit 2: ਸੋ ਸਭਨਾ ਕਾ ਪਿਆਰਾ
 
-sggs:ang555_shabd17_line5_p2 a shabd:Phrase ;
-    shabd:phraseIndex "2"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਸੋ ਸਭਨਾ ਕਾ ਪਿਆਰਾ"@pa ;
-    shabd:phraseTransliteration "so sabhnā kā piārā"@en-Latn ;
-    shabd:phraseGlossEn "that one is beloved of all"@en .
+sggs:ang555_shabd17_line5_gu2 a shabd:GlossUnit ;
+    shabd:index "2"^^xsd:integer ;
+    shabd:gurmukhi "ਸੋ ਸਭਨਾ ਕਾ ਪਿਆਰਾ"@pa ;
+    shabd:transliteration "so sabhnā kā piārā"@en-Latn ;
+    shabd:translation "that one is beloved of all"@en .
 
-### Line 5 – Phrase 3: ਹੋਰ ਕੇਤੀ
+### Line 5 – GlossUnit 3: ਹੋਰ ਕੇਤੀ
 
-sggs:ang555_shabd17_line5_p3 a shabd:Phrase ;
-    shabd:phraseIndex "3"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਹੋਰ ਕੇਤੀ"@pa ;
-    shabd:phraseTransliteration "hor ketī"@en-Latn ;
-    shabd:phraseGlossEn "all others, however many"@en .
+sggs:ang555_shabd17_line5_gu3 a shabd:GlossUnit ;
+    shabd:index "3"^^xsd:integer ;
+    shabd:gurmukhi "ਹੋਰ ਕੇਤੀ"@pa ;
+    shabd:transliteration "hor ketī"@en-Latn ;
+    shabd:translation "all others, however many"@en .
 
-### Line 5 – Phrase 4: ਝਖਿ ਝਖਿ
+### Line 5 – GlossUnit 4: ਝਖਿ ਝਖਿ
 
-sggs:ang555_shabd17_line5_p4 a shabd:Phrase ;
-    shabd:phraseIndex "4"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਝਖਿ ਝਖਿ"@pa ;
-    shabd:phraseTransliteration "jhakh jhakh"@en-Latn ;
-    shabd:phraseGlossEn "restlessly bustle and wander about"@en .
+sggs:ang555_shabd17_line5_gu4 a shabd:GlossUnit ;
+    shabd:index "4"^^xsd:integer ;
+    shabd:gurmukhi "ਝਖਿ ਝਖਿ"@pa ;
+    shabd:transliteration "jhakh jhakh"@en-Latn ;
+    shabd:translation "restlessly bustle and wander about"@en .
 
-### Line 5 – Phrase 5: ਆਵੈ ਜਾਵੈ
+### Line 5 – GlossUnit 5: ਆਵੈ ਜਾਵੈ
 
-sggs:ang555_shabd17_line5_p5 a shabd:Phrase ;
-    shabd:phraseIndex "5"^^xsd:integer ;
-    shabd:phraseGurmukhi "ਆਵੈ ਜਾਵੈ"@pa ;
-    shabd:phraseTransliteration "āvai jāvai"@en-Latn ;
-    shabd:phraseGlossEn "come and go again and again (in cycles)"@en .
+sggs:ang555_shabd17_line5_gu5 a shabd:GlossUnit ;
+    shabd:index "5"^^xsd:integer ;
+    shabd:gurmukhi "ਆਵੈ ਜਾਵੈ"@pa ;
+    shabd:transliteration "āvai jāvai"@en-Latn ;
+    shabd:translation "come and go again and again (in cycles)"@en .
