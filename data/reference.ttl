@@ -20,6 +20,13 @@ sggs:GuruArjanDevJi a shabd:Person ;
     shabd:personName "Guru Arjan Dev Ji"@pa ;
     shabd:personRole "Guru"@en .
 
+sggs:GuruRamDasJi a shabd:Person ;
+    shabd:personName "Guru Ram Das Ji"@pa ;
+    shabd:personRole "Guru"@en .
+
+sggs:RaagAasaa a shabd:Raag ;
+    shabd:raagName "ਆਸਾ"@pa .
+
 sggs:RaagVadhans a shabd:Raag ;
     shabd:raagName "Vadhans"@pa .
 
