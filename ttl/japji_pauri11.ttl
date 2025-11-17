@@ -14,23 +14,18 @@ gg:japji_pauri11
     gg:id "sggs-japji-pauri11" ;
     dct:title "Japji Sahib – Pauri 11"@en ;
     dct:title "ਜਪੁਜੀ ਸਾਹਿਬ – ਪਉੜੀ ੧੧"@pa ;
-
     gg:ang "2"^^xsd:integer ;
     gg:inBani gg:JapJiSahib ;
     gg:indexInBani "11"^^xsd:integer ;
-
     gg:inScripture gg:SGGS ;
     gg:hasAuthor  gg:GuruNanakDevJi ;
-
     gg:hasTheme
         gg:ListeningAndLove ,
         gg:Virtues ,
         gg:Wisdom ,
         gg:Bhagat ,
         gg:SufferingJoy ;
-
     rdfs:comment "Pauri 11 brings the 'suṇiai' sequence to a crest. By listening, one dives into an ocean of virtues, rises to spiritual and worldly leadership, the blind find the path, and even the unfathomable becomes approachable. The bhagats live in constant joy, and listening erases sorrow and sin."@en ;
-
     gg:hasTuk
         gg:japji_pauri11_tuk1 ,
         gg:japji_pauri11_tuk2 ,
