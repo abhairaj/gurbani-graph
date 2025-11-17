@@ -20,17 +20,9 @@
 ### Core classes
 #################################################################
 
-gg:Bani a owl:Class ;
-    rdfs:label "Bani"@en ;
-    rdfs:comment "A large composition unit comprised of Shabds or Pauris, e.g. Jap Ji Sahib."@en .
-
-gg:Shabd a owl:Class ;
-    rdfs:label "Shabd"@en ;
-    rdfs:comment "A distinct hymn or composition unit, e.g., a Shabd on a given ang or a Pauri of Japji Sahib modeled as a composition node."@en .
-
-gg:Tuk a owl:Class ;
-    rdfs:label "Tuk"@en ;
-    rdfs:comment "A single line of Gurbani belonging to a Shabd or Pauri."@en .
+gg:Scripture a owl:Class ;
+    rdfs:label "Scripture"@en ;
+    rdfs:comment "A scriptural volume or collection, e.g. Sri Guru Granth Sahib Ji, Dasam Granth, etc."@en .
 
 gg:Theme a owl:Class ;
     rdfs:label "Theme"@en ;
@@ -40,18 +32,25 @@ gg:Person a owl:Class ;
     rdfs:label "Person"@en ;
     rdfs:comment "A person related to the bani, such as Guru Sahib, Bhagat, or other authors/commentators."@en .
 
-gg:Scripture a owl:Class ;
-    rdfs:label "Scripture"@en ;
-    rdfs:comment "A scriptural volume or collection, e.g. Sri Guru Granth Sahib Ji, Dasam Granth, etc."@en .
-
 gg:Raag a owl:Class ;
     rdfs:label "Raag"@en ;
     rdfs:comment "A musical raag in which a shabd is composed, e.g., Raag Vadhans, Raag Asa, etc."@en .
 
+gg:Bani a owl:Class ;
+    rdfs:label "Bani"@en ;
+    rdfs:comment "A large composition unit comprised of Shabds or Pauris, e.g. Jap Ji Sahib."@en .
+
+gg:Shabd a owl:Class ;
+    rdfs:label "Shabd"@en ;
+    rdfs:comment "A distinct hymn or composition unit, e.g., a Shabd on a given ang or a Pauri of Japji Sahib modeled as a composition node."@en .
+
 gg:Pauri a owl:Class ;
     rdfs:label "Pauri"@en ;
-    rdfs:comment "A stanza-like structural unit, e.g., pauris of Japji Sahib; can be modeled as a specialized Shabd if preferred."@en ;
-    rdfs:subClassOf gg:Shabd .
+    rdfs:comment "A stanza-like structural unit, e.g., pauris of Japji Sahib."@en .
+
+gg:Tuk a owl:Class ;
+    rdfs:label "Tuk"@en ;
+    rdfs:comment "A single line of Gurbani belonging to a Shabd or Pauri."@en .
 
 gg:GlossUnit a owl:Class ;
     rdfs:label "GlossUnit"@en ;
@@ -76,7 +75,7 @@ gg:belongsTo a owl:ObjectProperty ;
     rdfs:comment "Links a child instance back to the parent it belongs to."@en ;
     rdfs:domain gg:Tuk ;
     rdfs:range gg:Shabd ;
-    owl:inverseOf gg:hasTuk .
+    owl:inverseOf gg:hasTuk, gg:inBani .
 
 gg:hasTheme a owl:ObjectProperty ;
     rdfs:label "has theme"@en ;
@@ -89,7 +88,8 @@ gg:hasAuthor a owl:ObjectProperty ;
     rdfs:label "has author"@en ;
     rdfs:comment "Relates a Shabd (or Pauri) to the Person who authored the bani (e.g., Guru Nanak Dev Ji)."@en ;
     rdfs:domain gg:Shabd ;
-    rdfs:range gg:Person .
+    rdfs:range gg:Person ;
+    owl:inverseOf gg:authorOf .
 
 gg:inBani a owl:ObjectProperty ;
     rdfs:label "in bani"@en ;
@@ -178,7 +178,7 @@ gg:hasGlossUnit a owl:ObjectProperty ;
     rdfs:range gg:GlossUnit .
 
 gg:hasMorpheme a owl:ObjectProperty ;
-    rdfs:label "has gloss unit"@en ;
+    rdfs:label "has morpheme"@en ;
     rdfs:comment "Associates a GlossUnit with one or more Morphemes."@en ;
     rdfs:domain gg:GlossUnit ;
     rdfs:range gg:Morpheme .
