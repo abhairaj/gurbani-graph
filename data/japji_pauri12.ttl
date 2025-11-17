@@ -14,9 +14,9 @@ gg:japji_pauri12
     rdfs:label "Japji Sahib – Pauri 12 (mannai kī gat kahī na jāī)"@en ;
     gg:inScripture gg:SGGS ;
     gg:hasAuthor gg:GuruNanakDevJi ;
-    gg:ang 3^^xsd:integer ;
+    gg:ang 3 ;
     gg:inBani gg:JapJiSahib ;
-    gg:indexInBani 12^^xsd:integer ;
+    gg:indexInBani 12 ;
     gg:hasTheme
         gg:Ineffability,   # inexpressible state
         gg:Naam,
@@ -41,7 +41,7 @@ gg:japji_pauri12_tuk1
     a gg:Tuk ;
     gg:id "sggs-japji-pauri12-tuk1" ;
     gg:belongsTo gg:japji_pauri12 ;
-    gg:index 1^^xsd:integer ;
+    gg:index 1 ;
     gg:gurmukhi "ਮੰਨੇ ਕੀ ਗਤਿ ਕਹੀ ਨ ਜਾਇ ॥" ;
     gg:transliteration "mannai kī gat kahī na jāī." ;
     gg:translation "The inner state of the one who truly accepts cannot be put into words."@en ;
@@ -54,7 +54,7 @@ gg:japji_pauri12_tuk2
     a gg:Tuk ;
     gg:id "sggs-japji-pauri12-tuk2" ;
     gg:belongsTo gg:japji_pauri12 ;
-    gg:index 2^^xsd:integer ;
+    gg:index 2 ;
     gg:gurmukhi "ਜੇ ਕੋ ਕਹੈ ਪਿਛੈ ਪਛੁਤਾਇ ॥" ;
     gg:transliteration "je ko kahai pichhai pachhutāe." ;
     gg:translation "If someone tries to describe it, they only end up regretting the attempt."@en ;
@@ -67,7 +67,7 @@ gg:japji_pauri12_tuk3
     a gg:Tuk ;
     gg:id "sggs-japji-pauri12-tuk3" ;
     gg:belongsTo gg:japji_pauri12 ;
-    gg:index 3^^xsd:integer ;
+    gg:index 3 ;
     gg:gurmukhi "ਕਾਗਦਿ ਕਲਮ ਨ ਲਿਖਣਹਾਰੁ ॥" ;
     gg:transliteration "kāgad kalam na likhaṇhār." ;
     gg:translation "No paper, no pen, no scribe is capable of writing it."@en ;
@@ -80,7 +80,7 @@ gg:japji_pauri12_tuk4
     a gg:Tuk ;
     gg:id "sggs-japji-pauri12-tuk4" ;
     gg:belongsTo gg:japji_pauri12 ;
-    gg:index 4^^xsd:integer ;
+    gg:index 4 ;
     gg:gurmukhi "ਮੰਨੇ ਕਾ ਬਹਿ ਕਰਨਿ ਵੀਚਾਰੁ ॥" ;
     gg:transliteration "mannai kā bahi karan vīchār." ;
     gg:translation "Still, people sit together and reflect on the greatness of such a one."@en ;
@@ -93,7 +93,7 @@ gg:japji_pauri12_tuk5
     a gg:Tuk ;
     gg:id "sggs-japji-pauri12-tuk5" ;
     gg:belongsTo gg:japji_pauri12 ;
-    gg:index 5^^xsd:integer ;
+    gg:index 5 ;
     gg:gurmukhi "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥" ;
     gg:transliteration "aisā nām niranjan hoi." ;
     gg:translation "Such is the Naam: immaculate, beyond all taint."@en ;
@@ -106,7 +106,7 @@ gg:japji_pauri12_tuk6
     a gg:Tuk ;
     gg:id "sggs-japji-pauri12-tuk6" ;
     gg:belongsTo gg:japji_pauri12 ;
-    gg:index 6^^xsd:integer ;
+    gg:index 6 ;
     gg:gurmukhi "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੨॥" ;
     gg:transliteration "je ko mann jāṇai man koe. ||12||" ;
     gg:translation "Only one who truly accepts within the mind can know this state. ||12||"@en ;
@@ -124,7 +124,7 @@ gg:japji_pauri12_tuk6
 gg:japji_pauri12_tuk1_gu1
     a gg:GlossUnit ;
     gg:id "sggs-japji-pauri12-tuk1-gu1" ;
-    gg:index 1^^xsd:integer ;
+    gg:index 1 ;
     gg:gurmukhi "ਮੰਨੇ ਕੀ ਗਤਿ" ;
     gg:transliteration "mannai kī gat" ;
     gg:translation "the state of the one who has accepted (Naam / Hukam)"@en .
@@ -132,7 +132,7 @@ gg:japji_pauri12_tuk1_gu1
 gg:japji_pauri12_tuk1_gu2
     a gg:GlossUnit ;
     gg:id "sggs-japji-pauri12-tuk1-gu2" ;
-    gg:index 2^^xsd:integer ;
+    gg:index 2 ;
     gg:gurmukhi "ਕਹੀ ਨ ਜਾਇ" ;
     gg:transliteration "kahī na jāī" ;
     gg:translation "cannot be expressed in speech"@en .
@@ -142,7 +142,7 @@ gg:japji_pauri12_tuk1_gu2
 gg:japji_pauri12_tuk2_gu1
     a gg:GlossUnit ;
     gg:id "sggs-japji-pauri12-tuk2-gu1" ;
-    gg:index 1^^xsd:integer ;
+    gg:index 1 ;
     gg:gurmukhi "ਜੇ ਕੋ ਕਹੈ" ;
     gg:transliteration "je ko kahai" ;
     gg:translation "if anyone attempts to describe it"@en .
@@ -150,7 +150,7 @@ gg:japji_pauri12_tuk2_gu1
 gg:japji_pauri12_tuk2_gu2
     a gg:GlossUnit ;
     gg:id "sggs-japji-pauri12-tuk2-gu2" ;
-    gg:index 2^^xsd:integer ;
+    gg:index 2 ;
     gg:gurmukhi "ਪਿਛੈ ਪਛੁਤਾਇ" ;
     gg:transliteration "pichhai pachhutāe" ;
     gg:translation "they later regret their attempt"@en .
@@ -160,7 +160,7 @@ gg:japji_pauri12_tuk2_gu2
 gg:japji_pauri12_tuk3_gu1
     a gg:GlossUnit ;
     gg:id "sggs-japji-pauri12-tuk3-gu1" ;
-    gg:index 1^^xsd:integer ;
+    gg:index 1 ;
     gg:gurmukhi "ਕਾਗਦਿ ਕਲਮ" ;
     gg:transliteration "kāgad kalam" ;
     gg:translation "paper and pen"@en .
@@ -168,7 +168,7 @@ gg:japji_pauri12_tuk3_gu1
 gg:japji_pauri12_tuk3_gu2
     a gg:GlossUnit ;
     gg:id "sggs-japji-pauri12-tuk3-gu2" ;
-    gg:index 2^^xsd:integer ;
+    gg:index 2 ;
     gg:gurmukhi "ਨ ਲਿਖਣਹਾਰੁ" ;
     gg:transliteration "na likhaṇhār" ;
     gg:translation "no scribe capable of recording it"@en .
@@ -178,7 +178,7 @@ gg:japji_pauri12_tuk3_gu2
 gg:japji_pauri12_tuk4_gu1
     a gg:GlossUnit ;
     gg:id "sggs-japji-pauri12-tuk4-gu1" ;
-    gg:index 1^^xsd:integer ;
+    gg:index 1 ;
     gg:gurmukhi "ਮੰਨੇ ਕਾ ਬਹਿ ਕਰਨਿ" ;
     gg:transliteration "mannai kā bahi karan" ;
     gg:translation "people sit to discuss the one who has accepted"@en .
@@ -186,7 +186,7 @@ gg:japji_pauri12_tuk4_gu1
 gg:japji_pauri12_tuk4_gu2
     a gg:GlossUnit ;
     gg:id "sggs-japji-pauri12-tuk4-gu2" ;
-    gg:index 2^^xsd:integer ;
+    gg:index 2 ;
     gg:gurmukhi "ਵੀਚਾਰੁ" ;
     gg:transliteration "vīchār" ;
     gg:translation "philosophical reflection, deep contemplation"@en .
@@ -196,7 +196,7 @@ gg:japji_pauri12_tuk4_gu2
 gg:japji_pauri12_tuk5_gu1
     a gg:GlossUnit ;
     gg:id "sggs-japji-pauri12-tuk5-gu1" ;
-    gg:index 1^^xsd:integer ;
+    gg:index 1 ;
     gg:gurmukhi "ਐਸਾ ਨਾਮੁ" ;
     gg:transliteration "aisā nām" ;
     gg:translation "such is the Naam, such a state of Divine remembrance"@en .
@@ -204,7 +204,7 @@ gg:japji_pauri12_tuk5_gu1
 gg:japji_pauri12_tuk5_gu2
     a gg:GlossUnit ;
     gg:id "sggs-japji_pauri12-tuk5-gu2" ;
-    gg:index 2^^xsd:integer ;
+    gg:index 2 ;
     gg:gurmukhi "ਨਿਰੰਜਨੁ ਹੋਇ" ;
     gg:transliteration "niranjan hoi" ;
     gg:translation "it is immaculate, beyond the stain of māyā"@en .
@@ -214,7 +214,7 @@ gg:japji_pauri12_tuk5_gu2
 gg:japji_pauri12_tuk6_gu1
     a gg:GlossUnit ;
     gg:id "sggs-japji-pauri12-tuk6-gu1" ;
-    gg:index 1^^xsd:integer ;
+    gg:index 1 ;
     gg:gurmukhi "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ" ;
     gg:transliteration "je ko mann jāṇai" ;
     gg:translation "if some being inwardly accepts and realizes"@en .
@@ -222,7 +222,7 @@ gg:japji_pauri12_tuk6_gu1
 gg:japji_pauri12_tuk6_gu2
     a gg:GlossUnit ;
     gg:id "sggs-japji-pauri12-tuk6-gu2" ;
-    gg:index 2^^xsd:integer ;
+    gg:index 2 ;
     gg:gurmukhi "ਮਨਿ ਕੋਇ ॥੧੨॥" ;
     gg:transliteration "man koe. ||12||" ;
     gg:translation "then that one alone knows this in their own mind. ||12||"@en .
