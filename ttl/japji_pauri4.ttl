@@ -10,7 +10,7 @@
 #################################################################
 
 gg:japji_pauri4 a gg:Pauri ;
-    gg:id "sggs-japji-pauri4" ;
+    gg:id "sggs_japji-pauri4" ;
     dct:title "Japji Sahib – Pauri 4"@en ;
     gg:ang "2"^^xsd:integer ;
     gg:inBani gg:JapJiSahib ;
@@ -42,7 +42,7 @@ gg:japji_pauri4 a gg:Pauri ;
 #################################################################
 
 gg:japji_pauri4_tuk1 a gg:Tuk ;
-    gg:id "sggs-japji-pauri4-tuk1" ;
+    gg:id "sggs_japji-pauri4_tuk1" ;
     gg:index "1"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri4 ;
     gg:gurmukhi "ਸਾਚਾ ਸਾਹਿਬੁ ਸਾਚੁ ਨਾਉ ਭਾਖਿਆ ਭਾਉ ਅਪਾਰ ॥"@pa ;
@@ -80,7 +80,7 @@ gg:japji_pauri4_tuk1_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri4_tuk2 a gg:Tuk ;
-    gg:id "sggs-japji-pauri4-tuk2" ;
+    gg:id "sggs_japji-pauri4_tuk2" ;
     gg:index "2"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri4 ;
     gg:gurmukhi "ਆਖਹਿ ਮੰਗਹਿ ਦੇਹਿ ਦੇਹਿ ਦਾਤਿ ਕਰੇ ਦਾਤਾਰੁ ॥"@pa ;
@@ -117,7 +117,7 @@ gg:japji_pauri4_tuk2_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri4_tuk3 a gg:Tuk ;
-    gg:id "sggs-japji-pauri4-tuk3" ;
+    gg:id "sggs_japji-pauri4_tuk3" ;
     gg:index "3"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri4 ;
     gg:gurmukhi "ਫੇਰਿ ਕਿ ਅਗੈ ਰਖੀਐ ਜਿਤੁ ਦਿਸੈ ਦਰਬਾਰੁ ॥"@pa ;
@@ -153,7 +153,7 @@ gg:japji_pauri4_tuk3_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri4_tuk4 a gg:Tuk ;
-    gg:id "gg:japji-pauri4-tuk4" ;
+    gg:id "sggs_japji-pauri4_tuk4" ;
     gg:index "4"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri4 ;
     gg:gurmukhi "ਮੁਹੌ ਕਿ ਬੋਲਣੁ ਬੋਲੀਐ ਜਿਤੁ ਸੁਣਿ ਧਰੇ ਪਿਆਰੁ ॥"@pa ;
@@ -190,7 +190,7 @@ gg:japji_pauri4_tuk4_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri4_tuk5 a gg:Tuk ;
-    gg:id "gg:japji-pauri4-tuk5" ;
+    gg:id "sggs_japji-pauri4_tuk5" ;
     gg:index "5"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri4 ;
     gg:gurmukhi "ਅਮ੍ਰਿਤ ਵੇਲਾ ਸਚੁ ਨਾਉ ਵਡਿਆਈ ਵੀਚਾਰੁ ॥"@pa ;
@@ -227,7 +227,7 @@ gg:japji_pauri4_tuk5_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri4_tuk6 a gg:Tuk ;
-    gg:id "gg:japji-pauri4-tuk6" ;
+    gg:id "sggs_japji-pauri4_tuk6" ;
     gg:index "6"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri4 ;
     gg:gurmukhi "ਕਰਮੀ ਆਵੈ ਕਪੜਾ ਨਦਰੀ ਮੋਖੁ ਦੁਆਰੁ ॥"@pa ;
@@ -271,7 +271,7 @@ gg:japji_pauri4_tuk6_gu4 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri4_tuk7 a gg:Tuk ;
-    gg:id "gg:japji-pauri4-tuk7" ;
+    gg:id "sggs_japji-pauri4_tuk7" ;
     gg:index "7"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri4 ;
     gg:gurmukhi "ਨਾਨਕ ਏਵੈ ਜਾਣੀਐ ਸਭੁ ਆਪੇ ਸਚਿਆਰੁ ॥੪॥"@pa ;

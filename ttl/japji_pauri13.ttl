@@ -1,0 +1,255 @@
+@prefix gg:  <http://gurbani-graph.org/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+#################################################################
+### Japji Sahib – Pauri 13
+### ਮੰਨੈ ਸੁਰਤਿ ਹੋਵੈ ਮਨਿ ਬੁਧਿ ॥ ... ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੩॥
+#################################################################
+
+gg:japji_pauri13
+    a                 gg:Pauri ;
+    gg:id             "sggs_japji-pauri13" ;
+    dct:title         "Japji Sahib – Pauri 13"@en ;
+    dct:title         "ਜਪੁਜੀ ਸਾਹਿਬ – ਪਉੜੀ ੧੩"@pa ;
+    gg:ang            "3"^^xsd:integer ;
+    gg:inBani         gg:JapJiSahib ;
+    gg:indexInBani    "13"^^xsd:integer ;
+    gg:inScripture    gg:SGGS ;
+    gg:hasAuthor      gg:GuruNanakDevJi ;
+
+    gg:hasTheme       gg:FaithfulState ,
+                      gg:Wisdom ,
+                      gg:Intellect ,
+                      gg:LifeDeathCycle ,
+                      gg:DivineProtection ,
+                      gg:Niranjan ,
+                      gg:DivineName ;
+
+    gg:hasTuk         gg:japji_pauri13_tuk1 ,
+                      gg:japji_pauri13_tuk2 ,
+                      gg:japji_pauri13_tuk3 ,
+                      gg:japji_pauri13_tuk4 ,
+                      gg:japji_pauri13_tuk5 ,
+                      gg:japji_pauri13_tuk6 ;
+
+    rdfs:comment      "Pauri 13 opens the 'mannai' section. It describes how the faithful state (mannai) awakens intuitive awareness and enlightened intellect, gives understanding of all realms, protects from worldly blows and the fear of death, and is rooted in the immaculate Divine Name."@en
+.
+
+#################################################################
+### Pauri 13 – Tuk 1
+### ਮੰਨੈ ਸੁਰਤਿ ਹੋਵੈ ਮਨਿ ਬੁਧਿ ॥
+#################################################################
+
+gg:japji_pauri13_tuk1
+    a                  gg:Tuk ;
+    gg:id              "sggs_japji_pauri13_tuk1" ;
+    gg:index           "1"^^xsd:integer ;
+    gg:belongsTo       gg:japji_pauri13 ;
+    gg:gurmukhi        "ਮੰਨੈ ਸੁਰਤਿ ਹੋਵੈ ਮਨਿ ਬੁਧਿ ॥"@pa ;
+    gg:transliteration "mannai surat hovai man budh ||"@en-Latn ;
+    gg:translation     "Through faithful acceptance, awareness is elevated and enlightened understanding dawns in the mind."@en ;
+    gg:hasTheme        gg:FaithfulState ,
+                       gg:Wisdom ,
+                       gg:Intellect ;
+    gg:hasGlossUnit    gg:japji_pauri13_tuk1_gu1 ,
+                       gg:japji_pauri13_tuk1_gu2
+.
+
+gg:japji_pauri13_tuk1_gu1
+    a                  gg:GlossUnit ;
+    gg:index           "1"^^xsd:integer ;
+    gg:gurmukhi        "ਮੰਨੈ ਸੁਰਤਿ ਹੋਵੈ"@pa ;
+    gg:transliteration "mannai surat hovai"@en-Latn ;
+    gg:translation     "by living in faith, one’s awareness is uplifted"@en
+.
+
+gg:japji_pauri13_tuk1_gu2
+    a                  gg:GlossUnit ;
+    gg:index           "2"^^xsd:integer ;
+    gg:gurmukhi        "ਮਨਿ ਬੁਧਿ"@pa ;
+    gg:transliteration "man budh"@en-Latn ;
+    gg:translation     "and the mind becomes filled with discerning wisdom"@en
+.
+
+#################################################################
+### Pauri 13 – Tuk 2
+### ਮੰਨੈ ਸਗਲ ਭਵਣ ਕੀ ਸੁਧਿ ॥
+#################################################################
+
+gg:japji_pauri13_tuk2
+    a                  gg:Tuk ;
+    gg:id              "sggs_japji_pauri13_tuk2" ;
+    gg:index           "2"^^xsd:integer ;
+    gg:belongsTo       gg:japji_pauri13 ;
+    gg:gurmukhi        "ਮੰਨੈ ਸਗਲ ਭਵਣ ਕੀ ਸੁਧਿ ॥"@pa ;
+    gg:transliteration "mannai sagal bhavan kee suDh ||"@en-Latn ;
+    gg:translation     "Through faith, one gains insight into all realms and planes of existence."@en ;
+    gg:hasTheme        gg:FaithfulState ,
+                       gg:Wisdom ,
+                       gg:TranscendenceImmanence ;
+    gg:hasGlossUnit    gg:japji_pauri13_tuk2_gu1 ,
+                       gg:japji_pauri13_tuk2_gu2
+.
+
+gg:japji_pauri13_tuk2_gu1
+    a                  gg:GlossUnit ;
+    gg:index           "1"^^xsd:integer ;
+    gg:gurmukhi        "ਮੰਨੈ ਸਗਲ ਭਵਣ ਕੀ"@pa ;
+    gg:transliteration "mannai sagal bhavan kee"@en-Latn ;
+    gg:translation     "in the faithful state one attunes to all worlds and realms"@en
+.
+
+gg:japji_pauri13_tuk2_gu2
+    a                  gg:GlossUnit ;
+    gg:index           "2"^^xsd:integer ;
+    gg:gurmukhi        "ਸੁਧਿ"@pa ;
+    gg:transliteration "suDh"@en-Latn ;
+    gg:translation     "and gains a subtle understanding of them"@en
+.
+
+#################################################################
+### Pauri 13 – Tuk 3
+### ਮੰਨੈ ਮੁਹਿ ਚੋਟਾ ਨਾ ਖਾਇ ॥
+#################################################################
+
+gg:japji_pauri13_tuk3
+    a                  gg:Tuk ;
+    gg:id              "sggs_japji_pauri13_tuk3" ;
+    gg:index           "3"^^xsd:integer ;
+    gg:belongsTo       gg:japji_pauri13 ;
+    gg:gurmukhi        "ਮੰਨੈ ਮੁਹਿ ਚੋਟਾ ਨਾ ਖਾਇ ॥"@pa ;
+    gg:transliteration "mannai muhi chotaa naa khaa-ay ||"@en-Latn ;
+    gg:translation     "The faithful one does not suffer the blows and humiliations of worldly vice."@en ;
+    gg:hasTheme        gg:FaithfulState ,
+                       gg:DivineProtection ,
+                       gg:SufferingJoy ;
+    gg:hasGlossUnit    gg:japji_pauri13_tuk3_gu1 ,
+                       gg:japji_pauri13_tuk3_gu2
+.
+
+gg:japji_pauri13_tuk3_gu1
+    a                  gg:GlossUnit ;
+    gg:index           "1"^^xsd:integer ;
+    gg:gurmukhi        "ਮੰਨੈ ਮੁਹਿ ਚੋਟਾ"@pa ;
+    gg:transliteration "mannai muhi chotaa"@en-Latn ;
+    gg:translation     "in the faithful, the face is not struck by these blows"@en
+.
+
+gg:japji_pauri13_tuk3_gu2
+    a                  gg:GlossUnit ;
+    gg:index           "2"^^xsd:integer ;
+    gg:gurmukhi        "ਨਾ ਖਾਇ"@pa ;
+    gg:transliteration "naa khaa-ay"@en-Latn ;
+    gg:translation     "they are spared the deep wounding of such impacts"@en
+.
+
+#################################################################
+### Pauri 13 – Tuk 4
+### ਮੰਨੈ ਜਮ ਕੈ ਸਾਥਿ ਨ ਜਾਇ ॥
+#################################################################
+
+gg:japji_pauri13_tuk4
+    a                  gg:Tuk ;
+    gg:id              "sggs_japji_pauri13_tuk4" ;
+    gg:index           "4"^^xsd:integer ;
+    gg:belongsTo       gg:japji_pauri13 ;
+    gg:gurmukhi        "ਮੰਨੈ ਜਮ ਕੈ ਸਾਥਿ ਨ ਜਾਇ ॥"@pa ;
+    gg:transliteration "mannai jam kai saath na jaa-ay ||"@en-Latn ;
+    gg:translation     "The faithful do not go bound in the company of the messenger of death."@en ;
+    gg:hasTheme        gg:FaithfulState ,
+                       gg:LifeDeathCycle ,
+                       gg:LiberationDoor ;
+    gg:hasGlossUnit    gg:japji_pauri13_tuk4_gu1 ,
+                       gg:japji_pauri13_tuk4_gu2
+.
+
+gg:japji_pauri13_tuk4_gu1
+    a                  gg:GlossUnit ;
+    gg:index           "1"^^xsd:integer ;
+    gg:gurmukhi        "ਮੰਨੈ ਜਮ ਕੈ ਸਾਥਿ"@pa ;
+    gg:transliteration "mannai jam kai saath"@en-Latn ;
+    gg:translation     "for the faithful, the grip of death’s messenger is broken"@en
+.
+
+gg:japji_pauri13_tuk4_gu2
+    a                  gg:GlossUnit ;
+    gg:index           "2"^^xsd:integer ;
+    gg:gurmukhi        "ਨ ਜਾਇ"@pa ;
+    gg:transliteration "na jaa-ay"@en-Latn ;
+    gg:translation     "they do not travel under that bondage"@en
+.
+
+#################################################################
+### Pauri 13 – Tuk 5
+### ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥
+#################################################################
+
+gg:japji_pauri13_tuk5
+    a                  gg:Tuk ;
+    gg:id              "sggs_japji_pauri13_tuk5" ;
+    gg:index           "5"^^xsd:integer ;
+    gg:belongsTo       gg:japji_pauri13 ;
+    gg:gurmukhi        "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥"@pa ;
+    gg:transliteration "aisaa naam niranjan ho-ay ||"@en-Latn ;
+    gg:translation     "Such is the immaculate Divine Name that brings this state about."@en ;
+    gg:hasTheme        gg:DivineName ,
+                       gg:Niranjan ,
+                       gg:UncreatedDivine ;
+    gg:hasGlossUnit    gg:japji_pauri13_tuk5_gu1 ,
+                       gg:japji_pauri13_tuk5_gu2
+.
+
+gg:japji_pauri13_tuk5_gu1
+    a                  gg:GlossUnit ;
+    gg:index           "1"^^xsd:integer ;
+    gg:gurmukhi        "ਐਸਾ ਨਾਮੁ"@pa ;
+    gg:transliteration "aisaa naam"@en-Latn ;
+    gg:translation     "such is this Divine Name"@en
+.
+
+gg:japji_pauri13_tuk5_gu2
+    a                  gg:GlossUnit ;
+    gg:index           "2"^^xsd:integer ;
+    gg:gurmukhi        "ਨਿਰੰਜਨੁ ਹੋਇ"@pa ;
+    gg:transliteration "niranjan ho-ay"@en-Latn ;
+    gg:translation     "utterly immaculate, beyond stain"@en
+.
+
+#################################################################
+### Pauri 13 – Tuk 6
+### ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੩॥
+#################################################################
+
+gg:japji_pauri13_tuk6
+    a                  gg:Tuk ;
+    gg:id              "sggs_japji_pauri13_tuk6" ;
+    gg:index           "6"^^xsd:integer ;
+    gg:belongsTo       gg:japji_pauri13 ;
+    gg:gurmukhi        "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੩॥"@pa ;
+    gg:transliteration "jay ko mann jaanai man ko-ay ||13||"@en-Latn ;
+    gg:translation     "Only one who truly lives this state of faith can know such a mind. ||13||"@en ;
+    gg:hasTheme        gg:FaithfulState ,
+                       gg:Wisdom ,
+                       gg:Intellect ;
+    gg:hasGlossUnit    gg:japji_pauri13_tuk6_gu1 ,
+                       gg:japji_pauri13_tuk6_gu2
+.
+
+gg:japji_pauri13_tuk6_gu1
+    a                  gg:GlossUnit ;
+    gg:index           "1"^^xsd:integer ;
+    gg:gurmukhi        "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ"@pa ;
+    gg:transliteration "jay ko mann jaanai"@en-Latn ;
+    gg:translation     "if someone truly understands and embodies this faithful state"@en
+.
+
+gg:japji_pauri13_tuk6_gu2
+    a                  gg:GlossUnit ;
+    gg:index           "2"^^xsd:integer ;
+    gg:gurmukhi        "ਮਨਿ ਕੋਇ ॥੧੩॥"@pa ;
+    gg:transliteration "man ko-ay ||13||"@en-Latn ;
+    gg:translation     "they alone know what such a mind really is. ||13||"@en
+.

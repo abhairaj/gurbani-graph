@@ -9,7 +9,7 @@
 #################################################################
 
 gg:japji_pauri1 a gg:Pauri ;
-    gg:id "sggs-japji-pauri1" ;
+    gg:id "sggs_japji-pauri1" ;
     dct:title "Japji Sahib – Pauri 1"@en ;
     gg:ang "1"^^xsd:integer ;
     gg:inBani gg:JapJiSahib ;
@@ -37,7 +37,7 @@ gg:japji_pauri1 a gg:Pauri ;
 #################################################################
 
 gg:japji_pauri1_tuk1 a gg:Tuk ;
-    gg:id "sggs-japji-pauri1-tuk1" ;
+    gg:id "sggs_japji-pauri1_tuk1" ;
     gg:index "1"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri1 ;
     gg:gurmukhi "ਸੋਚੈ ਸੋਚਿ ਨ ਹੋਵਈ ਜੇ ਸੋਚੀ ਲਖ ਵਾਰ ॥"@pa ;
@@ -90,7 +90,7 @@ gg:japji_pauri1_tuk1_gu4 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri1_tuk2 a gg:Tuk ;
-    gg:id "sggs-japji-pauri1-tuk2" ;
+    gg:id "sggs_japji-pauri1_tuk2" ;
     gg:index "2"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri1 ;
     gg:gurmukhi "ਚੁਪੈ ਚੁਪ ਨ ਹੋਵਈ ਜੇ ਲਾਇ ਰਹਾ ਲਿਵ ਤਾਰ ॥"@pa ;
@@ -142,7 +142,7 @@ gg:japji_pauri1_tuk2_gu4 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri1_tuk3 a gg:Tuk ;
-    gg:id "sggs-japji-pauri1-tuk3" ;
+    gg:id "sggs_japji-pauri1_tuk3" ;
     gg:index "3"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri1 ;
     gg:gurmukhi "ਭੁਖਿਆ ਭੁਖ ਨ ਉਤਰੀ ਜੇ ਬੰਨਾ ਪੁਰੀਆ ਭਾਰ ॥"@pa ;
@@ -195,7 +195,7 @@ gg:japji_pauri1_tuk3_gu4 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri1_tuk4 a gg:Tuk ;
-    gg:id "sggs-japji-pauri1-tuk4" ;
+    gg:id "sggs_japji-pauri1_tuk4" ;
     gg:index "4"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri1 ;
     gg:gurmukhi "ਸਹਸ ਸਿਆਣਪਾ ਲਖ ਹੋਹਿ ਤ ਇਕ ਨ ਚਲੈ ਨਾਲਿ ॥"@pa ;
@@ -247,7 +247,7 @@ gg:japji_pauri1_tuk4_gu4 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri1_tuk5 a gg:Tuk ;
-    gg:id "sggs-japji-pauri1-tuk5" ;
+    gg:id "sggs_japji-pauri1_tuk5" ;
     gg:index "5"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri1 ;
     gg:gurmukhi "ਕਿਵ ਸਚਿਆਰਾ ਹੋਈਐ ਕਿਵ ਕੂੜੈ ਤੁਟੈ ਪਾਲਿ ॥"@pa ;
@@ -290,7 +290,7 @@ gg:japji_pauri1_tuk5_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri1_tuk6 a gg:Tuk ;
-    gg:id "sggs-japji-pauri1-tuk6" ;
+    gg:id "sggs_japji-pauri1_tuk6" ;
     gg:index "6"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri1 ;
     gg:gurmukhi "ਹੁਕਮਿ ਰਜਾਈ ਚਲਣਾ ਨਾਨਕ ਲਿਖਿਆ ਨਾਲਿ ॥੧॥"@pa ;

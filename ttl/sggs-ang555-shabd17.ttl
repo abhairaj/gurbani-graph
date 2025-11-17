@@ -11,7 +11,7 @@
 #################################################################
 
 gg:ang555_shabd17 a gg:Shabd ;
-    gg:id "sggs-ang555-shabd17" ;
+    gg:id "sggs_ang555-shabd17" ;
     dct:title "Jo Har Kaa Piaraa"@en ;
     dct:title "ਜੋ ਹਰਿ ਕਾ ਪਿਆਰਾ"@pa ;
     gg:ang "555"^^xsd:integer ;
@@ -43,7 +43,7 @@ gg:ang555_shabd17 a gg:Shabd ;
 #################################################################
 
 gg:ang555_shabd17_tuk1 a gg:Tuk ;
-    gg:id "sggs-ang555-shabd17-tuk1" ;
+    gg:id "sggs_ang555-shabd17_tuk1" ;
     gg:index "1"^^xsd:integer ;
     gg:belongsTo gg:ang555_shabd17 ;
     gg:gurmukhi "ਜਾ ਆਪਿ ਕ੍ਰਿਪਾਲੁ ਹੋਵੈ ਹਰਿ ਸੁਆਮੀ ਤਾ ਆਪਣਾਂ ਨਾਉ ਹਰਿ ਆਪਿ ਜਪਾਵੈ ॥"@pa ;
@@ -86,7 +86,7 @@ gg:ang555_shabd17_tuk1_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang555_shabd17_tuk2 a gg:Tuk ;
-    gg:id "sggs-ang555-shabd17-tuk2" ;
+    gg:id "sggs_ang555-shabd17_tuk2" ;
     gg:index "2"^^xsd:integer ;
     gg:belongsTo gg:ang555_shabd17 ;
     gg:gurmukhi "ਆਪੇ ਸਤਿਗੁਰੁ ਮੇਲਿ ਸੁਖੁ ਦੇਵੈ ਆਪਣਾਂ ਸੇਵਕੁ ਆਪਿ ਹਰਿ ਭਾਵੈ ॥"@pa ;
@@ -139,7 +139,7 @@ gg:ang555_shabd17_tuk2_gu4 a gg:GlossUnit ;
 #################################################################
 
 gg:ang555_shabd17_tuk3 a gg:Tuk ;
-    gg:id "sggs-ang555-shabd17-tuk3" ;
+    gg:id "sggs_ang555-shabd17_tuk3" ;
     gg:index "3"^^xsd:integer ;
     gg:belongsTo gg:ang555_shabd17 ;
     gg:gurmukhi "ਆਪਣਿਆ ਸੇਵਕਾ ਕੀ ਆਪਿ ਪੈਜ ਰਖੈ ਆਪਣਿਆ ਭਗਤਾ ਕੀ ਪੈਰੀ ਪਾਵੈ ॥"@pa ;
@@ -192,7 +192,7 @@ gg:ang555_shabd17_tuk3_gu4 a gg:GlossUnit ;
 #################################################################
 
 gg:ang555_shabd17_tuk4 a gg:Tuk ;
-    gg:id "sggs-ang555-shabd17-tuk4" ;
+    gg:id "sggs_ang555-shabd17_tuk4" ;
     gg:index "4"^^xsd:integer ;
     gg:belongsTo gg:ang555_shabd17 ;
     gg:gurmukhi "ਧਰਮ ਰਾਇ ਹੈ ਹਰਿ ਕਾ ਕੀਆ ਹਰਿ ਜਨ ਸੇਵਕ ਨੇੜਿ ਨ ਆਵੈ ॥"@pa ;
@@ -243,7 +243,7 @@ gg:ang555_shabd17_tuk4_gu4 a gg:GlossUnit ;
 #################################################################
 
 gg:ang555_shabd17_tuk5 a gg:Tuk ;
-    gg:id "sggs-ang555-shabd17-tuk5" ;
+    gg:id "sggs_ang555-shabd17_tuk5" ;
     gg:index "5"^^xsd:integer ;
     gg:belongsTo gg:ang555_shabd17 ;
     gg:gurmukhi "ਜੋ ਹਰਿ ਕਾ ਪਿਆਰਾ ਸੋ ਸਭਨਾ ਕਾ ਪਿਆਰਾ ਹੋਰ ਕੇਤੀ ਝਖਿ ਝਖਿ ਆਵੈ ਜਾਵੈ ॥੧੭॥"@pa ;

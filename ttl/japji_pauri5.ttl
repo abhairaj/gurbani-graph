@@ -15,7 +15,7 @@
 #################################################################
 
 gg:japji_pauri5 a gg:Pauri ;
-    gg:id "sggs-japji-pauri5" ;
+    gg:id "sggs_japji-pauri5" ;
     dct:title "Japji Sahib – Pauri 5"@en ;
     gg:ang "1"^^xsd:integer ;
     gg:inBani gg:JapJiSahib ;
@@ -51,7 +51,7 @@ gg:japji_pauri5 a gg:Pauri ;
 #################################################################
 
 gg:japji_pauri5_tuk1 a gg:Tuk ;
-    gg:id "sggs-japji-pauri5-tuk1" ;
+    gg:id "sggs_japji-pauri5_tuk1" ;
     gg:index "1"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri5 ;
     gg:gurmukhi "ਥਾਪਿਆ ਨ ਜਾਇ ਕੀਤਾ ਨ ਹੋਇ ॥"@pa ;
@@ -80,7 +80,7 @@ gg:japji_pauri5_tuk1_gu2 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri5_tuk2 a gg:Tuk ;
-    gg:id "gg:japji-pauri5-tuk2" ;
+    gg:id "sggs_japji-pauri5_tuk2" ;
     gg:index "2"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri5 ;
     gg:gurmukhi "ਆਪੇ ਆਪਿ ਨਿਰੰਜਨੁ ਸੋਇ ॥"@pa ;
@@ -110,7 +110,7 @@ gg:japji_pauri5_tuk2_gu2 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri5_tuk3 a gg:Tuk ;
-    gg:id "gg:japji-pauri5-tuk3" ;
+    gg:id "sggs_japji-pauri5_tuk3" ;
     gg:index "3"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri5 ;
     gg:gurmukhi "ਜਿਨਿ ਸੇਵਿਆ ਤਿਨਿ ਪਾਇਆ ਮਾਨੁ ॥"@pa ;
@@ -139,7 +139,7 @@ gg:japji_pauri5_tuk3_gu2 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri5_tuk4 a gg:Tuk ;
-    gg:id "gg:japji-pauri5-tuk4" ;
+    gg:id "sggs_japji-pauri5_tuk4" ;
     gg:index "4"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri5 ;
     gg:gurmukhi "ਨਾਨਕ ਗਾਵੀਐ ਗੁਣੀ ਨਿਧਾਨੁ ॥"@pa ;
@@ -168,7 +168,7 @@ gg:japji_pauri5_tuk4_gu2 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri5_tuk5 a gg:Tuk ;
-    gg:id "gg:japji-pauri5-tuk5" ;
+    gg:id "sggs_japji-pauri5_tuk5" ;
     gg:index "5"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri5 ;
     gg:gurmukhi "ਗਾਵੀਐ ਸੁਣੀਐ ਮਨਿ ਰਖੀਐ ਭਾਉ ॥"@pa ;
@@ -205,7 +205,7 @@ gg:japji_pauri5_tuk5_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri5_tuk6 a gg:Tuk ;
-    gg:id "gg:japji-pauri5-tuk6" ;
+    gg:id "sggs_japji-pauri5_tuk6" ;
     gg:index "6"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri5 ;
     gg:gurmukhi "ਦੁਖੁ ਪਰਹਰਿ ਸੁਖੁ ਘਰਿ ਲੈ ਜਾਇ ॥"@pa ;
@@ -241,7 +241,7 @@ gg:japji_pauri5_tuk6_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri5_tuk7 a gg:Tuk ;
-    gg:id "gg:japji-pauri5-tuk7" ;
+    gg:id "sggs_japji-pauri5_tuk7" ;
     gg:index "7"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri5 ;
     gg:gurmukhi "ਗੁਰਮੁਖਿ ਨਾਦੰ ਗੁਰਮੁਖਿ ਵੇਦੰ ਗੁਰਮੁਖਿ ਰਹਿਆ ਸਮਾਈ ॥"@pa ;
@@ -277,7 +277,7 @@ gg:japji_pauri5_tuk7_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri5_tuk8 a gg:Tuk ;
-    gg:id "gg:japji-pauri5-tuk8" ;
+    gg:id "sggs_japji-pauri5_tuk8" ;
     gg:index "8"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri5 ;
     gg:gurmukhi "ਗੁਰੁ ਇਸੁ ਜਗਤਿ ਮਹਿ ਵਡਾ ਕਰਤੋਟਿ ॥"@pa ;
@@ -314,7 +314,7 @@ gg:japji_pauri5_tuk8_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri5_tuk9 a gg:Tuk ;
-    gg:id "gg:japji-pauri5-tuk9" ;
+    gg:id "sggs_japji-pauri5_tuk9" ;
     gg:index "9"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri5 ;
     gg:gurmukhi "ਗੁਰੁ ਈਸਰੁ ਗੁਰੁ ਗੋਰਖੁ ਬਰਮਾ ਗੁਰੁ ਪਾਰਬਤੀ ਮਾਈ ॥"@pa ;
@@ -357,7 +357,7 @@ gg:japji_pauri5_tuk9_gu4 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri5_tuk10 a gg:Tuk ;
-    gg:id "gg:japji-pauri5-tuk10" ;
+    gg:id "sggs_japji-pauri5_tuk10" ;
     gg:index "10"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri5 ;
     gg:gurmukhi "ਜੇ ਹਉ ਜਾਣਾ ਆਖਾ ਨਾਹਿ ਕਹਣਾ ਕਥਨੁ ਨ ਜਾਈ ॥"@pa ;
@@ -393,7 +393,7 @@ gg:japji_pauri5_tuk10_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri5_tuk11 a gg:Tuk ;
-    gg:id "gg:japji-pauri5-tuk11" ;
+    gg:id "sggs_japji-pauri5_tuk11" ;
     gg:index "11"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri5 ;
     gg:gurmukhi "ਗੁਰਾ ਇਕੁ ਦੇਹਿ ਬੁਝਾਈ ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ ਸੋ ਮੈ ਵਿਸਰਿ ਨ ਜਾਈ ॥੫॥"@pa ;

@@ -11,7 +11,7 @@
 
 gg:japji_pauri11
     a gg:Pauri ;
-    gg:id "sggs-japji-pauri11" ;
+    gg:id "sggs_japji-pauri11" ;
     dct:title "Japji Sahib – Pauri 11"@en ;
     dct:title "ਜਪੁਜੀ ਸਾਹਿਬ – ਪਉੜੀ ੧੧"@pa ;
     gg:ang "2"^^xsd:integer ;
@@ -42,7 +42,7 @@ gg:japji_pauri11
 
 gg:japji_pauri11_tuk1
     a gg:Tuk ;
-    gg:id "gg:japji_pauri11-tuk1" ;
+    gg:id "sggs_japji_pauri11_tuk1" ;
     gg:index "1"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri11 ;
 
@@ -82,7 +82,7 @@ gg:japji_pauri11_tuk1_gu2
 
 gg:japji_pauri11_tuk2
     a gg:Tuk ;
-    gg:id "gg:japji_pauri11-tuk2" ;
+    gg:id "sggs_japji_pauri11_tuk2" ;
     gg:index "2"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri11 ;
 
@@ -122,7 +122,7 @@ gg:japji_pauri11_tuk2_gu2
 
 gg:japji_pauri11_tuk3
     a gg:Tuk ;
-    gg:id "gg:japji_pauri11-tuk3" ;
+    gg:id "sggs_japji_pauri11_tuk3" ;
     gg:index "3"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri11 ;
 
@@ -162,7 +162,7 @@ gg:japji_pauri11_tuk3_gu2
 
 gg:japji_pauri11_tuk4
     a gg:Tuk ;
-    gg:id "gg:japji_pauri11-tuk4" ;
+    gg:id "sggs_japji_pauri11_tuk4" ;
     gg:index "4"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri11 ;
 
@@ -202,7 +202,7 @@ gg:japji_pauri11_tuk4_gu2
 
 gg:japji_pauri11_tuk5
     a gg:Tuk ;
-    gg:id "gg:japji_pauri11-tuk5" ;
+    gg:id "sggs_japji_pauri11_tuk5" ;
     gg:index "5"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri11 ;
 
@@ -242,7 +242,7 @@ gg:japji_pauri11_tuk5_gu2
 
 gg:japji_pauri11_tuk6
     a gg:Tuk ;
-    gg:id "gg:japji_pauri11-tuk6" ;
+    gg:id "sggs_japji_pauri11_tuk6" ;
     gg:index "6"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri11 ;
 

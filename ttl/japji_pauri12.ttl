@@ -10,7 +10,7 @@
 
 gg:japji_pauri12
     a gg:Pauri ;
-    gg:id "sggs-japji-pauri12" ;
+    gg:id "sggs_japji-pauri12" ;
     rdfs:label "Japji Sahib – Pauri 12 (mannai kī gat kahī na jāī)"@en ;
     gg:inScripture gg:SGGS ;
     gg:hasAuthor gg:GuruNanakDevJi ;
@@ -39,7 +39,7 @@ gg:japji_pauri12
 
 gg:japji_pauri12_tuk1
     a gg:Tuk ;
-    gg:id "sggs-japji-pauri12-tuk1" ;
+    gg:id "sggs_japji-pauri12_tuk1" ;
     gg:belongsTo gg:japji_pauri12 ;
     gg:index 1 ;
     gg:gurmukhi "ਮੰਨੇ ਕੀ ਗਤਿ ਕਹੀ ਨ ਜਾਇ ॥" ;
@@ -52,7 +52,7 @@ gg:japji_pauri12_tuk1
 
 gg:japji_pauri12_tuk2
     a gg:Tuk ;
-    gg:id "sggs-japji-pauri12-tuk2" ;
+    gg:id "sggs_japji-pauri12_tuk2" ;
     gg:belongsTo gg:japji_pauri12 ;
     gg:index 2 ;
     gg:gurmukhi "ਜੇ ਕੋ ਕਹੈ ਪਿਛੈ ਪਛੁਤਾਇ ॥" ;
@@ -65,7 +65,7 @@ gg:japji_pauri12_tuk2
 
 gg:japji_pauri12_tuk3
     a gg:Tuk ;
-    gg:id "sggs-japji-pauri12-tuk3" ;
+    gg:id "sggs_japji-pauri12_tuk3" ;
     gg:belongsTo gg:japji_pauri12 ;
     gg:index 3 ;
     gg:gurmukhi "ਕਾਗਦਿ ਕਲਮ ਨ ਲਿਖਣਹਾਰੁ ॥" ;
@@ -78,7 +78,7 @@ gg:japji_pauri12_tuk3
 
 gg:japji_pauri12_tuk4
     a gg:Tuk ;
-    gg:id "sggs-japji-pauri12-tuk4" ;
+    gg:id "sggs_japji-pauri12_tuk4" ;
     gg:belongsTo gg:japji_pauri12 ;
     gg:index 4 ;
     gg:gurmukhi "ਮੰਨੇ ਕਾ ਬਹਿ ਕਰਨਿ ਵੀਚਾਰੁ ॥" ;
@@ -91,7 +91,7 @@ gg:japji_pauri12_tuk4
 
 gg:japji_pauri12_tuk5
     a gg:Tuk ;
-    gg:id "sggs-japji-pauri12-tuk5" ;
+    gg:id "sggs_japji-pauri12_tuk5" ;
     gg:belongsTo gg:japji_pauri12 ;
     gg:index 5 ;
     gg:gurmukhi "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥" ;
@@ -104,7 +104,7 @@ gg:japji_pauri12_tuk5
 
 gg:japji_pauri12_tuk6
     a gg:Tuk ;
-    gg:id "sggs-japji-pauri12-tuk6" ;
+    gg:id "sggs_japji-pauri12_tuk6" ;
     gg:belongsTo gg:japji_pauri12 ;
     gg:index 6 ;
     gg:gurmukhi "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੨॥" ;
@@ -123,7 +123,7 @@ gg:japji_pauri12_tuk6
 
 gg:japji_pauri12_tuk1_gu1
     a gg:GlossUnit ;
-    gg:id "sggs-japji-pauri12-tuk1-gu1" ;
+    gg:id "sggs_japji-pauri12_tuk1-gu1" ;
     gg:index 1 ;
     gg:gurmukhi "ਮੰਨੇ ਕੀ ਗਤਿ" ;
     gg:transliteration "mannai kī gat" ;
@@ -131,7 +131,7 @@ gg:japji_pauri12_tuk1_gu1
 
 gg:japji_pauri12_tuk1_gu2
     a gg:GlossUnit ;
-    gg:id "sggs-japji-pauri12-tuk1-gu2" ;
+    gg:id "sggs_japji-pauri12_tuk1-gu2" ;
     gg:index 2 ;
     gg:gurmukhi "ਕਹੀ ਨ ਜਾਇ" ;
     gg:transliteration "kahī na jāī" ;
@@ -141,7 +141,7 @@ gg:japji_pauri12_tuk1_gu2
 
 gg:japji_pauri12_tuk2_gu1
     a gg:GlossUnit ;
-    gg:id "sggs-japji-pauri12-tuk2-gu1" ;
+    gg:id "sggs_japji-pauri12_tuk2-gu1" ;
     gg:index 1 ;
     gg:gurmukhi "ਜੇ ਕੋ ਕਹੈ" ;
     gg:transliteration "je ko kahai" ;
@@ -149,7 +149,7 @@ gg:japji_pauri12_tuk2_gu1
 
 gg:japji_pauri12_tuk2_gu2
     a gg:GlossUnit ;
-    gg:id "sggs-japji-pauri12-tuk2-gu2" ;
+    gg:id "sggs_japji-pauri12_tuk2-gu2" ;
     gg:index 2 ;
     gg:gurmukhi "ਪਿਛੈ ਪਛੁਤਾਇ" ;
     gg:transliteration "pichhai pachhutāe" ;
@@ -159,7 +159,7 @@ gg:japji_pauri12_tuk2_gu2
 
 gg:japji_pauri12_tuk3_gu1
     a gg:GlossUnit ;
-    gg:id "sggs-japji-pauri12-tuk3-gu1" ;
+    gg:id "sggs_japji-pauri12_tuk3-gu1" ;
     gg:index 1 ;
     gg:gurmukhi "ਕਾਗਦਿ ਕਲਮ" ;
     gg:transliteration "kāgad kalam" ;
@@ -167,7 +167,7 @@ gg:japji_pauri12_tuk3_gu1
 
 gg:japji_pauri12_tuk3_gu2
     a gg:GlossUnit ;
-    gg:id "sggs-japji-pauri12-tuk3-gu2" ;
+    gg:id "sggs_japji-pauri12_tuk3-gu2" ;
     gg:index 2 ;
     gg:gurmukhi "ਨ ਲਿਖਣਹਾਰੁ" ;
     gg:transliteration "na likhaṇhār" ;
@@ -177,7 +177,7 @@ gg:japji_pauri12_tuk3_gu2
 
 gg:japji_pauri12_tuk4_gu1
     a gg:GlossUnit ;
-    gg:id "sggs-japji-pauri12-tuk4-gu1" ;
+    gg:id "sggs_japji-pauri12_tuk4-gu1" ;
     gg:index 1 ;
     gg:gurmukhi "ਮੰਨੇ ਕਾ ਬਹਿ ਕਰਨਿ" ;
     gg:transliteration "mannai kā bahi karan" ;
@@ -185,7 +185,7 @@ gg:japji_pauri12_tuk4_gu1
 
 gg:japji_pauri12_tuk4_gu2
     a gg:GlossUnit ;
-    gg:id "sggs-japji-pauri12-tuk4-gu2" ;
+    gg:id "sggs_japji-pauri12_tuk4-gu2" ;
     gg:index 2 ;
     gg:gurmukhi "ਵੀਚਾਰੁ" ;
     gg:transliteration "vīchār" ;
@@ -195,7 +195,7 @@ gg:japji_pauri12_tuk4_gu2
 
 gg:japji_pauri12_tuk5_gu1
     a gg:GlossUnit ;
-    gg:id "sggs-japji-pauri12-tuk5-gu1" ;
+    gg:id "sggs_japji-pauri12_tuk5-gu1" ;
     gg:index 1 ;
     gg:gurmukhi "ਐਸਾ ਨਾਮੁ" ;
     gg:transliteration "aisā nām" ;
@@ -203,7 +203,7 @@ gg:japji_pauri12_tuk5_gu1
 
 gg:japji_pauri12_tuk5_gu2
     a gg:GlossUnit ;
-    gg:id "sggs-japji_pauri12-tuk5-gu2" ;
+    gg:id "sggs_japji_pauri12_tuk5-gu2" ;
     gg:index 2 ;
     gg:gurmukhi "ਨਿਰੰਜਨੁ ਹੋਇ" ;
     gg:transliteration "niranjan hoi" ;
@@ -213,7 +213,7 @@ gg:japji_pauri12_tuk5_gu2
 
 gg:japji_pauri12_tuk6_gu1
     a gg:GlossUnit ;
-    gg:id "sggs-japji-pauri12-tuk6-gu1" ;
+    gg:id "sggs_japji-pauri12_tuk6-gu1" ;
     gg:index 1 ;
     gg:gurmukhi "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ" ;
     gg:transliteration "je ko mann jāṇai" ;
@@ -221,7 +221,7 @@ gg:japji_pauri12_tuk6_gu1
 
 gg:japji_pauri12_tuk6_gu2
     a gg:GlossUnit ;
-    gg:id "sggs-japji-pauri12-tuk6-gu2" ;
+    gg:id "sggs_japji-pauri12_tuk6-gu2" ;
     gg:index 2 ;
     gg:gurmukhi "ਮਨਿ ਕੋਇ ॥੧੨॥" ;
     gg:transliteration "man koe. ||12||" ;

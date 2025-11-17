@@ -26,6 +26,9 @@ gg:DevotionalLove a gg:Theme ;
 gg:Desire a gg:Theme ;
     rdfs:label "Desire / Craving / Bhukh"@en .
 
+gg:DharmaAlignment a gg:Theme ;
+    rdfs:label "Alignment with Dharma (Cosmic Righteousness / Dharam)"@en .
+
 gg:DivineDelight a gg:Theme ;
     rdfs:label "Divine Delight in the Devotee"@en .
 
@@ -56,6 +59,12 @@ gg:DivineSovereignty a gg:Theme ;
 gg:Ego a gg:Theme ;
     rdfs:label "Ego (haumai) and its dissolution"@en .
 
+gg:FaithfulState a gg:Theme ;
+    rdfs:label "Faithful State (Mannai – deep trusting acceptance)"@en .
+
+gg:FamilyUplift a gg:Theme ;
+    rdfs:label "Uplift of Family and Community"@en .
+    
 gg:GivingReceiving a gg:Theme ;
     rdfs:label "Endless Giving and Receiving"@en .
 

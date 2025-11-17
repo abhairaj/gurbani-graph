@@ -10,7 +10,7 @@
 #################################################################
 
 gg:japji_pauri6 a gg:Pauri ;
-    gg:id "sggs-japji-pauri6" ;
+    gg:id "sggs_japji-pauri6" ;
     dct:title "Japji Sahib – Pauri 6"@en ;
     gg:ang "1"^^xsd:integer ;
     gg:inBani gg:JapJiSahib ;
@@ -35,7 +35,7 @@ gg:japji_pauri6 a gg:Pauri ;
 #################################################################
 
 gg:japji_pauri6_tuk1 a gg:Tuk ;
-    gg:id "gg:japji-pauri6-tuk1" ;
+    gg:id "sggs_japji-pauri6_tuk1" ;
     gg:index "1"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri6 ;
     gg:gurmukhi "ਤੀਰਥਿ ਨਾਵਾ ਜੇ ਤਿਸੁ ਭਾਵਾ ਵਿਣੁ ਭਾਣੇ ਕਿ ਨਾਇ ਕਰੀ ॥"@pa ;
@@ -71,7 +71,7 @@ gg:japji_pauri6_tuk1_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri6_tuk2 a gg:Tuk ;
-    gg:id "gg:japji-pauri6-tuk2" ;
+    gg:id "sggs_japji-pauri6_tuk2" ;
     gg:index "2"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri6 ;
     gg:gurmukhi "ਜੇਤੀ ਸਿਰਠਿ ਉਪਾਈ ਵੇਖਾ ਵਿਣੁ ਕਰਮਾ ਕਿ ਮਿਲੈ ਲਈ ॥"@pa ;
@@ -107,7 +107,7 @@ gg:japji_pauri6_tuk2_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri6_tuk3 a gg:Tuk ;
-    gg:id "gg:japji-pauri6-tuk3" ;
+    gg:id "sggs_japji-pauri6_tuk3" ;
     gg:index "3"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri6 ;
     gg:gurmukhi "ਮਤਿ ਵਿਚਿ ਰਤਨ ਜਵਾਹਰ ਮਾਣਿਕ ਜੇ ਇਕ ਗੁਰ ਕੀ ਸਿਖ ਸੁਣੀ ॥"@pa ;
@@ -144,7 +144,7 @@ gg:japji_pauri6_tuk3_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri6_tuk4 a gg:Tuk ;
-    gg:id "gg:japji-pauri6-tuk4" ;
+    gg:id "sggs_japji-pauri6_tuk4" ;
     gg:index "4"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri6 ;
     gg:gurmukhi "ਗੁਰਾ ਇਕੁ ਦੇਹਿ ਬੁਝਾਈ ॥"@pa ;
@@ -166,7 +166,7 @@ gg:japji_pauri6_tuk4_gu1 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri6_tuk5 a gg:Tuk ;
-    gg:id "gg:japji-pauri6-tuk5" ;
+    gg:id "sggs_japji-pauri6_tuk5" ;
     gg:index "5"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri6 ;
     gg:gurmukhi "ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ ਸੋ ਮੈ ਵਿਸਰਿ ਨ ਜਾਈ ॥੬॥"@pa ;

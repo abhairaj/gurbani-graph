@@ -17,7 +17,7 @@ gg:Ang1 a gg:AngReference ;
 #################################################################
 
 gg:japji_pauri2 a gg:Pauri ;
-    gg:id "sggs-japji-pauri2" ;
+    gg:id "sggs_japji-pauri2" ;
     dct:title "Japji Sahib – Pauri 2"@en ;
     gg:ang "1"^^xsd:integer ;
     gg:inBani gg:JapJiSahib ;
@@ -46,7 +46,7 @@ gg:japji_pauri2 a gg:Pauri ;
 #################################################################
 
 gg:japji_pauri2_tuk1 a gg:Tuk ;
-    gg:id "sggs-japji-pauri2-tuk1" ;
+    gg:id "sggs_japji-pauri2_tuk1" ;
     gg:index "1"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri2 ;
     gg:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥"@pa ;
@@ -89,7 +89,7 @@ gg:japji_pauri2_tuk1_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri2_tuk2 a gg:Tuk ;
-    gg:id "sggs-japji-pauri2-tuk2" ;
+    gg:id "sggs_japji-pauri2_tuk2" ;
     gg:index "2"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri2 ;
     gg:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥"@pa ;
@@ -142,7 +142,7 @@ gg:japji_pauri2_tuk2_gu4 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri2_tuk3 a gg:Tuk ;
-    gg:id "sggs-japji-pauri2-tuk3" ;
+    gg:id "sggs_japji-pauri2_tuk3" ;
     gg:index "3"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri2 ;
     gg:gurmukhi "ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥"@pa ;
@@ -195,7 +195,7 @@ gg:japji_pauri2_tuk3_gu4 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri2_tuk4 a gg:Tuk ;
-    gg:id "sggs-japji-pauri2-tuk4" ;
+    gg:id "sggs_japji-pauri2_tuk4" ;
     gg:index "4"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri2 ;
     gg:gurmukhi "ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥"@pa ;
@@ -248,7 +248,7 @@ gg:japji_pauri2_tuk4_gu4 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri2_tuk5 a gg:Tuk ;
-    gg:id "sggs-japji-pauri2-tuk5" ;
+    gg:id "sggs_japji-pauri2_tuk5" ;
     gg:index "5"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri2 ;
     gg:gurmukhi "ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥"@pa ;
@@ -290,7 +290,7 @@ gg:japji_pauri2_tuk5_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri2_tuk6 a gg:Tuk ;
-    gg:id "sggs-japji-pauri2-tuk6" ;
+    gg:id "sggs_japji-pauri2_tuk6" ;
     gg:index "6"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri2 ;
     gg:gurmukhi "ਨਾਨਕ ਹੁਕਮੈ ਜੇ ਬੁਝੈ ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ ॥੨॥"@pa ;

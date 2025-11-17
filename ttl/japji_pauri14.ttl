@@ -1,0 +1,254 @@
+@prefix gg:  <http://gurbani-graph.org/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+#################################################################
+### Japji Sahib – Pauri 14
+### ਮੰਨੈ ਮਾਰਗਿ ਠਾਕ ਨ ਪਾਇ ॥ ... ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੪॥
+#################################################################
+
+gg:japji_pauri14
+    a                 gg:Pauri ;
+    gg:id             "sggs_japji-pauri14" ;
+    dct:title         "Japji Sahib – Pauri 14"@en ;
+    dct:title         "ਜਪੁਜੀ ਸਾਹਿਬ – ਪਉੜੀ ੧੪"@pa ;
+    gg:ang            "3"^^xsd:integer ;
+    gg:inBani         gg:JapJiSahib ;
+    gg:indexInBani    "14"^^xsd:integer ;
+    gg:inScripture    gg:SGGS ;
+    gg:hasAuthor      gg:GuruNanakDevJi ;
+
+    gg:hasTheme       gg:FaithfulState ,
+                      gg:LiberationDoor ,
+                      gg:GloryStatus ,
+                      gg:ServiceAndHonor ,
+                      gg:Restlessness ,
+                      gg:DharmaAlignment ;
+
+    gg:hasTuk         gg:japji_pauri14_tuk1 ,
+                      gg:japji_pauri14_tuk2 ,
+                      gg:japji_pauri14_tuk3 ,
+                      gg:japji_pauri14_tuk4 ,
+                      gg:japji_pauri14_tuk5 ,
+                      gg:japji_pauri14_tuk6 ;
+
+    rdfs:comment      "Pauri 14 describes how the faithful state clears and protects the path, grants an honorable exit from this life, cuts through empty ritual, and binds a person to Dharam (cosmic righteousness) through the immaculate Naam."@en
+.
+
+#################################################################
+### Pauri 14 – Tuk 1
+### ਮੰਨੈ ਮਾਰਗਿ ਠਾਕ ਨ ਪਾਇ ॥
+#################################################################
+
+gg:japji_pauri14_tuk1
+    a                  gg:Tuk ;
+    gg:id              "sggs_japji_pauri14_tuk1" ;
+    gg:index           "1"^^xsd:integer ;
+    gg:belongsTo       gg:japji_pauri14 ;
+    gg:gurmukhi        "ਮੰਨੈ ਮਾਰਗਿ ਠਾਕ ਨ ਪਾਇ ॥"@pa ;
+    gg:transliteration "mannai maarag thaak na paa-ay ||"@en-Latn ;
+    gg:translation     "For the faithful, the spiritual path is never blocked or obstructed."@en ;
+    gg:hasTheme        gg:FaithfulState ,
+                       gg:LiberationDoor ,
+                       gg:Restlessness ;
+    gg:hasGlossUnit    gg:japji_pauri14_tuk1_gu1 ,
+                       gg:japji_pauri14_tuk1_gu2
+.
+
+gg:japji_pauri14_tuk1_gu1
+    a                  gg:GlossUnit ;
+    gg:index           "1"^^xsd:integer ;
+    gg:gurmukhi        "ਮੰਨੈ ਮਾਰਗਿ"@pa ;
+    gg:transliteration "mannai maarag"@en-Latn ;
+    gg:translation     "in the faithful state, one truly walks the Way"@en
+.
+
+gg:japji_pauri14_tuk1_gu2
+    a                  gg:GlossUnit ;
+    gg:index           "2"^^xsd:integer ;
+    gg:gurmukhi        "ਠਾਕ ਨ ਪਾਇ"@pa ;
+    gg:transliteration "thaak na paa-ay"@en-Latn ;
+    gg:translation     "and finds no real obstruction on that path"@en
+.
+
+#################################################################
+### Pauri 14 – Tuk 2
+### ਮੰਨੈ ਪਤਿ ਸਿਉ ਪਰਗਟੁ ਜਾਇ ॥
+#################################################################
+
+gg:japji_pauri14_tuk2
+    a                  gg:Tuk ;
+    gg:id              "sggs_japji_pauri14_tuk2" ;
+    gg:index           "2"^^xsd:integer ;
+    gg:belongsTo       gg:japji_pauri14 ;
+    gg:gurmukhi        "ਮੰਨੈ ਪਤਿ ਸਿਉ ਪਰਗਟੁ ਜਾਇ ॥"@pa ;
+    gg:transliteration "mannai pat si-o pargat jaa-ay ||"@en-Latn ;
+    gg:translation     "The faithful depart openly with honor and dignity."@en ;
+    gg:hasTheme        gg:FaithfulState ,
+                       gg:GloryStatus ,
+                       gg:ServiceAndHonor ;
+    gg:hasGlossUnit    gg:japji_pauri14_tuk2_gu1 ,
+                       gg:japji_pauri14_tuk2_gu2
+.
+
+gg:japji_pauri14_tuk2_gu1
+    a                  gg:GlossUnit ;
+    gg:index           "1"^^xsd:integer ;
+    gg:gurmukhi        "ਮੰਨੈ ਪਤਿ ਸਿਉ"@pa ;
+    gg:transliteration "mannai pat si-o"@en-Latn ;
+    gg:translation     "the faithful live and remain in true honor"@en
+.
+
+gg:japji_pauri14_tuk2_gu2
+    a                  gg:GlossUnit ;
+    gg:index           "2"^^xsd:integer ;
+    gg:gurmukhi        "ਪਰਗਟੁ ਜਾਇ"@pa ;
+    gg:transliteration "pargat jaa-ay"@en-Latn ;
+    gg:translation     "and so their departure is radiant and renowned"@en
+.
+
+#################################################################
+### Pauri 14 – Tuk 3
+### ਮੰਨੈ ਮਗੁ ਨ ਚਲੈ ਪੰਥੁ ॥
+#################################################################
+
+gg:japji_pauri14_tuk3
+    a                  gg:Tuk ;
+    gg:id              "sggs_japji_pauri14_tuk3" ;
+    gg:index           "3"^^xsd:integer ;
+    gg:belongsTo       gg:japji_pauri14 ;
+    gg:gurmukhi        "ਮੰਨੈ ਮਗੁ ਨ ਚਲੈ ਪੰਥੁ ॥"@pa ;
+    gg:transliteration "mannai mag na chalai panth ||"@en-Latn ;
+    gg:translation     "The faithful do not walk deceptive or empty religious paths."@en ;
+    gg:hasTheme        gg:FaithfulState ,
+                       gg:Restlessness ,
+                       gg:GurmukhPath ;
+    gg:hasGlossUnit    gg:japji_pauri14_tuk3_gu1 ,
+                       gg:japji_pauri14_tuk3_gu2
+.
+
+gg:japji_pauri14_tuk3_gu1
+    a                  gg:GlossUnit ;
+    gg:index           "1"^^xsd:integer ;
+    gg:gurmukhi        "ਮੰਨੈ ਮਗੁ"@pa ;
+    gg:transliteration "mannai mag"@en-Latn ;
+    gg:translation     "for one in faith, the inner route is clear"@en
+.
+
+gg:japji_pauri14_tuk3_gu2
+    a                  gg:GlossUnit ;
+    gg:index           "2"^^xsd:integer ;
+    gg:gurmukhi        "ਨ ਚਲੈ ਪੰਥੁ"@pa ;
+    gg:transliteration "na chalai panth"@en-Latn ;
+    gg:translation     "and they refuse to tread hollow, showy paths"@en
+.
+
+#################################################################
+### Pauri 14 – Tuk 4
+### ਮੰਨੈ ਧਰਮ ਸੇਤੀ ਸਨਬੰਧੁ ॥
+#################################################################
+
+gg:japji_pauri14_tuk4
+    a                  gg:Tuk ;
+    gg:id              "sggs_japji_pauri14_tuk4" ;
+    gg:index           "4"^^xsd:integer ;
+    gg:belongsTo       gg:japji_pauri14 ;
+    gg:gurmukhi        "ਮੰਨੈ ਧਰਮ ਸੇਤੀ ਸਨਬੰਧੁ ॥"@pa ;
+    gg:transliteration "mannai Dharam saytee san-banDh ||"@en-Latn ;
+    gg:translation     "The faithful are intimately bound to Dharam, the principle of Divine justice and righteousness."@en ;
+    gg:hasTheme        gg:FaithfulState ,
+                       gg:DharmaAlignment ,
+                       gg:GurmukhPath ;
+    gg:hasGlossUnit    gg:japji_pauri14_tuk4_gu1 ,
+                       gg:japji_pauri14_tuk4_gu2
+.
+
+gg:japji_pauri14_tuk4_gu1
+    a                  gg:GlossUnit ;
+    gg:index           "1"^^xsd:integer ;
+    gg:gurmukhi        "ਮੰਨੈ ਧਰਮ ਸੇਤੀ"@pa ;
+    gg:transliteration "mannai Dharam saytee"@en-Latn ;
+    gg:translation     "in the faithful state, one is joined with Dharam itself"@en
+.
+
+gg:japji_pauri14_tuk4_gu2
+    a                  gg:GlossUnit ;
+    gg:index           "2"^^xsd:integer ;
+    gg:gurmukhi        "ਸਨਬੰਧੁ"@pa ;
+    gg:transliteration "san-banDh"@en-Latn ;
+    gg:translation     "as a deep, living relationship"@en
+.
+
+#################################################################
+### Pauri 14 – Tuk 5
+### ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥
+#################################################################
+
+gg:japji_pauri14_tuk5
+    a                  gg:Tuk ;
+    gg:id              "sggs_japji_pauri14_tuk5" ;
+    gg:index           "5"^^xsd:integer ;
+    gg:belongsTo       gg:japji_pauri14 ;
+    gg:gurmukhi        "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥"@pa ;
+    gg:transliteration "aisaa naam niranjan ho-ay ||"@en-Latn ;
+    gg:translation     "Such is the immaculate Naam that bestows this state."@en ;
+    gg:hasTheme        gg:DivineName ,
+                       gg:Niranjan ,
+                       gg:UncreatedDivine ;
+    gg:hasGlossUnit    gg:japji_pauri14_tuk5_gu1 ,
+                       gg:japji_pauri14_tuk5_gu2
+.
+
+gg:japji_pauri14_tuk5_gu1
+    a                  gg:GlossUnit ;
+    gg:index           "1"^^xsd:integer ;
+    gg:gurmukhi        "ਐਸਾ ਨਾਮੁ"@pa ;
+    gg:transliteration "aisaa naam"@en-Latn ;
+    gg:translation     "such is this Naam"@en
+.
+
+gg:japji_pauri14_tuk5_gu2
+    a                  gg:GlossUnit ;
+    gg:index           "2"^^xsd:integer ;
+    gg:gurmukhi        "ਨਿਰੰਜਨੁ ਹੋਇ"@pa ;
+    gg:transliteration "niranjan ho-ay"@en-Latn ;
+    gg:translation     "utterly pure, beyond any taint"@en
+.
+
+#################################################################
+### Pauri 14 – Tuk 6
+### ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੪॥
+#################################################################
+
+gg:japji_pauri14_tuk6
+    a                  gg:Tuk ;
+    gg:id              "sggs_japji_pauri14_tuk6" ;
+    gg:index           "6"^^xsd:integer ;
+    gg:belongsTo       gg:japji_pauri14 ;
+    gg:gurmukhi        "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੪॥"@pa ;
+    gg:transliteration "jay ko mann jaanai man ko-ay ||14||"@en-Latn ;
+    gg:translation     "Only one who truly realizes this faithful state can know such a mind. ||14||"@en ;
+    gg:hasTheme        gg:FaithfulState ,
+                       gg:Wisdom ;
+    gg:hasGlossUnit    gg:japji_pauri14_tuk6_gu1 ,
+                       gg:japji_pauri14_tuk6_gu2
+.
+
+gg:japji_pauri14_tuk6_gu1
+    a                  gg:GlossUnit ;
+    gg:index           "1"^^xsd:integer ;
+    gg:gurmukhi        "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ"@pa ;
+    gg:transliteration "jay ko mann jaanai"@en-Latn ;
+    gg:translation     "if anyone truly understands mannai"@en
+.
+
+gg:japji_pauri14_tuk6_gu2
+    a                  gg:GlossUnit ;
+    gg:index           "2"^^xsd:integer ;
+    gg:gurmukhi        "ਮਨਿ ਕੋਇ ॥੧੪॥"@pa ;
+    gg:transliteration "man ko-ay ||14||"@en-Latn ;
+    gg:translation     "they alone perceive what such a heart-mind is. ||14||"@en
+.
+

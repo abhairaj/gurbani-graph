@@ -9,7 +9,7 @@
 #################################################################
 
 gg:japji_pauri3 a gg:Pauri ;
-    gg:id "sggs-japji-pauri3" ;
+    gg:id "sggs_japji-pauri3" ;
     dct:title "Japji Sahib – Pauri 3"@en ;
     gg:ang "1"^^xsd:integer ;
     gg:inBani gg:JapJiSahib ;
@@ -51,7 +51,7 @@ gg:japji_pauri3 a gg:Pauri ;
 #################################################################
 
 gg:japji_pauri3_tuk1 a gg:Tuk ;
-    gg:id "sggs-japji-pauri3-tuk1" ;
+    gg:id "sggs_japji-pauri3_tuk1" ;
     gg:index "1"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਤਾਣੁ ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ ॥"@pa ;
@@ -85,7 +85,7 @@ gg:japji_pauri3_tuk1_gu2 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri3_tuk2 a gg:Tuk ;
-    gg:id "sggs-japji_pauri3-tuk2" ;
+    gg:id "sggs_japji_pauri3_tuk2" ;
     gg:index "2"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਦਾਤਿ ਜਾਣੈ ਨੀਸਾਣੁ ॥"@pa ;
@@ -119,7 +119,7 @@ gg:japji_pauri3_tuk2_gu2 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri3_tuk3 a gg:Tuk ;
-    gg:id "sggs-japji-pauri3-tuk3" ;
+    gg:id "sggs_japji-pauri3_tuk3" ;
     gg:index "3"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ ॥"@pa ;
@@ -153,7 +153,7 @@ gg:japji_pauri3_tuk3_gu2 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri3_tuk4 a gg:Tuk ;
-    gg:id "sggs-japji-pauri3-tuk4" ;
+    gg:id "sggs_japji-pauri3_tuk4" ;
     gg:index "4"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ ॥"@pa ;
@@ -187,7 +187,7 @@ gg:japji_pauri3_tuk4_gu2 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri3_tuk5 a gg:Tuk ;
-    gg:id "sggs-japji-pauri3-tuk5" ;
+    gg:id "sggs_japji-pauri3_tuk5" ;
     gg:index "5"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਸਾਜਿ ਕਰੇ ਤਨੁ ਖੇਹ ॥"@pa ;
@@ -230,7 +230,7 @@ gg:japji_pauri3_tuk5_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri3_tuk6 a gg:Tuk ;
-    gg:id "sggs-japji-pauri3-tuk6" ;
+    gg:id "sggs_japji-pauri3_tuk6" ;
     gg:index "6"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਜੀਅ ਲੈ ਫਿਰਿ ਦੇਹ ॥"@pa ;
@@ -273,7 +273,7 @@ gg:japji_pauri3_tuk6_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri3_tuk7 a gg:Tuk ;
-    gg:id "gg:japji_pauri3-tuk7" ;
+    gg:id "sggs_japji_pauri3_tuk7" ;
     gg:index "7"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਜਾਪੈ ਦਿਸੈ ਦੂਰਿ ॥"@pa ;
@@ -316,7 +316,7 @@ gg:japji_pauri3_tuk7_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri3_tuk8 a gg:Tuk ;
-    gg:id "sggs-japji_pauri3-tuk8" ;
+    gg:id "sggs_japji_pauri3_tuk8" ;
     gg:index "8"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਵੇਖੈ ਹਾਦਰਾ ਹਦੂਰਿ ॥"@pa ;
@@ -359,7 +359,7 @@ gg:japji_pauri3_tuk8_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri3_tuk9 a gg:Tuk ;
-    gg:id "sggs-japji_pauri3-tuk9" ;
+    gg:id "sggs_japji_pauri3_tuk9" ;
     gg:index "9"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri3 ;
     gg:gurmukhi "ਕਥਨਾ ਕਥੀ ਨ ਆਵੈ ਤੋਟਿ ॥"@pa ;
@@ -402,7 +402,7 @@ gg:japji_pauri3_tuk9_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri3_tuk10 a gg:Tuk ;
-    gg:id "sggs-japji_pauri3-tuk10" ;
+    gg:id "sggs_japji_pauri3_tuk10" ;
     gg:index "10"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri3 ;
     gg:gurmukhi "ਕਥਿ ਕਥਿ ਕਥੀ ਕੋਟੀ ਕੋਟਿ ਕੋਟਿ ॥"@pa ;
@@ -437,7 +437,7 @@ gg:japji_pauri3_tuk10_gu2 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri3_tuk11 a gg:Tuk ;
-    gg:id "sggs-japji_pauri3-tuk11" ;
+    gg:id "sggs_japji_pauri3_tuk11" ;
     gg:index "11"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri3 ;
     gg:gurmukhi "ਦੇਦੇ ਲੈਂਦੇ ਥਕਿ ਪਾਹਿ ॥"@pa ;
@@ -480,7 +480,7 @@ gg:japji_pauri3_tuk11_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri3_tuk12 a gg:Tuk ;
-    gg:id "sggs-japji_pauri3-tuk12" ;
+    gg:id "sggs_japji_pauri3_tuk12" ;
     gg:index "12"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri3 ;
     gg:gurmukhi "ਜੁਗਾ ਜੁਗੰਤਰਿ ਖਾਹੀ ਖਾਹਿ ॥"@pa ;
@@ -514,7 +514,7 @@ gg:japji_pauri3_tuk12_gu2 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri3_tuk13 a gg:Tuk ;
-    gg:id "sggs-japji_pauri3-tuk13" ;
+    gg:id "sggs_japji_pauri3_tuk13" ;
     gg:index "13"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri3 ;
     gg:gurmukhi "ਹੁਕਮੀ ਹੁਕਮੁ ਚਲਾਏ ਰਾਹੁ ॥"@pa ;
@@ -556,7 +556,7 @@ gg:japji_pauri3_tuk13_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:japji_pauri3_tuk14 a gg:Tuk ;
-    gg:id "sggs-japji_pauri3-tuk14" ;
+    gg:id "sggs_japji_pauri3_tuk14" ;
     gg:index "14"^^xsd:integer ;
     gg:belongsTo gg:japji_pauri3 ;
     gg:gurmukhi "ਨਾਨਕ ਵਿਗਸੈ ਵੇਪਰਵਾਹੁ ॥੩॥"@pa ;
