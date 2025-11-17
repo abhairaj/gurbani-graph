@@ -182,3 +182,35 @@ gg:hasMorpheme a owl:ObjectProperty ;
     rdfs:comment "Associates a GlossUnit with one or more Morphemes."@en ;
     rdfs:domain gg:GlossUnit ;
     rdfs:range gg:Morpheme .
+
+### Morpheme-specific datatype properties
+
+gg:lemma a owl:DatatypeProperty ;
+  rdfs:label "lemma"@en ;
+  rdfs:comment "Canonical/root form of the morpheme, when applicable."@en ;
+  rdfs:domain gg:Morpheme ;
+  rdfs:range xsd:string .
+
+gg:morphemeType a owl:DatatypeProperty ;
+  rdfs:label "morpheme type"@en ;
+  rdfs:comment "Type of morpheme (e.g., root, suffix, prefix, particle, clitic, inflectional, derivational)."@en ;
+  rdfs:domain gg:Morpheme ;
+  rdfs:range xsd:string .
+
+gg:morphemeGloss a owl:DatatypeProperty ;
+  rdfs:label "morpheme gloss"@en ;
+  rdfs:comment "Short technical gloss for the morpheme (e.g., 1SG, 3PL, LOC, INST, PL)."@en ;
+  rdfs:domain gg:Morpheme ;
+  rdfs:range xsd:string .
+
+gg:posTag a owl:DatatypeProperty ;
+  rdfs:label "POS tag"@en ;
+  rdfs:comment "Part-of-speech tag associated with the morpheme or its host word."@en ;
+  rdfs:domain gg:Morpheme ;
+  rdfs:range xsd:string .
+
+gg:morphTag a owl:DatatypeProperty ;
+  rdfs:label "morphological tag"@en ;
+  rdfs:comment "Serialized morphological features such as number, gender, person, tense, aspect, case, etc."@en ;
+  rdfs:domain gg:Morpheme ;
+  rdfs:range xsd:string .
