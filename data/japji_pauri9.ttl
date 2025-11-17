@@ -1,0 +1,204 @@
+@prefix gg:  <http://gurbani-graph.org/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+#################################################################
+### Pauri / Shabd: Japji Sahib – Pauri 9
+#################################################################
+
+gg:japji_pauri9
+    a gg:Pauri ;
+    gg:id "sggs-japji-pauri9" ;
+    dct:title "Japji Sahib – Pauri 9"@en ;
+    dct:title "ਜਪੁਜੀ ਸਾਹਿਬ – ਪਉੜੀ ੯"@pa ;
+
+    gg:ang "2"^^xsd:integer ;
+    gg:inBani gg:JapJiSahib ;
+    gg:indexInBani "9"^^xsd:integer ;
+
+    gg:inScripture gg:SGGS ;
+    gg:hasAuthor gg:GuruNanakDevJi ;
+
+    gg:hasTheme
+        gg:Listening ,
+        gg:DivineWisdom ,
+        gg:UnionSeparation ,
+        gg:Fearlessness ;
+
+    rdfs:comment "Pauri 9 continues the 'suṇiai' (listening) section, outlining the spiritual effects of deep, attuned listening: removal of sorrow and sin, growth of wisdom, transformation of the body-mind, and alignment with the Divine. Each line describes a different fruit of true listening."@en ;
+
+    gg:hasTuk
+        gg:japji_pauri9_tuk1 ,
+        gg:japji_pauri9_tuk2 ,
+        gg:japji_pauri9_tuk3 ,
+        gg:japji_pauri9_tuk4
+.
+
+#################################################################
+### Tuk 1
+### ਸੁਣਿਐ ਸਿਧ ਪੀਰ ਸੁਰਿ ਨਾਥ ॥
+#################################################################
+
+gg:japji_pauri9_tuk1
+    a gg:Tuk ;
+    gg:id "sggs-japji_pauri9-tuk1" ;
+    gg:index "1"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri9 ;
+
+    gg:gurmukhi "ਸੁਣਿਐ ਸਿਧ ਪੀਰ ਸੁਰਿ ਨਾਥ ॥"@pa ;
+    gg:transliteration "suṇiai siddh pīr sur nāth ||"@en-Latn ;
+    gg:translation
+        "By listening, one attains the stature of adepts, sages, angelic beings, and masters."@en ;
+
+    gg:hasTheme gg:Listening ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri9_tuk1_gu1 ,
+        gg:japji_pauri9_tuk1_gu2
+.
+
+# GU1
+gg:japji_pauri9_tuk1_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਣਿਐ ਸਿਧ ਪੀਰ"@pa ;
+    gg:transliteration "suṇiai siddh pīr"@en-Latn ;
+    gg:translation "by listening, one attains the stature of siddhas and sages"@en
+.
+
+# GU2
+gg:japji_pauri9_tuk1_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਰਿ ਨਾਥ"@pa ;
+    gg:transliteration "sur nāth"@en-Latn ;
+    gg:translation "as well as celestial beings and spiritual masters"@en
+.
+
+#################################################################
+### Tuk 2
+### ਸੁਣਿਐ ਧਰਤਿ ਧਵਲ ਆਕਾਸ ॥
+#################################################################
+
+gg:japji_pauri9_tuk2
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri9-tuk2" ;
+    gg:index "2"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri9 ;
+
+    gg:gurmukhi "ਸੁਣਿਐ ਧਰਤਿ ਧਵਲ ਆਕਾਸ ॥"@pa ;
+    gg:transliteration "suṇiai dharat dhaval ākās ||"@en-Latn ;
+    gg:translation
+        "By listening, the mysteries of the earth, the mythic bull of righteousness, and the skies are understood."@en ;
+
+    gg:hasTheme gg:DivineWisdom ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri9_tuk2_gu1 ,
+        gg:japji_pauri9_tuk2_gu2
+.
+
+# GU1
+gg:japji_pauri9_tuk2_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਣਿਐ ਧਰਤਿ ਧਵਲ"@pa ;
+    gg:transliteration "suṇiai dharat dhaval"@en-Latn ;
+    gg:translation "by listening, the earth and the sustaining principle (the ‘mythic bull’) are grasped"@en
+.
+
+# GU2
+gg:japji_pauri9_tuk2_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਆਕਾਸ"@pa ;
+    gg:transliteration "ākās"@en-Latn ;
+    gg:translation "as well as the vastness of the heavens"@en
+.
+
+#################################################################
+### Tuk 3
+### ਸੁਣਿਐ ਦੀਪ ਲੋਅ ਪਾਤਾਲ ॥
+#################################################################
+
+gg:japji_pauri9_tuk3
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri9-tuk3" ;
+    gg:index "3"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri9 ;
+
+    gg:gurmukhi "ਸੁਣਿਐ ਦੀਪ ਲੋਅ ਪਾਤਾਲ ॥"@pa ;
+    gg:transliteration "suṇiai dīp loa pātāl ||"@en-Latn ;
+    gg:translation
+        "By listening, the continents, worlds, and underworld realms become known."@en ;
+
+    gg:hasTheme gg:DivineWisdom ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri9_tuk3_gu1 ,
+        gg:japji_pauri9_tuk3_gu2
+.
+
+# GU1
+gg:japji_pauri9_tuk3_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਣਿਐ ਦੀਪ ਲੋਅ"@pa ;
+    gg:transliteration "suṇiai dīp loa"@en-Latn ;
+    gg:translation "by listening, the islands and worlds become known"@en
+.
+
+# GU2
+gg:japji_pauri9_tuk3_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਪਾਤਾਲ"@pa ;
+    gg:transliteration "pātāl"@en-Latn ;
+    gg:translation "and even the nether regions"@en
+.
+
+#################################################################
+### Tuk 4
+### ਸੁਣਿਐ ਪੋਖੁ ਪਵਣੁ ਨਿਰਬਾਣੁ ॥੯॥
+#################################################################
+
+gg:japji_pauri9_tuk4
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri9-tuk4" ;
+    gg:index "4"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri9 ;
+
+    gg:gurmukhi "ਸੁਣਿਐ ਪੋਖੁ ਪਵਣੁ ਨਿਰਬਾਣੁ ॥੯॥"@pa ;
+    gg:transliteration "suṇiai pokh pavaṇ nirbāṇ ||9||"@en-Latn ;
+    gg:translation
+        "By listening, one becomes inwardly nourished, attuned to the subtle breath, and established in fearless liberation. ||9||"@en ;
+
+    gg:hasTheme
+        gg:Listening ,
+        gg:Fearlessness ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri9_tuk4_gu1 ,
+        gg:japji_pauri9_tuk4_gu2
+.
+
+# GU1
+gg:japji_pauri9_tuk4_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਣਿਐ ਪੋਖੁ ਪਵਣੁ"@pa ;
+    gg:transliteration "suṇiai pokh pavaṇ"@en-Latn ;
+    gg:translation "by listening, one is inwardly nourished and attuned to the vital breath"@en
+.
+
+# GU2
+gg:japji_pauri9_tuk4_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਨਿਰਬਾਣੁ ॥੯॥"@pa ;
+    gg:transliteration "nirbāṇ ||9||"@en-Latn ;
+    gg:translation "and attains the state of fearless liberation. ||9||"@en
+.

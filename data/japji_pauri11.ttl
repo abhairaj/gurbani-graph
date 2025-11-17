@@ -1,0 +1,281 @@
+@prefix gg:  <http://gurbani-graph.org/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+#################################################################
+### Japji Sahib – Pauri 11
+#################################################################
+
+gg:japji_pauri11
+    a gg:Pauri ;
+    gg:id "sggs-japji-pauri11" ;
+    dct:title "Japji Sahib – Pauri 11"@en ;
+    dct:title "ਜਪੁਜੀ ਸਾਹਿਬ – ਪਉੜੀ ੧੧"@pa ;
+
+    gg:ang "2"^^xsd:integer ;
+    gg:inBani gg:JapJiSahib ;
+    gg:indexInBani "11"^^xsd:integer ;
+
+    gg:inScripture gg:SGGS ;
+    gg:hasAuthor  gg:GuruNanakDevJi ;
+
+    gg:hasTheme
+        gg:ListeningAndLove ,
+        gg:Virtues ,
+        gg:Wisdom ,
+        gg:Bhagat ,
+        gg:SufferingJoy ;
+
+    rdfs:comment "Pauri 11 brings the 'suṇiai' sequence to a crest. By listening, one dives into an ocean of virtues, rises to spiritual and worldly leadership, the blind find the path, and even the unfathomable becomes approachable. The bhagats live in constant joy, and listening erases sorrow and sin."@en ;
+
+    gg:hasTuk
+        gg:japji_pauri11_tuk1 ,
+        gg:japji_pauri11_tuk2 ,
+        gg:japji_pauri11_tuk3 ,
+        gg:japji_pauri11_tuk4 ,
+        gg:japji_pauri11_tuk5 ,
+        gg:japji_pauri11_tuk6
+.
+
+#################################################################
+### Pauri 11 – Tuk 1
+### ਸੁਣਿਐ ਸਰਾ ਗੁਣਾ ਕੇ ਗਾਹ ॥
+#################################################################
+
+gg:japji_pauri11_tuk1
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri11-tuk1" ;
+    gg:index "1"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri11 ;
+
+    gg:gurmukhi "ਸੁਣਿਐ ਸਰਾ ਗੁਣਾ ਕੇ ਗਾਹ ॥"@pa ;
+    gg:transliteration "suṇiai saraa guṇaa ke gaah ||"@en-Latn ;
+    gg:translation "By listening, one plunges into the depths of countless divine virtues."@en ;
+
+    gg:hasTheme
+        gg:ListeningAndLove ,
+        gg:Virtues ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri11_tuk1_gu1 ,
+        gg:japji_pauri11_tuk1_gu2
+.
+
+gg:japji_pauri11_tuk1_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਣਿਐ ਸਰਾ ਗੁਣਾ"@pa ;
+    gg:transliteration "suṇiai saraa guṇaa"@en-Latn ;
+    gg:translation "by listening, the many virtues are truly grasped"@en
+.
+
+gg:japji_pauri11_tuk1_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਕੇ ਗਾਹ"@pa ;
+    gg:transliteration "ke gaah"@en-Latn ;
+    gg:translation "as one dives into their ocean-like depth"@en
+.
+
+#################################################################
+### Pauri 11 – Tuk 2
+### ਸੁਣਿਐ ਸੇਖ ਪੀਰ ਪਾਤਿਸਾਹ ॥
+#################################################################
+
+gg:japji_pauri11_tuk2
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri11-tuk2" ;
+    gg:index "2"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri11 ;
+
+    gg:gurmukhi "ਸੁਣਿਐ ਸੇਖ ਪੀਰ ਪਾਤਿਸਾਹ ॥"@pa ;
+    gg:transliteration "suṇiai sekh peer paatisaah ||"@en-Latn ;
+    gg:translation "By listening, one is fit for the company of spiritual guides, saints, and even sovereigns."@en ;
+
+    gg:hasTheme
+        gg:ListeningAndLove ,
+        gg:Virtues ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri11_tuk2_gu1 ,
+        gg:japji_pauri11_tuk2_gu2
+.
+
+gg:japji_pauri11_tuk2_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਣਿਐ ਸੇਖ ਪੀਰ"@pa ;
+    gg:transliteration "suṇiai sekh peer"@en-Latn ;
+    gg:translation "by listening, one takes on the fragrance of scholars and spiritual elders"@en
+.
+
+gg:japji_pauri11_tuk2_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਪਾਤਿਸਾਹ"@pa ;
+    gg:transliteration "paatisaah"@en-Latn ;
+    gg:translation "and the dignity of true kingship"@en
+.
+
+#################################################################
+### Pauri 11 – Tuk 3
+### ਸੁਣਿਐ ਅੰਧੇ ਪਾਵਹਿ ਰਾਹੁ ॥
+#################################################################
+
+gg:japji_pauri11_tuk3
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri11-tuk3" ;
+    gg:index "3"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri11 ;
+
+    gg:gurmukhi "ਸੁਣਿਐ ਅੰਧੇ ਪਾਵਹਿ ਰਾਹੁ ॥"@pa ;
+    gg:transliteration "suṇiai anḏhe paavahi raahu ||"@en-Latn ;
+    gg:translation "By listening, even the inwardly blind discover the way."@en ;
+
+    gg:hasTheme
+        gg:ListeningAndLove ,
+        gg:Wisdom ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri11_tuk3_gu1 ,
+        gg:japji_pauri11_tuk3_gu2
+.
+
+gg:japji_pauri11_tuk3_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਣਿਐ ਅੰਧੇ"@pa ;
+    gg:transliteration "suṇiai anḏhe"@en-Latn ;
+    gg:translation "by listening, those who were blind in understanding"@en
+.
+
+gg:japji_pauri11_tuk3_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਪਾਵਹਿ ਰਾਹੁ"@pa ;
+    gg:transliteration "paavahi raahu"@en-Latn ;
+    gg:translation "come to find the path they must walk"@en
+.
+
+#################################################################
+### Pauri 11 – Tuk 4
+### ਸੁਣਿਐ ਹਾਥ ਹੋਵੈ ਅਸਗਾਹੁ ॥
+#################################################################
+
+gg:japji_pauri11_tuk4
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri11-tuk4" ;
+    gg:index "4"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri11 ;
+
+    gg:gurmukhi "ਸੁਣਿਐ ਹਾਥ ਹੋਵੈ ਅਸਗਾਹੁ ॥"@pa ;
+    gg:transliteration "suṇiai haath hovai asgaahu ||"@en-Latn ;
+    gg:translation "By listening, even the unfathomable becomes as if held in one’s hand."@en ;
+
+    gg:hasTheme
+        gg:ListeningAndLove ,
+        gg:Wisdom ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri11_tuk4_gu1 ,
+        gg:japji_pauri11_tuk4_gu2
+.
+
+gg:japji_pauri11_tuk4_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਣਿਐ ਹਾਥ ਹੋਵੈ"@pa ;
+    gg:transliteration "suṇiai haath hovai"@en-Latn ;
+    gg:translation "by listening, it comes within your reach"@en
+.
+
+gg:japji_pauri11_tuk4_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਅਸਗਾਹੁ"@pa ;
+    gg:transliteration "asgaahu"@en-Latn ;
+    gg:translation "that which was once immeasurable and beyond grasp"@en
+.
+
+#################################################################
+### Pauri 11 – Tuk 5
+### ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥
+#################################################################
+
+gg:japji_pauri11_tuk5
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri11-tuk5" ;
+    gg:index "5"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri11 ;
+
+    gg:gurmukhi "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥"@pa ;
+    gg:transliteration "naanak bhagtaa sadaa vigaas ||"@en-Latn ;
+    gg:translation "O Nanak, the devotees abide in ceaseless joy and blossoming."@en ;
+
+    gg:hasTheme
+        gg:Bhagat ,
+        gg:DivineDelight ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri11_tuk5_gu1 ,
+        gg:japji_pauri11_tuk5_gu2
+.
+
+gg:japji_pauri11_tuk5_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਨਾਨਕ ਭਗਤਾ"@pa ;
+    gg:transliteration "naanak bhagtaa"@en-Latn ;
+    gg:translation "O Nanak, the bhagats"@en
+.
+
+gg:japji_pauri11_tuk5_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਸਦਾ ਵਿਗਾਸੁ"@pa ;
+    gg:transliteration "sadaa vigaas"@en-Latn ;
+    gg:translation "ever dwell in joyful expansion"@en
+.
+
+#################################################################
+### Pauri 11 – Tuk 6
+### ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੧੧॥
+#################################################################
+
+gg:japji_pauri11_tuk6
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri11-tuk6" ;
+    gg:index "6"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri11 ;
+
+    gg:gurmukhi "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੧੧॥"@pa ;
+    gg:transliteration "suṇiai dookh paap kaa naas ||11||"@en-Latn ;
+    gg:translation "By listening, sorrow and the burden of sin are utterly destroyed. ||11||"@en ;
+
+    gg:hasTheme
+        gg:ListeningAndLove ,
+        gg:SufferingJoy ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri11_tuk6_gu1 ,
+        gg:japji_pauri11_tuk6_gu2
+.
+
+gg:japji_pauri11_tuk6_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ"@pa ;
+    gg:transliteration "suṇiai dookh paap kaa"@en-Latn ;
+    gg:translation "by listening, pain and the stain of wrongdoing"@en
+.
+
+gg:japji_pauri11_tuk6_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਨਾਸੁ ॥੧੧॥"@pa ;
+    gg:transliteration "naas ||11||"@en-Latn ;
+    gg:translation "are brought to complete extinction. ||11||"@en
+.

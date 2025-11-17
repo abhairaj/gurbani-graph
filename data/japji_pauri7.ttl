@@ -1,0 +1,330 @@
+@prefix gg:  <http://gurbani-graph.org/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+#################################################################
+### Pauri / Shabd: Japji Sahib – Pauri 7
+#################################################################
+
+gg:japji_pauri7
+    a gg:Pauri ;
+    gg:id "sggs-japji-pauri7" ;
+    dct:title "Japji Sahib – Pauri 7"@en ;
+    dct:title "ਜਪੁਜੀ ਸਾਹਿਬ – ਪਉੜੀ ੭"@pa ;
+    gg:ang "2"^^xsd:integer ;
+    gg:inBani gg:JapJiSahib ;
+    gg:indexInBani "7"^^xsd:integer ;
+    gg:hasAuthor gg:GuruNanakDevJi ;
+    gg:inScripture gg:SGGS ;
+    gg:hasTheme
+        gg:GloryStatus ,
+        gg:DivineGrace ,
+        gg:GraceAndKarma ,
+        gg:HighLow ,
+        gg:DivineHumility ,
+        gg:Virtues ;
+
+    rdfs:comment "Japji Sahib Pauri 7 relativizes immensely long life, global fame, and worldly honor by asserting that without Divine Nadar (grace), none of it truly counts. In contrast, the Divine freely overturns low and high, making even the ‘nirgun’ (without virtues) into virtuous, and granting yet more virtues to the virtuous; no one can add to the Divine’s own virtue."@en ;
+
+    gg:hasTuk
+        gg:japji_pauri7_tuk1 ,
+        gg:japji_pauri7_tuk2 ,
+        gg:japji_pauri7_tuk3 ,
+        gg:japji_pauri7_tuk4 ,
+        gg:japji_pauri7_tuk5 ,
+        gg:japji_pauri7_tuk6 ,
+        gg:japji_pauri7_tuk7
+.
+
+#################################################################
+### Tuk 1
+### ਜੇ ਜੁਗ ਚਾਰੇ ਆਰਜਾ ਹੋਰ ਦਸੂਣੀ ਹੋਇ ॥
+#################################################################
+
+gg:japji_pauri7_tuk1
+    a gg:Tuk ;
+    gg:id "sggs-japji-pauri7-tuk1" ;
+    gg:index "1"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri7 ;
+
+    gg:gurmukhi "ਜੇ ਜੁਗ ਚਾਰੇ ਆਰਜਾ ਹੋਰ ਦਸੂਣੀ ਹੋਇ ॥"@pa ;
+    gg:transliteration "je jug chāre ārjā hor dasūṇī hoi ||"@en-Latn ;
+    gg:translation "Even if one’s lifespan were to last through all four ages, and even become ten times greater than that,"@en ;
+
+    gg:hasTheme gg:GloryStatus ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri7_tuk1_gu1 ,
+        gg:japji_pauri7_tuk1_gu2
+.
+
+# GU1: ਜੇ ਜੁਗ ਚਾਰੇ ਆਰਜਾ
+gg:japji_pauri7_tuk1_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਜੇ ਜੁਗ ਚਾਰੇ ਆਰਜਾ"@pa ;
+    gg:transliteration "je jug chāre ārjā"@en-Latn ;
+    gg:translation "even if one’s lifespan were to last through all four ages"@en
+.
+
+# GU2: ਹੋਰ ਦਸੂਣੀ ਹੋਇ
+gg:japji_pauri7_tuk1_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਹੋਰ ਦਸੂਣੀ ਹੋਇ"@pa ;
+    gg:transliteration "hor dasūṇī hoi"@en-Latn ;
+    gg:translation "and even become ten times greater than that"@en
+.
+
+#################################################################
+### Tuk 2
+### ਨਵਾ ਖੰਡਾ ਵਿਚਿ ਜਾਣੀਐ ਨਾਲਿ ਚਲੈ ਸਭੁ ਕੋਇ ॥
+#################################################################
+
+gg:japji_pauri7_tuk2
+    a gg:Tuk ;
+    gg:id "sggs-japji-pauri7-tuk2" ;
+    gg:index "2"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri7 ;
+
+    gg:gurmukhi "ਨਵਾ ਖੰਡਾ ਵਿਚਿ ਜਾਣੀਐ ਨਾਲਿ ਚਲੈ ਸਭੁ ਕੋਇ ॥"@pa ;
+    gg:transliteration "navā khandā vich jāṇīai nāl chalai sabh koi ||"@en-Latn ;
+    gg:translation "and even if one were known throughout the nine continents, with everyone walking in their company,"@en ;
+
+    gg:hasTheme gg:GloryStatus ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri7_tuk2_gu1 ,
+        gg:japji_pauri7_tuk2_gu2
+.
+
+# GU1: ਨਵਾ ਖੰਡਾ ਵਿਚਿ ਜਾਣੀਐ
+gg:japji_pauri7_tuk2_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਨਵਾ ਖੰਡਾ ਵਿਚਿ ਜਾਣੀਐ"@pa ;
+    gg:transliteration "navā khandā vich jāṇīai"@en-Latn ;
+    gg:translation "even if one were known throughout the nine continents"@en
+.
+
+# GU2: ਨਾਲਿ ਚਲੈ ਸਭੁ ਕੋਇ
+gg:japji_pauri7_tuk2_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਨਾਲਿ ਚਲੈ ਸਭੁ ਕੋਇ"@pa ;
+    gg:transliteration "nāl chalai sabh koi"@en-Latn ;
+    gg:translation "and everyone were to walk in their company"@en
+.
+
+#################################################################
+### Tuk 3
+### ਚੰਗਾ ਨਾਉ ਰਖਾਇ ਕੈ ਜਸੁ ਕੀਰਤਿ ਜਗਿ ਲੇਇ ॥
+#################################################################
+
+gg:japji_pauri7_tuk3
+    a gg:Tuk ;
+    gg:id "sggs-japji-pauri7-tuk3" ;
+    gg:index "3"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri7 ;
+
+    gg:gurmukhi "ਚੰਗਾ ਨਾਉ ਰਖਾਇ ਕੈ ਜਸੁ ਕੀਰਤਿ ਜਗਿ ਲੇਇ ॥"@pa ;
+    gg:transliteration "caṅgā nāu rakhāe kai jas kīrat jag lei ||"@en-Latn ;
+    gg:translation "even if one’s good name were kept exalted, and the world were to sing their praise and glory,"@en ;
+
+    gg:hasTheme gg:GloryStatus ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri7_tuk3_gu1 ,
+        gg:japji_pauri7_tuk3_gu2
+.
+
+# GU1: ਚੰਗਾ ਨਾਉ ਰਖਾਇ ਕੈ
+gg:japji_pauri7_tuk3_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਚੰਗਾ ਨਾਉ ਰਖਾਇ ਕੈ"@pa ;
+    gg:transliteration "caṅgā nāu rakhāe kai"@en-Latn ;
+    gg:translation "even if one’s good name were carefully kept exalted"@en
+.
+
+# GU2: ਜਸੁ ਕੀਰਤਿ ਜਗਿ ਲੇਇ
+gg:japji_pauri7_tuk3_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਜਸੁ ਕੀਰਤਿ ਜਗਿ ਲੇਇ"@pa ;
+    gg:transliteration "jas kīrat jag lei"@en-Latn ;
+    gg:translation "and the world were to take up and sing their praise and glory"@en
+.
+
+#################################################################
+### Tuk 4
+### ਜੇ ਤਿਸੁ ਨਦਰਿ ਨ ਆਵਈ ਤ ਵਾਤ ਨ ਪੁਛੈ ਕੇ ॥
+#################################################################
+
+gg:japji_pauri7_tuk4
+    a gg:Tuk ;
+    gg:id "sggs-japji-pauri7-tuk4" ;
+    gg:index "4"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri7 ;
+
+    gg:gurmukhi "ਜੇ ਤਿਸੁ ਨਦਰਿ ਨ ਆਵਈ ਤ ਵਾਤ ਨ ਪੁਛੈ ਕੇ ॥"@pa ;
+    gg:transliteration "je tis nadar na āvaī ta vāt na pucchai ke ||"@en-Latn ;
+    gg:translation "still, if the Lord’s gracious glance were not to fall on that one, then who would care about their talk at all?"@en ;
+
+    gg:hasTheme
+        gg:DivineGrace ,
+        gg:GraceAndKarma ,
+        gg:GloryStatus ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri7_tuk4_gu1 ,
+        gg:japji_pauri7_tuk4_gu2
+.
+
+# GU1: ਜੇ ਤਿਸੁ ਨਦਰਿ ਨ ਆਵਈ
+gg:japji_pauri7_tuk4_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਜੇ ਤਿਸੁ ਨਦਰਿ ਨ ਆਵਈ"@pa ;
+    gg:transliteration "je tis nadar na āvaī"@en-Latn ;
+    gg:translation "if the Lord’s gracious glance were not to fall on that one"@en
+.
+
+# GU2: ਤ ਵਾਤ ਨ ਪੁਛੈ ਕੇ
+gg:japji_pauri7_tuk4_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਤ ਵਾਤ ਨ ਪੁਛੈ ਕੇ"@pa ;
+    gg:transliteration "ta vāt na pucchai ke"@en-Latn ;
+    gg:translation "then who would care about their talk at all?"@en
+.
+
+#################################################################
+### Tuk 5
+### ਕੀਟਾ ਅੰਦਰਿ ਕੀਟੁ ਕਰਿ ਦੋਸੀ ਦੋਸੁ ਧਰੇ ॥
+#################################################################
+
+gg:japji_pauri7_tuk5
+    a gg:Tuk ;
+    gg:id "sggs-japji-pauri7-tuk5" ;
+    gg:index "5"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri7 ;
+
+    gg:gurmukhi "ਕੀਟਾ ਅੰਦਰਿ ਕੀਟੁ ਕਰਿ ਦੋਸੀ ਦੋਸੁ ਧਰੇ ॥"@pa ;
+    gg:transliteration "kīṭā andar kīṭ kar dosī dos dhare ||"@en-Latn ;
+    gg:translation "then that one would be counted as a worm among worms, and even those themselves in blame would still lay blame on them."@en ;
+
+    gg:hasTheme
+        gg:HighLow ,
+        gg:Ego ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri7_tuk5_gu1 ,
+        gg:japji_pauri7_tuk5_gu2
+.
+
+# GU1: ਕੀਟਾ ਅੰਦਰਿ ਕੀਟੁ ਕਰਿ
+gg:japji_pauri7_tuk5_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਕੀਟਾ ਅੰਦਰਿ ਕੀਟੁ ਕਰਿ"@pa ;
+    gg:transliteration "kīṭā andar kīṭ kar"@en-Latn ;
+    gg:translation "they would be counted as a mere worm among worms"@en
+.
+
+# GU2: ਦੋਸੀ ਦੋਸੁ ਧਰੇ
+gg:japji_pauri7_tuk5_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਦੋਸੀ ਦੋਸੁ ਧਰੇ"@pa ;
+    gg:transliteration "dosī dos dhare"@en-Latn ;
+    gg:translation "and those themselves in blame would still lay blame upon them"@en
+.
+
+#################################################################
+### Tuk 6
+### ਨਾਨਕ ਨਿਰਗੁਣਿ ਗੁਣੁ ਕਰੇ ਗੁਣਵੰਤਿਆ ਗੁਣੁ ਦੇ ॥
+#################################################################
+
+gg:japji_pauri7_tuk6
+    a gg:Tuk ;
+    gg:id "sggs-japji-pauri7-tuk6" ;
+    gg:index "6"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri7 ;
+
+    gg:gurmukhi "ਨਾਨਕ ਨਿਰਗੁਣਿ ਗੁਣੁ ਕਰੇ ਗੁਣਵੰਤਿਆ ਗੁਣੁ ਦੇ ॥"@pa ;
+    gg:transliteration "nānak nirguṇ guṇ kare guṇvantiā guṇ de ||"@en-Latn ;
+    gg:translation "O Nanak, the One makes the virtue-less into virtuous, and grants yet more virtue to those already full of virtue."@en ;
+
+    gg:hasTheme
+        gg:DivineHumility ,
+        gg:DivineGrace ,
+        gg:Virtues ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri7_tuk6_gu1 ,
+        gg:japji_pauri7_tuk6_gu2
+.
+
+# GU1: ਨਾਨਕ ਨਿਰਗੁਣਿ ਗੁਣੁ ਕਰੇ
+gg:japji_pauri7_tuk6_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਨਾਨਕ ਨਿਰਗੁਣਿ ਗੁਣੁ ਕਰੇ"@pa ;
+    gg:transliteration "nānak nirguṇ guṇ kare"@en-Latn ;
+    gg:translation "O Nanak, the One turns the virtue-less into one possessed of virtue"@en
+.
+
+# GU2: ਗੁਣਵੰਤਿਆ ਗੁਣੁ ਦੇ
+gg:japji_pauri7_tuk6_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਗੁਣਵੰਤਿਆ ਗੁਣੁ ਦੇ"@pa ;
+    gg:transliteration "guṇvantiā guṇ de"@en-Latn ;
+    gg:translation "and grants yet more virtue to those already full of virtue"@en
+.
+
+#################################################################
+### Tuk 7
+### ਤੇਹਾ ਕੋਇ ਨ ਸੁਝਈ ਜਿ ਤਿਸੁ ਗੁਣੁ ਕੋਇ ਕਰੇ ॥੭॥
+#################################################################
+
+gg:japji_pauri7_tuk7
+    a gg:Tuk ;
+    gg:id "sggs-japji-pauri7-tuk7" ;
+    gg:index "7"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri7 ;
+
+    gg:gurmukhi "ਤੇਹਾ ਕੋਇ ਨ ਸੁਝਈ ਜਿ ਤਿਸੁ ਗੁਣੁ ਕੋਇ ਕਰੇ ॥੭॥"@pa ;
+    gg:transliteration "tehā koi na sujhī je tis guṇ koi kare ||7||"@en-Latn ;
+    gg:translation "no such one can even be conceived who could in any way bestow virtue upon That One. ||7||"@en ;
+
+    gg:hasTheme
+        gg:Virtues ,
+        gg:DivineSovereignty ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri7_tuk7_gu1 ,
+        gg:japji_pauri7_tuk7_gu2
+.
+
+# GU1: ਤੇਹਾ ਕੋਇ ਨ ਸੁਝਈ
+gg:japji_pauri7_tuk7_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਤੇਹਾ ਕੋਇ ਨ ਸੁਝਈ"@pa ;
+    gg:transliteration "tehā koi na sujhī"@en-Latn ;
+    gg:translation "there appears no such one at all"@en
+.
+
+# GU2: ਜਿ ਤਿਸੁ ਗੁਣੁ ਕੋਇ ਕਰੇ ॥੭॥
+gg:japji_pauri7_tuk7_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਜਿ ਤਿਸੁ ਗੁਣੁ ਕੋਇ ਕਰੇ ॥੭॥"@pa ;
+    gg:transliteration "je tis guṇ koi kare ||7||"@en-Latn ;
+    gg:translation "who could in any way bestow virtue upon That One. ||7||"@en
+.

@@ -1,5 +1,4 @@
-@prefix shabd: <http://gurbani-graph.org/shabd#> .
-@prefix sggs:  <http://gurbani-graph.org/sggs#> .
+@prefix gg:  <http://gurbani-graph.org/core#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
@@ -9,159 +8,159 @@
 ### Theme nodes used in Japji Sahib – Pauri 1
 #################################################################
 
-shabd:AmritVela a shabd:Theme ;
+gg:AmritVela a gg:Theme ;
     rdfs:label "Amrit Vela, True Name, and Contemplation"@en .
 
-shabd:Bhagat a shabd:Theme ;
+gg:Bhagat a gg:Theme ;
     rdfs:label "Bhagat / Devotee"@en .
 
-shabd:CarefreeDivine a shabd:Theme ;
+gg:CarefreeDivine a gg:Theme ;
     rdfs:label "Carefree, Ever-Blissful Divine (Veparvāhu)"@en .
 
-shabd:CreationDestruction a shabd:Theme ;
+gg:CreationDestruction a gg:Theme ;
     rdfs:label "Creation and Dissolution of Forms"@en .
 
-shabd:DevotionalLove a shabd:Theme ;
+gg:DevotionalLove a gg:Theme ;
     rdfs:label "Devotional Love / Bhāo"@en .
 
-shabd:Desire a shabd:Theme ;
+gg:Desire a gg:Theme ;
     rdfs:label "Desire / Craving / Bhukh"@en .
 
-shabd:DivineDelight a shabd:Theme ;
+gg:DivineDelight a gg:Theme ;
     rdfs:label "Divine Delight in the Devotee"@en .
 
-shabd:DivineGifts a shabd:Theme ;
+gg:DivineGifts a gg:Theme ;
     rdfs:label "Divine Gifts / Bounty"@en .
 
-shabd:DivineGrace a shabd:Theme ;
+gg:DivineGrace a gg:Theme ;
     rdfs:label "Divine grace and selection"@en .
 
-shabd:DivineHumility a shabd:Theme ;
+gg:DivineHumility a gg:Theme ;
     rdfs:label "Divine Humility (God exalting the devotee)"@en .
 
-shabd:DivineName a shabd:Theme ;
+gg:DivineName a gg:Theme ;
     rdfs:label "Divine Name (Sach Naam)"@en .
 
-shabd:DivinePower a shabd:Theme ;
+gg:DivinePower a gg:Theme ;
     rdfs:label "Divine Power / Might"@en .
 
-shabd:DivineProtection a shabd:Theme ;
+gg:DivineProtection a gg:Theme ;
     rdfs:label "Divine Protection / Preservation of Honor"@en .
 
-shabd:DivineWill a shabd:Theme ;
+gg:DivineWill a gg:Theme ;
     rdfs:label "Divine Will / Raza"@en .
 
-shabd:DivineSovereignty a shabd:Theme ;
+gg:DivineSovereignty a gg:Theme ;
     rdfs:label "Divine Sovereignty / God Alone is True"@en .
 
-shabd:Ego a shabd:Theme ;
+gg:Ego a gg:Theme ;
     rdfs:label "Ego (haumai) and its dissolution"@en .
 
-shabd:GivingReceiving a shabd:Theme ;
+gg:GivingReceiving a gg:Theme ;
     rdfs:label "Endless Giving and Receiving"@en .
 
-shabd:GloryStatus a shabd:Theme ;
+gg:GloryStatus a gg:Theme ;
     rdfs:label "Glory, rank, and status"@en .
 
-shabd:GraceAndKarma a shabd:Theme ;
+gg:GraceAndKarma a gg:Theme ;
     rdfs:label "Interplay of Karma (Karmi) and Grace (Nadar)"@en .
 
-shabd:GurmukhPath a shabd:Theme ;
+gg:GurmukhPath a gg:Theme ;
     rdfs:label "Gurmukh – sound, knowledge, and Divine pervasion"@en .
 
-shabd:GuruAsDivineForm a shabd:Theme ;
+gg:GuruAsDivineForm a gg:Theme ;
     rdfs:label "Guru as embodiment of Divine powers"@en .
 
-shabd:GuruTeaching a shabd:Theme ;
+gg:GuruTeaching a gg:Theme ;
     rdfs:label "Transformative Guru-Teaching"@en .
 
-shabd:HighLow a shabd:Theme ;
+gg:HighLow a gg:Theme ;
     rdfs:label "High and low states"@en .
 
-shabd:Hukam a shabd:Theme ;
+gg:Hukam a gg:Theme ;
     rdfs:label "Hukam (Divine Command / Order)"@en .
 
-shabd:Ineffability a shabd:Theme ;
+gg:Ineffability a gg:Theme ;
     rdfs:label "Ineffability of Divine Description"@en .
 
-shabd:InnerJewels a shabd:Theme ;
+gg:InnerJewels a gg:Theme ;
     rdfs:label "Inner Gems, Jewels, and Rubies"@en .
 
-shabd:Intellect a shabd:Theme ;
+gg:Intellect a gg:Theme ;
     rdfs:label "Intellect / Cleverness / Siaṇap"@en .
 
-shabd:Karma a shabd:Theme ;
+gg:Karma a gg:Theme ;
     rdfs:label "Karma and Receiving"@en .
 
-shabd:LiberationDoor a shabd:Theme ;
+gg:LiberationDoor a gg:Theme ;
     rdfs:label "Gate of Liberation (Mokh Duar)"@en .
 
-shabd:LifeDeathCycle a shabd:Theme ;
+gg:LifeDeathCycle a gg:Theme ;
     rdfs:label "Taking and Giving of Life"@en .
 
-shabd:ListeningAndLove a shabd:Theme ;
+gg:ListeningAndLove a gg:Theme ;
     rdfs:label "Singing, Listening, and Keeping Love in the Mind"@en .
 
-shabd:Naam a shabd:Theme ;
+gg:Naam a gg:Theme ;
     rdfs:label "Naam (Divine Name / Remembrance)"@en .
 
-shabd:Niranjan a shabd:Theme ;
+gg:Niranjan a gg:Theme ;
     rdfs:label "Niranjan – Immaculate, Beyond Maya"@en .
 
-shabd:OneGiver a shabd:Theme ;
+gg:OneGiver a gg:Theme ;
     rdfs:label "The One Giver of all beings"@en .
 
-shabd:Peace a shabd:Theme ;
+gg:Peace a gg:Theme ;
     rdfs:label "Spiritual Peace / Sukh"@en .
 
-shabd:PilgrimageRitual a shabd:Theme ;
+gg:PilgrimageRitual a gg:Theme ;
     rdfs:label "Outer Pilgrimage vs Inner Divine Pleasure"@en .
 
-shabd:Praise a shabd:Theme ;
+gg:Praise a gg:Theme ;
     rdfs:label "Praise (Gāvai – singing Divine qualities)"@en .
 
-shabd:PrayerAndAsking a shabd:Theme ;
+gg:PrayerAndAsking a gg:Theme ;
     rdfs:label "Prayer, Asking, and Receiving"@en .
 
-shabd:Provision a shabd:Theme ;
+gg:Provision a gg:Theme ;
     rdfs:label "Provision Across Ages (Jugs)"@en .
 
-shabd:Restlessness a shabd:Theme ;
+gg:Restlessness a gg:Theme ;
     rdfs:label "Restless Wandering / Coming and Going"@en .
 
-shabd:RightOffering a shabd:Theme ;
+gg:RightOffering a gg:Theme ;
     rdfs:label "What to Offer / How to Approach"@en .
 
-shabd:Satguru a shabd:Theme ;
+gg:Satguru a gg:Theme ;
     rdfs:label "Satguru (True Guru Principle)"@en .
 
-shabd:ServiceAndHonor a shabd:Theme ;
+gg:ServiceAndHonor a gg:Theme ;
     rdfs:label "Service (Seva) and Honor (Mān)"@en .
 
-shabd:SpiritualMethodFailure a shabd:Theme ;
+gg:SpiritualMethodFailure a gg:Theme ;
     rdfs:label "Failure of superficial methods to realize Truth"@en .
     
-shabd:SufferingJoy a shabd:Theme ;
+gg:SufferingJoy a gg:Theme ;
     rdfs:label "Suffering and joy (dukh / sukh)"@en .
 
-shabd:TranscendenceImmanence a shabd:Theme ;
+gg:TranscendenceImmanence a gg:Theme ;
     rdfs:label "Divine as Distant and Present (Transcendent/Immanent)"@en .
 
-shabd:Truth a shabd:Theme ;
+gg:Truth a gg:Theme ;
     rdfs:label "Truth / Sach"@en .
 
-shabd:UncreatedDivine a shabd:Theme ;
+gg:UncreatedDivine a gg:Theme ;
     rdfs:label "Uncreated, Self-Existent Divine"@en .
 
-shabd:UniversalLove a shabd:Theme ;
+gg:UniversalLove a gg:Theme ;
     rdfs:label "Universal Love"@en .
 
-shabd:Virtues a shabd:Theme ;
+gg:Virtues a gg:Theme ;
     rdfs:label "Divine Virtues and Glory"@en .
 
-shabd:Wandering a shabd:Theme ;
+gg:Wandering a gg:Theme ;
     rdfs:label "Endless wandering / bhavanaa"@en .
 
-shabd:Wisdom a shabd:Theme ;
+gg:Wisdom a gg:Theme ;
     rdfs:label "Spiritual Wisdom and Contemplation"@en .
 

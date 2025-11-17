@@ -1,0 +1,285 @@
+@prefix gg:  <http://gurbani-graph.org/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+#################################################################
+### Japji Sahib – Pauri 10
+#################################################################
+
+gg:japji_pauri10
+    a gg:Pauri ;
+    gg:id "sggs-japji-pauri10" ;
+    dct:title "Japji Sahib – Pauri 10"@en ;
+    dct:title "ਜਪੁਜੀ ਸਾਹਿਬ – ਪਉੜੀ ੧੦"@pa ;
+
+    gg:ang "2"^^xsd:integer ;
+    gg:inBani gg:JapJiSahib ;
+    gg:indexInBani "10"^^xsd:integer ;
+
+    gg:inScripture gg:SGGS ;
+    gg:hasAuthor  gg:GuruNanakDevJi ;
+
+    gg:hasTheme
+        gg:ListeningAndLove ,
+        gg:Wisdom ,
+        gg:PilgrimageRitual ,
+        gg:ServiceAndHonor ,
+        gg:Peace ,
+        gg:SufferingJoy ;
+
+    rdfs:comment "Pauri 10 continues the 'suṇiai' (listening) section. By truly listening, one receives truth, contentment, and spiritual wisdom; listening is likened to bathing at all holy places; it brings honor through study, stabilizes effortless meditation, and removes suffering and sin for the bhagats."@en ;
+
+    gg:hasTuk
+        gg:japji_pauri10_tuk1 ,
+        gg:japji_pauri10_tuk2 ,
+        gg:japji_pauri10_tuk3 ,
+        gg:japji_pauri10_tuk4 ,
+        gg:japji_pauri10_tuk5 ,
+        gg:japji_pauri10_tuk6
+.
+
+#################################################################
+### Pauri 10 – Tuk 1
+### ਸੁਣਿਐ ਸਤਿ ਸੰਤੋਖੁ ਗਿਆਨੁ ॥
+#################################################################
+
+gg:japji_pauri10_tuk1
+    a gg:Tuk ;
+    gg:id "sggs-japji_pauri10-tuk1" ;
+    gg:index "1"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri10 ;
+
+    gg:gurmukhi "ਸੁਣਿਐ ਸਤਿ ਸੰਤੋਖੁ ਗਿਆਨੁ ॥"@pa ;
+    gg:transliteration "suṇiai sat santokh gi-aan ||"@en-Latn ;
+    gg:translation "By listening, one receives truth, contentment, and spiritual insight."@en ;
+
+    gg:hasTheme
+        gg:ListeningAndLove ,
+        gg:Wisdom ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri10_tuk1_gu1 ,
+        gg:japji_pauri10_tuk1_gu2
+.
+
+gg:japji_pauri10_tuk1_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਣਿਐ ਸਤਿ ਸੰਤੋਖੁ"@pa ;
+    gg:transliteration "suṇiai sat santokh"@en-Latn ;
+    gg:translation "by listening, truth and contentment arise"@en
+.
+
+gg:japji_pauri10_tuk1_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਗਿਆਨੁ"@pa ;
+    gg:transliteration "gi-aan"@en-Latn ;
+    gg:translation "and spiritual wisdom blossoms"@en
+.
+
+#################################################################
+### Pauri 10 – Tuk 2
+### ਸੁਣਿਐ ਅਠਸਠਿ ਕਾ ਇਸਨਾਨੁ ॥
+#################################################################
+
+gg:japji_pauri10_tuk2
+    a gg:Tuk ;
+    gg:id "sggs-japji_pauri10-tuk2" ;
+    gg:index "2"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri10 ;
+
+    gg:gurmukhi "ਸੁਣਿਐ ਅਠਸਠਿ ਕਾ ਇਸਨਾਨੁ ॥"@pa ;
+    gg:transliteration "suṇiai aṭhasath kaa isnaan ||"@en-Latn ;
+    gg:translation "By listening, it is as though one bathes at all sixty-eight sacred places."@en ;
+
+    gg:hasTheme
+        gg:ListeningAndLove ,
+        gg:PilgrimageRitual ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri10_tuk2_gu1 ,
+        gg:japji_pauri10_tuk2_gu2
+.
+
+gg:japji_pauri10_tuk2_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਣਿਐ ਅਠਸਠਿ ਕਾ"@pa ;
+    gg:transliteration "suṇiai aṭhasath kaa"@en-Latn ;
+    gg:translation "by listening, one gains the fruit of all sixty-eight tirths"@en
+.
+
+gg:japji_pauri10_tuk2_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਇਸਨਾਨੁ"@pa ;
+    gg:transliteration "isnaan"@en-Latn ;
+    gg:translation "a complete inner cleansing"@en
+.
+
+#################################################################
+### Pauri 10 – Tuk 3
+### ਸੁਣਿਐ ਪੜਿ ਪੜਿ ਪਾਵਹਿ ਮਾਨੁ ॥
+#################################################################
+
+gg:japji_pauri10_tuk3
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri10-tuk3" ;
+    gg:index "3"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri10 ;
+
+    gg:gurmukhi "ਸੁਣਿਐ ਪੜਿ ਪੜਿ ਪਾਵਹਿ ਮਾਨੁ ॥"@pa ;
+    gg:transliteration "suṇiai paṛh paṛh paavahi maan ||"@en-Latn ;
+    gg:translation "By listening, one’s reading and recitation bear fruit as true honor."@en ;
+
+    gg:hasTheme
+        gg:ListeningAndLove ,
+        gg:ServiceAndHonor ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri10_tuk3_gu1 ,
+        gg:japji_pauri10_tuk3_gu2
+.
+
+gg:japji_pauri10_tuk3_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਣਿਐ ਪੜਿ ਪੜਿ"@pa ;
+    gg:transliteration "suṇiai paṛh paṛh"@en-Latn ;
+    gg:translation "through listening, study and recitation"@en
+.
+
+gg:japji_pauri10_tuk3_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਪਾਵਹਿ ਮਾਨੁ"@pa ;
+    gg:transliteration "paavahi maan"@en-Latn ;
+    gg:translation "are crowned with genuine respect and honor"@en
+.
+
+#################################################################
+### Pauri 10 – Tuk 4
+### ਸੁਣਿਐ ਲਾਗੈ ਸਹਜਿ ਧਿਆਨੁ ॥
+#################################################################
+
+gg:japji_pauri10_tuk4
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri10-tuk4" ;
+    gg:index "4"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri10 ;
+
+    gg:gurmukhi "ਸੁਣਿਐ ਲਾਗੈ ਸਹਜਿ ਧਿਆਨੁ ॥"@pa ;
+    gg:transliteration "suṇiai laagai sahaj dhi-aan ||"@en-Latn ;
+    gg:translation "By listening, one naturally enters steady, effortless meditation."@en ;
+
+    gg:hasTheme
+        gg:ListeningAndLove ,
+        gg:Wisdom ,
+        gg:Peace ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri10_tuk4_gu1 ,
+        gg:japji_pauri10_tuk4_gu2
+.
+
+gg:japji_pauri10_tuk4_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਣਿਐ ਲਾਗੈ"@pa ;
+    gg:transliteration "suṇiai laagai"@en-Latn ;
+    gg:translation "by listening, the mind becomes gently attached"@en
+.
+
+gg:japji_pauri10_tuk4_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਸਹਜਿ ਧਿਆਨੁ"@pa ;
+    gg:transliteration "sahaj dhi-aan"@en-Latn ;
+    gg:translation "to a state of spontaneous, balanced meditation"@en
+.
+
+#################################################################
+### Pauri 10 – Tuk 5
+### ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥
+#################################################################
+
+gg:japji_pauri10_tuk5
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri10-tuk5" ;
+    gg:index "5"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri10 ;
+
+    gg:gurmukhi "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥"@pa ;
+    gg:transliteration "naanak bhagtaa sadaa vigaas ||"@en-Latn ;
+    gg:translation "O Nanak, the devotees remain forever in joyful blossoming."@en ;
+
+    gg:hasTheme
+        gg:Bhagat ,
+        gg:DivineDelight ,
+        gg:Peace ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri10_tuk5_gu1 ,
+        gg:japji_pauri10_tuk5_gu2
+.
+
+gg:japji_pauri10_tuk5_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਨਾਨਕ ਭਗਤਾ"@pa ;
+    gg:transliteration "naanak bhagtaa"@en-Latn ;
+    gg:translation "O Nanak, the bhagats, the devoted ones"@en
+.
+
+gg:japji_pauri10_tuk5_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਸਦਾ ਵਿਗਾਸੁ"@pa ;
+    gg:transliteration "sadaa vigaas"@en-Latn ;
+    gg:translation "are ever in expansion, joy, and inner blossoming"@en
+.
+
+#################################################################
+### Pauri 10 – Tuk 6
+### ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੧੦॥
+#################################################################
+
+gg:japji_pauri10_tuk6
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri10-tuk6" ;
+    gg:index "6"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri10 ;
+
+    gg:gurmukhi "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੧੦॥"@pa ;
+    gg:transliteration "suṇiai dookh paap kaa naas ||10||"@en-Latn ;
+    gg:translation "By listening, suffering and the load of past misdeeds are brought to an end. ||10||"@en ;
+
+    gg:hasTheme
+        gg:ListeningAndLove ,
+        gg:SufferingJoy
+    ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri10_tuk6_gu1 ,
+        gg:japji_pauri10_tuk6_gu2
+.
+
+gg:japji_pauri10_tuk6_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ"@pa ;
+    gg:transliteration "suṇiai dookh paap kaa"@en-Latn ;
+    gg:translation "through listening, pain and the burden of sin"@en
+.
+
+gg:japji_pauri10_tuk6_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਨਾਸੁ ॥੧੦॥"@pa ;
+    gg:transliteration "naas ||10||"@en-Latn ;
+    gg:translation "are destroyed and made to vanish. ||10||"@en
+.

@@ -1,5 +1,4 @@
-@prefix shabd: <http://gurbani-graph.org/shabd#> .
-@prefix sggs:  <http://gurbani-graph.org/sggs#> .
+@prefix gg:  <http://gurbani-graph.org/core#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
@@ -9,1161 +8,1161 @@
 ### Additional reference nodes (can be moved to reference.ttl)
 #################################################################
 
-sggs:GuruRamDasJi a shabd:Person ;
-    shabd:personName "Guru Ram Das Ji"@pa ;
-    shabd:personRole "Guru"@en .
+gg:GuruRamDasJi a gg:Person ;
+    gg:personName "Guru Ram Das Ji"@pa ;
+    gg:personRole "Guru"@en .
 
-sggs:RaagAasaa a shabd:Raag ;
-    shabd:raagName "Aasaa"@en .
+gg:RaagAasaa a gg:Raag ;
+    gg:raagName "Aasaa"@en .
 
 #################################################################
 ### Shabd: "So Purkh" (begins Ang 10, spans into Ang 11)
 #################################################################
 
-sggs:ang10_sopurkh a shabd:Shabd ;
-    shabd:id "sggs-ang10-sopurkh" ;
+gg:ang10_sopurkh a gg:Shabd ;
+    gg:id "sggs-ang10-sopurkh" ;
     dct:title "So Purkh"@en ;
     dct:title "ਸੋ ਪੁਰਖੁ"@pa ;
-    shabd:ang "10"^^xsd:integer ;
-    shabd:sequenceInAng "1"^^xsd:integer ;
-    shabd:hasAuthor sggs:GuruRamDasJi ;
-    shabd:inScripture sggs:SGGS ;
-    shabd:inRaag sggs:RaagAasaa ;
+    gg:ang "10"^^xsd:integer ;
+    gg:index "21"^^xsd:integer ;
+    gg:hasAuthor gg:GuruRamDasJi ;
+    gg:inScripture gg:SGGS ;
+    gg:inRaag gg:RaagAasaa ;
 
-    shabd:hasTheme
-        shabd:DivineName,
-        shabd:Niranjan,
-        shabd:OneGiver,
-        shabd:DivineGrace,
-        shabd:DivineProtection,
-        shabd:DevotionalLove,
-        shabd:Bhagat,
-        shabd:Peace,
-        shabd:LiberationDoor,
-        shabd:CreationDestruction,
-        shabd:DivineSovereignty,
-        shabd:DivineWill,
-        shabd:Hukam,
-        shabd:Praise,
-        shabd:UniversalLove,
-        shabd:LifeDeathCycle ;
+    gg:hasTheme
+        gg:DivineName,
+        gg:Niranjan,
+        gg:OneGiver,
+        gg:DivineGrace,
+        gg:DivineProtection,
+        gg:DevotionalLove,
+        gg:Bhagat,
+        gg:Peace,
+        gg:LiberationDoor,
+        gg:CreationDestruction,
+        gg:DivineSovereignty,
+        gg:DivineWill,
+        gg:Hukam,
+        gg:Praise,
+        gg:UniversalLove,
+        gg:LifeDeathCycle ;
 
     rdfs:comment
         "This So Purkh shabd by Guru Ram Das Ji describes the Primal Being as immaculate, beyond reach, pervading every heart and all creation. All beings depend on this One Giver; true devotees meditate on the Lord, are freed from fear and death, and merge into the Divine. Countless forms of worship, study and ritual exist, yet the truly excellent bhagats are only those pleasing to the Divine Will. The Lord alone creates, sustains and dissolves the universe; everything unfolds by Hukam, and servant Nanak responds by singing the virtues of that all-knowing Creator."@en ;
 
-    shabd:hasLine
-        sggs:ang10_sopurkh_line1,
-        sggs:ang10_sopurkh_line2,
-        sggs:ang10_sopurkh_line3,
-        sggs:ang10_sopurkh_line4,
-        sggs:ang10_sopurkh_line5,
-        sggs:ang10_sopurkh_line6,
-        sggs:ang10_sopurkh_line7,
-        sggs:ang10_sopurkh_line8,
-        sggs:ang10_sopurkh_line9,
-        sggs:ang10_sopurkh_line10,
-        sggs:ang10_sopurkh_line11,
-        sggs:ang10_sopurkh_line12,
-        sggs:ang10_sopurkh_line13,
-        sggs:ang10_sopurkh_line14,
-        sggs:ang10_sopurkh_line15,
-        sggs:ang10_sopurkh_line16,
-        sggs:ang10_sopurkh_line17,
-        sggs:ang10_sopurkh_line18,
-        sggs:ang10_sopurkh_line19,
-        sggs:ang10_sopurkh_line20,
-        sggs:ang10_sopurkh_line21,
-        sggs:ang10_sopurkh_line22,
-        sggs:ang10_sopurkh_line23,
-        sggs:ang10_sopurkh_line24,
-        sggs:ang10_sopurkh_line25
+    gg:hasTuk
+        gg:ang10_sopurkh_tuk1,
+        gg:ang10_sopurkh_tuk2,
+        gg:ang10_sopurkh_tuk3,
+        gg:ang10_sopurkh_tuk4,
+        gg:ang10_sopurkh_tuk5,
+        gg:ang10_sopurkh_tuk6,
+        gg:ang10_sopurkh_tuk7,
+        gg:ang10_sopurkh_tuk8,
+        gg:ang10_sopurkh_tuk9,
+        gg:ang10_sopurkh_tuk10,
+        gg:ang10_sopurkh_tuk11,
+        gg:ang10_sopurkh_tuk12,
+        gg:ang10_sopurkh_tuk13,
+        gg:ang10_sopurkh_tuk14,
+        gg:ang10_sopurkh_tuk15,
+        gg:ang10_sopurkh_tuk16,
+        gg:ang10_sopurkh_tuk17,
+        gg:ang10_sopurkh_tuk18,
+        gg:ang10_sopurkh_tuk19,
+        gg:ang10_sopurkh_tuk20,
+        gg:ang10_sopurkh_tuk21,
+        gg:ang10_sopurkh_tuk22,
+        gg:ang10_sopurkh_tuk23,
+        gg:ang10_sopurkh_tuk24,
+        gg:ang10_sopurkh_tuk25
 .
 
 #################################################################
-### Line 1
+### Tuk 1
 ### ਸੋ ਪੁਰਖੁ ਨਿਰੰਜਨੁ ਹਰਿ ਪੁਰਖੁ ਨਿਰੰਜਨੁ ਹਰਿ ਅਗਮਾ ਅਗਮ ਅਪਾਰਾ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line1 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line1" ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਸੋ ਪੁਰਖੁ ਨਿਰੰਜਨੁ ਹਰਿ ਪੁਰਖੁ ਨਿਰੰਜਨੁ ਹਰਿ ਅਗਮਾ ਅਗਮ ਅਪਾਰਾ ॥"@pa ;
-    shabd:transliteration "So purakʰ niranjan har purakʰ niranjan har agmaa agam apaaraa."@en-Latn ;
-    shabd:translation "That Primal Being is immaculate and pure; the Lord, the Primal Being, is stainless, beyond reach and beyond all limits."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line1_gu1,
-        sggs:ang10_sopurkh_line1_gu2,
-        sggs:ang10_sopurkh_line1_gu3
+gg:ang10_sopurkh_tuk1 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk1" ;
+    gg:index "1"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਸੋ ਪੁਰਖੁ ਨਿਰੰਜਨੁ ਹਰਿ ਪੁਰਖੁ ਨਿਰੰਜਨੁ ਹਰਿ ਅਗਮਾ ਅਗਮ ਅਪਾਰਾ ॥"@pa ;
+    gg:transliteration "So purakʰ niranjan har purakʰ niranjan har agmaa agam apaaraa."@en-Latn ;
+    gg:translation "That Primal Being is immaculate and pure; the Lord, the Primal Being, is stainless, beyond reach and beyond all limits."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk1_gu1,
+        gg:ang10_sopurkh_tuk1_gu2,
+        gg:ang10_sopurkh_tuk1_gu3
 .
 
-sggs:ang10_sopurkh_line1_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਸੋ ਪੁਰਖੁ ਨਿਰੰਜਨੁ"@pa ;
-    shabd:transliteration "So purakh niranjan"@en-Latn ;
-    shabd:translation "that primal, immaculate Being"@en .
+gg:ang10_sopurkh_tuk1_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੋ ਪੁਰਖੁ ਨਿਰੰਜਨੁ"@pa ;
+    gg:transliteration "So purakh niranjan"@en-Latn ;
+    gg:translation "that primal, immaculate Being"@en .
 
-sggs:ang10_sopurkh_line1_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਹਰਿ ਪੁਰਖੁ ਨਿਰੰਜਨੁ"@pa ;
-    shabd:transliteration "har purakh niranjan"@en-Latn ;
-    shabd:translation "the Lord, the immaculate primal Being"@en .
+gg:ang10_sopurkh_tuk1_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਹਰਿ ਪੁਰਖੁ ਨਿਰੰਜਨੁ"@pa ;
+    gg:transliteration "har purakh niranjan"@en-Latn ;
+    gg:translation "the Lord, the immaculate primal Being"@en .
 
-sggs:ang10_sopurkh_line1_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਹਰਿ ਅਗਮਾ ਅਗਮ ਅਪਾਰਾ"@pa ;
-    shabd:transliteration "har agmaa agam apaaraa"@en-Latn ;
-    shabd:translation "the Lord who is inaccessible, unreachable and boundless"@en .
+gg:ang10_sopurkh_tuk1_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਹਰਿ ਅਗਮਾ ਅਗਮ ਅਪਾਰਾ"@pa ;
+    gg:transliteration "har agmaa agam apaaraa"@en-Latn ;
+    gg:translation "the Lord who is inaccessible, unreachable and boundless"@en .
 
 #################################################################
-### Line 2
+### Tuk 2
 ### ਸਭਿ ਧਿਆਵਹਿ ਸਭਿ ਧਿਆਵਹਿ ਤੁਧੁ ਜੀ ਹਰਿ ਸਚੇ ਸਿਰਜਣਹਾਰਾ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line2 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line2" ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਸਭਿ ਧਿਆਵਹਿ ਸਭਿ ਧਿਆਵਹਿ ਤੁਧੁ ਜੀ ਹਰਿ ਸਚੇ ਸਿਰਜਣਹਾਰਾ ॥"@pa ;
-    shabd:transliteration "Sabʰ ḋʰi▫aavahi sabʰ ḋʰi▫aavahi ṫuḋʰ jee har saché sirjaṇhaaraa."@en-Latn ;
-    shabd:translation "All meditate, all truly meditate on You, O Dear Lord, the True Creator."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line2_gu1,
-        sggs:ang10_sopurkh_line2_gu2,
-        sggs:ang10_sopurkh_line2_gu3
+gg:ang10_sopurkh_tuk2 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk2" ;
+    gg:index "2"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਸਭਿ ਧਿਆਵਹਿ ਸਭਿ ਧਿਆਵਹਿ ਤੁਧੁ ਜੀ ਹਰਿ ਸਚੇ ਸਿਰਜਣਹਾਰਾ ॥"@pa ;
+    gg:transliteration "Sabʰ ḋʰi▫aavahi sabʰ ḋʰi▫aavahi ṫuḋʰ jee har saché sirjaṇhaaraa."@en-Latn ;
+    gg:translation "All meditate, all truly meditate on You, O Dear Lord, the True Creator."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk2_gu1,
+        gg:ang10_sopurkh_tuk2_gu2,
+        gg:ang10_sopurkh_tuk2_gu3
 .
 
-sggs:ang10_sopurkh_line2_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਸਭਿ ਧਿਆਵਹਿ ਸਭਿ ਧਿਆਵਹਿ"@pa ;
-    shabd:transliteration "sabh dhi▫aavahi sabh dhi▫aavahi"@en-Latn ;
-    shabd:translation "all meditate, all meditate"@en .
+gg:ang10_sopurkh_tuk2_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸਭਿ ਧਿਆਵਹਿ ਸਭਿ ਧਿਆਵਹਿ"@pa ;
+    gg:transliteration "sabh dhi▫aavahi sabh dhi▫aavahi"@en-Latn ;
+    gg:translation "all meditate, all meditate"@en .
 
-sggs:ang10_sopurkh_line2_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਤੁਧੁ ਜੀ"@pa ;
-    shabd:transliteration "tudh jee"@en-Latn ;
-    shabd:translation "on You, O Dear Lord"@en .
+gg:ang10_sopurkh_tuk2_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਤੁਧੁ ਜੀ"@pa ;
+    gg:transliteration "tudh jee"@en-Latn ;
+    gg:translation "on You, O Dear Lord"@en .
 
-sggs:ang10_sopurkh_line2_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਹਰਿ ਸਚੇ ਸਿਰਜਣਹਾਰਾ"@pa ;
-    shabd:transliteration "har sache sirjaṇhaaraa"@en-Latn ;
-    shabd:translation "the True Lord, Creator of all"@en .
+gg:ang10_sopurkh_tuk2_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਹਰਿ ਸਚੇ ਸਿਰਜਣਹਾਰਾ"@pa ;
+    gg:transliteration "har sache sirjaṇhaaraa"@en-Latn ;
+    gg:translation "the True Lord, Creator of all"@en .
 
 #################################################################
-### Line 3
+### Tuk 3
 ### ਸਭਿ ਜੀਅ ਤੁਮਾਰੇ ਜੀ ਤੂੰ ਜੀਆ ਕਾ ਦਾਤਾਰਾ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line3 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line3" ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਸਭਿ ਜੀਅ ਤੁਮਾਰੇ ਜੀ ਤੂੰ ਜੀਆ ਕਾ ਦਾਤਾਰਾ ॥"@pa ;
-    shabd:transliteration "Sabʰ jee▫a ṫumaaré jee ṫooⁿ jee▫aa kaa ḋaaṫaaraa."@en-Latn ;
-    shabd:translation "All living beings are Yours; You, O Lord, are the giver of life to every soul."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line3_gu1,
-        sggs:ang10_sopurkh_line3_gu2,
-        sggs:ang10_sopurkh_line3_gu3
+gg:ang10_sopurkh_tuk3 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk3" ;
+    gg:index "3"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਸਭਿ ਜੀਅ ਤੁਮਾਰੇ ਜੀ ਤੂੰ ਜੀਆ ਕਾ ਦਾਤਾਰਾ ॥"@pa ;
+    gg:transliteration "Sabʰ jee▫a ṫumaaré jee ṫooⁿ jee▫aa kaa ḋaaṫaaraa."@en-Latn ;
+    gg:translation "All living beings are Yours; You, O Lord, are the giver of life to every soul."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk3_gu1,
+        gg:ang10_sopurkh_tuk3_gu2,
+        gg:ang10_sopurkh_tuk3_gu3
 .
 
-sggs:ang10_sopurkh_line3_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਸਭਿ ਜੀਅ ਤੁਮਾਰੇ ਜੀ"@pa ;
-    shabd:transliteration "sabh jee▫a tumaaré jee"@en-Latn ;
-    shabd:translation "all beings belong to You, dear Lord"@en .
+gg:ang10_sopurkh_tuk3_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸਭਿ ਜੀਅ ਤੁਮਾਰੇ ਜੀ"@pa ;
+    gg:transliteration "sabh jee▫a tumaaré jee"@en-Latn ;
+    gg:translation "all beings belong to You, dear Lord"@en .
 
-sggs:ang10_sopurkh_line3_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਤੂੰ ਜੀਆ ਕਾ"@pa ;
-    shabd:transliteration "tooⁿ jee▫aa kaa"@en-Latn ;
-    shabd:translation "You are of all lives"@en .
+gg:ang10_sopurkh_tuk3_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਤੂੰ ਜੀਆ ਕਾ"@pa ;
+    gg:transliteration "tooⁿ jee▫aa kaa"@en-Latn ;
+    gg:translation "You are of all lives"@en .
 
-sggs:ang10_sopurkh_line3_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਦਾਤਾਰਾ"@pa ;
-    shabd:transliteration "ḋaaṫaaraa"@en-Latn ;
-    shabd:translation "the giver, the sustainer"@en .
+gg:ang10_sopurkh_tuk3_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਦਾਤਾਰਾ"@pa ;
+    gg:transliteration "ḋaaṫaaraa"@en-Latn ;
+    gg:translation "the giver, the sustainer"@en .
 
 #################################################################
-### Line 4
+### Tuk 4
 ### ਹਰਿ ਧਿਆਵਹੁ ਸੰਤਹੁ ਜੀ ਸਭਿ ਦੂਖ ਵਿਸਾਰਣਹਾਰਾ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line4 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line4" ;
-    shabd:index "4"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਹਰਿ ਧਿਆਵਹੁ ਸੰਤਹੁ ਜੀ ਸਭਿ ਦੂਖ ਵਿਸਾਰਣਹਾਰਾ ॥"@pa ;
-    shabd:transliteration "Har ḋʰi▫aavahu sanṫahu jee sabʰ ḋookʰ visaaraṇhaaraa."@en-Latn ;
-    shabd:translation "Meditate on the Lord, O saints; He is the One who removes all sorrow."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line4_gu1,
-        sggs:ang10_sopurkh_line4_gu2,
-        sggs:ang10_sopurkh_line4_gu3
+gg:ang10_sopurkh_tuk4 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk4" ;
+    gg:index "4"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਹਰਿ ਧਿਆਵਹੁ ਸੰਤਹੁ ਜੀ ਸਭਿ ਦੂਖ ਵਿਸਾਰਣਹਾਰਾ ॥"@pa ;
+    gg:transliteration "Har ḋʰi▫aavahu sanṫahu jee sabʰ ḋookʰ visaaraṇhaaraa."@en-Latn ;
+    gg:translation "Meditate on the Lord, O saints; He is the One who removes all sorrow."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk4_gu1,
+        gg:ang10_sopurkh_tuk4_gu2,
+        gg:ang10_sopurkh_tuk4_gu3
 .
 
-sggs:ang10_sopurkh_line4_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਹਰਿ ਧਿਆਵਹੁ"@pa ;
-    shabd:transliteration "har dhi▫aavahu"@en-Latn ;
-    shabd:translation "meditate on the Lord"@en .
+gg:ang10_sopurkh_tuk4_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਹਰਿ ਧਿਆਵਹੁ"@pa ;
+    gg:transliteration "har dhi▫aavahu"@en-Latn ;
+    gg:translation "meditate on the Lord"@en .
 
-sggs:ang10_sopurkh_line4_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਸੰਤਹੁ ਜੀ"@pa ;
-    shabd:transliteration "sanṫahu jee"@en-Latn ;
-    shabd:translation "O saints, dear ones"@en .
+gg:ang10_sopurkh_tuk4_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਸੰਤਹੁ ਜੀ"@pa ;
+    gg:transliteration "sanṫahu jee"@en-Latn ;
+    gg:translation "O saints, dear ones"@en .
 
-sggs:ang10_sopurkh_line4_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਸਭਿ ਦੂਖ ਵਿਸਾਰਣਹਾਰਾ"@pa ;
-    shabd:transliteration "sabh ḋookʰ visaaraṇhaaraa"@en-Latn ;
-    shabd:translation "the dispeller of every sorrow"@en .
+gg:ang10_sopurkh_tuk4_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਸਭਿ ਦੂਖ ਵਿਸਾਰਣਹਾਰਾ"@pa ;
+    gg:transliteration "sabh ḋookʰ visaaraṇhaaraa"@en-Latn ;
+    gg:translation "the dispeller of every sorrow"@en .
 
 #################################################################
-### Line 5
+### Tuk 5
 ### ਹਰਿ ਆਪੇ ਠਾਕੁਰੁ ਹਰਿ ਆਪੇ ਸੇਵਕੁ ਜੀ ਕਿਆ ਨਾਨਕ ਜੰਤ ਵਿਚਾਰਾ ॥੧॥
 #################################################################
 
-sggs:ang10_sopurkh_line5 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line5" ;
-    shabd:index "5"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਹਰਿ ਆਪੇ ਠਾਕੁਰੁ ਹਰਿ ਆਪੇ ਸੇਵਕੁ ਜੀ ਕਿਆ ਨਾਨਕ ਜੰਤ ਵਿਚਾਰਾ ॥੧॥"@pa ;
-    shabd:transliteration "Har aapé tʰaakur har aapé sévak jee ki▫aa Naanak janṫ vichaaraa. ||1||"@en-Latn ;
-    shabd:translation "The Lord Himself is the Master, the Lord Himself is the servant; what can these poor creatures do or understand, says Nanak? ||1||"@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line5_gu1,
-        sggs:ang10_sopurkh_line5_gu2,
-        sggs:ang10_sopurkh_line5_gu3
+gg:ang10_sopurkh_tuk5 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk5" ;
+    gg:index "5"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਹਰਿ ਆਪੇ ਠਾਕੁਰੁ ਹਰਿ ਆਪੇ ਸੇਵਕੁ ਜੀ ਕਿਆ ਨਾਨਕ ਜੰਤ ਵਿਚਾਰਾ ॥੧॥"@pa ;
+    gg:transliteration "Har aapé tʰaakur har aapé sévak jee ki▫aa Naanak janṫ vichaaraa. ||1||"@en-Latn ;
+    gg:translation "The Lord Himself is the Master, the Lord Himself is the servant; what can these poor creatures do or understand, says Nanak? ||1||"@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk5_gu1,
+        gg:ang10_sopurkh_tuk5_gu2,
+        gg:ang10_sopurkh_tuk5_gu3
 .
 
-sggs:ang10_sopurkh_line5_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਹਰਿ ਆਪੇ ਠਾਕੁਰੁ"@pa ;
-    shabd:transliteration "har aapé tʰaakur"@en-Latn ;
-    shabd:translation "the Lord Himself is the Master"@en .
+gg:ang10_sopurkh_tuk5_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਹਰਿ ਆਪੇ ਠਾਕੁਰੁ"@pa ;
+    gg:transliteration "har aapé tʰaakur"@en-Latn ;
+    gg:translation "the Lord Himself is the Master"@en .
 
-sggs:ang10_sopurkh_line5_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਹਰਿ ਆਪੇ ਸੇਵਕੁ ਜੀ"@pa ;
-    shabd:transliteration "har aapé sévak jee"@en-Latn ;
-    shabd:translation "the Lord Himself is also the servant"@en .
+gg:ang10_sopurkh_tuk5_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਹਰਿ ਆਪੇ ਸੇਵਕੁ ਜੀ"@pa ;
+    gg:transliteration "har aapé sévak jee"@en-Latn ;
+    gg:translation "the Lord Himself is also the servant"@en .
 
-sggs:ang10_sopurkh_line5_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਕਿਆ ਨਾਨਕ ਜੰਤ ਵਿਚਾਰਾ"@pa ;
-    shabd:transliteration "ki▫aa Naanak janṫ vichaaraa"@en-Latn ;
-    shabd:translation "how insignificant are creatures like us, says Nanak"@en .
+gg:ang10_sopurkh_tuk5_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਕਿਆ ਨਾਨਕ ਜੰਤ ਵਿਚਾਰਾ"@pa ;
+    gg:transliteration "ki▫aa Naanak janṫ vichaaraa"@en-Latn ;
+    gg:translation "how insignificant are creatures like us, says Nanak"@en .
 
 #################################################################
-### Line 6
+### Tuk 6
 ### ਤੂੰ ਘਟ ਘਟ ਅੰਤਰਿ ਸਰਬ ਨਿਰੰਤਰਿ ਜੀ ਹਰਿ ਏਕੋ ਪੁਰਖੁ ਸਮਾਣਾ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line6 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line6" ;
-    shabd:index "6"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਤੂੰ ਘਟ ਘਟ ਅੰਤਰਿ ਸਰਬ ਨਿਰੰਤਰਿ ਜੀ ਹਰਿ ਏਕੋ ਪੁਰਖੁ ਸਮਾਣਾ ॥"@pa ;
-    shabd:transliteration "Ṫooⁿ gʰat gʰat anṫar sarab niranṫar jee har éko purakʰ samaaṇaa."@en-Latn ;
-    shabd:translation "You dwell within each and every heart; You pervade all, O Lord, the One Being present everywhere."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line6_gu1,
-        sggs:ang10_sopurkh_line6_gu2,
-        sggs:ang10_sopurkh_line6_gu3
+gg:ang10_sopurkh_tuk6 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk6" ;
+    gg:index "6"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਤੂੰ ਘਟ ਘਟ ਅੰਤਰਿ ਸਰਬ ਨਿਰੰਤਰਿ ਜੀ ਹਰਿ ਏਕੋ ਪੁਰਖੁ ਸਮਾਣਾ ॥"@pa ;
+    gg:transliteration "Ṫooⁿ gʰat gʰat anṫar sarab niranṫar jee har éko purakʰ samaaṇaa."@en-Latn ;
+    gg:translation "You dwell within each and every heart; You pervade all, O Lord, the One Being present everywhere."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk6_gu1,
+        gg:ang10_sopurkh_tuk6_gu2,
+        gg:ang10_sopurkh_tuk6_gu3
 .
 
-sggs:ang10_sopurkh_line6_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਤੂੰ ਘਟ ਘਟ ਅੰਤਰਿ"@pa ;
-    shabd:transliteration "tūⁿ ghat ghat antar"@en-Latn ;
-    shabd:translation "You are within each and every heart"@en .
+gg:ang10_sopurkh_tuk6_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਤੂੰ ਘਟ ਘਟ ਅੰਤਰਿ"@pa ;
+    gg:transliteration "tūⁿ ghat ghat antar"@en-Latn ;
+    gg:translation "You are within each and every heart"@en .
 
-sggs:ang10_sopurkh_line6_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਸਰਬ ਨਿਰੰਤਰਿ ਜੀ"@pa ;
-    shabd:transliteration "sarab nirantar jee"@en-Latn ;
-    shabd:translation "pervading all, continuously"@en .
+gg:ang10_sopurkh_tuk6_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਸਰਬ ਨਿਰੰਤਰਿ ਜੀ"@pa ;
+    gg:transliteration "sarab nirantar jee"@en-Latn ;
+    gg:translation "pervading all, continuously"@en .
 
-sggs:ang10_sopurkh_line6_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਹਰਿ ਏਕੋ ਪੁਰਖੁ ਸਮਾਣਾ"@pa ;
-    shabd:transliteration "har eko purakh samaaṇaa"@en-Latn ;
-    shabd:translation "as the one Lord, the Primal Being, present everywhere"@en .
+gg:ang10_sopurkh_tuk6_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਹਰਿ ਏਕੋ ਪੁਰਖੁ ਸਮਾਣਾ"@pa ;
+    gg:transliteration "har eko purakh samaaṇaa"@en-Latn ;
+    gg:translation "as the one Lord, the Primal Being, present everywhere"@en .
 
 #################################################################
-### Line 7
+### Tuk 7
 ### ਇਕਿ ਦਾਤੇ ਇਕਿ ਭੇਖਾਰੀ ਜੀ ਸਭਿ ਤੇਰੇ ਚੋਜ ਵਿਡਾਣਾ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line7 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line7" ;
-    shabd:index "7"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਇਕਿ ਦਾਤੇ ਇਕਿ ਭੇਖਾਰੀ ਜੀ ਸਭਿ ਤੇਰੇ ਚੋਜ ਵਿਡਾਣਾ ॥"@pa ;
-    shabd:transliteration "Ik ḋaaṫé ik bʰékʰaaree jee sabʰ ṫéré choj vidaaṇaa."@en-Latn ;
-    shabd:translation "Some appear as givers and some as beggars, but all of this is only Your wondrous play."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line7_gu1,
-        sggs:ang10_sopurkh_line7_gu2,
-        sggs:ang10_sopurkh_line7_gu3
+gg:ang10_sopurkh_tuk7 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk7" ;
+    gg:index "7"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਇਕਿ ਦਾਤੇ ਇਕਿ ਭੇਖਾਰੀ ਜੀ ਸਭਿ ਤੇਰੇ ਚੋਜ ਵਿਡਾਣਾ ॥"@pa ;
+    gg:transliteration "Ik ḋaaṫé ik bʰékʰaaree jee sabʰ ṫéré choj vidaaṇaa."@en-Latn ;
+    gg:translation "Some appear as givers and some as beggars, but all of this is only Your wondrous play."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk7_gu1,
+        gg:ang10_sopurkh_tuk7_gu2,
+        gg:ang10_sopurkh_tuk7_gu3
 .
 
-sggs:ang10_sopurkh_line7_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਇਕਿ ਦਾਤੇ ਇਕਿ ਭੇਖਾਰੀ ਜੀ"@pa ;
-    shabd:transliteration "ik ḋaaṫe ik bʰékʰaaree jee"@en-Latn ;
-    shabd:translation "some are seen as givers, some as beggars"@en .
+gg:ang10_sopurkh_tuk7_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਇਕਿ ਦਾਤੇ ਇਕਿ ਭੇਖਾਰੀ ਜੀ"@pa ;
+    gg:transliteration "ik ḋaaṫe ik bʰékʰaaree jee"@en-Latn ;
+    gg:translation "some are seen as givers, some as beggars"@en .
 
-sggs:ang10_sopurkh_line7_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਸਭਿ ਤੇਰੇ"@pa ;
-    shabd:transliteration "sabh tére"@en-Latn ;
-    shabd:translation "all are Yours"@en .
+gg:ang10_sopurkh_tuk7_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਸਭਿ ਤੇਰੇ"@pa ;
+    gg:transliteration "sabh tére"@en-Latn ;
+    gg:translation "all are Yours"@en .
 
-sggs:ang10_sopurkh_line7_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਚੋਜ ਵਿਡਾਣਾ"@pa ;
-    shabd:transliteration "choj vidaaṇaa"@en-Latn ;
-    shabd:translation "wondrous play, amazing drama"@en .
+gg:ang10_sopurkh_tuk7_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਚੋਜ ਵਿਡਾਣਾ"@pa ;
+    gg:transliteration "choj vidaaṇaa"@en-Latn ;
+    gg:translation "wondrous play, amazing drama"@en .
 
 #################################################################
-### Line 8
+### Tuk 8
 ### ਤੂੰ ਆਪੇ ਦਾਤਾ ਆਪੇ ਭੁਗਤਾ ਜੀ ਹਉ ਤੁਧੁ ਬਿਨੁ ਅਵਰੁ ਨ ਜਾਣਾ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line8 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line8" ;
-    shabd:index "8"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਤੂੰ ਆਪੇ ਦਾਤਾ ਆਪੇ ਭੁਗਤਾ ਜੀ ਹਉ ਤੁਧੁ ਬਿਨੁ ਅਵਰੁ ਨ ਜਾਣਾ ॥"@pa ;
-    shabd:transliteration "Ṫooⁿ aapé ḋaaṫaa aapé bʰugṫaa jee ha▫o ṫuḋʰ bin avar na jaaṇaa."@en-Latn ;
-    shabd:translation "You Yourself are the Giver, and You Yourself are the Enjoyer; apart from You, I know no other."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line8_gu1,
-        sggs:ang10_sopurkh_line8_gu2,
-        sggs:ang10_sopurkh_line8_gu3
+gg:ang10_sopurkh_tuk8 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk8" ;
+    gg:index "8"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਤੂੰ ਆਪੇ ਦਾਤਾ ਆਪੇ ਭੁਗਤਾ ਜੀ ਹਉ ਤੁਧੁ ਬਿਨੁ ਅਵਰੁ ਨ ਜਾਣਾ ॥"@pa ;
+    gg:transliteration "Ṫooⁿ aapé ḋaaṫaa aapé bʰugṫaa jee ha▫o ṫuḋʰ bin avar na jaaṇaa."@en-Latn ;
+    gg:translation "You Yourself are the Giver, and You Yourself are the Enjoyer; apart from You, I know no other."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk8_gu1,
+        gg:ang10_sopurkh_tuk8_gu2,
+        gg:ang10_sopurkh_tuk8_gu3
 .
 
-sggs:ang10_sopurkh_line8_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਤੂੰ ਆਪੇ ਦਾਤਾ ਆਪੇ ਭੁਗਤਾ ਜੀ"@pa ;
-    shabd:transliteration "tūⁿ aapé ḋaaṫaa aapé bʰugṫaa jee"@en-Latn ;
-    shabd:translation "You Yourself are both the giver and the enjoyer"@en .
+gg:ang10_sopurkh_tuk8_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਤੂੰ ਆਪੇ ਦਾਤਾ ਆਪੇ ਭੁਗਤਾ ਜੀ"@pa ;
+    gg:transliteration "tūⁿ aapé ḋaaṫaa aapé bʰugṫaa jee"@en-Latn ;
+    gg:translation "You Yourself are both the giver and the enjoyer"@en .
 
-sggs:ang10_sopurkh_line8_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਹਉ ਤੁਧੁ ਬਿਨੁ"@pa ;
-    shabd:transliteration "hao tuḋʰ bin"@en-Latn ;
-    shabd:translation "without You I"@en .
+gg:ang10_sopurkh_tuk8_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਹਉ ਤੁਧੁ ਬਿਨੁ"@pa ;
+    gg:transliteration "hao tuḋʰ bin"@en-Latn ;
+    gg:translation "without You I"@en .
 
-sggs:ang10_sopurkh_line8_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਅਵਰੁ ਨ ਜਾਣਾ"@pa ;
-    shabd:transliteration "avar na jaaṇaa"@en-Latn ;
-    shabd:translation "do not acknowledge any other"@en .
+gg:ang10_sopurkh_tuk8_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਅਵਰੁ ਨ ਜਾਣਾ"@pa ;
+    gg:transliteration "avar na jaaṇaa"@en-Latn ;
+    gg:translation "do not acknowledge any other"@en .
 
 #################################################################
-### Line 9
+### Tuk 9
 ### ਤੂੰ ਪਾਰਬ੍ਰਹਮੁ ਬੇਅੰਤੁ ਬੇਅੰਤੁ ਜੀ ਤੇਰੇ ਕਿਆ ਗੁਣ ਆਖਿ ਵਖਾਣਾ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line9 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line9" ;
-    shabd:index "9"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਤੂੰ ਪਾਰਬ੍ਰਹਮੁ ਬੇਅੰਤੁ ਬੇਅੰਤੁ ਜੀ ਤੇਰੇ ਕਿਆ ਗੁਣ ਆਖਿ ਵਖਾਣਾ ॥"@pa ;
-    shabd:transliteration "Ṫooⁿ paarbarahm bé▫anṫ bé▫anṫ jee ṫéré ki▫aa guṇ aakʰ vakʰaaṇaa."@en-Latn ;
-    shabd:translation "You are the Supreme Lord God, infinite, infinite; how could I ever fully speak and describe Your virtues?"@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line9_gu1,
-        sggs:ang10_sopurkh_line9_gu2,
-        sggs:ang10_sopurkh_line9_gu3
+gg:ang10_sopurkh_tuk9 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk9" ;
+    gg:index "9"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਤੂੰ ਪਾਰਬ੍ਰਹਮੁ ਬੇਅੰਤੁ ਬੇਅੰਤੁ ਜੀ ਤੇਰੇ ਕਿਆ ਗੁਣ ਆਖਿ ਵਖਾਣਾ ॥"@pa ;
+    gg:transliteration "Ṫooⁿ paarbarahm bé▫anṫ bé▫anṫ jee ṫéré ki▫aa guṇ aakʰ vakʰaaṇaa."@en-Latn ;
+    gg:translation "You are the Supreme Lord God, infinite, infinite; how could I ever fully speak and describe Your virtues?"@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk9_gu1,
+        gg:ang10_sopurkh_tuk9_gu2,
+        gg:ang10_sopurkh_tuk9_gu3
 .
 
-sggs:ang10_sopurkh_line9_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਤੂੰ ਪਾਰਬ੍ਰਹਮੁ"@pa ;
-    shabd:transliteration "tūⁿ paarbrahm"@en-Latn ;
-    shabd:translation "You are the Supreme Lord"@en .
+gg:ang10_sopurkh_tuk9_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਤੂੰ ਪਾਰਬ੍ਰਹਮੁ"@pa ;
+    gg:transliteration "tūⁿ paarbrahm"@en-Latn ;
+    gg:translation "You are the Supreme Lord"@en .
 
-sggs:ang10_sopurkh_line9_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਬੇਅੰਤੁ ਬੇਅੰਤੁ ਜੀ"@pa ;
-    shabd:transliteration "bé▫anṫ bé▫anṫ jee"@en-Latn ;
-    shabd:translation "limitless, without end"@en .
+gg:ang10_sopurkh_tuk9_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਬੇਅੰਤੁ ਬੇਅੰਤੁ ਜੀ"@pa ;
+    gg:transliteration "bé▫anṫ bé▫anṫ jee"@en-Latn ;
+    gg:translation "limitless, without end"@en .
 
-sggs:ang10_sopurkh_line9_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਤੇਰੇ ਕਿਆ ਗੁਣ ਆਖਿ ਵਖਾਣਾ"@pa ;
-    shabd:transliteration "téré ki▫aa guṇ aakʰ vakʰaaṇaa"@en-Latn ;
-    shabd:translation "how could I speak and enumerate all Your qualities?"@en .
+gg:ang10_sopurkh_tuk9_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਤੇਰੇ ਕਿਆ ਗੁਣ ਆਖਿ ਵਖਾਣਾ"@pa ;
+    gg:transliteration "téré ki▫aa guṇ aakʰ vakʰaaṇaa"@en-Latn ;
+    gg:translation "how could I speak and enumerate all Your qualities?"@en .
 
 #################################################################
-### Line 10
+### Tuk 10
 ### ਜੋ ਸੇਵਹਿ ਜੋ ਸੇਵਹਿ ਤੁਧੁ ਜੀ ਜਨੁ ਨਾਨਕੁ ਤਿਨ ਕੁਰਬਾਣਾ ॥੨॥
 #################################################################
 
-sggs:ang10_sopurkh_line10 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line10" ;
-    shabd:index "10"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਜੋ ਸੇਵਹਿ ਜੋ ਸੇਵਹਿ ਤੁਧੁ ਜੀ ਜਨੁ ਨਾਨਕੁ ਤਿਨ ਕੁਰਬਾਣਾ ॥੨॥"@pa ;
-    shabd:transliteration "Jo sévėh jo sévėh ṫuḋʰ jee jan Naanak ṫin kurbaaṇaa. ||2||"@en-Latn ;
-    shabd:translation "Those who serve You, those who truly serve You, O Lord—servant Nanak is a sacrifice to them. ||2||"@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line10_gu1,
-        sggs:ang10_sopurkh_line10_gu2,
-        sggs:ang10_sopurkh_line10_gu3
+gg:ang10_sopurkh_tuk10 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk10" ;
+    gg:index "10"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਜੋ ਸੇਵਹਿ ਜੋ ਸੇਵਹਿ ਤੁਧੁ ਜੀ ਜਨੁ ਨਾਨਕੁ ਤਿਨ ਕੁਰਬਾਣਾ ॥੨॥"@pa ;
+    gg:transliteration "Jo sévėh jo sévėh ṫuḋʰ jee jan Naanak ṫin kurbaaṇaa. ||2||"@en-Latn ;
+    gg:translation "Those who serve You, those who truly serve You, O Lord—servant Nanak is a sacrifice to them. ||2||"@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk10_gu1,
+        gg:ang10_sopurkh_tuk10_gu2,
+        gg:ang10_sopurkh_tuk10_gu3
 .
 
-sggs:ang10_sopurkh_line10_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਜੋ ਸੇਵਹਿ ਜੋ ਸੇਵਹਿ ਤੁਧੁ ਜੀ"@pa ;
-    shabd:transliteration "jo sévėh jo sévėh tuḋʰ jee"@en-Latn ;
-    shabd:translation "whoever serves You, whoever truly serves You, dear Lord"@en .
+gg:ang10_sopurkh_tuk10_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਜੋ ਸੇਵਹਿ ਜੋ ਸੇਵਹਿ ਤੁਧੁ ਜੀ"@pa ;
+    gg:transliteration "jo sévėh jo sévėh tuḋʰ jee"@en-Latn ;
+    gg:translation "whoever serves You, whoever truly serves You, dear Lord"@en .
 
-sggs:ang10_sopurkh_line10_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਜਨੁ ਨਾਨਕੁ"@pa ;
-    shabd:transliteration "jan Naanak"@en-Latn ;
-    shabd:translation "servant Nanak"@en .
+gg:ang10_sopurkh_tuk10_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਜਨੁ ਨਾਨਕੁ"@pa ;
+    gg:transliteration "jan Naanak"@en-Latn ;
+    gg:translation "servant Nanak"@en .
 
-sggs:ang10_sopurkh_line10_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਤਿਨ ਕੁਰਬਾਣਾ"@pa ;
-    shabd:transliteration "tin kurbaaṇaa"@en-Latn ;
-    shabd:translation "is devoted, a sacrifice to them"@en .
+gg:ang10_sopurkh_tuk10_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਤਿਨ ਕੁਰਬਾਣਾ"@pa ;
+    gg:transliteration "tin kurbaaṇaa"@en-Latn ;
+    gg:translation "is devoted, a sacrifice to them"@en .
 
 #################################################################
-### Line 11
+### Tuk 11
 ### ਹਰਿ ਧਿਆਵਹਿ ਹਰਿ ਧਿਆਵਹਿ ਤੁਧੁ ਜੀ ਸੇ ਜਨ ਜੁਗ ਮਹਿ ਸੁਖਵਾਸੀ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line11 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line11" ;
-    shabd:index "11"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਹਰਿ ਧਿਆਵਹਿ ਹਰਿ ਧਿਆਵਹਿ ਤੁਧੁ ਜੀ ਸੇ ਜਨ ਜੁਗ ਮਹਿ ਸੁਖਵਾਸੀ ॥"@pa ;
-    shabd:transliteration "Har ḋʰi▫aavahi har ḋʰi▫aavahi ṫuḋʰ jee sé jan jug mėh sukʰvaasee."@en-Latn ;
-    shabd:translation "Those who meditate, who constantly meditate on You, O Lord—those humble beings live in peace in this age."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line11_gu1,
-        sggs:ang10_sopurkh_line11_gu2,
-        sggs:ang10_sopurkh_line11_gu3
+gg:ang10_sopurkh_tuk11 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk11" ;
+    gg:index "11"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਹਰਿ ਧਿਆਵਹਿ ਹਰਿ ਧਿਆਵਹਿ ਤੁਧੁ ਜੀ ਸੇ ਜਨ ਜੁਗ ਮਹਿ ਸੁਖਵਾਸੀ ॥"@pa ;
+    gg:transliteration "Har ḋʰi▫aavahi har ḋʰi▫aavahi ṫuḋʰ jee sé jan jug mėh sukʰvaasee."@en-Latn ;
+    gg:translation "Those who meditate, who constantly meditate on You, O Lord—those humble beings live in peace in this age."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk11_gu1,
+        gg:ang10_sopurkh_tuk11_gu2,
+        gg:ang10_sopurkh_tuk11_gu3
 .
 
-sggs:ang10_sopurkh_line11_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਹਰਿ ਧਿਆਵਹਿ ਹਰਿ ਧਿਆਵਹਿ"@pa ;
-    shabd:transliteration "har dhi▫aavahi har dhi▫aavahi"@en-Latn ;
-    shabd:translation "they meditate, they meditate on the Lord"@en .
+gg:ang10_sopurkh_tuk11_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਹਰਿ ਧਿਆਵਹਿ ਹਰਿ ਧਿਆਵਹਿ"@pa ;
+    gg:transliteration "har dhi▫aavahi har dhi▫aavahi"@en-Latn ;
+    gg:translation "they meditate, they meditate on the Lord"@en .
 
-sggs:ang10_sopurkh_line11_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਤੁਧੁ ਜੀ ਸੇ ਜਨ"@pa ;
-    shabd:transliteration "tuḋʰ jee sé jan"@en-Latn ;
-    shabd:translation "those, O Lord, are Your humble beings"@en .
+gg:ang10_sopurkh_tuk11_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਤੁਧੁ ਜੀ ਸੇ ਜਨ"@pa ;
+    gg:transliteration "tuḋʰ jee sé jan"@en-Latn ;
+    gg:translation "those, O Lord, are Your humble beings"@en .
 
-sggs:ang10_sopurkh_line11_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਜੁਗ ਮਹਿ ਸੁਖਵਾਸੀ"@pa ;
-    shabd:transliteration "jug meh sukʰvaasee"@en-Latn ;
-    shabd:translation "they dwell in peace within this world"@en .
+gg:ang10_sopurkh_tuk11_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਜੁਗ ਮਹਿ ਸੁਖਵਾਸੀ"@pa ;
+    gg:transliteration "jug meh sukʰvaasee"@en-Latn ;
+    gg:translation "they dwell in peace within this world"@en .
 
 #################################################################
-### Line 12
+### Tuk 12
 ### ਸੇ ਮੁਕਤੁ ਸੇ ਮੁਕਤੁ ਭਏ ਜਿਨ ਹਰਿ ਧਿਆਇਆ ਜੀ ਤਿਨ ਤੂਟੀ ਜਮ ਕੀ ਫਾਸੀ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line12 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line12" ;
-    shabd:index "12"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਸੇ ਮੁਕਤੁ ਸੇ ਮੁਕਤੁ ਭਏ ਜਿਨ ਹਰਿ ਧਿਆਇਆ ਜੀ ਤਿਨ ਤੂਟੀ ਜਮ ਕੀ ਫਾਸੀ ॥"@pa ;
-    shabd:transliteration "Sé mukaṫ sé mukaṫ bʰa▫é jin har ḋʰi▫aa▫i▫aa jee ṫin ṫootee jam kee faasee."@en-Latn ;
-    shabd:translation "They are liberated, truly liberated—those who have meditated on the Lord; for them, the noose of death is broken."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line12_gu1,
-        sggs:ang10_sopurkh_line12_gu2,
-        sggs:ang10_sopurkh_line12_gu3
+gg:ang10_sopurkh_tuk12 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk12" ;
+    gg:index "12"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਸੇ ਮੁਕਤੁ ਸੇ ਮੁਕਤੁ ਭਏ ਜਿਨ ਹਰਿ ਧਿਆਇਆ ਜੀ ਤਿਨ ਤੂਟੀ ਜਮ ਕੀ ਫਾਸੀ ॥"@pa ;
+    gg:transliteration "Sé mukaṫ sé mukaṫ bʰa▫é jin har ḋʰi▫aa▫i▫aa jee ṫin ṫootee jam kee faasee."@en-Latn ;
+    gg:translation "They are liberated, truly liberated—those who have meditated on the Lord; for them, the noose of death is broken."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk12_gu1,
+        gg:ang10_sopurkh_tuk12_gu2,
+        gg:ang10_sopurkh_tuk12_gu3
 .
 
-sggs:ang10_sopurkh_line12_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਸੇ ਮੁਕਤੁ ਸੇ ਮੁਕਤੁ ਭਏ"@pa ;
-    shabd:transliteration "sé mukaṫ sé mukaṫ bʰa▫é"@en-Latn ;
-    shabd:translation "they are liberated, truly liberated"@en .
+gg:ang10_sopurkh_tuk12_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੇ ਮੁਕਤੁ ਸੇ ਮੁਕਤੁ ਭਏ"@pa ;
+    gg:transliteration "sé mukaṫ sé mukaṫ bʰa▫é"@en-Latn ;
+    gg:translation "they are liberated, truly liberated"@en .
 
-sggs:ang10_sopurkh_line12_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਜਿਨ ਹਰਿ ਧਿਆਇਆ ਜੀ"@pa ;
-    shabd:transliteration "jin har ḋʰi▫aa▫i▫aa jee"@en-Latn ;
-    shabd:translation "those who have meditated on the Lord"@en .
+gg:ang10_sopurkh_tuk12_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਜਿਨ ਹਰਿ ਧਿਆਇਆ ਜੀ"@pa ;
+    gg:transliteration "jin har ḋʰi▫aa▫i▫aa jee"@en-Latn ;
+    gg:translation "those who have meditated on the Lord"@en .
 
-sggs:ang10_sopurkh_line12_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਤਿਨ ਤੂਟੀ ਜਮ ਕੀ ਫਾਸੀ"@pa ;
-    shabd:transliteration "tin ṫootee jam kee faasee"@en-Latn ;
-    shabd:translation "for them, the noose of death is cut"@en .
+gg:ang10_sopurkh_tuk12_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਤਿਨ ਤੂਟੀ ਜਮ ਕੀ ਫਾਸੀ"@pa ;
+    gg:transliteration "tin ṫootee jam kee faasee"@en-Latn ;
+    gg:translation "for them, the noose of death is cut"@en .
 
 #################################################################
-### Line 13
+### Tuk 13
 ### ਜਿਨ ਨਿਰਭਉ ਜਿਨ ਹਰਿ ਨਿਰਭਉ ਧਿਆਇਆ ਜੀ ਤਿਨ ਕਾ ਭਉ ਸਭੁ ਗਵਾਸੀ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line13 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line13" ;
-    shabd:index "13"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਜਿਨ ਨਿਰਭਉ ਜਿਨ ਹਰਿ ਨਿਰਭਉ ਧਿਆਇਆ ਜੀ ਤਿਨ ਕਾ ਭਉ ਸਭੁ ਗਵਾਸੀ ॥"@pa ;
-    shabd:transliteration "Jin nirbʰa▫o jin har nirbʰa▫o ḋʰi▫aa▫i▫aa jee ṫin kaa bʰa▫o sabʰ gavaasee."@en-Latn ;
-    shabd:translation "Those who have meditated on the Fearless Lord become fearless; all their fear is driven out."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line13_gu1,
-        sggs:ang10_sopurkh_line13_gu2,
-        sggs:ang10_sopurkh_line13_gu3
+gg:ang10_sopurkh_tuk13 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk13" ;
+    gg:index "13"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਜਿਨ ਨਿਰਭਉ ਜਿਨ ਹਰਿ ਨਿਰਭਉ ਧਿਆਇਆ ਜੀ ਤਿਨ ਕਾ ਭਉ ਸਭੁ ਗਵਾਸੀ ॥"@pa ;
+    gg:transliteration "Jin nirbʰa▫o jin har nirbʰa▫o ḋʰi▫aa▫i▫aa jee ṫin kaa bʰa▫o sabʰ gavaasee."@en-Latn ;
+    gg:translation "Those who have meditated on the Fearless Lord become fearless; all their fear is driven out."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk13_gu1,
+        gg:ang10_sopurkh_tuk13_gu2,
+        gg:ang10_sopurkh_tuk13_gu3
 .
 
-sggs:ang10_sopurkh_line13_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਜਿਨ ਨਿਰਭਉ ਜਿਨ ਹਰਿ ਨਿਰਭਉ"@pa ;
-    shabd:transliteration "jin nirbʰa▫o jin har nirbʰa▫o"@en-Latn ;
-    shabd:translation "those who meditate on the Fearless, on the Fearless Lord"@en .
+gg:ang10_sopurkh_tuk13_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਜਿਨ ਨਿਰਭਉ ਜਿਨ ਹਰਿ ਨਿਰਭਉ"@pa ;
+    gg:transliteration "jin nirbʰa▫o jin har nirbʰa▫o"@en-Latn ;
+    gg:translation "those who meditate on the Fearless, on the Fearless Lord"@en .
 
-sggs:ang10_sopurkh_line13_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਧਿਆਇਆ ਜੀ"@pa ;
-    shabd:transliteration "ḋʰi▫aa▫i▫aa jee"@en-Latn ;
-    shabd:translation "have contemplated Him"@en .
+gg:ang10_sopurkh_tuk13_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਧਿਆਇਆ ਜੀ"@pa ;
+    gg:transliteration "ḋʰi▫aa▫i▫aa jee"@en-Latn ;
+    gg:translation "have contemplated Him"@en .
 
-sggs:ang10_sopurkh_line13_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਤਿਨ ਕਾ ਭਉ ਸਭੁ ਗਵਾਸੀ"@pa ;
-    shabd:transliteration "tin kaa bʰa▫o sabʰ gavaasee"@en-Latn ;
-    shabd:translation "for them, all fear has departed"@en .
+gg:ang10_sopurkh_tuk13_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਤਿਨ ਕਾ ਭਉ ਸਭੁ ਗਵਾਸੀ"@pa ;
+    gg:transliteration "tin kaa bʰa▫o sabʰ gavaasee"@en-Latn ;
+    gg:translation "for them, all fear has departed"@en .
 
 #################################################################
-### Line 14
+### Tuk 14
 ### ਜਿਨ ਸੇਵਿਆ ਜਿਨ ਸੇਵਿਆ ਮੇਰਾ ਹਰਿ ਜੀ ਤੇ ਹਰਿ ਹਰਿ ਰੂਪਿ ਸਮਾਸੀ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line14 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line14" ;
-    shabd:index "14"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਜਿਨ ਸੇਵਿਆ ਜਿਨ ਸੇਵਿਆ ਮੇਰਾ ਹਰਿ ਜੀ ਤੇ ਹਰਿ ਹਰਿ ਰੂਪਿ ਸਮਾਸੀ ॥"@pa ;
-    shabd:transliteration "Jin sévi▫aa jin sévi▫aa méraa har jee ṫé har har roop samaasee."@en-Latn ;
-    shabd:translation "Those who have served, truly served my Lord—they are absorbed into the very form of the Lord."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line14_gu1,
-        sggs:ang10_sopurkh_line14_gu2,
-        sggs:ang10_sopurkh_line14_gu3
+gg:ang10_sopurkh_tuk14 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk14" ;
+    gg:index "14"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਜਿਨ ਸੇਵਿਆ ਜਿਨ ਸੇਵਿਆ ਮੇਰਾ ਹਰਿ ਜੀ ਤੇ ਹਰਿ ਹਰਿ ਰੂਪਿ ਸਮਾਸੀ ॥"@pa ;
+    gg:transliteration "Jin sévi▫aa jin sévi▫aa méraa har jee ṫé har har roop samaasee."@en-Latn ;
+    gg:translation "Those who have served, truly served my Lord—they are absorbed into the very form of the Lord."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk14_gu1,
+        gg:ang10_sopurkh_tuk14_gu2,
+        gg:ang10_sopurkh_tuk14_gu3
 .
 
-sggs:ang10_sopurkh_line14_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਜਿਨ ਸੇਵਿਆ ਜਿਨ ਸੇਵਿਆ"@pa ;
-    shabd:transliteration "jin sévi▫aa jin sévi▫aa"@en-Latn ;
-    shabd:translation "those who have served, truly served"@en .
+gg:ang10_sopurkh_tuk14_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਜਿਨ ਸੇਵਿਆ ਜਿਨ ਸੇਵਿਆ"@pa ;
+    gg:transliteration "jin sévi▫aa jin sévi▫aa"@en-Latn ;
+    gg:translation "those who have served, truly served"@en .
 
-sggs:ang10_sopurkh_line14_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਮੇਰਾ ਹਰਿ ਜੀ"@pa ;
-    shabd:transliteration "méraa har jee"@en-Latn ;
-    shabd:translation "my beloved Lord"@en .
+gg:ang10_sopurkh_tuk14_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਮੇਰਾ ਹਰਿ ਜੀ"@pa ;
+    gg:transliteration "méraa har jee"@en-Latn ;
+    gg:translation "my beloved Lord"@en .
 
-sggs:ang10_sopurkh_line14_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਤੇ ਹਰਿ ਹਰਿ ਰੂਪਿ ਸਮਾਸੀ"@pa ;
-    shabd:transliteration "té har har roop samaasee"@en-Latn ;
-    shabd:translation "those ones merge into the very form of the Lord"@en .
+gg:ang10_sopurkh_tuk14_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਤੇ ਹਰਿ ਹਰਿ ਰੂਪਿ ਸਮਾਸੀ"@pa ;
+    gg:transliteration "té har har roop samaasee"@en-Latn ;
+    gg:translation "those ones merge into the very form of the Lord"@en .
 
 #################################################################
-### Line 15
+### Tuk 15
 ### ਸੇ ਧੰਨੁ ਸੇ ਧੰਨੁ ਜਿਨ ਹਰਿ ਧਿਆਇਆ ਜੀ ਜਨੁ ਨਾਨਕੁ ਤਿਨ ਬਲਿ ਜਾਸੀ ॥੩॥
 #################################################################
 
-sggs:ang10_sopurkh_line15 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line15" ;
-    shabd:index "15"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਸੇ ਧੰਨੁ ਸੇ ਧੰਨੁ ਜਿਨ ਹਰਿ ਧਿਆਇਆ ਜੀ ਜਨੁ ਨਾਨਕੁ ਤਿਨ ਬਲਿ ਜਾਸੀ ॥੩॥"@pa ;
-    shabd:transliteration "Sé ḋʰan sé ḋʰan jin har ḋʰi▫aa▫i▫aa jee jan Naanak ṫin bal jaasee. ||3||"@en-Latn ;
-    shabd:translation "Blessed, blessed are those who have meditated on the Lord; servant Nanak is a sacrifice to them. ||3||"@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line15_gu1,
-        sggs:ang10_sopurkh_line15_gu2,
-        sggs:ang10_sopurkh_line15_gu3
+gg:ang10_sopurkh_tuk15 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk15" ;
+    gg:index "15"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਸੇ ਧੰਨੁ ਸੇ ਧੰਨੁ ਜਿਨ ਹਰਿ ਧਿਆਇਆ ਜੀ ਜਨੁ ਨਾਨਕੁ ਤਿਨ ਬਲਿ ਜਾਸੀ ॥੩॥"@pa ;
+    gg:transliteration "Sé ḋʰan sé ḋʰan jin har ḋʰi▫aa▫i▫aa jee jan Naanak ṫin bal jaasee. ||3||"@en-Latn ;
+    gg:translation "Blessed, blessed are those who have meditated on the Lord; servant Nanak is a sacrifice to them. ||3||"@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk15_gu1,
+        gg:ang10_sopurkh_tuk15_gu2,
+        gg:ang10_sopurkh_tuk15_gu3
 .
 
-sggs:ang10_sopurkh_line15_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਸੇ ਧੰਨੁ ਸੇ ਧੰਨੁ"@pa ;
-    shabd:transliteration "sé ḋʰan sé ḋʰan"@en-Latn ;
-    shabd:translation "blessed, truly blessed are they"@en .
+gg:ang10_sopurkh_tuk15_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੇ ਧੰਨੁ ਸੇ ਧੰਨੁ"@pa ;
+    gg:transliteration "sé ḋʰan sé ḋʰan"@en-Latn ;
+    gg:translation "blessed, truly blessed are they"@en .
 
-sggs:ang10_sopurkh_line15_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਜਿਨ ਹਰਿ ਧਿਆਇਆ ਜੀ"@pa ;
-    shabd:transliteration "jin har ḋʰi▫aa▫i▫aa jee"@en-Latn ;
-    shabd:translation "who have meditated on the Lord"@en .
+gg:ang10_sopurkh_tuk15_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਜਿਨ ਹਰਿ ਧਿਆਇਆ ਜੀ"@pa ;
+    gg:transliteration "jin har ḋʰi▫aa▫i▫aa jee"@en-Latn ;
+    gg:translation "who have meditated on the Lord"@en .
 
-sggs:ang10_sopurkh_line15_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਜਨੁ ਨਾਨਕੁ ਤਿਨ ਬਲਿ ਜਾਸੀ"@pa ;
-    shabd:transliteration "jan Naanak tin bal jaasee"@en-Latn ;
-    shabd:translation "servant Nanak is utterly devoted to them"@en .
+gg:ang10_sopurkh_tuk15_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਜਨੁ ਨਾਨਕੁ ਤਿਨ ਬਲਿ ਜਾਸੀ"@pa ;
+    gg:transliteration "jan Naanak tin bal jaasee"@en-Latn ;
+    gg:translation "servant Nanak is utterly devoted to them"@en .
 
 #################################################################
-### Line 16
+### Tuk 16
 ### ਤੇਰੀ ਭਗਤਿ ਤੇਰੀ ਭਗਤਿ ਭੰਡਾਰ ਜੀ ਭਰੇ ਬਿਅੰਤ ਬੇਅੰਤਾ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line16 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line16" ;
-    shabd:index "16"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਤੇਰੀ ਭਗਤਿ ਤੇਰੀ ਭਗਤਿ ਭੰਡਾਰ ਜੀ ਭਰੇ ਬਿਅੰਤ ਬੇਅੰਤਾ ॥"@pa ;
-    shabd:transliteration "Ṫéree bʰagaṫ ṫéree bʰagaṫ bʰandaar jee bʰaré bi▫anṫ bé▫anṫaa."@en-Latn ;
-    shabd:translation "Your devotional worship, Your bhagti, is a treasure-store overflowing—endless and beyond limit."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line16_gu1,
-        sggs:ang10_sopurkh_line16_gu2,
-        sggs:ang10_sopurkh_line16_gu3
+gg:ang10_sopurkh_tuk16 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk16" ;
+    gg:index "16"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਤੇਰੀ ਭਗਤਿ ਤੇਰੀ ਭਗਤਿ ਭੰਡਾਰ ਜੀ ਭਰੇ ਬਿਅੰਤ ਬੇਅੰਤਾ ॥"@pa ;
+    gg:transliteration "Ṫéree bʰagaṫ ṫéree bʰagaṫ bʰandaar jee bʰaré bi▫anṫ bé▫anṫaa."@en-Latn ;
+    gg:translation "Your devotional worship, Your bhagti, is a treasure-store overflowing—endless and beyond limit."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk16_gu1,
+        gg:ang10_sopurkh_tuk16_gu2,
+        gg:ang10_sopurkh_tuk16_gu3
 .
 
-sggs:ang10_sopurkh_line16_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਤੇਰੀ ਭਗਤਿ ਤੇਰੀ ਭਗਤਿ"@pa ;
-    shabd:transliteration "téree bhagat téree bhagat"@en-Latn ;
-    shabd:translation "Your devotion, Your bhagti"@en .
+gg:ang10_sopurkh_tuk16_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਤੇਰੀ ਭਗਤਿ ਤੇਰੀ ਭਗਤਿ"@pa ;
+    gg:transliteration "téree bhagat téree bhagat"@en-Latn ;
+    gg:translation "Your devotion, Your bhagti"@en .
 
-sggs:ang10_sopurkh_line16_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਭੰਡਾਰ ਜੀ"@pa ;
-    shabd:transliteration "bʰandaar jee"@en-Latn ;
-    shabd:translation "is a treasure-house"@en .
+gg:ang10_sopurkh_tuk16_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਭੰਡਾਰ ਜੀ"@pa ;
+    gg:transliteration "bʰandaar jee"@en-Latn ;
+    gg:translation "is a treasure-house"@en .
 
-sggs:ang10_sopurkh_line16_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਭਰੇ ਬਿਅੰਤ ਬੇਅੰਤਾ"@pa ;
-    shabd:transliteration "bʰaré bi▫anṫ bé▫anṫaa"@en-Latn ;
-    shabd:translation "filled, endlessly, beyond all limit"@en .
+gg:ang10_sopurkh_tuk16_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਭਰੇ ਬਿਅੰਤ ਬੇਅੰਤਾ"@pa ;
+    gg:transliteration "bʰaré bi▫anṫ bé▫anṫaa"@en-Latn ;
+    gg:translation "filled, endlessly, beyond all limit"@en .
 
 #################################################################
-### Line 17
+### Tuk 17
 ### ਤੇਰੇ ਭਗਤ ਤੇਰੇ ਭਗਤ ਸਲਾਹਨਿ ਤੁਧੁ ਜੀ ਹਰਿ ਅਨਿਕ ਅਨੇਕ ਅਨੰਤਾ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line17 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line17" ;
-    shabd:index "17"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਤੇਰੇ ਭਗਤ ਤੇਰੇ ਭਗਤ ਸਲਾਹਨਿ ਤੁਧੁ ਜੀ ਹਰਿ ਅਨਿਕ ਅਨੇਕ ਅਨੰਤਾ ॥"@pa ;
-    shabd:transliteration "Ṫéré bʰagaṫ ṫéré bʰagaṫ salaahan ṫuḋʰ jee har anik anék ananṫaa."@en-Latn ;
-    shabd:translation "Your devotees, Your devotees praise You, O Lord, in countless, countless ways."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line17_gu1,
-        sggs:ang10_sopurkh_line17_gu2,
-        sggs:ang10_sopurkh_line17_gu3
+gg:ang10_sopurkh_tuk17 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk17" ;
+    gg:index "17"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਤੇਰੇ ਭਗਤ ਤੇਰੇ ਭਗਤ ਸਲਾਹਨਿ ਤੁਧੁ ਜੀ ਹਰਿ ਅਨਿਕ ਅਨੇਕ ਅਨੰਤਾ ॥"@pa ;
+    gg:transliteration "Ṫéré bʰagaṫ ṫéré bʰagaṫ salaahan ṫuḋʰ jee har anik anék ananṫaa."@en-Latn ;
+    gg:translation "Your devotees, Your devotees praise You, O Lord, in countless, countless ways."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk17_gu1,
+        gg:ang10_sopurkh_tuk17_gu2,
+        gg:ang10_sopurkh_tuk17_gu3
 .
 
-sggs:ang10_sopurkh_line17_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਤੇਰੇ ਭਗਤ ਤੇਰੇ ਭਗਤ"@pa ;
-    shabd:transliteration "tére bhagat tére bhagat"@en-Latn ;
-    shabd:translation "Your devotees, Your devotees"@en .
+gg:ang10_sopurkh_tuk17_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਤੇਰੇ ਭਗਤ ਤੇਰੇ ਭਗਤ"@pa ;
+    gg:transliteration "tére bhagat tére bhagat"@en-Latn ;
+    gg:translation "Your devotees, Your devotees"@en .
 
-sggs:ang10_sopurkh_line17_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਸਲਾਹਨਿ ਤੁਧੁ ਜੀ"@pa ;
-    shabd:transliteration "salaahan tuḋʰ jee"@en-Latn ;
-    shabd:translation "praise You, dear Lord"@en .
+gg:ang10_sopurkh_tuk17_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਸਲਾਹਨਿ ਤੁਧੁ ਜੀ"@pa ;
+    gg:transliteration "salaahan tuḋʰ jee"@en-Latn ;
+    gg:translation "praise You, dear Lord"@en .
 
-sggs:ang10_sopurkh_line17_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਹਰਿ ਅਨਿਕ ਅਨੇਕ ਅਨੰਤਾ"@pa ;
-    shabd:transliteration "har anik anek ananṫaa"@en-Latn ;
-    shabd:translation "the Lord, in innumerable, countless ways"@en .
+gg:ang10_sopurkh_tuk17_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਹਰਿ ਅਨਿਕ ਅਨੇਕ ਅਨੰਤਾ"@pa ;
+    gg:transliteration "har anik anek ananṫaa"@en-Latn ;
+    gg:translation "the Lord, in innumerable, countless ways"@en .
 
 #################################################################
-### Line 18
+### Tuk 18
 ### ਤੇਰੀ ਅਨਿਕ ਤੇਰੀ ਅਨਿਕ ਕਰਹਿ ਹਰਿ ਪੂਜਾ ਜੀ ਤਪੁ ਤਾਪਹਿ ਜਪਹਿ ਬੇਅੰਤਾ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line18 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line18" ;
-    shabd:index "18"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਤੇਰੀ ਅਨਿਕ ਤੇਰੀ ਅਨਿਕ ਕਰਹਿ ਹਰਿ ਪੂਜਾ ਜੀ ਤਪੁ ਤਾਪਹਿ ਜਪਹਿ ਬੇਅੰਤਾ ॥"@pa ;
-    shabd:transliteration "Ṫéree anik ṫéree anik karahi har poojaa jee ṫap ṫaapėh jaapėh bé▫anṫaa."@en-Latn ;
-    shabd:translation "For You, in so many ways, people perform worship of the Lord, practice austerities and meditate, endlessly."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line18_gu1,
-        sggs:ang10_sopurkh_line18_gu2,
-        sggs:ang10_sopurkh_line18_gu3
+gg:ang10_sopurkh_tuk18 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk18" ;
+    gg:index "18"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਤੇਰੀ ਅਨਿਕ ਤੇਰੀ ਅਨਿਕ ਕਰਹਿ ਹਰਿ ਪੂਜਾ ਜੀ ਤਪੁ ਤਾਪਹਿ ਜਪਹਿ ਬੇਅੰਤਾ ॥"@pa ;
+    gg:transliteration "Ṫéree anik ṫéree anik karahi har poojaa jee ṫap ṫaapėh jaapėh bé▫anṫaa."@en-Latn ;
+    gg:translation "For You, in so many ways, people perform worship of the Lord, practice austerities and meditate, endlessly."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk18_gu1,
+        gg:ang10_sopurkh_tuk18_gu2,
+        gg:ang10_sopurkh_tuk18_gu3
 .
 
-sggs:ang10_sopurkh_line18_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਤੇਰੀ ਅਨਿਕ ਤੇਰੀ ਅਨਿਕ"@pa ;
-    shabd:transliteration "téree anik téree anik"@en-Latn ;
-    shabd:translation "for You, in many, many ways"@en .
+gg:ang10_sopurkh_tuk18_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਤੇਰੀ ਅਨਿਕ ਤੇਰੀ ਅਨਿਕ"@pa ;
+    gg:transliteration "téree anik téree anik"@en-Latn ;
+    gg:translation "for You, in many, many ways"@en .
 
-sggs:ang10_sopurkh_line18_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਕਰਹਿ ਹਰਿ ਪੂਜਾ ਜੀ"@pa ;
-    shabd:transliteration "karahi har poojaa jee"@en-Latn ;
-    shabd:translation "they perform worship of the Lord"@en .
+gg:ang10_sopurkh_tuk18_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਕਰਹਿ ਹਰਿ ਪੂਜਾ ਜੀ"@pa ;
+    gg:transliteration "karahi har poojaa jee"@en-Latn ;
+    gg:translation "they perform worship of the Lord"@en .
 
-sggs:ang10_sopurkh_line18_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਤਪੁ ਤਾਪਹਿ ਜਪਹਿ ਬੇਅੰਤਾ"@pa ;
-    shabd:transliteration "tap taapėh japėh bé▫anṫaa"@en-Latn ;
-    shabd:translation "they practice austerities and chant without end"@en .
+gg:ang10_sopurkh_tuk18_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਤਪੁ ਤਾਪਹਿ ਜਪਹਿ ਬੇਅੰਤਾ"@pa ;
+    gg:transliteration "tap taapėh japėh bé▫anṫaa"@en-Latn ;
+    gg:translation "they practice austerities and chant without end"@en .
 
 #################################################################
-### Line 19
+### Tuk 19
 ### ਸੇ ਭਗਤ ਸੇ ਭਗਤ ਭਲੇ ਜਨ ਨਾਨਕ ਜੀ ਜੋ ਭਾਵਹਿ ਮੇਰੇ ਹਰਿ ਭਗਵੰਤਾ ॥੪॥
 #################################################################
 
-sggs:ang10_sopurkh_line19 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line19" ;
-    shabd:index "19"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਸੇ ਭਗਤ ਸੇ ਭਗਤ ਭਲੇ ਜਨ ਨਾਨਕ ਜੀ ਜੋ ਭਾਵਹਿ ਮੇਰੇ ਹਰਿ ਭਗਵੰਤਾ ॥੪॥"@pa ;
-    shabd:transliteration "Sé bʰagaṫ sé bʰagaṫ bʰalé jan Naanak jee jo bʰaavėh méré har bʰagvanṫaa. ||4||"@en-Latn ;
-    shabd:translation "Those devotees, those devotees are truly excellent, O servant Nanak—those who are pleasing to my Lord, the Divine."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line19_gu1,
-        sggs:ang10_sopurkh_line19_gu2,
-        sggs:ang10_sopurkh_line19_gu3
+gg:ang10_sopurkh_tuk19 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk19" ;
+    gg:index "19"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਸੇ ਭਗਤ ਸੇ ਭਗਤ ਭਲੇ ਜਨ ਨਾਨਕ ਜੀ ਜੋ ਭਾਵਹਿ ਮੇਰੇ ਹਰਿ ਭਗਵੰਤਾ ॥੪॥"@pa ;
+    gg:transliteration "Sé bʰagaṫ sé bʰagaṫ bʰalé jan Naanak jee jo bʰaavėh méré har bʰagvanṫaa. ||4||"@en-Latn ;
+    gg:translation "Those devotees, those devotees are truly excellent, O servant Nanak—those who are pleasing to my Lord, the Divine."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk19_gu1,
+        gg:ang10_sopurkh_tuk19_gu2,
+        gg:ang10_sopurkh_tuk19_gu3
 .
 
-sggs:ang10_sopurkh_line19_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਸੇ ਭਗਤ ਸੇ ਭਗਤ ਭਲੇ"@pa ;
-    shabd:transliteration "sé bhagat sé bhagat bʰalé"@en-Latn ;
-    shabd:translation "those devotees, those devotees are noble"@en .
+gg:ang10_sopurkh_tuk19_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਸੇ ਭਗਤ ਸੇ ਭਗਤ ਭਲੇ"@pa ;
+    gg:transliteration "sé bhagat sé bhagat bʰalé"@en-Latn ;
+    gg:translation "those devotees, those devotees are noble"@en .
 
-sggs:ang10_sopurkh_line19_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਜਨ ਨਾਨਕ ਜੀ"@pa ;
-    shabd:transliteration "jan Naanak jee"@en-Latn ;
-    shabd:translation "says servant Nanak"@en .
+gg:ang10_sopurkh_tuk19_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਜਨ ਨਾਨਕ ਜੀ"@pa ;
+    gg:transliteration "jan Naanak jee"@en-Latn ;
+    gg:translation "says servant Nanak"@en .
 
-sggs:ang10_sopurkh_line19_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਜੋ ਭਾਵਹਿ ਮੇਰੇ ਹਰਿ ਭਗਵੰਤਾ"@pa ;
-    shabd:transliteration "jo bʰaavėh mére har bʰagvanṫaa"@en-Latn ;
-    shabd:translation "those who are pleasing to my Lord, the Blessed One"@en .
+gg:ang10_sopurkh_tuk19_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਜੋ ਭਾਵਹਿ ਮੇਰੇ ਹਰਿ ਭਗਵੰਤਾ"@pa ;
+    gg:transliteration "jo bʰaavėh mére har bʰagvanṫaa"@en-Latn ;
+    gg:translation "those who are pleasing to my Lord, the Blessed One"@en .
 
 #################################################################
-### Line 20
+### Tuk 20
 ### ਤੇਰੇ ਅਨੇਕ ਤੇਰੇ ਅਨੇਕ ਪੜਹਿ ਬਹੁ ਸਿਮ੍ਰਿਤਿ ਸਾਸਤ ਜੀ ਕਰਿ ਕਿਰਿਆ ਖਟੁ ਕਰਮ ਕਰੰਤਾ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line20 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line20" ;
-    shabd:index "20"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਤੇਰੇ ਅਨੇਕ ਤੇਰੇ ਅਨੇਕ ਪੜਹਿ ਬਹੁ ਸਿਮ੍ਰਿਤਿ ਸਾਸਤ ਜੀ ਕਰਿ ਕਿਰਿਆ ਖਟੁ ਕਰਮ ਕਰੰਤਾ ॥"@pa ;
-    shabd:transliteration "Ṫéré anék ṫéré anék paṛėh baho simriṫ saasaṫ jee kar kiri▫aa kʰat karam karanṫaa."@en-Latn ;
-    shabd:translation "For You, countless, countless people read many Smritis and Shastras, and perform the six types of religious rituals and duties."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line20_gu1,
-        sggs:ang10_sopurkh_line20_gu2,
-        sggs:ang10_sopurkh_line20_gu3
+gg:ang10_sopurkh_tuk20 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk20" ;
+    gg:index "20"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਤੇਰੇ ਅਨੇਕ ਤੇਰੇ ਅਨੇਕ ਪੜਹਿ ਬਹੁ ਸਿਮ੍ਰਿਤਿ ਸਾਸਤ ਜੀ ਕਰਿ ਕਿਰਿਆ ਖਟੁ ਕਰਮ ਕਰੰਤਾ ॥"@pa ;
+    gg:transliteration "Ṫéré anék ṫéré anék paṛėh baho simriṫ saasaṫ jee kar kiri▫aa kʰat karam karanṫaa."@en-Latn ;
+    gg:translation "For You, countless, countless people read many Smritis and Shastras, and perform the six types of religious rituals and duties."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk20_gu1,
+        gg:ang10_sopurkh_tuk20_gu2,
+        gg:ang10_sopurkh_tuk20_gu3
 .
 
-sggs:ang10_sopurkh_line20_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਤੇਰੇ ਅਨੇਕ ਤੇਰੇ ਅਨੇਕ"@pa ;
-    shabd:transliteration "tére anek tére anek"@en-Latn ;
-    shabd:translation "for You, many, many people"@en .
+gg:ang10_sopurkh_tuk20_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਤੇਰੇ ਅਨੇਕ ਤੇਰੇ ਅਨੇਕ"@pa ;
+    gg:transliteration "tére anek tére anek"@en-Latn ;
+    gg:translation "for You, many, many people"@en .
 
-sggs:ang10_sopurkh_line20_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਪੜਹਿ ਬਹੁ ਸਿਮ੍ਰਿਤਿ ਸਾਸਤ ਜੀ"@pa ;
-    shabd:transliteration "paṛeh bahu simriṫ saasaṫ jee"@en-Latn ;
-    shabd:translation "read many Smritis and Shastras"@en .
+gg:ang10_sopurkh_tuk20_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਪੜਹਿ ਬਹੁ ਸਿਮ੍ਰਿਤਿ ਸਾਸਤ ਜੀ"@pa ;
+    gg:transliteration "paṛeh bahu simriṫ saasaṫ jee"@en-Latn ;
+    gg:translation "read many Smritis and Shastras"@en .
 
-sggs:ang10_sopurkh_line20_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਕਰਿ ਕਿਰਿਆ ਖਟੁ ਕਰਮ ਕਰੰਤਾ"@pa ;
-    shabd:transliteration "kar kiri▫aa kʰat karam karanṫaa"@en-Latn ;
-    shabd:translation "perform ritual acts and the six kinds of religious duties"@en .
+gg:ang10_sopurkh_tuk20_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਕਰਿ ਕਿਰਿਆ ਖਟੁ ਕਰਮ ਕਰੰਤਾ"@pa ;
+    gg:transliteration "kar kiri▫aa kʰat karam karanṫaa"@en-Latn ;
+    gg:translation "perform ritual acts and the six kinds of religious duties"@en .
 
 #################################################################
-### Line 21
+### Tuk 21
 ### ਤੂੰ ਆਦਿ ਪੁਰਖੁ ਅਪਰੰਪਰੁ ਕਰਤਾ ਜੀ ਤੁਧੁ ਜੇਵਡੁ ਅਵਰੁ ਨ ਕੋਈ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line21 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line21" ;
-    shabd:index "21"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਤੂੰ ਆਦਿ ਪੁਰਖੁ ਅਪਰੰਪਰੁ ਕਰਤਾ ਜੀ ਤੁਧੁ ਜੇਵਡੁ ਅਵਰੁ ਨ ਕੋਈ ॥"@pa ;
-    shabd:transliteration "Ṫooⁿ aaḋ purakʰ aprampar karṫaa jee ṫuḋʰ jévad avar na ko▫ee."@en-Latn ;
-    shabd:translation "You are the Primal Being, the infinite Creator; there is no other as great as You."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line21_gu1,
-        sggs:ang10_sopurkh_line21_gu2,
-        sggs:ang10_sopurkh_line21_gu3
+gg:ang10_sopurkh_tuk21 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk21" ;
+    gg:index "21"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਤੂੰ ਆਦਿ ਪੁਰਖੁ ਅਪਰੰਪਰੁ ਕਰਤਾ ਜੀ ਤੁਧੁ ਜੇਵਡੁ ਅਵਰੁ ਨ ਕੋਈ ॥"@pa ;
+    gg:transliteration "Ṫooⁿ aaḋ purakʰ aprampar karṫaa jee ṫuḋʰ jévad avar na ko▫ee."@en-Latn ;
+    gg:translation "You are the Primal Being, the infinite Creator; there is no other as great as You."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk21_gu1,
+        gg:ang10_sopurkh_tuk21_gu2,
+        gg:ang10_sopurkh_tuk21_gu3
 .
 
-sggs:ang10_sopurkh_line21_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਤੂੰ ਆਦਿ ਪੁਰਖੁ"@pa ;
-    shabd:transliteration "tūⁿ aadh purakh"@en-Latn ;
-    shabd:translation "You are the primal Being"@en .
+gg:ang10_sopurkh_tuk21_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਤੂੰ ਆਦਿ ਪੁਰਖੁ"@pa ;
+    gg:transliteration "tūⁿ aadh purakh"@en-Latn ;
+    gg:translation "You are the primal Being"@en .
 
-sggs:ang10_sopurkh_line21_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਅਪਰੰਪਰੁ ਕਰਤਾ ਜੀ"@pa ;
-    shabd:transliteration "aprampar karṫaa jee"@en-Latn ;
-    shabd:translation "the infinite Creator"@en .
+gg:ang10_sopurkh_tuk21_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਅਪਰੰਪਰੁ ਕਰਤਾ ਜੀ"@pa ;
+    gg:transliteration "aprampar karṫaa jee"@en-Latn ;
+    gg:translation "the infinite Creator"@en .
 
-sggs:ang10_sopurkh_line21_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਤੁਧੁ ਜੇਵਡੁ ਅਵਰੁ ਨ ਕੋਈ"@pa ;
-    shabd:transliteration "tuḋʰ jévad avar na ko▫ee"@en-Latn ;
-    shabd:translation "none exists equal to You"@en .
+gg:ang10_sopurkh_tuk21_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਤੁਧੁ ਜੇਵਡੁ ਅਵਰੁ ਨ ਕੋਈ"@pa ;
+    gg:transliteration "tuḋʰ jévad avar na ko▫ee"@en-Latn ;
+    gg:translation "none exists equal to You"@en .
 
 #################################################################
-### Line 22
+### Tuk 22
 ### ਤੂੰ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਸਦਾ ਸਦਾ ਤੂੰ ਏਕੋ ਜੀ ਤੂੰ ਨਿਹਚਲੁ ਕਰਤਾ ਸੋਈ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line22 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line22" ;
-    shabd:index "22"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਤੂੰ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਸਦਾ ਸਦਾ ਤੂੰ ਏਕੋ ਜੀ ਤੂੰ ਨਿਹਚਲੁ ਕਰਤਾ ਸੋਈ ॥"@pa ;
-    shabd:transliteration "Ṫooⁿ jug jug éko saḋaa saḋaa ṫooⁿ éko jee ṫooⁿ nihchal karṫaa so▫ee."@en-Latn ;
-    shabd:translation "Through all ages You are the One; forever and ever You remain the One, the unchanging Creator."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line22_gu1,
-        sggs:ang10_sopurkh_line22_gu2,
-        sggs:ang10_sopurkh_line22_gu3
+gg:ang10_sopurkh_tuk22 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk22" ;
+    gg:index "22"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਤੂੰ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਸਦਾ ਸਦਾ ਤੂੰ ਏਕੋ ਜੀ ਤੂੰ ਨਿਹਚਲੁ ਕਰਤਾ ਸੋਈ ॥"@pa ;
+    gg:transliteration "Ṫooⁿ jug jug éko saḋaa saḋaa ṫooⁿ éko jee ṫooⁿ nihchal karṫaa so▫ee."@en-Latn ;
+    gg:translation "Through all ages You are the One; forever and ever You remain the One, the unchanging Creator."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk22_gu1,
+        gg:ang10_sopurkh_tuk22_gu2,
+        gg:ang10_sopurkh_tuk22_gu3
 .
 
-sggs:ang10_sopurkh_line22_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਤੂੰ ਜੁਗੁ ਜੁਗੁ ਏਕੋ"@pa ;
-    shabd:transliteration "tūⁿ jug jug eko"@en-Latn ;
-    shabd:translation "You are the One in every age"@en .
+gg:ang10_sopurkh_tuk22_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਤੂੰ ਜੁਗੁ ਜੁਗੁ ਏਕੋ"@pa ;
+    gg:transliteration "tūⁿ jug jug eko"@en-Latn ;
+    gg:translation "You are the One in every age"@en .
 
-sggs:ang10_sopurkh_line22_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਸਦਾ ਸਦਾ ਤੂੰ ਏਕੋ ਜੀ"@pa ;
-    shabd:transliteration "sadaa sadaa tūⁿ eko jee"@en-Latn ;
-    shabd:translation "forever and ever, You alone remain One"@en .
+gg:ang10_sopurkh_tuk22_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਸਦਾ ਸਦਾ ਤੂੰ ਏਕੋ ਜੀ"@pa ;
+    gg:transliteration "sadaa sadaa tūⁿ eko jee"@en-Latn ;
+    gg:translation "forever and ever, You alone remain One"@en .
 
-sggs:ang10_sopurkh_line22_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਤੂੰ ਨਿਹਚਲੁ ਕਰਤਾ ਸੋਈ"@pa ;
-    shabd:transliteration "tūⁿ nihchal karṫaa soee"@en-Latn ;
-    shabd:translation "You are the unmoving, unchanging Creator"@en .
+gg:ang10_sopurkh_tuk22_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਤੂੰ ਨਿਹਚਲੁ ਕਰਤਾ ਸੋਈ"@pa ;
+    gg:transliteration "tūⁿ nihchal karṫaa soee"@en-Latn ;
+    gg:translation "You are the unmoving, unchanging Creator"@en .
 
 #################################################################
-### Line 23
+### Tuk 23
 ### ਤੁਧੁ ਆਪੇ ਭਾਵੈ ਸੋਈ ਵਰਤੈ ਜੀ ਤੂੰ ਆਪੇ ਕਰਹਿ ਸੁ ਹੋਈ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line23 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line23" ;
-    shabd:index "23"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਤੁਧੁ ਆਪੇ ਭਾਵੈ ਸੋਈ ਵਰਤੈ ਜੀ ਤੂੰ ਆਪੇ ਕਰਹਿ ਸੁ ਹੋਈ ॥"@pa ;
-    shabd:transliteration "Ṫuḋʰ aapé bʰaavæ so▫ee varṫæ jee ṫooⁿ aapé karahi so ho▫ee."@en-Latn ;
-    shabd:translation "Whatever pleases You alone comes to pass; whatever You Yourself do—that alone happens."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line23_gu1,
-        sggs:ang10_sopurkh_line23_gu2,
-        sggs:ang10_sopurkh_line23_gu3
+gg:ang10_sopurkh_tuk23 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk23" ;
+    gg:index "23"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਤੁਧੁ ਆਪੇ ਭਾਵੈ ਸੋਈ ਵਰਤੈ ਜੀ ਤੂੰ ਆਪੇ ਕਰਹਿ ਸੁ ਹੋਈ ॥"@pa ;
+    gg:transliteration "Ṫuḋʰ aapé bʰaavæ so▫ee varṫæ jee ṫooⁿ aapé karahi so ho▫ee."@en-Latn ;
+    gg:translation "Whatever pleases You alone comes to pass; whatever You Yourself do—that alone happens."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk23_gu1,
+        gg:ang10_sopurkh_tuk23_gu2,
+        gg:ang10_sopurkh_tuk23_gu3
 .
 
-sggs:ang10_sopurkh_line23_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਤੁਧੁ ਆਪੇ ਭਾਵੈ"@pa ;
-    shabd:transliteration "tuḋʰ aapé bʰaavæ"@en-Latn ;
-    shabd:translation "whatever pleases You Yourself"@en .
+gg:ang10_sopurkh_tuk23_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਤੁਧੁ ਆਪੇ ਭਾਵੈ"@pa ;
+    gg:transliteration "tuḋʰ aapé bʰaavæ"@en-Latn ;
+    gg:translation "whatever pleases You Yourself"@en .
 
-sggs:ang10_sopurkh_line23_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਸੋਈ ਵਰਤੈ ਜੀ"@pa ;
-    shabd:transliteration "soee varṫai jee"@en-Latn ;
-    shabd:translation "that alone prevails"@en .
+gg:ang10_sopurkh_tuk23_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਸੋਈ ਵਰਤੈ ਜੀ"@pa ;
+    gg:transliteration "soee varṫai jee"@en-Latn ;
+    gg:translation "that alone prevails"@en .
 
-sggs:ang10_sopurkh_line23_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਤੂੰ ਆਪੇ ਕਰਹਿ ਸੁ ਹੋਈ"@pa ;
-    shabd:transliteration "tūⁿ aapé karahi su hoee"@en-Latn ;
-    shabd:translation "whatever You do is exactly what comes to be"@en .
+gg:ang10_sopurkh_tuk23_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਤੂੰ ਆਪੇ ਕਰਹਿ ਸੁ ਹੋਈ"@pa ;
+    gg:transliteration "tūⁿ aapé karahi su hoee"@en-Latn ;
+    gg:translation "whatever You do is exactly what comes to be"@en .
 
 #################################################################
-### Line 24
+### Tuk 24
 ### ਤੁਧੁ ਆਪੇ ਸ੍ਰਿਸਟਿ ਸਭ ਉਪਾਈ ਜੀ ਤੁਧੁ ਆਪੇ ਸਿਰਜਿ ਸਭ ਗੋਈ ॥
 #################################################################
 
-sggs:ang10_sopurkh_line24 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line24" ;
-    shabd:index "24"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਤੁਧੁ ਆਪੇ ਸ੍ਰਿਸਟਿ ਸਭ ਉਪਾਈ ਜੀ ਤੁਧੁ ਆਪੇ ਸਿਰਜਿ ਸਭ ਗੋਈ ॥"@pa ;
-    shabd:transliteration "Ṫuḋʰ aapé sarisat sabʰ upaa▫ee jee ṫuḋʰ aapé siraj sabʰ go▫ee."@en-Latn ;
-    shabd:translation "You Yourself created the entire universe, and You Yourself shall destroy all that has been formed."@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line24_gu1,
-        sggs:ang10_sopurkh_line24_gu2,
-        sggs:ang10_sopurkh_line24_gu3
+gg:ang10_sopurkh_tuk24 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk24" ;
+    gg:index "24"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਤੁਧੁ ਆਪੇ ਸ੍ਰਿਸਟਿ ਸਭ ਉਪਾਈ ਜੀ ਤੁਧੁ ਆਪੇ ਸਿਰਜਿ ਸਭ ਗੋਈ ॥"@pa ;
+    gg:transliteration "Ṫuḋʰ aapé sarisat sabʰ upaa▫ee jee ṫuḋʰ aapé siraj sabʰ go▫ee."@en-Latn ;
+    gg:translation "You Yourself created the entire universe, and You Yourself shall destroy all that has been formed."@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk24_gu1,
+        gg:ang10_sopurkh_tuk24_gu2,
+        gg:ang10_sopurkh_tuk24_gu3
 .
 
-sggs:ang10_sopurkh_line24_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਤੁਧੁ ਆਪੇ ਸ੍ਰਿਸਟਿ ਸਭ ਉਪਾਈ ਜੀ"@pa ;
-    shabd:transliteration "tuḋʰ aapé sarisat sabh upaa▫ee jee"@en-Latn ;
-    shabd:translation "You Yourself created the whole universe"@en .
+gg:ang10_sopurkh_tuk24_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਤੁਧੁ ਆਪੇ ਸ੍ਰਿਸਟਿ ਸਭ ਉਪਾਈ ਜੀ"@pa ;
+    gg:transliteration "tuḋʰ aapé sarisat sabh upaa▫ee jee"@en-Latn ;
+    gg:translation "You Yourself created the whole universe"@en .
 
-sggs:ang10_sopurkh_line24_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਤੁਧੁ ਆਪੇ ਸਿਰਜਿ"@pa ;
-    shabd:transliteration "tuḋʰ aapé siraj"@en-Latn ;
-    shabd:translation "You Yourself fashioned it"@en .
+gg:ang10_sopurkh_tuk24_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਤੁਧੁ ਆਪੇ ਸਿਰਜਿ"@pa ;
+    gg:transliteration "tuḋʰ aapé siraj"@en-Latn ;
+    gg:translation "You Yourself fashioned it"@en .
 
-sggs:ang10_sopurkh_line24_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਸਭ ਗੋਈ"@pa ;
-    shabd:transliteration "sabh goee"@en-Latn ;
-    shabd:translation "and You Yourself cause it all to pass away"@en .
+gg:ang10_sopurkh_tuk24_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਸਭ ਗੋਈ"@pa ;
+    gg:transliteration "sabh goee"@en-Latn ;
+    gg:translation "and You Yourself cause it all to pass away"@en .
 
 #################################################################
-### Line 25 (final)
+### Tuk 25 (final)
 ### ਜਨੁ ਨਾਨਕੁ ਗੁਣ ਗਾਵੈ ਕਰਤੇ ਕੇ ਜੀ ਜੋ ਸਭਸੈ ਕਾ ਜਾਣੋਈ ॥੫॥੧॥
 #################################################################
 
-sggs:ang10_sopurkh_line25 a shabd:Line ;
-    shabd:id "sggs-ang10-sopurkh-line25" ;
-    shabd:index "25"^^xsd:integer ;
-    shabd:belongsTo sggs:ang10_sopurkh ;
-    shabd:gurmukhi "ਜਨੁ ਨਾਨਕੁ ਗੁਣ ਗਾਵੈ ਕਰਤੇ ਕੇ ਜੀ ਜੋ ਸਭਸੈ ਕਾ ਜਾਣੋਈ ॥੫॥੧॥"@pa ;
-    shabd:transliteration "Jan Naanak guṇ gaavæ karṫé ké jee jo sabʰsæ kaa jaaṇo▫ee. ||5||1||"@en-Latn ;
-    shabd:translation "Servant Nanak sings the praises of the Creator, who alone knows all beings and everything about them. ||5||1||"@en ;
-    shabd:hasGlossUnit
-        sggs:ang10_sopurkh_line25_gu1,
-        sggs:ang10_sopurkh_line25_gu2,
-        sggs:ang10_sopurkh_line25_gu3
+gg:ang10_sopurkh_tuk25 a gg:Tuk ;
+    gg:id "sggs-ang10-sopurkh-tuk25" ;
+    gg:index "25"^^xsd:integer ;
+    gg:belongsTo gg:ang10_sopurkh ;
+    gg:gurmukhi "ਜਨੁ ਨਾਨਕੁ ਗੁਣ ਗਾਵੈ ਕਰਤੇ ਕੇ ਜੀ ਜੋ ਸਭਸੈ ਕਾ ਜਾਣੋਈ ॥੫॥੧॥"@pa ;
+    gg:transliteration "Jan Naanak guṇ gaavæ karṫé ké jee jo sabʰsæ kaa jaaṇo▫ee. ||5||1||"@en-Latn ;
+    gg:translation "Servant Nanak sings the praises of the Creator, who alone knows all beings and everything about them. ||5||1||"@en ;
+    gg:hasGlossUnit
+        gg:ang10_sopurkh_tuk25_gu1,
+        gg:ang10_sopurkh_tuk25_gu2,
+        gg:ang10_sopurkh_tuk25_gu3
 .
 
-sggs:ang10_sopurkh_line25_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਜਨੁ ਨਾਨਕੁ ਗੁਣ ਗਾਵੈ"@pa ;
-    shabd:transliteration "jan Naanak guṇ gaavæ"@en-Latn ;
-    shabd:translation "servant Nanak sings the virtues"@en .
+gg:ang10_sopurkh_tuk25_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਜਨੁ ਨਾਨਕੁ ਗੁਣ ਗਾਵੈ"@pa ;
+    gg:transliteration "jan Naanak guṇ gaavæ"@en-Latn ;
+    gg:translation "servant Nanak sings the virtues"@en .
 
-sggs:ang10_sopurkh_line25_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਕਰਤੇ ਕੇ ਜੀ"@pa ;
-    shabd:transliteration "karṫé ké jee"@en-Latn ;
-    shabd:translation "of the Creator Lord"@en .
+gg:ang10_sopurkh_tuk25_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਕਰਤੇ ਕੇ ਜੀ"@pa ;
+    gg:transliteration "karṫé ké jee"@en-Latn ;
+    gg:translation "of the Creator Lord"@en .
 
-sggs:ang10_sopurkh_line25_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਜੋ ਸਭਸੈ ਕਾ ਜਾਣੋਈ"@pa ;
-    shabd:transliteration "jo sabʰsai kaa jaaṇo▫ee"@en-Latn ;
-    shabd:translation "who alone knows all and everyone"@en .
+gg:ang10_sopurkh_tuk25_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਜੋ ਸਭਸੈ ਕਾ ਜਾਣੋਈ"@pa ;
+    gg:transliteration "jo sabʰsai kaa jaaṇo▫ee"@en-Latn ;
+    gg:translation "who alone knows all and everyone"@en .
 
-sggs:ang10_sopurkh_line1
-    shabd:hasTheme
-        shabd:Niranjan,
-        shabd:TranscendenceImmanence,
-        shabd:UncreatedDivine,
-        shabd:DivineName
+gg:ang10_sopurkh_tuk1
+    gg:hasTheme
+        gg:Niranjan,
+        gg:TranscendenceImmanence,
+        gg:UncreatedDivine,
+        gg:DivineName
     .
 
-sggs:ang10_sopurkh_line2
-    shabd:hasTheme
-        shabd:DivineName,
-        shabd:Praise,
-        shabd:CreationDestruction
+gg:ang10_sopurkh_tuk2
+    gg:hasTheme
+        gg:DivineName,
+        gg:Praise,
+        gg:CreationDestruction
     .
 
-sggs:ang10_sopurkh_line3
-    shabd:hasTheme
-        shabd:OneGiver,
-        shabd:Provision,
-        shabd:UniversalLove,
-        shabd:LifeDeathCycle
+gg:ang10_sopurkh_tuk3
+    gg:hasTheme
+        gg:OneGiver,
+        gg:Provision,
+        gg:UniversalLove,
+        gg:LifeDeathCycle
     .
 
-sggs:ang10_sopurkh_line4
-    shabd:hasTheme
-        shabd:Naam,
-        shabd:Peace,
-        shabd:SufferingJoy,
-        shabd:DivineProtection
+gg:ang10_sopurkh_tuk4
+    gg:hasTheme
+        gg:Naam,
+        gg:Peace,
+        gg:SufferingJoy,
+        gg:DivineProtection
     .
 
-sggs:ang10_sopurkh_line5
-    shabd:hasTheme
-        shabd:DivineSovereignty,
-        shabd:DivineHumility,
-        shabd:Ego,
-        shabd:TranscendenceImmanence
+gg:ang10_sopurkh_tuk5
+    gg:hasTheme
+        gg:DivineSovereignty,
+        gg:DivineHumility,
+        gg:Ego,
+        gg:TranscendenceImmanence
     .
 
-sggs:ang10_sopurkh_line6
-    shabd:hasTheme
-        shabd:TranscendenceImmanence,
-        shabd:Naam,
-        shabd:UniversalLove
+gg:ang10_sopurkh_tuk6
+    gg:hasTheme
+        gg:TranscendenceImmanence,
+        gg:Naam,
+        gg:UniversalLove
     .
 
-sggs:ang10_sopurkh_line7
-    shabd:hasTheme
-        shabd:OneGiver,
-        shabd:DivineGifts,
-        shabd:GraceAndKarma,
-        shabd:DivineSovereignty
+gg:ang10_sopurkh_tuk7
+    gg:hasTheme
+        gg:OneGiver,
+        gg:DivineGifts,
+        gg:GraceAndKarma,
+        gg:DivineSovereignty
     .
 
-sggs:ang10_sopurkh_line8
-    shabd:hasTheme
-        shabd:OneGiver,
-        shabd:DivineGifts,
-        shabd:DevotionalLove,
-        shabd:UniversalLove
+gg:ang10_sopurkh_tuk8
+    gg:hasTheme
+        gg:OneGiver,
+        gg:DivineGifts,
+        gg:DevotionalLove,
+        gg:UniversalLove
     .
 
-sggs:ang10_sopurkh_line9
-    shabd:hasTheme
-        shabd:Virtues,
-        shabd:Ineffability,
-        shabd:TranscendenceImmanence
+gg:ang10_sopurkh_tuk9
+    gg:hasTheme
+        gg:Virtues,
+        gg:Ineffability,
+        gg:TranscendenceImmanence
     .
 
-sggs:ang10_sopurkh_line10
-    shabd:hasTheme
-        shabd:ServiceAndHonor,
-        shabd:DevotionalLove,
-        shabd:Bhagat,
-        shabd:DivineGrace
+gg:ang10_sopurkh_tuk10
+    gg:hasTheme
+        gg:ServiceAndHonor,
+        gg:DevotionalLove,
+        gg:Bhagat,
+        gg:DivineGrace
     .
 
-sggs:ang10_sopurkh_line11
-    shabd:hasTheme
-        shabd:Naam,
-        shabd:Peace,
-        shabd:Bhagat
+gg:ang10_sopurkh_tuk11
+    gg:hasTheme
+        gg:Naam,
+        gg:Peace,
+        gg:Bhagat
     .
 
-sggs:ang10_sopurkh_line12
-    shabd:hasTheme
-        shabd:LifeDeathCycle,
-        shabd:LiberationDoor,
-        shabd:DivineProtection,
-        shabd:SufferingJoy
+gg:ang10_sopurkh_tuk12
+    gg:hasTheme
+        gg:LifeDeathCycle,
+        gg:LiberationDoor,
+        gg:DivineProtection,
+        gg:SufferingJoy
     .
 
-sggs:ang10_sopurkh_line13
-    shabd:hasTheme
-        shabd:DivineProtection,
-        shabd:Peace,
-        shabd:Naam
+gg:ang10_sopurkh_tuk13
+    gg:hasTheme
+        gg:DivineProtection,
+        gg:Peace,
+        gg:Naam
     .
 
-sggs:ang10_sopurkh_line14
-    shabd:hasTheme
-        shabd:DevotionalLove,
-        shabd:Bhagat,
-        shabd:Naam,
-        shabd:UncreatedDivine
+gg:ang10_sopurkh_tuk14
+    gg:hasTheme
+        gg:DevotionalLove,
+        gg:Bhagat,
+        gg:Naam,
+        gg:UncreatedDivine
     .
 
-sggs:ang10_sopurkh_line15
-    shabd:hasTheme
-        shabd:ServiceAndHonor,
-        shabd:DevotionalLove,
-        shabd:Bhagat
+gg:ang10_sopurkh_tuk15
+    gg:hasTheme
+        gg:ServiceAndHonor,
+        gg:DevotionalLove,
+        gg:Bhagat
     .
 
-sggs:ang10_sopurkh_line16
-    shabd:hasTheme
-        shabd:DevotionalLove,
-        shabd:DivineGifts,
-        shabd:DivineGrace
+gg:ang10_sopurkh_tuk16
+    gg:hasTheme
+        gg:DevotionalLove,
+        gg:DivineGifts,
+        gg:DivineGrace
     .
 
-sggs:ang10_sopurkh_line17
-    shabd:hasTheme
-        shabd:Bhagat,
-        shabd:Praise,
-        shabd:DevotionalLove
+gg:ang10_sopurkh_tuk17
+    gg:hasTheme
+        gg:Bhagat,
+        gg:Praise,
+        gg:DevotionalLove
     .
 
-sggs:ang10_sopurkh_line18
-    shabd:hasTheme
-        shabd:PilgrimageRitual,
-        shabd:Intellect,
-        shabd:SpiritualMethodFailure,
-        shabd:DevotionalLove
+gg:ang10_sopurkh_tuk18
+    gg:hasTheme
+        gg:PilgrimageRitual,
+        gg:Intellect,
+        gg:SpiritualMethodFailure,
+        gg:DevotionalLove
     .
 
-sggs:ang10_sopurkh_line19
-    shabd:hasTheme
-        shabd:Bhagat,
-        shabd:DivineWill,
-        shabd:DivineGrace,
-        shabd:ServiceAndHonor
+gg:ang10_sopurkh_tuk19
+    gg:hasTheme
+        gg:Bhagat,
+        gg:DivineWill,
+        gg:DivineGrace,
+        gg:ServiceAndHonor
     .
 
-sggs:ang10_sopurkh_line20
-    shabd:hasTheme
-        shabd:Intellect,
-        shabd:SpiritualMethodFailure,
-        shabd:PilgrimageRitual,
-        shabd:Wisdom
+gg:ang10_sopurkh_tuk20
+    gg:hasTheme
+        gg:Intellect,
+        gg:SpiritualMethodFailure,
+        gg:PilgrimageRitual,
+        gg:Wisdom
     .
 
-sggs:ang10_sopurkh_line21
-    shabd:hasTheme
-        shabd:UncreatedDivine,
-        shabd:DivineSovereignty,
-        shabd:Virtues
+gg:ang10_sopurkh_tuk21
+    gg:hasTheme
+        gg:UncreatedDivine,
+        gg:DivineSovereignty,
+        gg:Virtues
     .
 
-sggs:ang10_sopurkh_line22
-    shabd:hasTheme
-        shabd:Provision,
-        shabd:TranscendenceImmanence,
-        shabd:UncreatedDivine,
-        shabd:DivineSovereignty
+gg:ang10_sopurkh_tuk22
+    gg:hasTheme
+        gg:Provision,
+        gg:TranscendenceImmanence,
+        gg:UncreatedDivine,
+        gg:DivineSovereignty
     .
 
-sggs:ang10_sopurkh_line23
-    shabd:hasTheme
-        shabd:DivineWill,
-        shabd:Hukam,
-        shabd:GraceAndKarma
+gg:ang10_sopurkh_tuk23
+    gg:hasTheme
+        gg:DivineWill,
+        gg:Hukam,
+        gg:GraceAndKarma
     .
 
-sggs:ang10_sopurkh_line24
-    shabd:hasTheme
-        shabd:CreationDestruction,
-        shabd:DivineSovereignty,
-        shabd:DivinePower
+gg:ang10_sopurkh_tuk24
+    gg:hasTheme
+        gg:CreationDestruction,
+        gg:DivineSovereignty,
+        gg:DivinePower
     .
 
-sggs:ang10_sopurkh_line25
-    shabd:hasTheme
-        shabd:Praise,
-        shabd:Virtues,
-        shabd:UniversalLove,
-        shabd:Wisdom
+gg:ang10_sopurkh_tuk25
+    gg:hasTheme
+        gg:Praise,
+        gg:Virtues,
+        gg:UniversalLove,
+        gg:Wisdom
     .

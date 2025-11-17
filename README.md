@@ -29,7 +29,7 @@ Whenever you want me to generate RDF/Turtle that conforms *exactly* to the **Gur
 
 ## **4. Strict Mode for Full Shabds or Pauris**
 
-> **“Convert this entire shabd into TTL using the Gurbani Graph ontology exactly. Each line must be modeled as a `shabd:Line` with all required predicates.”**
+> **“Convert this entire shabd into TTL using the Gurbani Graph ontology exactly. Each line must be modeled as a `gg:Tuk` with all required predicates.”**
 
 ---
 
@@ -69,7 +69,7 @@ When you include any of the above instructions, I will:
 * Use **only** ontology-defined predicates
 * Enforce **domain/range rules**
 * Avoid inventing new properties
-* Ensure IDs follow your naming pattern (`sggs:ang###_shabd##_line#`)
+* Ensure IDs follow your naming pattern (`gg:ang###shabd##tuk#`)
 * Produce **valid, clean TTL only**
 
 ---

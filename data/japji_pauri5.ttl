@@ -1,5 +1,4 @@
-@prefix shabd: <http://gurbani-graph.org/shabd#> .
-@prefix sggs:  <http://gurbani-graph.org/sggs#> .
+@prefix gg:  <http://gurbani-graph.org/core#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
@@ -15,418 +14,419 @@
 ### Japji Sahib – Pauri 5
 #################################################################
 
-sggs:japji_pauri5 a shabd:Pauri ;
-    shabd:id "sggs-japji-pauri5" ;
+gg:japji_pauri5 a gg:Pauri ;
+    gg:id "sggs-japji-pauri5" ;
     dct:title "Japji Sahib – Pauri 5"@en ;
-    shabd:ang "1"^^xsd:integer ;
-    shabd:sequenceInAng "5"^^xsd:integer ;
-    shabd:hasAuthor sggs:GuruNanakDevJi ;
-    shabd:inScripture sggs:SGGS ;
-    shabd:hasTheme shabd:UncreatedDivine,
-                   shabd:Niranjan,
-                   shabd:ServiceAndHonor,
-                   shabd:Praise,
-                   shabd:ListeningAndLove,
-                   shabd:SufferingJoy,
-                   shabd:GurmukhPath,
-                   shabd:GuruAsDivineForm,
-                   shabd:Ineffability,
-                   shabd:OneGiver ;
+    gg:ang "1"^^xsd:integer ;
+    gg:inBani gg:JapJiSahib ;
+    gg:indexInBani "5"^^xsd:integer ;
+    gg:hasAuthor gg:GuruNanakDevJi ;
+    gg:inScripture gg:SGGS ;
+    gg:hasTheme gg:UncreatedDivine,
+                   gg:Niranjan,
+                   gg:ServiceAndHonor,
+                   gg:Praise,
+                   gg:ListeningAndLove,
+                   gg:SufferingJoy,
+                   gg:GurmukhPath,
+                   gg:GuruAsDivineForm,
+                   gg:Ineffability,
+                   gg:OneGiver ;
     rdfs:comment "Pauri 5 proclaims that the Lord is not installed or manufactured; He is self-existent and immaculate. Serving such a One brings true honor. The pauri urges singing, listening, and lovingly holding the Divine within, which removes suffering and brings peace home. Through the Guru-centered way, Divine sound, knowledge, and pervasion are realized; the Guru is honored as the embodiment of Divine powers. Ultimately, the Guru gives one essential understanding: there is one Giver of all beings, who must never be forgotten."@en ;
-    shabd:hasLine sggs:japji_pauri5_line1,
-                  sggs:japji_pauri5_line2,
-                  sggs:japji_pauri5_line3,
-                  sggs:japji_pauri5_line4,
-                  sggs:japji_pauri5_line5,
-                  sggs:japji_pauri5_line6,
-                  sggs:japji_pauri5_line7,
-                  sggs:japji_pauri5_line8,
-                  sggs:japji_pauri5_line9,
-                  sggs:japji_pauri5_line10,
-                  sggs:japji_pauri5_line11 .
+    gg:hasTuk gg:japji_pauri5_tuk1,
+                  gg:japji_pauri5_tuk2,
+                  gg:japji_pauri5_tuk3,
+                  gg:japji_pauri5_tuk4,
+                  gg:japji_pauri5_tuk5,
+                  gg:japji_pauri5_tuk6,
+                  gg:japji_pauri5_tuk7,
+                  gg:japji_pauri5_tuk8,
+                  gg:japji_pauri5_tuk9,
+                  gg:japji_pauri5_tuk10,
+                  gg:japji_pauri5_tuk11 .
 
 #################################################################
-### Line 1
+### Tuk 1
 ### ਥਾਪਿਆ ਨ ਜਾਇ ਕੀਤਾ ਨ ਹੋਇ ॥
 #################################################################
 
-sggs:japji_pauri5_line1 a shabd:Line ;
-    shabd:id "sggs-japji-pauri5-line1" ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:belongsTo sggs:japji_pauri5 ;
-    shabd:gurmukhi "ਥਾਪਿਆ ਨ ਜਾਇ ਕੀਤਾ ਨ ਹੋਇ ॥"@pa ;
-    shabd:transliteration "Thāpiā na jāe, kītā na hoe."@en-Latn ;
-    shabd:translation "He cannot be installed; He cannot be made."@en ;
-    shabd:hasTheme shabd:UncreatedDivine ;
+gg:japji_pauri5_tuk1 a gg:Tuk ;
+    gg:id "sggs-japji-pauri5-tuk1" ;
+    gg:index "1"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri5 ;
+    gg:gurmukhi "ਥਾਪਿਆ ਨ ਜਾਇ ਕੀਤਾ ਨ ਹੋਇ ॥"@pa ;
+    gg:transliteration "Thāpiā na jāe, kītā na hoe."@en-Latn ;
+    gg:translation "He cannot be installed; He cannot be made."@en ;
+    gg:hasTheme gg:UncreatedDivine ;
     rdfs:comment "The Divine is not a constructed idol or artifact; He is beyond being made by human hands."@en ;
-    shabd:hasGlossUnit sggs:japji_pauri5_line1_gu1,
-                    sggs:japji_pauri5_line1_gu2 .
+    gg:hasGlossUnit gg:japji_pauri5_tuk1_gu1,
+                    gg:japji_pauri5_tuk1_gu2 .
 
-sggs:japji_pauri5_line1_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਥਾਪਿਆ ਨ ਜਾਇ"@pa ;
-    shabd:transliteration "thāpiā na jāe"@en-Latn ;
-    shabd:translation "He cannot be installed / set up"@en .
+gg:japji_pauri5_tuk1_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਥਾਪਿਆ ਨ ਜਾਇ"@pa ;
+    gg:transliteration "thāpiā na jāe"@en-Latn ;
+    gg:translation "He cannot be installed / set up"@en .
 
-sggs:japji_pauri5_line1_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਕੀਤਾ ਨ ਹੋਇ"@pa ;
-    shabd:transliteration "kītā na hoe"@en-Latn ;
-    shabd:translation "He cannot be manufactured / made"@en .
+gg:japji_pauri5_tuk1_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਕੀਤਾ ਨ ਹੋਇ"@pa ;
+    gg:transliteration "kītā na hoe"@en-Latn ;
+    gg:translation "He cannot be manufactured / made"@en .
 
 #################################################################
-### Line 2
+### Tuk 2
 ### ਆਪੇ ਆਪਿ ਨਿਰੰਜਨੁ ਸੋਇ ॥
 #################################################################
 
-sggs:japji_pauri5_line2 a shabd:Line ;
-    shabd:id "sggs:japji-pauri5-line2" ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:belongsTo sggs:japji_pauri5 ;
-    shabd:gurmukhi "ਆਪੇ ਆਪਿ ਨਿਰੰਜਨੁ ਸੋਇ ॥"@pa ;
-    shabd:transliteration "Āpe āp niranjan soe."@en-Latn ;
-    shabd:translation "He Himself is by Himself, immaculate and pure."@en ;
-    shabd:hasTheme shabd:UncreatedDivine,
-                   shabd:Niranjan ;
+gg:japji_pauri5_tuk2 a gg:Tuk ;
+    gg:id "gg:japji-pauri5-tuk2" ;
+    gg:index "2"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri5 ;
+    gg:gurmukhi "ਆਪੇ ਆਪਿ ਨਿਰੰਜਨੁ ਸੋਇ ॥"@pa ;
+    gg:transliteration "Āpe āp niranjan soe."@en-Latn ;
+    gg:translation "He Himself is by Himself, immaculate and pure."@en ;
+    gg:hasTheme gg:UncreatedDivine,
+                   gg:Niranjan ;
     rdfs:comment "The Lord is self-existent and free from the stain of Maya."@en ;
-    shabd:hasGlossUnit sggs:japji_pauri5_line2_gu1,
-                    sggs:japji_pauri5_line2_gu2 .
+    gg:hasGlossUnit gg:japji_pauri5_tuk2_gu1,
+                    gg:japji_pauri5_tuk2_gu2 .
 
-sggs:japji_pauri5_line2_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਆਪੇ ਆਪਿ"@pa ;
-    shabd:transliteration "āpe āp"@en-Latn ;
-    shabd:translation "He Himself, by Himself"@en .
+gg:japji_pauri5_tuk2_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਆਪੇ ਆਪਿ"@pa ;
+    gg:transliteration "āpe āp"@en-Latn ;
+    gg:translation "He Himself, by Himself"@en .
 
-sggs:japji_pauri5_line2_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਨਿਰੰਜਨੁ ਸੋਇ"@pa ;
-    shabd:transliteration "niranjan soe"@en-Latn ;
-    shabd:translation "that One is immaculate, beyond taint"@en .
+gg:japji_pauri5_tuk2_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਨਿਰੰਜਨੁ ਸੋਇ"@pa ;
+    gg:transliteration "niranjan soe"@en-Latn ;
+    gg:translation "that One is immaculate, beyond taint"@en .
 
 #################################################################
-### Line 3
+### Tuk 3
 ### ਜਿਨਿ ਸੇਵਿਆ ਤਿਨਿ ਪਾਇਆ ਮਾਨੁ ॥
 #################################################################
 
-sggs:japji_pauri5_line3 a shabd:Line ;
-    shabd:id "sggs:japji-pauri5-line3" ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:belongsTo sggs:japji_pauri5 ;
-    shabd:gurmukhi "ਜਿਨਿ ਸੇਵਿਆ ਤਿਨਿ ਪਾਇਆ ਮਾਨੁ ॥"@pa ;
-    shabd:transliteration "Jin seviā tin pāiā mān."@en-Latn ;
-    shabd:translation "Whoever serves Him, that one receives honor."@en ;
-    shabd:hasTheme shabd:ServiceAndHonor ;
+gg:japji_pauri5_tuk3 a gg:Tuk ;
+    gg:id "gg:japji-pauri5-tuk3" ;
+    gg:index "3"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri5 ;
+    gg:gurmukhi "ਜਿਨਿ ਸੇਵਿਆ ਤਿਨਿ ਪਾਇਆ ਮਾਨੁ ॥"@pa ;
+    gg:transliteration "Jin seviā tin pāiā mān."@en-Latn ;
+    gg:translation "Whoever serves Him, that one receives honor."@en ;
+    gg:hasTheme gg:ServiceAndHonor ;
     rdfs:comment "True honor comes not from status but from serving the immaculate One."@en ;
-    shabd:hasGlossUnit sggs:japji_pauri5_line3_gu1,
-                    sggs:japji_pauri5_line3_gu2 .
+    gg:hasGlossUnit gg:japji_pauri5_tuk3_gu1,
+                    gg:japji_pauri5_tuk3_gu2 .
 
-sggs:japji_pauri5_line3_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਜਿਨਿ ਸੇਵਿਆ"@pa ;
-    shabd:transliteration "jin seviā"@en-Latn ;
-    shabd:translation "whoever has served Him"@en .
+gg:japji_pauri5_tuk3_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਜਿਨਿ ਸੇਵਿਆ"@pa ;
+    gg:transliteration "jin seviā"@en-Latn ;
+    gg:translation "whoever has served Him"@en .
 
-sggs:japji_pauri5_line3_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਤਿਨਿ ਪਾਇਆ ਮਾਨੁ"@pa ;
-    shabd:transliteration "tin pāiā mān"@en-Latn ;
-    shabd:translation "that one obtains honor"@en .
+gg:japji_pauri5_tuk3_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਤਿਨਿ ਪਾਇਆ ਮਾਨੁ"@pa ;
+    gg:transliteration "tin pāiā mān"@en-Latn ;
+    gg:translation "that one obtains honor"@en .
 
 #################################################################
-### Line 4
+### Tuk 4
 ### ਨਾਨਕ ਗਾਵੀਐ ਗੁਣੀ ਨਿਧਾਨੁ ॥
 #################################################################
 
-sggs:japji_pauri5_line4 a shabd:Line ;
-    shabd:id "sggs:japji-pauri5-line4" ;
-    shabd:index "4"^^xsd:integer ;
-    shabd:belongsTo sggs:japji_pauri5 ;
-    shabd:gurmukhi "ਨਾਨਕ ਗਾਵੀਐ ਗੁਣੀ ਨਿਧਾਨੁ ॥"@pa ;
-    shabd:transliteration "Nānak gāvīai guṇī niḏhān."@en-Latn ;
-    shabd:translation "O Nanak, sing of Him, the treasure of virtues."@en ;
-    shabd:hasTheme shabd:Praise ;
+gg:japji_pauri5_tuk4 a gg:Tuk ;
+    gg:id "gg:japji-pauri5-tuk4" ;
+    gg:index "4"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri5 ;
+    gg:gurmukhi "ਨਾਨਕ ਗਾਵੀਐ ਗੁਣੀ ਨਿਧਾਨੁ ॥"@pa ;
+    gg:transliteration "Nānak gāvīai guṇī niḏhān."@en-Latn ;
+    gg:translation "O Nanak, sing of Him, the treasure of virtues."@en ;
+    gg:hasTheme gg:Praise ;
     rdfs:comment "Guru Nanak urges continual singing of the Virtue-Treasure, the Lord filled with countless excellences."@en ;
-    shabd:hasGlossUnit sggs:japji_pauri5_line4_gu1,
-                    sggs:japji_pauri5_line4_gu2 .
+    gg:hasGlossUnit gg:japji_pauri5_tuk4_gu1,
+                    gg:japji_pauri5_tuk4_gu2 .
 
-sggs:japji_pauri5_line4_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਨਾਨਕ ਗਾਵੀਐ"@pa ;
-    shabd:transliteration "Nānak gāvīai"@en-Latn ;
-    shabd:translation "O Nanak, let us sing"@en .
+gg:japji_pauri5_tuk4_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਨਾਨਕ ਗਾਵੀਐ"@pa ;
+    gg:transliteration "Nānak gāvīai"@en-Latn ;
+    gg:translation "O Nanak, let us sing"@en .
 
-sggs:japji_pauri5_line4_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਗੁਣੀ ਨਿਧਾਨੁ"@pa ;
-    shabd:transliteration "guṇī niḏhān"@en-Latn ;
-    shabd:translation "the treasure of virtues"@en .
+gg:japji_pauri5_tuk4_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਗੁਣੀ ਨਿਧਾਨੁ"@pa ;
+    gg:transliteration "guṇī niḏhān"@en-Latn ;
+    gg:translation "the treasure of virtues"@en .
 
 #################################################################
-### Line 5
+### Tuk 5
 ### ਗਾਵੀਐ ਸੁਣੀਐ ਮਨਿ ਰਖੀਐ ਭਾਉ ॥
 #################################################################
 
-sggs:japji_pauri5_line5 a shabd:Line ;
-    shabd:id "sggs:japji-pauri5-line5" ;
-    shabd:index "5"^^xsd:integer ;
-    shabd:belongsTo sggs:japji_pauri5 ;
-    shabd:gurmukhi "ਗਾਵੀਐ ਸੁਣੀਐ ਮਨਿ ਰਖੀਐ ਭਾਉ ॥"@pa ;
-    shabd:transliteration "Gāvīai suṇīai man rakhīai bẖāo."@en-Latn ;
-    shabd:translation "Sing of Him, listen, and keep love for Him in your mind."@en ;
-    shabd:hasTheme shabd:Praise,
-                   shabd:ListeningAndLove ;
+gg:japji_pauri5_tuk5 a gg:Tuk ;
+    gg:id "gg:japji-pauri5-tuk5" ;
+    gg:index "5"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri5 ;
+    gg:gurmukhi "ਗਾਵੀਐ ਸੁਣੀਐ ਮਨਿ ਰਖੀਐ ਭਾਉ ॥"@pa ;
+    gg:transliteration "Gāvīai suṇīai man rakhīai bẖāo."@en-Latn ;
+    gg:translation "Sing of Him, listen, and keep love for Him in your mind."@en ;
+    gg:hasTheme gg:Praise,
+                   gg:ListeningAndLove ;
     rdfs:comment "The path blends voicing, listening, and inwardly holding loving devotion."@en ;
-    shabd:hasGlossUnit sggs:japji_pauri5_line5_gu1,
-                    sggs:japji_pauri5_line5_gu2,
-                    sggs:japji_pauri5_line5_gu3 .
+    gg:hasGlossUnit gg:japji_pauri5_tuk5_gu1,
+                    gg:japji_pauri5_tuk5_gu2,
+                    gg:japji_pauri5_tuk5_gu3 .
 
-sggs:japji_pauri5_line5_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਗਾਵੀਐ ਸੁਣੀਐ"@pa ;
-    shabd:transliteration "gāvīai suṇīai"@en-Latn ;
-    shabd:translation "let us sing and let us listen"@en .
+gg:japji_pauri5_tuk5_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਗਾਵੀਐ ਸੁਣੀਐ"@pa ;
+    gg:transliteration "gāvīai suṇīai"@en-Latn ;
+    gg:translation "let us sing and let us listen"@en .
 
-sggs:japji_pauri5_line5_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਮਨਿ ਰਖੀਐ"@pa ;
-    shabd:transliteration "man rakhīai"@en-Latn ;
-    shabd:translation "keep (it) in the mind"@en .
+gg:japji_pauri5_tuk5_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਮਨਿ ਰਖੀਐ"@pa ;
+    gg:transliteration "man rakhīai"@en-Latn ;
+    gg:translation "keep (it) in the mind"@en .
 
-sggs:japji_pauri5_line5_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਭਾਉ"@pa ;
-    shabd:transliteration "bẖāo"@en-Latn ;
-    shabd:translation "loving devotion; affectionate awe"@en .
+gg:japji_pauri5_tuk5_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਭਾਉ"@pa ;
+    gg:transliteration "bẖāo"@en-Latn ;
+    gg:translation "loving devotion; affectionate awe"@en .
 
 #################################################################
-### Line 6
+### Tuk 6
 ### ਦੁਖੁ ਪਰਹਰਿ ਸੁਖੁ ਘਰਿ ਲੈ ਜਾਇ ॥
 #################################################################
 
-sggs:japji_pauri5_line6 a shabd:Line ;
-    shabd:id "sggs:japji-pauri5-line6" ;
-    shabd:index "6"^^xsd:integer ;
-    shabd:belongsTo sggs:japji_pauri5 ;
-    shabd:gurmukhi "ਦੁਖੁ ਪਰਹਰਿ ਸੁਖੁ ਘਰਿ ਲੈ ਜਾਇ ॥"@pa ;
-    shabd:transliteration "Dukh parhar, sukh ghar lai jāi."@en-Latn ;
-    shabd:translation "Thus suffering is driven out, and peace is brought home."@en ;
-    shabd:hasTheme shabd:SufferingJoy ;
+gg:japji_pauri5_tuk6 a gg:Tuk ;
+    gg:id "gg:japji-pauri5-tuk6" ;
+    gg:index "6"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri5 ;
+    gg:gurmukhi "ਦੁਖੁ ਪਰਹਰਿ ਸੁਖੁ ਘਰਿ ਲੈ ਜਾਇ ॥"@pa ;
+    gg:transliteration "Dukh parhar, sukh ghar lai jāi."@en-Latn ;
+    gg:translation "Thus suffering is driven out, and peace is brought home."@en ;
+    gg:hasTheme gg:SufferingJoy ;
     rdfs:comment "Such singing, listening, and loving contemplation uproot suffering and bring abiding peace within."@en ;
-    shabd:hasGlossUnit sggs:japji_pauri5_line6_gu1,
-                    sggs:japji_pauri5_line6_gu2,
-                    sggs:japji_pauri5_line6_gu3 .
+    gg:hasGlossUnit gg:japji_pauri5_tuk6_gu1,
+                    gg:japji_pauri5_tuk6_gu2,
+                    gg:japji_pauri5_tuk6_gu3 .
 
-sggs:japji_pauri5_line6_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਦੁਖੁ ਪਰਹਰਿ"@pa ;
-    shabd:transliteration "dukh parhar"@en-Latn ;
-    shabd:translation "driving away suffering"@en .
+gg:japji_pauri5_tuk6_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਦੁਖੁ ਪਰਹਰਿ"@pa ;
+    gg:transliteration "dukh parhar"@en-Latn ;
+    gg:translation "driving away suffering"@en .
 
-sggs:japji_pauri5_line6_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਸੁਖੁ ਘਰਿ"@pa ;
-    shabd:transliteration "sukh ghar"@en-Latn ;
-    shabd:translation "the peace / happiness of home (within)"@en .
+gg:japji_pauri5_tuk6_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਸੁਖੁ ਘਰਿ"@pa ;
+    gg:transliteration "sukh ghar"@en-Latn ;
+    gg:translation "the peace / happiness of home (within)"@en .
 
-sggs:japji_pauri5_line6_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਲੈ ਜਾਇ"@pa ;
-    shabd:transliteration "lai jāi"@en-Latn ;
-    shabd:translation "is taken and established there"@en .
+gg:japji_pauri5_tuk6_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਲੈ ਜਾਇ"@pa ;
+    gg:transliteration "lai jāi"@en-Latn ;
+    gg:translation "is taken and established there"@en .
 
 #################################################################
-### Line 7
+### Tuk 7
 ### ਗੁਰਮੁਖਿ ਨਾਦੰ ਗੁਰਮੁਖਿ ਵੇਦੰ ਗੁਰਮੁਖਿ ਰਹਿਆ ਸਮਾਈ ॥
 #################################################################
 
-sggs:japji_pauri5_line7 a shabd:Line ;
-    shabd:id "sggs:japji-pauri5-line7" ;
-    shabd:index "7"^^xsd:integer ;
-    shabd:belongsTo sggs:japji_pauri5 ;
-    shabd:gurmukhi "ਗੁਰਮੁਖਿ ਨਾਦੰ ਗੁਰਮੁਖਿ ਵੇਦੰ ਗੁਰਮੁਖਿ ਰਹਿਆ ਸਮਾਈ ॥"@pa ;
-    shabd:transliteration "Gurmukh nādaṅ, gurmukh vedaṅ, gurmukh rahiā samāī."@en-Latn ;
-    shabd:translation "For the Gurmukh there is Divine sound; for the Gurmukh there is true knowledge; the Gurmukh realizes Him pervading everywhere."@en ;
-    shabd:hasTheme shabd:GurmukhPath ;
+gg:japji_pauri5_tuk7 a gg:Tuk ;
+    gg:id "gg:japji-pauri5-tuk7" ;
+    gg:index "7"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri5 ;
+    gg:gurmukhi "ਗੁਰਮੁਖਿ ਨਾਦੰ ਗੁਰਮੁਖਿ ਵੇਦੰ ਗੁਰਮੁਖਿ ਰਹਿਆ ਸਮਾਈ ॥"@pa ;
+    gg:transliteration "Gurmukh nādaṅ, gurmukh vedaṅ, gurmukh rahiā samāī."@en-Latn ;
+    gg:translation "For the Gurmukh there is Divine sound; for the Gurmukh there is true knowledge; the Gurmukh realizes Him pervading everywhere."@en ;
+    gg:hasTheme gg:GurmukhPath ;
     rdfs:comment "One who is Guru-oriented attunes to the Divine sound-current, true wisdom, and perceives the Lord as all-pervading."@en ;
-    shabd:hasGlossUnit sggs:japji_pauri5_line7_gu1,
-                    sggs:japji_pauri5_line7_gu2,
-                    sggs:japji_pauri5_line7_gu3 .
+    gg:hasGlossUnit gg:japji_pauri5_tuk7_gu1,
+                    gg:japji_pauri5_tuk7_gu2,
+                    gg:japji_pauri5_tuk7_gu3 .
 
-sggs:japji_pauri5_line7_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਗੁਰਮੁਖਿ ਨਾਦੰ"@pa ;
-    shabd:transliteration "gurmukh nādaṅ"@en-Latn ;
-    shabd:translation "for the Gurmukh, there is the Divine sound (Nāḍ)"@en .
+gg:japji_pauri5_tuk7_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਗੁਰਮੁਖਿ ਨਾਦੰ"@pa ;
+    gg:transliteration "gurmukh nādaṅ"@en-Latn ;
+    gg:translation "for the Gurmukh, there is the Divine sound (Nāḍ)"@en .
 
-sggs:japji_pauri5_line7_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਗੁਰਮੁਖਿ ਵੇਦੰ"@pa ;
-    shabd:transliteration "gurmukh vedaṅ"@en-Latn ;
-    shabd:translation "for the Gurmukh, true scriptural wisdom"@en .
+gg:japji_pauri5_tuk7_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਗੁਰਮੁਖਿ ਵੇਦੰ"@pa ;
+    gg:transliteration "gurmukh vedaṅ"@en-Latn ;
+    gg:translation "for the Gurmukh, true scriptural wisdom"@en .
 
-sggs:japji_pauri5_line7_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਗੁਰਮੁਖਿ ਰਹਿਆ ਸਮਾਈ"@pa ;
-    shabd:transliteration "gurmukh rahiā samāī"@en-Latn ;
-    shabd:translation "for the Gurmukh, He is realized as all-pervading"@en .
+gg:japji_pauri5_tuk7_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਗੁਰਮੁਖਿ ਰਹਿਆ ਸਮਾਈ"@pa ;
+    gg:transliteration "gurmukh rahiā samāī"@en-Latn ;
+    gg:translation "for the Gurmukh, He is realized as all-pervading"@en .
 
 #################################################################
-### Line 8
+### Tuk 8
 ### ਗੁਰੁ ਇਸੁ ਜਗਤਿ ਮਹਿ ਵਡਾ ਕਰਤੋਟਿ ॥
 #################################################################
 
-sggs:japji_pauri5_line8 a shabd:Line ;
-    shabd:id "sggs:japji-pauri5-line8" ;
-    shabd:index "8"^^xsd:integer ;
-    shabd:belongsTo sggs:japji_pauri5 ;
-    shabd:gurmukhi "ਗੁਰੁ ਇਸੁ ਜਗਤਿ ਮਹਿ ਵਡਾ ਕਰਤੋਟਿ ॥"@pa ;
-    shabd:transliteration "Gur is jagat meh vaḍā karṭoṭ."@en-Latn ;
-    shabd:translation "In this world, the Guru is great beyond all accounting."@en ;
-    shabd:hasTheme shabd:GuruAsDivineForm ;
+gg:japji_pauri5_tuk8 a gg:Tuk ;
+    gg:id "gg:japji-pauri5-tuk8" ;
+    gg:index "8"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri5 ;
+    gg:gurmukhi "ਗੁਰੁ ਇਸੁ ਜਗਤਿ ਮਹਿ ਵਡਾ ਕਰਤੋਟਿ ॥"@pa ;
+    gg:transliteration "Gur is jagat meh vaḍā karṭoṭ."@en-Latn ;
+    gg:translation "In this world, the Guru is great beyond all accounting."@en ;
+    gg:hasTheme gg:GuruAsDivineForm ;
     rdfs:comment "The Guru’s greatness in the world cannot be measured; through the Guru, Divine connection is made possible."@en ;
-    shabd:hasGlossUnit sggs:japji_pauri5_line8_gu1,
-                    sggs:japji_pauri5_line8_gu2,
-                    sggs:japji_pauri5_line8_gu3 .
+    gg:hasGlossUnit gg:japji_pauri5_tuk8_gu1,
+                    gg:japji_pauri5_tuk8_gu2,
+                    gg:japji_pauri5_tuk8_gu3 .
 
-sggs:japji_pauri5_line8_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਗੁਰੁ ਇਸੁ ਜਗਤਿ ਮਹਿ"@pa ;
-    shabd:transliteration "gur is jagat meh"@en-Latn ;
-    shabd:translation "the Guru, in this world"@en .
+gg:japji_pauri5_tuk8_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਗੁਰੁ ਇਸੁ ਜਗਤਿ ਮਹਿ"@pa ;
+    gg:transliteration "gur is jagat meh"@en-Latn ;
+    gg:translation "the Guru, in this world"@en .
 
-sggs:japji_pauri5_line8_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਵਡਾ"@pa ;
-    shabd:transliteration "vaḍā"@en-Latn ;
-    shabd:translation "is great"@en .
+gg:japji_pauri5_tuk8_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਵਡਾ"@pa ;
+    gg:transliteration "vaḍā"@en-Latn ;
+    gg:translation "is great"@en .
 
-sggs:japji_pauri5_line8_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਕਰਤੋਟਿ"@pa ;
-    shabd:transliteration "karṭoṭ"@en-Latn ;
-    shabd:translation "beyond reckoning; beyond calculation"@en .
+gg:japji_pauri5_tuk8_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਕਰਤੋਟਿ"@pa ;
+    gg:transliteration "karṭoṭ"@en-Latn ;
+    gg:translation "beyond reckoning; beyond calculation"@en .
 
 #################################################################
-### Line 9
+### Tuk 9
 ### ਗੁਰੁ ਇਸੁ ਜਗਤਿ ਮਹਿ ਵਡਾ ਕਰਤੋਟਿ ॥
 ### (variant / extended praise – you can treat as continuation if desired)
 #################################################################
 
-sggs:japji_pauri5_line9 a shabd:Line ;
-    shabd:id "sggs:japji-pauri5-line9" ;
-    shabd:index "9"^^xsd:integer ;
-    shabd:belongsTo sggs:japji_pauri5 ;
-    shabd:gurmukhi "ਗੁਰੁ ਈਸਰੁ ਗੁਰੁ ਗੋਰਖੁ ਬਰਮਾ ਗੁਰੁ ਪਾਰਬਤੀ ਮਾਈ ॥"@pa ;
-    shabd:transliteration "Gur īsar, gur gorakh baramā, gur pārbatī māī."@en-Latn ;
-    shabd:translation "The Guru is Shiva, the Guru is Vishnu, the Guru is Brahma, and the Guru is Pārbatī, the Divine Mother."@en ;
-    shabd:hasTheme shabd:GuruAsDivineForm ;
+gg:japji_pauri5_tuk9 a gg:Tuk ;
+    gg:id "gg:japji-pauri5-tuk9" ;
+    gg:index "9"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri5 ;
+    gg:gurmukhi "ਗੁਰੁ ਈਸਰੁ ਗੁਰੁ ਗੋਰਖੁ ਬਰਮਾ ਗੁਰੁ ਪਾਰਬਤੀ ਮਾਈ ॥"@pa ;
+    gg:transliteration "Gur īsar, gur gorakh baramā, gur pārbatī māī."@en-Latn ;
+    gg:translation "The Guru is Shiva, the Guru is Vishnu, the Guru is Brahma, and the Guru is Pārbatī, the Divine Mother."@en ;
+    gg:hasTheme gg:GuruAsDivineForm ;
     rdfs:comment "Guru is presented as embodying the functions associated with various deities—the complete channel of Divine power and wisdom."@en ;
-    shabd:hasGlossUnit sggs:japji_pauri5_line9_gu1,
-                    sggs:japji_pauri5_line9_gu2,
-                    sggs:japji_pauri5_line9_gu3,
-                    sggs:japji_pauri5_line9_gu4 .
+    gg:hasGlossUnit gg:japji_pauri5_tuk9_gu1,
+                    gg:japji_pauri5_tuk9_gu2,
+                    gg:japji_pauri5_tuk9_gu3,
+                    gg:japji_pauri5_tuk9_gu4 .
 
-sggs:japji_pauri5_line9_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਗੁਰੁ ਈਸਰੁ"@pa ;
-    shabd:transliteration "gur īsar"@en-Latn ;
-    shabd:translation "the Guru is Shiva (Īsar)"@en .
+gg:japji_pauri5_tuk9_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਗੁਰੁ ਈਸਰੁ"@pa ;
+    gg:transliteration "gur īsar"@en-Latn ;
+    gg:translation "the Guru is Shiva (Īsar)"@en .
 
-sggs:japji_pauri5_line9_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਗੁਰੁ ਗੋਰਖੁ"@pa ;
-    shabd:transliteration "gur gorakh"@en-Latn ;
-    shabd:translation "the Guru is Vishnu / sustainer (Gorakh)"@en .
+gg:japji_pauri5_tuk9_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਗੁਰੁ ਗੋਰਖੁ"@pa ;
+    gg:transliteration "gur gorakh"@en-Latn ;
+    gg:translation "the Guru is Vishnu / sustainer (Gorakh)"@en .
 
-sggs:japji_pauri5_line9_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਬਰਮਾ"@pa ;
-    shabd:transliteration "baramā"@en-Latn ;
-    shabd:translation "the Guru is Brahma"@en .
+gg:japji_pauri5_tuk9_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਬਰਮਾ"@pa ;
+    gg:transliteration "baramā"@en-Latn ;
+    gg:translation "the Guru is Brahma"@en .
 
-sggs:japji_pauri5_line9_gu4 a shabd:GlossUnit ;
-    shabd:index "4"^^xsd:integer ;
-    shabd:gurmukhi "ਗੁਰੁ ਪਾਰਬਤੀ ਮਾਈ"@pa ;
-    shabd:transliteration "gur pārbatī māī"@en-Latn ;
-    shabd:translation "the Guru is Parbati, the Divine Mother"@en .
+gg:japji_pauri5_tuk9_gu4 a gg:GlossUnit ;
+    gg:index "4"^^xsd:integer ;
+    gg:gurmukhi "ਗੁਰੁ ਪਾਰਬਤੀ ਮਾਈ"@pa ;
+    gg:transliteration "gur pārbatī māī"@en-Latn ;
+    gg:translation "the Guru is Parbati, the Divine Mother"@en .
 
 #################################################################
-### Line 10
+### Tuk 10
 ### ਜੇ ਹਉ ਜਾਣਾ ਆਖਾ ਨਾਹਿ ਕਹਣਾ ਕਥਨੁ ਨ ਜਾਈ ॥
 #################################################################
 
-sggs:japji_pauri5_line10 a shabd:Line ;
-    shabd:id "sggs:japji-pauri5-line10" ;
-    shabd:index "10"^^xsd:integer ;
-    shabd:belongsTo sggs:japji_pauri5 ;
-    shabd:gurmukhi "ਜੇ ਹਉ ਜਾਣਾ ਆਖਾ ਨਾਹਿ ਕਹਣਾ ਕਥਨੁ ਨ ਜਾਈ ॥"@pa ;
-    shabd:transliteration "Je hau jāṇā ākhā nāhi, kahṇā kathan na jāī."@en-Latn ;
-    shabd:translation "Even if I were to know Him, I could not describe Him; He cannot be fully expressed in words."@en ;
-    shabd:hasTheme shabd:Ineffability ;
+gg:japji_pauri5_tuk10 a gg:Tuk ;
+    gg:id "gg:japji-pauri5-tuk10" ;
+    gg:index "10"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri5 ;
+    gg:gurmukhi "ਜੇ ਹਉ ਜਾਣਾ ਆਖਾ ਨਾਹਿ ਕਹਣਾ ਕਥਨੁ ਨ ਜਾਈ ॥"@pa ;
+    gg:transliteration "Je hau jāṇā ākhā nāhi, kahṇā kathan na jāī."@en-Latn ;
+    gg:translation "Even if I were to know Him, I could not describe Him; He cannot be fully expressed in words."@en ;
+    gg:hasTheme gg:Ineffability ;
     rdfs:comment "Divine reality surpasses complete verbalization, even if one has direct knowing."@en ;
-    shabd:hasGlossUnit sggs:japji_pauri5_line10_gu1,
-                    sggs:japji_pauri5_line10_gu2,
-                    sggs:japji_pauri5_line10_gu3 .
+    gg:hasGlossUnit gg:japji_pauri5_tuk10_gu1,
+                    gg:japji_pauri5_tuk10_gu2,
+                    gg:japji_pauri5_tuk10_gu3 .
 
-sggs:japji_pauri5_line10_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਜੇ ਹਉ ਜਾਣਾ"@pa ;
-    shabd:transliteration "je hau jāṇā"@en-Latn ;
-    shabd:translation "even if I were to know"@en .
+gg:japji_pauri5_tuk10_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਜੇ ਹਉ ਜਾਣਾ"@pa ;
+    gg:transliteration "je hau jāṇā"@en-Latn ;
+    gg:translation "even if I were to know"@en .
 
-sggs:japji_pauri5_line10_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਆਖਾ ਨਾਹਿ"@pa ;
-    shabd:transliteration "ākhā nāhi"@en-Latn ;
-    shabd:translation "I could not utter / tell it"@en .
+gg:japji_pauri5_tuk10_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਆਖਾ ਨਾਹਿ"@pa ;
+    gg:transliteration "ākhā nāhi"@en-Latn ;
+    gg:translation "I could not utter / tell it"@en .
 
-sggs:japji_pauri5_line10_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਕਹਣਾ ਕਥਨੁ ਨ ਜਾਈ"@pa ;
-    shabd:transliteration "kahṇā kathan na jāī"@en-Latn ;
-    shabd:translation "it cannot be fully described in speech"@en .
+gg:japji_pauri5_tuk10_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਕਹਣਾ ਕਥਨੁ ਨ ਜਾਈ"@pa ;
+    gg:transliteration "kahṇā kathan na jāī"@en-Latn ;
+    gg:translation "it cannot be fully described in speech"@en .
 
 #################################################################
-### Line 11
+### Tuk 11
 ### ਗੁਰਾ ਇਕੁ ਦੇਹਿ ਬੁਝਾਈ ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ ਸੋ ਮੈ ਵਿਸਰਿ ਨ ਜਾਈ ॥੫॥
 #################################################################
 
-sggs:japji_pauri5_line11 a shabd:Line ;
-    shabd:id "sggs:japji-pauri5-line11" ;
-    shabd:index "11"^^xsd:integer ;
-    shabd:belongsTo sggs:japji_pauri5 ;
-    shabd:gurmukhi "ਗੁਰਾ ਇਕੁ ਦੇਹਿ ਬੁਝਾਈ ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ ਸੋ ਮੈ ਵਿਸਰਿ ਨ ਜਾਈ ॥੫॥"@pa ;
-    shabd:transliteration "Gurā ik dehi bujẖāī; sabhnā jīā kā ik dātā so mai visar na jāī. ||5||"@en-Latn ;
-    shabd:translation "The Guru has given me this one understanding: there is One Giver for all beings—may I never forget that One."@en ;
-    shabd:hasTheme shabd:OneGiver,
-                   shabd:OneGiver ;
+gg:japji_pauri5_tuk11 a gg:Tuk ;
+    gg:id "gg:japji-pauri5-tuk11" ;
+    gg:index "11"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri5 ;
+    gg:gurmukhi "ਗੁਰਾ ਇਕੁ ਦੇਹਿ ਬੁਝਾਈ ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ ਸੋ ਮੈ ਵਿਸਰਿ ਨ ਜਾਈ ॥੫॥"@pa ;
+    gg:transliteration "Gurā ik dehi bujẖāī; sabhnā jīā kā ik dātā so mai visar na jāī. ||5||"@en-Latn ;
+    gg:translation "The Guru has given me this one understanding: there is One Giver for all beings—may I never forget that One."@en ;
+    gg:hasTheme gg:OneGiver,
+                   gg:OneGiver ;
     rdfs:comment "The distilled insight: all beings have only one Giver; spiritual life is to never forget that One."@en ;
-    shabd:hasGlossUnit sggs:japji_pauri5_line11_gu1,
-                    sggs:japji_pauri5_line11_gu2,
-                    sggs:japji_pauri5_line11_gu3,
-                    sggs:japji_pauri5_line11_gu4 .
+    gg:hasGlossUnit gg:japji_pauri5_tuk11_gu1,
+                    gg:japji_pauri5_tuk11_gu2,
+                    gg:japji_pauri5_tuk11_gu3,
+                    gg:japji_pauri5_tuk11_gu4 .
 
-sggs:japji_pauri5_line11_gu1 a shabd:GlossUnit ;
-    shabd:index "1"^^xsd:integer ;
-    shabd:gurmukhi "ਗੁਰਾ ਇਕੁ ਦੇਹਿ ਬੁਝਾਈ"@pa ;
-    shabd:transliteration "gurā ik dehi bujẖāī"@en-Latn ;
-    shabd:translation "the Guru has given me this one understanding"@en .
+gg:japji_pauri5_tuk11_gu1 a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਗੁਰਾ ਇਕੁ ਦੇਹਿ ਬੁਝਾਈ"@pa ;
+    gg:transliteration "gurā ik dehi bujẖāī"@en-Latn ;
+    gg:translation "the Guru has given me this one understanding"@en .
 
-sggs:japji_pauri5_line11_gu2 a shabd:GlossUnit ;
-    shabd:index "2"^^xsd:integer ;
-    shabd:gurmukhi "ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ"@pa ;
-    shabd:transliteration "sabhnā jīā kā ik dātā"@en-Latn ;
-    shabd:translation "all beings have one single Giver"@en .
+gg:japji_pauri5_tuk11_gu2 a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਸਭਨਾ ਜੀਆ ਕਾ ਇਕੁ ਦਾਤਾ"@pa ;
+    gg:transliteration "sabhnā jīā kā ik dātā"@en-Latn ;
+    gg:translation "all beings have one single Giver"@en .
 
-sggs:japji_pauri5_line11_gu3 a shabd:GlossUnit ;
-    shabd:index "3"^^xsd:integer ;
-    shabd:gurmukhi "ਸੋ ਮੈ"@pa ;
-    shabd:transliteration "so mai"@en-Latn ;
-    shabd:translation "that One, for me"@en .
+gg:japji_pauri5_tuk11_gu3 a gg:GlossUnit ;
+    gg:index "3"^^xsd:integer ;
+    gg:gurmukhi "ਸੋ ਮੈ"@pa ;
+    gg:transliteration "so mai"@en-Latn ;
+    gg:translation "that One, for me"@en .
 
-sggs:japji_pauri5_line11_gu4 a shabd:GlossUnit ;
-    shabd:index "4"^^xsd:integer ;
-    shabd:gurmukhi "ਵਿਸਰਿ ਨ ਜਾਈ"@pa ;
-    shabd:transliteration "visar na jāī"@en-Latn ;
-    shabd:translation "may He never be forgotten"@en .
+gg:japji_pauri5_tuk11_gu4 a gg:GlossUnit ;
+    gg:index "4"^^xsd:integer ;
+    gg:gurmukhi "ਵਿਸਰਿ ਨ ਜਾਈ"@pa ;
+    gg:transliteration "visar na jāī"@en-Latn ;
+    gg:translation "may He never be forgotten"@en .

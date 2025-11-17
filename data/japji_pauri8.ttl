@@ -1,0 +1,239 @@
+@prefix gg:  <http://gurbani-graph.org/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+#################################################################
+### Pauri / Shabd: Japji Sahib – Pauri 8
+#################################################################
+
+gg:japji_pauri8
+    a gg:Pauri ;
+    gg:id "sggs-japji-pauri8" ;
+    dct:title "Japji Sahib – Pauri 8"@en ;
+    dct:title "ਜਪੁਜੀ ਸਾਹਿਬ – ਪਉੜੀ ੮"@pa ;
+    gg:ang "2"^^xsd:integer ;
+    gg:inBani gg:JajJiSahib ;
+    gg:indexInBani "8"^^xsd:integer ;
+    gg:hasAuthor   gg:GuruNanakDevJi ;
+    gg:inScripture gg:SGGS ;
+    gg:hasTheme
+        gg:DivineWill ,
+        gg:Order ,
+        gg:Humility ,
+        gg:Ego ,
+        gg:UnionSeparation ;
+    rdfs:comment "Pauri 8 describes the human as a creature formed by Hukam (Divine Will), living within it yet often failing to perceive it. The pauri outlines how one is united or separated according to Hukam, and how within that same Hukam the human is free to grieve, rejoice, or perform actions. Ego blinds the being to the Hukam that governs all."@en ;
+    gg:hasTuk
+        gg:japji_pauri8_tuk1 ,
+        gg:japji_pauri8_tuk2 ,
+        gg:japji_pauri8_tuk3 ,
+        gg:japji_pauri8_tuk4 ,
+        gg:japji_pauri8_tuk5
+.
+
+#################################################################
+### Tuk 1
+### ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥
+#################################################################
+
+gg:japji_pauri8_tuk1
+    a gg:Tuk ;
+    gg:id "sggs-japji-pauri8-tuk1" ;
+    gg:index "1"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri8 ;
+
+    gg:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥"@pa ;
+    gg:transliteration "hukamī hovan ākār hukam na kahiā jāī ||"@en-Latn ;
+    gg:translation "By Hukam, forms come into being; yet this Hukam cannot truly be spoken or described."@en ;
+
+    gg:hasTheme gg:DivineWill ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri8_tuk1_gu1 ,
+        gg:japji_pauri8_tuk1_gu2
+.
+
+# GU1
+gg:japji_pauri8_tuk1_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ"@pa ;
+    gg:transliteration "hukamī hovan ākār"@en-Latn ;
+    gg:translation "by Hukam, forms and beings come into existence"@en
+.
+
+# GU2
+gg:japji_pauri8_tuk1_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ"@pa ;
+    gg:transliteration "hukam na kahiā jāī"@en-Latn ;
+    gg:translation "yet this Hukam cannot be stated or described"@en
+.
+
+#################################################################
+### Tuk 2
+### ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥
+#################################################################
+
+gg:japji_pauri8_tuk2
+    a gg:Tuk ;
+    gg:id "sggs-japji_pauri8-tuk2" ;
+    gg:index "2"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri8 ;
+
+    gg:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥"@pa ;
+    gg:transliteration "hukamī hovan jīa hukam milai vaḍiāī ||"@en-Latn ;
+    gg:translation "By Hukam, beings are given life; by that same Hukam, honor and greatness are received."@en ;
+
+    gg:hasTheme gg:DivineWill ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri8_tuk2_gu1 ,
+        gg:japji_pauri8_tuk2_gu2
+.
+
+# GU1
+gg:japji_pauri8_tuk2_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ"@pa ;
+    gg:transliteration "hukamī hovan jīa"@en-Latn ;
+    gg:translation "by Hukam, living beings arise"@en
+.
+
+# GU2
+gg:japji_pauri8_tuk2_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ"@pa ;
+    gg:transliteration "hukam milai vaḍiāī"@en-Latn ;
+    gg:translation "by Hukam, honor and greatness are obtained"@en
+.
+
+#################################################################
+### Tuk 3
+### ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥
+#################################################################
+
+gg:japji_pauri8_tuk3
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri8-tuk3" ;
+    gg:index "3"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri8 ;
+
+    gg:gurmukhi "ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥"@pa ;
+    gg:transliteration "hukamī utam nīc hukam likh dukh sukh pāīah ||"@en-Latn ;
+    gg:translation "By Hukam, some are high and some are low; by Hukam, their pains and pleasures are inscribed and experienced."@en ;
+
+    gg:hasTheme gg:Order ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri8_tuk3_gu1 ,
+        gg:japji_pauri8_tuk3_gu2
+.
+
+# GU1
+gg:japji_pauri8_tuk3_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ"@pa ;
+    gg:transliteration "hukamī utam nīc"@en-Latn ;
+    gg:translation "by Hukam, some are high and some are low"@en
+.
+
+# GU2
+gg:japji_pauri8_tuk3_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ"@pa ;
+    gg:transliteration "hukam likh dukh sukh pāīah"@en-Latn ;
+    gg:translation "by Hukam, pains and pleasures are written and experienced"@en
+.
+
+#################################################################
+### Tuk 4
+### ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥
+#################################################################
+
+gg:japji_pauri8_tuk4
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri8-tuk4" ;
+    gg:index "4"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri8 ;
+
+    gg:gurmukhi "ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥"@pa ;
+    gg:transliteration "iknā hukamī bakhsīs ik hukamī sadā bhavāīah ||"@en-Latn ;
+    gg:translation "By Hukam, some receive grace and gift; by Hukam, some wander endlessly."@en ;
+
+    gg:hasTheme
+        gg:DivineGrace ,
+        gg:UnionSeparation ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri8_tuk4_gu1 ,
+        gg:japji_pauri8_tuk4_gu2
+.
+
+# GU1
+gg:japji_pauri8_tuk4_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ"@pa ;
+    gg:transliteration "iknā hukamī bakhsīs"@en-Latn ;
+    gg:translation "for some, by Hukam, there is grace and blessing"@en
+.
+
+# GU2
+gg:japji_pauri8_tuk4_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ"@pa ;
+    gg:transliteration "ik hukamī sadā bhavāīah"@en-Latn ;
+    gg:translation "for others, by Hukam, there is endless wandering"@en
+.
+
+#################################################################
+### Tuk 5
+### ਹੁਕਮੇ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥੮॥
+#################################################################
+
+gg:japji_pauri8_tuk5
+    a gg:Tuk ;
+    gg:id "gg:japji_pauri8-tuk5" ;
+    gg:index "5"^^xsd:integer ;
+    gg:belongsTo gg:japji_pauri8 ;
+
+    gg:gurmukhi "ਹੁਕਮੇ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥੮॥"@pa ;
+    gg:transliteration "hukme andar sabh ko bāhar hukam na koi ||8||"@en-Latn ;
+    gg:translation "All are within Hukam; none at all is outside of Hukam. ||8||"@en ;
+
+    gg:hasTheme
+        gg:DivineWill ,
+        gg:Order ;
+
+    gg:hasGlossUnit
+        gg:japji_pauri8_tuk5_gu1 ,
+        gg:japji_pauri8_tuk5_gu2
+.
+
+# GU1
+gg:japji_pauri8_tuk5_gu1
+    a gg:GlossUnit ;
+    gg:index "1"^^xsd:integer ;
+    gg:gurmukhi "ਹੁਕਮੇ ਅੰਦਰਿ ਸਭੁ ਕੋ"@pa ;
+    gg:transliteration "hukme andar sabh ko"@en-Latn ;
+    gg:translation "everyone is within Hukam"@en
+.
+
+# GU2
+gg:japji_pauri8_tuk5_gu2
+    a gg:GlossUnit ;
+    gg:index "2"^^xsd:integer ;
+    gg:gurmukhi "ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥੮॥"@pa ;
+    gg:transliteration "bāhar hukam na koi ||8||"@en-Latn ;
+    gg:translation "none at all is outside of Hukam. ||8||"@en
+.

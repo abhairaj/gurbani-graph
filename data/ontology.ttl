@@ -1,5 +1,4 @@
-@prefix shabd: <http://gurbani-graph.org/shabd#> .
-@prefix sggs:  <http://gurbani-graph.org/sggs#> .
+@prefix gg:  <http://gurbani-graph.org/core#> .
 @prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
@@ -10,51 +9,55 @@
 ### Ontology header
 #################################################################
 
-<http://gurbani-graph.org/shabd>
+<http://gurbani-graph.org/gg>
     a owl:Ontology ;
-    dct:title "Gurbani Graph – Shabd Ontology"@en ;
-    dct:creator "Gurbani Graph (shabd ontology for Sri Guru Granth Sahib Ji and related bani)"@en ;
-    dct:description "An ontology for modeling shabds, lines, themes, authors, raags, and scriptural structure (ang, pauri, etc.) in a graph database."@en ;
+    dct:title "Gurbani Graph Ontology"@en ;
+    dct:creator "Gurbani Graph (ontology for Sri Guru Granth Sahib Ji and related bani)"@en ;
+    dct:description "An ontology for modeling bani shabds, tuks, themes, authors, raags, and scriptural structure (ang, pauri, etc.) in a graph database."@en ;
     owl:versionInfo "0.1.0"@en .
 
 #################################################################
 ### Core classes
 #################################################################
 
-shabd:Shabd a owl:Class ;
+gg:Bani a owl:Class ;
+    rdfs:label "Bani"@en ;
+    rdfs:comment "A large composition unit comprised of Shabds or Pauris, e.g. Jap Ji Sahib."@en .
+
+gg:Shabd a owl:Class ;
     rdfs:label "Shabd"@en ;
-    rdfs:comment "A distinct hymn or composition unit, e.g., a shabd on a given ang or a pauri of Japji Sahib modeled as a composition node."@en .
+    rdfs:comment "A distinct hymn or composition unit, e.g., a Shabd on a given ang or a Pauri of Japji Sahib modeled as a composition node."@en .
 
-shabd:Line a owl:Class ;
-    rdfs:label "Line"@en ;
-    rdfs:comment "A single line (tuk) of Gurbani belonging to a Shabd or pauri."@en .
+gg:Tuk a owl:Class ;
+    rdfs:label "Tuk"@en ;
+    rdfs:comment "A single line of Gurbani belonging to a Shabd or Pauri."@en .
 
-shabd:Theme a owl:Class ;
+gg:Theme a owl:Class ;
     rdfs:label "Theme"@en ;
     rdfs:comment "A conceptual or semantic theme such as Naam, Hukam, Divine Grace, etc., that can be associated to shabds or lines."@en .
 
-shabd:Person a owl:Class ;
+gg:Person a owl:Class ;
     rdfs:label "Person"@en ;
     rdfs:comment "A person related to the bani, such as Guru Sahib, Bhagat, or other authors/commentators."@en .
 
-shabd:Scripture a owl:Class ;
+gg:Scripture a owl:Class ;
     rdfs:label "Scripture"@en ;
     rdfs:comment "A scriptural volume or collection, e.g. Sri Guru Granth Sahib Ji, Dasam Granth, etc."@en .
 
-shabd:Raag a owl:Class ;
+gg:Raag a owl:Class ;
     rdfs:label "Raag"@en ;
     rdfs:comment "A musical raag in which a shabd is composed, e.g., Raag Vadhans, Raag Asa, etc."@en .
 
-shabd:Pauri a owl:Class ;
+gg:Pauri a owl:Class ;
     rdfs:label "Pauri"@en ;
     rdfs:comment "A stanza-like structural unit, e.g., pauris of Japji Sahib; can be modeled as a specialized Shabd if preferred."@en ;
-    rdfs:subClassOf shabd:Shabd .
+    rdfs:subClassOf gg:Shabd .
 
-shabd:GlossUnit a owl:Class ;
+gg:GlossUnit a owl:Class ;
     rdfs:label "GlossUnit"@en ;
-    rdfs:comment "A sub-span of a Line with its own literal gloss/meaning."@en .
+    rdfs:comment "A sub-span of a Tuk with its own literal gloss/meaning."@en .
 
-shabd:Morpheme a owl:Class ;
+gg:Morpheme a owl:Class ;
     rdfs:label "Morpheme"@en ;
     rdfs:comment "An atomic unit of meaning within a GlossUnit."@en .
 
@@ -62,114 +65,120 @@ shabd:Morpheme a owl:Class ;
 ### Object properties
 #################################################################
 
-shabd:hasLine a owl:ObjectProperty ;
-    rdfs:label "has line"@en ;
+gg:hasTuk a owl:ObjectProperty ;
+    rdfs:label "has tuk"@en ;
     rdfs:comment "Links a Shabd (or Pauri) to the Lines that make it up."@en ;
-    rdfs:domain shabd:Shabd ;
-    rdfs:range shabd:Line .
+    rdfs:domain gg:Shabd ;
+    rdfs:range gg:Tuk .
 
-shabd:belongsTo a owl:ObjectProperty ;
+gg:belongsTo a owl:ObjectProperty ;
     rdfs:label "belongs to"@en ;
-    rdfs:comment "Links a Line back to the Shabd (or Pauri) it belongs to."@en ;
-    rdfs:domain shabd:Line ;
-    rdfs:range shabd:Shabd ;
-    owl:inverseOf shabd:hasLine .
+    rdfs:comment "Links a child instance back to the parent it belongs to."@en ;
+    rdfs:domain gg:Tuk ;
+    rdfs:range gg:Shabd ;
+    owl:inverseOf gg:hasTuk .
 
-shabd:hasTheme a owl:ObjectProperty ;
+gg:hasTheme a owl:ObjectProperty ;
     rdfs:label "has theme"@en ;
-    rdfs:comment "Associates a Shabd or Line with one or more conceptual themes."@en ;
+    rdfs:comment "Associates a Shabd or Tuk with one or more conceptual themes."@en ;
     rdfs:domain [ a owl:Class ;
-                  owl:unionOf ( shabd:Shabd shabd:Line ) ] ;
-    rdfs:range shabd:Theme .
+                  owl:unionOf ( gg:Shabd gg:Tuk ) ] ;
+    rdfs:range gg:Theme .
 
-shabd:hasAuthor a owl:ObjectProperty ;
+gg:hasAuthor a owl:ObjectProperty ;
     rdfs:label "has author"@en ;
     rdfs:comment "Relates a Shabd (or Pauri) to the Person who authored the bani (e.g., Guru Nanak Dev Ji)."@en ;
-    rdfs:domain shabd:Shabd ;
-    rdfs:range shabd:Person .
+    rdfs:domain gg:Shabd ;
+    rdfs:range gg:Person .
 
-shabd:inScripture a owl:ObjectProperty ;
+gg:inBani a owl:ObjectProperty ;
+    rdfs:label "in bani"@en ;
+    rdfs:comment "Indicates which Bani a given Shabd or Pauri appears in."@en ;
+    rdfs:domain gg:Shabd, gg:Pauri ;
+    rdfs:range gg:Bani .
+
+gg:inScripture a owl:ObjectProperty ;
     rdfs:label "in scripture"@en ;
-    rdfs:comment "Indicates which Scripture a given Shabd appears in."@en ;
-    rdfs:domain shabd:Shabd ;
-    rdfs:range shabd:Scripture .
+    rdfs:comment "Indicates which Scripture a given Bani or Shabd appears in."@en ;
+    rdfs:domain gg:Shabd, gg:Bani ;
+    rdfs:range gg:Scripture .
 
-shabd:inRaag a owl:ObjectProperty ;
+gg:inRaag a owl:ObjectProperty ;
     rdfs:label "in raag"@en ;
     rdfs:comment "Indicates the Raag in which a Shabd is composed."@en ;
-    rdfs:domain shabd:Shabd ;
-    rdfs:range shabd:Raag .
+    rdfs:domain gg:Shabd ;
+    rdfs:range gg:Raag .
 
 #################################################################
 ### Datatype properties – Shabd / Pauri level
 #################################################################
 
-shabd:id a owl:DatatypeProperty ;
+gg:id a owl:DatatypeProperty ;
     rdfs:label "id"@en ;
-    rdfs:comment "A stable identifier for a Shabd or Line within the Gurbani Graph (e.g., sggs-ang555-shabd17, sggs-japji-pauri1)."@en ;
+    rdfs:comment "A stable identifier for a Shabd, Tuk, or GlossUnit within the Gurbani Graph (e.g., sggs-ang555-shabd17, sggs-japji-pauri1)."@en ;
     rdfs:range xsd:string .
 
-shabd:sequenceInAng a owl:DatatypeProperty ;
+gg:indexInBani a owl:DatatypeProperty ;
     rdfs:label "sequence in ang"@en ;
-    rdfs:comment "The ordinal position of the first line of the Shabd/Pauri on its ang/page."@en ;
-    rdfs:domain shabd:Shabd ;
+    rdfs:comment "The ordinal position of the Shabd/Pauri with it's parent Bani."@en ;
+    rdfs:domain gg:Shabd ;
     rdfs:range xsd:integer .
 
 #################################################################
-### Datatype properties – Line level
+### Shared Datatype properties – Tuk level
 #################################################################
 
-shabd:index a owl:DatatypeProperty ;
+gg:index a owl:DatatypeProperty ;
     rdfs:label "index"@en ;
-    rdfs:comment "The position of a line within its Shabd (1-based index)."@en ;
-    rdfs:domain shabd:Line ;
+    rdfs:comment "The position of something within it's parent."@en ;
+    rdfs:domain gg:Tuk, gg:GlossUnit, gg:Morpheme ;
     rdfs:range xsd:integer .
 
-shabd:gurmukhi a owl:DatatypeProperty ;
+gg:gurmukhi a owl:DatatypeProperty ;
     rdfs:label "Gurmukhi text"@en ;
-    rdfs:comment "The original line text in Gurmukhi script."@en ;
-    rdfs:domain shabd:Line ;
+    rdfs:comment "The original text in Gurmukhi script."@en ;
+    rdfs:domain gg:Tuk, gg:GlossUnit, gg:Morpheme ;
     rdfs:range xsd:string .
 
-shabd:transliteration a owl:DatatypeProperty ;
+gg:transliteration a owl:DatatypeProperty ;
     rdfs:label "transliteration"@en ;
-    rdfs:comment "Roman transliteration of the line."@en ;
-    rdfs:domain shabd:Line ;
+    rdfs:comment "Roman transliteration of the Gurmukhi."@en ;
+    rdfs:domain gg:Tuk, gg:GlossUnit, gg:Morpheme ;
     rdfs:range xsd:string .
 
-shabd:translation a owl:DatatypeProperty ;
+gg:translation a owl:DatatypeProperty ;
     rdfs:label "translation"@en ;
-    rdfs:comment "A translation of the line."@en ;
-    rdfs:domain shabd:Line ;
+    rdfs:comment "A translation of the Gurmukhi."@en ;
+    rdfs:domain gg:Tuk, gg:GlossUnit, gg:Morpheme ;
     rdfs:range xsd:string .
 
 #################################################################
 ### Datatype properties – Scripture / Raag / AngReference / Person
 #################################################################
 
-shabd:ang a owl:DatatypeProperty ;
+gg:ang a owl:DatatypeProperty ;
     rdfs:label "ang number"@en ;
     rdfs:comment "Ang (page) number within a scripture that the first line of a Pauri or Shabd."@en ;
-    rdfs:domain shabd:Pauri, shabd:Shabd ;
+    rdfs:domain gg:Pauri, gg:Shabd ;
     rdfs:range xsd:integer .
 
-shabd:role a owl:DatatypeProperty ;
+gg:role a owl:DatatypeProperty ;
     rdfs:label "person role"@en ;
-    rdfs:comment "Role of the person in the context of Gurbani: Guru, Bhagat, Compiler, Commentator, etc."@en ;
-    rdfs:domain shabd:Person ;
+    rdfs:comment "Role of the person in the context of Gurgg: Guru, Bhagat, Compiler, Commentator, etc."@en ;
+    rdfs:domain gg:Person ;
     rdfs:range xsd:string .
 
 
-### Object property: Line → GlossUnit
+### Object property: Tuk → GlossUnit → Morpheme
 
-shabd:hasGlossUnit a owl:ObjectProperty ;
+gg:hasGlossUnit a owl:ObjectProperty ;
     rdfs:label "has gloss unit"@en ;
-    rdfs:comment "Associates a Line with one or more GlossUnits."@en ;
-    rdfs:domain shabd:Line ;
-    rdfs:range shabd:GlossUnit .
+    rdfs:comment "Associates a Tuk with one or more GlossUnits."@en ;
+    rdfs:domain gg:Tuk ;
+    rdfs:range gg:GlossUnit .
 
-shabd:hasMorpheme a owl:ObjectProperty ;
+gg:hasMorpheme a owl:ObjectProperty ;
     rdfs:label "has gloss unit"@en ;
     rdfs:comment "Associates a GlossUnit with one or more Morphemes."@en ;
-    rdfs:domain shabd:GlossUnit ;
-    rdfs:range shabd:Morpheme .
+    rdfs:domain gg:GlossUnit ;
+    rdfs:range gg:Morpheme .
