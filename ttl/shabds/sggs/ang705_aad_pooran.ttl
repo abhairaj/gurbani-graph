@@ -1,0 +1,290 @@
+@prefix gg:  <http://gurbani-graph.org/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+#################################################################
+### Shabd: Aad Pooran – ਜੈਤਸਰੀ ਮਹਲਾ ੫ ਵਾਰ ਸਲੋਕਾ ਨਾਲਿ
+### SGGS Ang 705–706
+#################################################################
+
+gg:sggs_ang705_aad_pooran a gg:Shabd ;
+  gg:id "sggs_ang705_aad_pooran" ;
+  dct:title "Jaitsree Mahalla 5 Vaar with Shaloks – Aad Pooran"@en ;
+  dct:title "ਜੈਤਸਰੀ ਮਹਲਾ ੫ ਵਾਰ ਸਲੋਕਾ ਨਾਲਿ – ਆਦਿ ਪੂਰਨ"@pa ;
+  gg:ang "705"^^xsd:integer ;
+  gg:inScripture gg:SGGS ;
+  gg:inBani gg:JaitsreeVaar ;
+  gg:indexInBani "1"^^xsd:integer ;
+  gg:inRaag gg:RaagJaitsree ;
+  gg:hasAuthor gg:GuruArjanDevJi ;
+  gg:hasTheme gg:TranscendenceImmanence ,
+              gg:UncreatedDivine ,
+              gg:DivinePervasion ,
+              gg:ContemplativeRemembrance ,
+              gg:Naam ,
+              gg:Truth ,
+              gg:Bhagat ,
+              gg:DivineProtection ,
+              gg:SufferingJoy ,
+              gg:DevotionalLove ;
+  rdfs:comment "Opening shabd of Jaitsree Ki Vaar with shaloks; Guru Arjan Dev Ji affirms the Divine as complete in all three times, remembered by the saints as destroyer of sins, and invites us to see, hear, speak of the One and be absorbed in Hari’s love that pervades all."@en ;
+  gg:hasTuk gg:sggs_ang705_aad_pooran_tuk1 ,
+            gg:sggs_ang705_aad_pooran_tuk2 ,
+            gg:sggs_ang705_aad_pooran_tuk3 ,
+            gg:sggs_ang705_aad_pooran_tuk4 ,
+            gg:sggs_ang705_aad_pooran_tuk5 ,
+            gg:sggs_ang705_aad_pooran_tuk6 ,
+            gg:sggs_ang705_aad_pooran_tuk7 .
+
+#################################################################
+### Tuk 1 – Header
+### ਜੈਤਸਰੀ ਮਹਲਾ ੫ ਵਾਰ ਸਲੋਕਾ ਨਾਲਿ
+#################################################################
+
+gg:sggs_ang705_aad_pooran_tuk1 a gg:Tuk ;
+  gg:id "sggs_ang705_aad_pooran_tuk1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang705_aad_pooran ;
+  gg:gurmukhi "ਜੈਤਸਰੀ ਮਹਲਾ ੫ ਵਾਰ ਸਲੋਕਾ ਨਾਲਿ"@pa ;
+  gg:transliteration "jaitsaree mehalaa 5 vaar salokaa naal"@en-Latn ;
+  gg:translation "Raag Jaitsree, by Guru Arjan Dev Ji, a Vaar with accompanying shaloks."@en ;
+  gg:hasGlossUnit gg:sggs_ang705_aad_pooran_tuk1_gu1 ,
+                  gg:sggs_ang705_aad_pooran_tuk1_gu2 .
+
+gg:sggs_ang705_aad_pooran_tuk1_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਜੈਤਸਰੀ ਮਹਲਾ ੫"@pa ;
+  gg:transliteration "jaitsaree mehalaa 5"@en-Latn ;
+  gg:translation "In Raag Jaitsree, by the Fifth Guru."@en .
+
+gg:sggs_ang705_aad_pooran_tuk1_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਵਾਰ ਸਲੋਕਾ ਨਾਲਿ"@pa ;
+  gg:transliteration "vaar salokaa naal"@en-Latn ;
+  gg:translation "a Vaar composition together with shaloks (couplets)."@en .
+
+#################################################################
+### Tuk 2 – Manglacharan
+### ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥
+#################################################################
+
+gg:sggs_ang705_aad_pooran_tuk2 a gg:Tuk ;
+  gg:id "sggs_ang705_aad_pooran_tuk2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang705_aad_pooran ;
+  gg:gurmukhi "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥"@pa ;
+  gg:transliteration "ik oankaar satigur prasaadh ||"@en-Latn ;
+  gg:translation "One Universal Creator Being; realized by the grace of the True Guru."@en ;
+  gg:hasTheme gg:UncreatedDivine , gg:Satguru , gg:DivineGrace , gg:Truth ;
+  gg:hasGlossUnit gg:sggs_ang705_aad_pooran_tuk2_gu1 ,
+                  gg:sggs_ang705_aad_pooran_tuk2_gu2 .
+
+gg:sggs_ang705_aad_pooran_tuk2_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ੴ"@pa ;
+  gg:transliteration "ik oankaar"@en-Latn ;
+  gg:translation "The One Creative, All-pervading Reality."@en .
+
+gg:sggs_ang705_aad_pooran_tuk2_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥"@pa ;
+  gg:transliteration "satigur prasaadh ||"@en-Latn ;
+  gg:translation "Known through the grace of the True Guru."@en .
+
+#################################################################
+### Tuk 3 – Salok marker
+### ਸਲੋਕ ॥
+#################################################################
+
+gg:sggs_ang705_aad_pooran_tuk3 a gg:Tuk ;
+  gg:id "sggs_ang705_aad_pooran_tuk3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang705_aad_pooran ;
+  gg:gurmukhi "ਸਲੋਕ ॥"@pa ;
+  gg:transliteration "salok ||"@en-Latn ;
+  gg:translation "Shalok."@en ;
+  gg:hasTheme gg:Wisdom ;
+  gg:hasGlossUnit gg:sggs_ang705_aad_pooran_tuk3_gu1 .
+
+gg:sggs_ang705_aad_pooran_tuk3_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਲੋਕ ॥"@pa ;
+  gg:transliteration "salok ||"@en-Latn ;
+  gg:translation "A verse or couplet (shalok) follows."@en .
+
+#################################################################
+### Tuk 4 – Divine completeness in all three times
+### ਆਦਿ ਪੂਰਨ ਮਧਿ ਪੂਰਨ ਅੰਤਿ ਪੂਰਨ ਪਰਮੇਸੁਰਹ ॥
+#################################################################
+
+gg:sggs_ang705_aad_pooran_tuk4 a gg:Tuk ;
+  gg:id "sggs_ang705_aad_pooran_tuk4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang705_aad_pooran ;
+  gg:gurmukhi "ਆਦਿ ਪੂਰਨ ਮਧਿ ਪੂਰਨ ਅੰਤਿ ਪੂਰਨ ਪਰਮੇਸੁਰਹ ॥"@pa ;
+  gg:transliteration "aad pooran madh pooran ant pooran paramesurah ||"@en-Latn ;
+  gg:translation "Complete in the beginning, complete in the middle, complete in the end is the Transcendent Lord."@en ;
+  gg:hasTheme gg:TranscendenceImmanence , gg:UncreatedDivine , gg:DivinePervasion , gg:DivineSovereignty ;
+  gg:hasGlossUnit gg:sggs_ang705_aad_pooran_tuk4_gu1 ,
+                  gg:sggs_ang705_aad_pooran_tuk4_gu2 ,
+                  gg:sggs_ang705_aad_pooran_tuk4_gu3 ,
+                  gg:sggs_ang705_aad_pooran_tuk4_gu4 .
+
+gg:sggs_ang705_aad_pooran_tuk4_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਆਦਿ ਪੂਰਨ"@pa ;
+  gg:transliteration "aad pooran"@en-Latn ;
+  gg:translation "complete in the beginning."@en .
+
+gg:sggs_ang705_aad_pooran_tuk4_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਮਧਿ ਪੂਰਨ"@pa ;
+  gg:transliteration "madh pooran"@en-Latn ;
+  gg:translation "complete in the middle."@en .
+
+gg:sggs_ang705_aad_pooran_tuk4_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਅੰਤਿ ਪੂਰਨ"@pa ;
+  gg:transliteration "ant pooran"@en-Latn ;
+  gg:translation "complete in the end."@en .
+
+gg:sggs_ang705_aad_pooran_tuk4_gu4 a gg:GlossUnit ;
+  gg:index "4"^^xsd:integer ;
+  gg:gurmukhi "ਪਰਮੇਸੁਰਹ ॥"@pa ;
+  gg:transliteration "paramesurah ||"@en-Latn ;
+  gg:translation "He is the Supreme, Transcendent Lord."@en .
+
+#################################################################
+### Tuk 5 – Saints’ remembrance of the all-pervading One
+### ਸਿਮਰੰਤਿ ਸੰਤ ਸਰਬਤ੍ਰ ਰਮਣੰ ਨਾਨਕ ਅਘਨਾਸਨ ਜਗਦੀਸੁਰਹ ॥੧॥
+#################################################################
+
+gg:sggs_ang705_aad_pooran_tuk5 a gg:Tuk ;
+  gg:id "sggs_ang705_aad_pooran_tuk5" ;
+  gg:index "5"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang705_aad_pooran ;
+  gg:gurmukhi "ਸਿਮਰੰਤਿ ਸੰਤ ਸਰਬਤ੍ਰ ਰਮਣੰ ਨਾਨਕ ਅਘਨਾਸਨ ਜਗਦੀਸੁਰਹ ॥੧॥"@pa ;
+  gg:transliteration "simarant sant sarbatr ramanan naanak aghnaasan jagdeesurah ||1||"@en-Latn ;
+  gg:translation "The saints remember in meditation the One who pervades everywhere; O Nanak, the Lord of the universe is the destroyer of sins."@en ;
+  gg:hasTheme gg:Bhagat , gg:ContemplativeRemembrance , gg:DivinePervasion , gg:DivineProtection , gg:SufferingJoy , gg:Naam ;
+  gg:hasGlossUnit gg:sggs_ang705_aad_pooran_tuk5_gu1 ,
+                  gg:sggs_ang705_aad_pooran_tuk5_gu2 ,
+                  gg:sggs_ang705_aad_pooran_tuk5_gu3 ,
+                  gg:sggs_ang705_aad_pooran_tuk5_gu4 .
+
+gg:sggs_ang705_aad_pooran_tuk5_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਿਮਰੰਤਿ ਸੰਤ"@pa ;
+  gg:transliteration "simarant sant"@en-Latn ;
+  gg:translation "the saints remember in loving meditation"@en .
+
+gg:sggs_ang705_aad_pooran_tuk5_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸਰਬਤ੍ਰ ਰਮਣੰ"@pa ;
+  gg:transliteration "sarbatr ramanan"@en-Latn ;
+  gg:translation "the One who pervades everywhere."@en .
+
+gg:sggs_ang705_aad_pooran_tuk5_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਨਾਨਕ ਅਘਨਾਸਨ"@pa ;
+  gg:transliteration "naanak aghnaasan"@en-Latn ;
+  gg:translation "O Nanak, the destroyer of sins"@en .
+
+gg:sggs_ang705_aad_pooran_tuk5_gu4 a gg:GlossUnit ;
+  gg:index "4"^^xsd:integer ;
+  gg:gurmukhi "ਜਗਦੀਸੁਰਹ ॥੧॥"@pa ;
+  gg:transliteration "jagdeesurah ||1||"@en-Latn ;
+  gg:translation "is the Lord of the universe. ||1||"@en .
+
+#################################################################
+### Tuk 6 – Implanting the True One in the mind
+### ਪੇਖਨ ਸੁਨਨ ਸੁਨਾਵਨੋ ਮਨ ਮਹਿ ਦ੍ਰਿੜੀਐ ਸਾਚੁ ॥
+#################################################################
+
+gg:sggs_ang705_aad_pooran_tuk6 a gg:Tuk ;
+  gg:id "sggs_ang705_aad_pooran_tuk6" ;
+  gg:index "6"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang705_aad_pooran ;
+  gg:gurmukhi "ਪੇਖਨ ਸੁਨਨ ਸੁਨਾਵਨੋ ਮਨ ਮਹਿ ਦ੍ਰਿੜੀਐ ਸਾਚੁ ॥"@pa ;
+  gg:transliteration "pekhan sunan sunaavano man meh drirreeai saach ||"@en-Latn ;
+  gg:translation "See, hear, speak of Him, and firmly fix the True One within your mind."@en ;
+  gg:hasTheme gg:ListeningAndLove , gg:Truth , gg:Wisdom , gg:ContemplativeRemembrance ;
+  gg:hasGlossUnit gg:sggs_ang705_aad_pooran_tuk6_gu1 ,
+                  gg:sggs_ang705_aad_pooran_tuk6_gu2 ,
+                  gg:sggs_ang705_aad_pooran_tuk6_gu3 ,
+                  gg:sggs_ang705_aad_pooran_tuk6_gu4 ,
+                  gg:sggs_ang705_aad_pooran_tuk6_gu5 .
+
+gg:sggs_ang705_aad_pooran_tuk6_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਪੇਖਨ"@pa ;
+  gg:transliteration "pekhan"@en-Latn ;
+  gg:translation "seeing (the Divine)"@en .
+
+gg:sggs_ang705_aad_pooran_tuk6_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸੁਨਨ"@pa ;
+  gg:transliteration "sunan"@en-Latn ;
+  gg:translation "hearing (of the Divine)"@en .
+
+gg:sggs_ang705_aad_pooran_tuk6_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਸੁਨਾਵਨੋ"@pa ;
+  gg:transliteration "sunaavano"@en-Latn ;
+  gg:translation "speaking / telling of the Divine"@en .
+
+gg:sggs_ang705_aad_pooran_tuk6_gu4 a gg:GlossUnit ;
+  gg:index "4"^^xsd:integer ;
+  gg:gurmukhi "ਮਨ ਮਹਿ ਦ੍ਰਿੜੀਐ"@pa ;
+  gg:transliteration "man meh drirreeai"@en-Latn ;
+  gg:translation "firmly implant within the mind"@en .
+
+gg:sggs_ang705_aad_pooran_tuk6_gu5 a gg:GlossUnit ;
+  gg:index "5"^^xsd:integer ;
+  gg:gurmukhi "ਸਾਚੁ ॥"@pa ;
+  gg:transliteration "saach ||"@en-Latn ;
+  gg:translation "the Eternal Truth."@en .
+
+#################################################################
+### Tuk 7 – All-pervading Hari and absorption in Divine Love
+### ਪੂਰਿ ਰਹਿਓ ਸਰਬਤ੍ਰ ਮੈ ਨਾਨਕ ਹਰਿ ਰੰਗਿ ਰਾਚੁ ॥੨॥
+#################################################################
+
+gg:sggs_ang705_aad_pooran_tuk7 a gg:Tuk ;
+  gg:id "sggs_ang705_aad_pooran_tuk7" ;
+  gg:index "7"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang705_aad_pooran ;
+  gg:gurmukhi "ਪੂਰਿ ਰਹਿਓ ਸਰਬਤ੍ਰ ਮੈ ਨਾਨਕ ਹਰਿ ਰੰਗਿ ਰਾਚੁ ॥੨॥"@pa ;
+  gg:transliteration "poor rahio sarbatr mai naanak har rang raach ||2||"@en-Latn ;
+  gg:translation "He is all-pervading, permeating everywhere; O Nanak, be absorbed in the Lord's love."@en ;
+  gg:hasTheme gg:DivinePervasion , gg:TranscendenceImmanence , gg:DevotionalLove , gg:UniversalLove , gg:Naam ;
+  gg:hasGlossUnit gg:sggs_ang705_aad_pooran_tuk7_gu1 ,
+                  gg:sggs_ang705_aad_pooran_tuk7_gu2 ,
+                  gg:sggs_ang705_aad_pooran_tuk7_gu3 ,
+                  gg:sggs_ang705_aad_pooran_tuk7_gu4 .
+
+gg:sggs_ang705_aad_pooran_tuk7_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਪੂਰਿ ਰਹਿਓ"@pa ;
+  gg:transliteration "poor rahio"@en-Latn ;
+  gg:translation "He is pervading and filling"@en .
+
+gg:sggs_ang705_aad_pooran_tuk7_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸਰਬਤ੍ਰ"@pa ;
+  gg:transliteration "sarbatr"@en-Latn ;
+  gg:translation "everywhere, in all places"@en .
+
+gg:sggs_ang705_aad_pooran_tuk7_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਮੈ"@pa ;
+  gg:transliteration "mai"@en-Latn ;
+  gg:translation "in me"@en .
+
+gg:sggs_ang705_aad_pooran_tuk7_gu4 a gg:GlossUnit ;
+  gg:index "4"^^xsd:integer ;
+  gg:gurmukhi "ਨਾਨਕ ਹਰਿ ਰੰਗਿ ਰਾਚੁ ॥੨॥"@pa ;
+  gg:transliteration "naanak har rang raach ||2||"@en-Latn ;
+  gg:translation "O Nanak, be deeply imbued with the Lord’s love. ||2||"@en .

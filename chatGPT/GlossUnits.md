@@ -220,3 +220,114 @@ Just say:
 **“Please generate TTL for Pauri 7 with phrase-level GlossUnits.”**
 
 And I’ll produce it.
+
+
+Absolutely — thanks for pointing that out.
+And **yes**, your desired granularity makes perfect sense for *semantic* GlossUnits.
+
+Let’s tighten up the decomposition logic and then I’ll show you exactly how the updated GlossUnits for that line would look.
+
+---
+
+# ✅ **General Rule for GlossUnit Granularity**
+
+A **GlossUnit** should represent one *semantically atomic* phrase—
+not too small (like individual particles),
+not too large (like multi-phrase clusters).
+
+For Gurbani, this usually means:
+**one conceptual packet = 1–4 words that express a single idea.**
+
+Your example:
+
+* ਆਦਿ ਪੂਰਨ → 1 semantic idea
+* ਮਧਿ ਪੂਰਨ → 1 semantic idea
+* ਅੰਤਿ ਪੂਰਨ → 1 semantic idea
+* ਪਰਮੇਸੁਰਹ → 1 semantic idea
+
+This is perfectly aligned with the modeling philosophy.
+
+---
+
+# ✨ Updated Breakdown for That Tuk
+
+### **Original Tuk 4:**
+
+**ਆਦਿ ਪੂਰਨ ਮਧਿ ਪੂਰਨ ਅੰਤਿ ਪੂਰਨ ਪਰਮੇਸੁਰਹ ॥**
+
+Here is the improved GlossUnit decomposition you’re asking for:
+
+### ✔️ **GlossUnit 1:**
+
+**ਆਦਿ ਪੂਰਨ**
+→ “complete/perfect in the beginning”
+
+### ✔️ **GlossUnit 2:**
+
+**ਮਧਿ ਪੂਰਨ**
+→ “complete/perfect in the middle”
+
+### ✔️ **GlossUnit 3:**
+
+**ਅੰਤਿ ਪੂਰਨ**
+→ “complete/perfect in the end”
+
+### ✔️ **GlossUnit 4:**
+
+**ਪਰਮੇਸੁਰਹ**
+→ “the Supreme Lord”
+
+This is *exactly* the level of granularity you want for downstream semantic parsing, search, embeddings, and NLP work.
+
+---
+
+# 🧩 Recommended GlossUnit Pattern for Aad Pooran Shabd
+
+Following this pattern, you’ll get something like:
+
+### Tuk 5 example:
+
+**ਸਿਮਰੰਤਿ ਸੰਤ ਸਰਬਤ੍ਰ ਰਮਣੰ**
+→ break into:
+
+1. ਸਿਮਰੰਤਿ ਸੰਤ
+2. ਸਰਬਤ੍ਰ ਰਮਣੰ
+
+### Tuk 6 example:
+
+**ਪੇਖਨ ਸੁਨਨ ਸੁਨਾਵਨੋ**
+→ break into:
+
+1. ਪੇਖਨ
+2. ਸੁਨਨ
+3. ਸੁਨਾਵਨੋ
+
+(Or 1. ਪੇਖਨ ਸੁਨਨ ਸੁਨਾਵਨੋ if you treat it as a triad of “sense modalities of praise” — your call, but I lean toward splitting because each is an independent action.)
+
+---
+
+# 🧠 Why this matters
+
+This level of decomposition unlocks:
+
+* **phrase-level embeddings**
+* **concept clustering**
+* **parallel alignment with English translations**
+* **conceptual linking across shabds** (e.g., all instances of ਪੂਰਨ across SGGS)
+* **fine-grained semantic search**
+* **better graph analytics (GraphRAG-like)**
+
+This is the *ideal* balance between precision and meaning.
+
+---
+
+# 👌 Want me to rewrite the entire Aad Pooran GlossUnit decomposition?
+
+You said you’d update the TTL manually, but if you'd like:
+
+* I can produce a **full, revised GlossUnit listing** Tuk-by-Tuk
+* or a **compact table**
+* or a drop-in **TTL diff**
+* or a **developer-ready spec for automatic decomposition**
+
+Whatever helps your workflow, I’m happy to do it.

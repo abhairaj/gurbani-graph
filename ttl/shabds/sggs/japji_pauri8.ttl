@@ -9,9 +9,9 @@
 ### Pauri / Shabd: Japji Sahib – Pauri 8
 #################################################################
 
-gg:japji_pauri8
+gg:sggs_japji_pauri8
     a gg:Pauri ;
-    gg:id "sggs_japji-pauri8" ;
+    gg:id "sggs_japji_pauri8" ;
     dct:title "Japji Sahib – Pauri 8"@en ;
     dct:title "ਜਪੁਜੀ ਸਾਹਿਬ – ਪਉੜੀ ੮"@pa ;
     gg:ang "2"^^xsd:integer ;
@@ -27,11 +27,11 @@ gg:japji_pauri8
         gg:UnionSeparation ;
     rdfs:comment "Pauri 8 describes the human as a creature formed by Hukam (Divine Will), living within it yet often failing to perceive it. The pauri outlines how one is united or separated according to Hukam, and how within that same Hukam the human is free to grieve, rejoice, or perform actions. Ego blinds the being to the Hukam that governs all."@en ;
     gg:hasTuk
-        gg:japji_pauri8_tuk1 ,
-        gg:japji_pauri8_tuk2 ,
-        gg:japji_pauri8_tuk3 ,
-        gg:japji_pauri8_tuk4 ,
-        gg:japji_pauri8_tuk5
+        gg:sggs_japji_pauri8_tuk1 ,
+        gg:sggs_japji_pauri8_tuk2 ,
+        gg:sggs_japji_pauri8_tuk3 ,
+        gg:sggs_japji_pauri8_tuk4 ,
+        gg:sggs_japji_pauri8_tuk5
 .
 
 #################################################################
@@ -39,11 +39,11 @@ gg:japji_pauri8
 ### ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥
 #################################################################
 
-gg:japji_pauri8_tuk1
+gg:sggs_japji_pauri8_tuk1
     a gg:Tuk ;
-    gg:id "sggs_japji-pauri8_tuk1" ;
+    gg:id "sggs_japji_pauri8_tuk1" ;
     gg:index "1"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri8 ;
+    gg:belongsTo gg:sggs_japji_pauri8 ;
 
     gg:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥"@pa ;
     gg:transliteration "hukamī hovan ākār hukam na kahiā jāī ||"@en-Latn ;
@@ -52,12 +52,12 @@ gg:japji_pauri8_tuk1
     gg:hasTheme gg:DivineWill ;
 
     gg:hasGlossUnit
-        gg:japji_pauri8_tuk1_gu1 ,
-        gg:japji_pauri8_tuk1_gu2
+        gg:sggs_japji_pauri8_tuk1_gu1 ,
+        gg:sggs_japji_pauri8_tuk1_gu2
 .
 
 # GU1
-gg:japji_pauri8_tuk1_gu1
+gg:sggs_japji_pauri8_tuk1_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ"@pa ;
@@ -66,7 +66,7 @@ gg:japji_pauri8_tuk1_gu1
 .
 
 # GU2
-gg:japji_pauri8_tuk1_gu2
+gg:sggs_japji_pauri8_tuk1_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ"@pa ;
@@ -79,11 +79,11 @@ gg:japji_pauri8_tuk1_gu2
 ### ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥
 #################################################################
 
-gg:japji_pauri8_tuk2
+gg:sggs_japji_pauri8_tuk2
     a gg:Tuk ;
     gg:id "sggs_japji_pauri8_tuk2" ;
     gg:index "2"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri8 ;
+    gg:belongsTo gg:sggs_japji_pauri8 ;
 
     gg:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥"@pa ;
     gg:transliteration "hukamī hovan jīa hukam milai vaḍiāī ||"@en-Latn ;
@@ -92,12 +92,12 @@ gg:japji_pauri8_tuk2
     gg:hasTheme gg:DivineWill ;
 
     gg:hasGlossUnit
-        gg:japji_pauri8_tuk2_gu1 ,
-        gg:japji_pauri8_tuk2_gu2
+        gg:sggs_japji_pauri8_tuk2_gu1 ,
+        gg:sggs_japji_pauri8_tuk2_gu2
 .
 
 # GU1
-gg:japji_pauri8_tuk2_gu1
+gg:sggs_japji_pauri8_tuk2_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ"@pa ;
@@ -106,7 +106,7 @@ gg:japji_pauri8_tuk2_gu1
 .
 
 # GU2
-gg:japji_pauri8_tuk2_gu2
+gg:sggs_japji_pauri8_tuk2_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ"@pa ;
@@ -119,11 +119,11 @@ gg:japji_pauri8_tuk2_gu2
 ### ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥
 #################################################################
 
-gg:japji_pauri8_tuk3
+gg:sggs_japji_pauri8_tuk3
     a gg:Tuk ;
     gg:id "sggs_japji_pauri8_tuk3" ;
     gg:index "3"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri8 ;
+    gg:belongsTo gg:sggs_japji_pauri8 ;
 
     gg:gurmukhi "ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥"@pa ;
     gg:transliteration "hukamī utam nīc hukam likh dukh sukh pāīah ||"@en-Latn ;
@@ -132,12 +132,12 @@ gg:japji_pauri8_tuk3
     gg:hasTheme gg:Order ;
 
     gg:hasGlossUnit
-        gg:japji_pauri8_tuk3_gu1 ,
-        gg:japji_pauri8_tuk3_gu2
+        gg:sggs_japji_pauri8_tuk3_gu1 ,
+        gg:sggs_japji_pauri8_tuk3_gu2
 .
 
 # GU1
-gg:japji_pauri8_tuk3_gu1
+gg:sggs_japji_pauri8_tuk3_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ"@pa ;
@@ -146,7 +146,7 @@ gg:japji_pauri8_tuk3_gu1
 .
 
 # GU2
-gg:japji_pauri8_tuk3_gu2
+gg:sggs_japji_pauri8_tuk3_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ"@pa ;
@@ -159,11 +159,11 @@ gg:japji_pauri8_tuk3_gu2
 ### ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥
 #################################################################
 
-gg:japji_pauri8_tuk4
+gg:sggs_japji_pauri8_tuk4
     a gg:Tuk ;
     gg:id "sggs_japji_pauri8_tuk4" ;
     gg:index "4"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri8 ;
+    gg:belongsTo gg:sggs_japji_pauri8 ;
 
     gg:gurmukhi "ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥"@pa ;
     gg:transliteration "iknā hukamī bakhsīs ik hukamī sadā bhavāīah ||"@en-Latn ;
@@ -174,12 +174,12 @@ gg:japji_pauri8_tuk4
         gg:UnionSeparation ;
 
     gg:hasGlossUnit
-        gg:japji_pauri8_tuk4_gu1 ,
-        gg:japji_pauri8_tuk4_gu2
+        gg:sggs_japji_pauri8_tuk4_gu1 ,
+        gg:sggs_japji_pauri8_tuk4_gu2
 .
 
 # GU1
-gg:japji_pauri8_tuk4_gu1
+gg:sggs_japji_pauri8_tuk4_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ"@pa ;
@@ -188,7 +188,7 @@ gg:japji_pauri8_tuk4_gu1
 .
 
 # GU2
-gg:japji_pauri8_tuk4_gu2
+gg:sggs_japji_pauri8_tuk4_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ"@pa ;
@@ -201,11 +201,11 @@ gg:japji_pauri8_tuk4_gu2
 ### ਹੁਕਮੇ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥੮॥
 #################################################################
 
-gg:japji_pauri8_tuk5
+gg:sggs_japji_pauri8_tuk5
     a gg:Tuk ;
     gg:id "sggs_japji_pauri8_tuk5" ;
     gg:index "5"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri8 ;
+    gg:belongsTo gg:sggs_japji_pauri8 ;
 
     gg:gurmukhi "ਹੁਕਮੇ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥੮॥"@pa ;
     gg:transliteration "hukme andar sabh ko bāhar hukam na koi ||8||"@en-Latn ;
@@ -216,12 +216,12 @@ gg:japji_pauri8_tuk5
         gg:Order ;
 
     gg:hasGlossUnit
-        gg:japji_pauri8_tuk5_gu1 ,
-        gg:japji_pauri8_tuk5_gu2
+        gg:sggs_japji_pauri8_tuk5_gu1 ,
+        gg:sggs_japji_pauri8_tuk5_gu2
 .
 
 # GU1
-gg:japji_pauri8_tuk5_gu1
+gg:sggs_japji_pauri8_tuk5_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੇ ਅੰਦਰਿ ਸਭੁ ਕੋ"@pa ;
@@ -230,7 +230,7 @@ gg:japji_pauri8_tuk5_gu1
 .
 
 # GU2
-gg:japji_pauri8_tuk5_gu2
+gg:sggs_japji_pauri8_tuk5_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥੮॥"@pa ;

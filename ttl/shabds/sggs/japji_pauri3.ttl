@@ -8,8 +8,8 @@
 ### Japji Sahib – Pauri 3 (modeled as a Pauri / Shabd)
 #################################################################
 
-gg:japji_pauri3 a gg:Pauri ;
-    gg:id "sggs_japji-pauri3" ;
+gg:sggs_japji_pauri3 a gg:Pauri ;
+    gg:id "sggs_japji_pauri3" ;
     dct:title "Japji Sahib – Pauri 3"@en ;
     gg:ang "1"^^xsd:integer ;
     gg:inBani gg:JapJiSahib ;
@@ -30,42 +30,42 @@ gg:japji_pauri3 a gg:Pauri ;
                    gg:Hukam,
                    gg:CarefreeDivine ;
     rdfs:comment "Japji Pauri 3 describes how countless beings sing of Divine power, gifts, virtues, wisdom, creation and dissolution, life and death, and the Lord’s nearness and distance. Despite endless praise and giving, the Divine remains beyond all description, tirelessly giving across ages. Ultimately, Hukam directs the path, while the carefree, unconcerned Lord ever rejoices."@en ;
-    gg:hasTuk gg:japji_pauri3_tuk1,
-                  gg:japji_pauri3_tuk2,
-                  gg:japji_pauri3_tuk3,
-                  gg:japji_pauri3_tuk4,
-                  gg:japji_pauri3_tuk5,
-                  gg:japji_pauri3_tuk6,
-                  gg:japji_pauri3_tuk7,
-                  gg:japji_pauri3_tuk8,
-                  gg:japji_pauri3_tuk9,
-                  gg:japji_pauri3_tuk10,
-                  gg:japji_pauri3_tuk11,
-                  gg:japji_pauri3_tuk12,
-                  gg:japji_pauri3_tuk13,
-                  gg:japji_pauri3_tuk14 .
+    gg:hasTuk gg:sggs_japji_pauri3_tuk1,
+                  gg:sggs_japji_pauri3_tuk2,
+                  gg:sggs_japji_pauri3_tuk3,
+                  gg:sggs_japji_pauri3_tuk4,
+                  gg:sggs_japji_pauri3_tuk5,
+                  gg:sggs_japji_pauri3_tuk6,
+                  gg:sggs_japji_pauri3_tuk7,
+                  gg:sggs_japji_pauri3_tuk8,
+                  gg:sggs_japji_pauri3_tuk9,
+                  gg:sggs_japji_pauri3_tuk10,
+                  gg:sggs_japji_pauri3_tuk11,
+                  gg:sggs_japji_pauri3_tuk12,
+                  gg:sggs_japji_pauri3_tuk13,
+                  gg:sggs_japji_pauri3_tuk14 .
 
 #################################################################
 ### Tuk 1
 ### ਗਾਵੈ ਕੋ ਤਾਣੁ ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ ॥
 #################################################################
 
-gg:japji_pauri3_tuk1 a gg:Tuk ;
-    gg:id "sggs_japji-pauri3_tuk1" ;
+gg:sggs_japji_pauri3_tuk1 a gg:Tuk ;
+    gg:id "sggs_japji_pauri3_tuk1" ;
     gg:index "1"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri3 ;
+    gg:belongsTo gg:sggs_japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਤਾਣੁ ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ ॥"@pa ;
     gg:transliteration "Gāvai ko tāṇ hovai kisai tāṇ."@en-Latn ;
     gg:translation "Some sing of His power, if any power comes to anyone, it is from Him."@en ;
     gg:hasTheme gg:Praise,
                    gg:DivinePower ;
     rdfs:comment "Some praise the Lord’s might, recognizing that whatever power anyone has is only by His granting."@en ;
-    gg:hasGlossUnit gg:japji_pauri3_tuk1_gu1,
-                    gg:japji_pauri3_tuk1_gu2 .
+    gg:hasGlossUnit gg:sggs_japji_pauri3_tuk1_gu1,
+                    gg:sggs_japji_pauri3_tuk1_gu2 .
 
 ### Tuk 1 – GlossUnit 1: ਗਾਵੈ ਕੋ ਤਾਣੁ
 
-gg:japji_pauri3_tuk1_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk1_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਤਾਣੁ"@pa ;
     gg:transliteration "gāvai ko tāṇ"@en-Latn ;
@@ -73,7 +73,7 @@ gg:japji_pauri3_tuk1_gu1 a gg:GlossUnit ;
 
 ### Tuk 1 – GlossUnit 2: ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ
 
-gg:japji_pauri3_tuk1_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk1_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਹੋਵੈ ਕਿਸੈ ਤਾਣੁ"@pa ;
     gg:transliteration "hovai kisai tāṇ"@en-Latn ;
@@ -84,22 +84,22 @@ gg:japji_pauri3_tuk1_gu2 a gg:GlossUnit ;
 ### ਗਾਵੈ ਕੋ ਦਾਤਿ ਜਾਣੈ ਨੀਸਾਣੁ ॥
 #################################################################
 
-gg:japji_pauri3_tuk2 a gg:Tuk ;
+gg:sggs_japji_pauri3_tuk2 a gg:Tuk ;
     gg:id "sggs_japji_pauri3_tuk2" ;
     gg:index "2"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri3 ;
+    gg:belongsTo gg:sggs_japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਦਾਤਿ ਜਾਣੈ ਨੀਸਾਣੁ ॥"@pa ;
     gg:transliteration "Gāvai ko dāt jāṇai nīsāṇ."@en-Latn ;
     gg:translation "Some sing of His gifts, recognizing the signs of His generosity."@en ;
     gg:hasTheme gg:Praise,
                    gg:DivineGifts ;
     rdfs:comment "Some praise the Lord’s gifts, seeing the marks and signs of His generosity in all that is bestowed."@en ;
-    gg:hasGlossUnit gg:japji_pauri3_tuk2_gu1,
-                    gg:japji_pauri3_tuk2_gu2 .
+    gg:hasGlossUnit gg:sggs_japji_pauri3_tuk2_gu1,
+                    gg:sggs_japji_pauri3_tuk2_gu2 .
 
 ### Tuk 2 – GlossUnit 1: ਗਾਵੈ ਕੋ ਦਾਤਿ
 
-gg:japji_pauri3_tuk2_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk2_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਦਾਤਿ"@pa ;
     gg:transliteration "gāvai ko dāt"@en-Latn ;
@@ -107,7 +107,7 @@ gg:japji_pauri3_tuk2_gu1 a gg:GlossUnit ;
 
 ### Tuk 2 – GlossUnit 2: ਜਾਣੈ ਨੀਸਾਣੁ
 
-gg:japji_pauri3_tuk2_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk2_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਜਾਣੈ ਨੀਸਾਣੁ"@pa ;
     gg:transliteration "jāṇai nīsāṇ"@en-Latn ;
@@ -118,22 +118,22 @@ gg:japji_pauri3_tuk2_gu2 a gg:GlossUnit ;
 ### ਗਾਵੈ ਕੋ ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ ॥
 #################################################################
 
-gg:japji_pauri3_tuk3 a gg:Tuk ;
-    gg:id "sggs_japji-pauri3_tuk3" ;
+gg:sggs_japji_pauri3_tuk3 a gg:Tuk ;
+    gg:id "sggs_japji_pauri3_tuk3" ;
     gg:index "3"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri3 ;
+    gg:belongsTo gg:sggs_japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ ॥"@pa ;
     gg:transliteration "Gāvai ko guṇ vaḍiāīā cẖār."@en-Latn ;
     gg:translation "Some sing of His virtues and glorious excellences."@en ;
     gg:hasTheme gg:Praise,
                    gg:Virtues ;
     rdfs:comment "Some praise His many virtues and exalted glories, contemplating His praiseworthy qualities."@en ;
-    gg:hasGlossUnit gg:japji_pauri3_tuk3_gu1,
-                    gg:japji_pauri3_tuk3_gu2 .
+    gg:hasGlossUnit gg:sggs_japji_pauri3_tuk3_gu1,
+                    gg:sggs_japji_pauri3_tuk3_gu2 .
 
 ### Tuk 3 – GlossUnit 1: ਗਾਵੈ ਕੋ
 
-gg:japji_pauri3_tuk3_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk3_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ"@pa ;
     gg:transliteration "gāvai ko"@en-Latn ;
@@ -141,7 +141,7 @@ gg:japji_pauri3_tuk3_gu1 a gg:GlossUnit ;
 
 ### Tuk 3 – GlossUnit 2: ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ
 
-gg:japji_pauri3_tuk3_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk3_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਗੁਣ ਵਡਿਆਈਆ ਚਾਰ"@pa ;
     gg:transliteration "guṇ vaḍiāīā cẖār"@en-Latn ;
@@ -152,22 +152,22 @@ gg:japji_pauri3_tuk3_gu2 a gg:GlossUnit ;
 ### ਗਾਵੈ ਕੋ ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ ॥
 #################################################################
 
-gg:japji_pauri3_tuk4 a gg:Tuk ;
-    gg:id "sggs_japji-pauri3_tuk4" ;
+gg:sggs_japji_pauri3_tuk4 a gg:Tuk ;
+    gg:id "sggs_japji_pauri3_tuk4" ;
     gg:index "4"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri3 ;
+    gg:belongsTo gg:sggs_japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ ॥"@pa ;
     gg:transliteration "Gāvai ko vidiā vikham vīcẖār."@en-Latn ;
     gg:translation "Some sing of the difficult discipline of spiritual wisdom and contemplation."@en ;
     gg:hasTheme gg:Praise,
                    gg:Wisdom ;
     rdfs:comment "Some praise the profound and demanding contemplation of Divine wisdom, the subtle disciplines of understanding."@en ;
-    gg:hasGlossUnit gg:japji_pauri3_tuk4_gu1,
-                    gg:japji_pauri3_tuk4_gu2 .
+    gg:hasGlossUnit gg:sggs_japji_pauri3_tuk4_gu1,
+                    gg:sggs_japji_pauri3_tuk4_gu2 .
 
 ### Tuk 4 – GlossUnit 1: ਗਾਵੈ ਕੋ
 
-gg:japji_pauri3_tuk4_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk4_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ"@pa ;
     gg:transliteration "gāvai ko"@en-Latn ;
@@ -175,7 +175,7 @@ gg:japji_pauri3_tuk4_gu1 a gg:GlossUnit ;
 
 ### Tuk 4 – GlossUnit 2: ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ
 
-gg:japji_pauri3_tuk4_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk4_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਵਿਦਿਆ ਵਿਖਮੁ ਵੀਚਾਰੁ"@pa ;
     gg:transliteration "vidiā vikham vīcẖār"@en-Latn ;
@@ -186,23 +186,23 @@ gg:japji_pauri3_tuk4_gu2 a gg:GlossUnit ;
 ### ਗਾਵੈ ਕੋ ਸਾਜਿ ਕਰੇ ਤਨੁ ਖੇਹ ॥
 #################################################################
 
-gg:japji_pauri3_tuk5 a gg:Tuk ;
-    gg:id "sggs_japji-pauri3_tuk5" ;
+gg:sggs_japji_pauri3_tuk5 a gg:Tuk ;
+    gg:id "sggs_japji_pauri3_tuk5" ;
     gg:index "5"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri3 ;
+    gg:belongsTo gg:sggs_japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਸਾਜਿ ਕਰੇ ਤਨੁ ਖੇਹ ॥"@pa ;
     gg:transliteration "Gāvai ko sāj kare tan kheh."@en-Latn ;
     gg:translation "Some sing that He fashions and then reduces the body to dust."@en ;
     gg:hasTheme gg:Praise,
                    gg:CreationDestruction ;
     rdfs:comment "Some praise the Lord as the One who creates forms and then dissolves them back into dust."@en ;
-    gg:hasGlossUnit gg:japji_pauri3_tuk5_gu1,
-                    gg:japji_pauri3_tuk5_gu2,
-                    gg:japji_pauri3_tuk5_gu3 .
+    gg:hasGlossUnit gg:sggs_japji_pauri3_tuk5_gu1,
+                    gg:sggs_japji_pauri3_tuk5_gu2,
+                    gg:sggs_japji_pauri3_tuk5_gu3 .
 
 ### Tuk 5 – GlossUnit 1: ਗਾਵੈ ਕੋ
 
-gg:japji_pauri3_tuk5_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk5_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ"@pa ;
     gg:transliteration "gāvai ko"@en-Latn ;
@@ -210,7 +210,7 @@ gg:japji_pauri3_tuk5_gu1 a gg:GlossUnit ;
 
 ### Tuk 5 – GlossUnit 2: ਸਾਜਿ ਕਰੇ
 
-gg:japji_pauri3_tuk5_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk5_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਸਾਜਿ ਕਰੇ"@pa ;
     gg:transliteration "sāj kare"@en-Latn ;
@@ -218,7 +218,7 @@ gg:japji_pauri3_tuk5_gu2 a gg:GlossUnit ;
 
 ### Tuk 5 – GlossUnit 3: ਤਨੁ ਖੇਹ
 
-gg:japji_pauri3_tuk5_gu3 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk5_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਤਨੁ ਖੇਹ"@pa ;
     gg:transliteration "tan kheh"@en-Latn ;
@@ -229,23 +229,23 @@ gg:japji_pauri3_tuk5_gu3 a gg:GlossUnit ;
 ### ਗਾਵੈ ਕੋ ਜੀਅ ਲੈ ਫਿਰਿ ਦੇਹ ॥
 #################################################################
 
-gg:japji_pauri3_tuk6 a gg:Tuk ;
-    gg:id "sggs_japji-pauri3_tuk6" ;
+gg:sggs_japji_pauri3_tuk6 a gg:Tuk ;
+    gg:id "sggs_japji_pauri3_tuk6" ;
     gg:index "6"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri3 ;
+    gg:belongsTo gg:sggs_japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਜੀਅ ਲੈ ਫਿਰਿ ਦੇਹ ॥"@pa ;
     gg:transliteration "Gāvai ko jīa lai fir deh."@en-Latn ;
     gg:translation "Some sing that He takes away life and then restores it again."@en ;
     gg:hasTheme gg:Praise,
                    gg:LifeDeathCycle ;
     rdfs:comment "Some praise Him as the One who takes the life-force and again gives bodies and life according to His Will."@en ;
-    gg:hasGlossUnit gg:japji_pauri3_tuk6_gu1,
-                    gg:japji_pauri3_tuk6_gu2,
-                    gg:japji_pauri3_tuk6_gu3 .
+    gg:hasGlossUnit gg:sggs_japji_pauri3_tuk6_gu1,
+                    gg:sggs_japji_pauri3_tuk6_gu2,
+                    gg:sggs_japji_pauri3_tuk6_gu3 .
 
 ### Tuk 6 – GlossUnit 1: ਗਾਵੈ ਕੋ
 
-gg:japji_pauri3_tuk6_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk6_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ"@pa ;
     gg:transliteration "gāvai ko"@en-Latn ;
@@ -253,7 +253,7 @@ gg:japji_pauri3_tuk6_gu1 a gg:GlossUnit ;
 
 ### Tuk 6 – GlossUnit 2: ਜੀਅ ਲੈ
 
-gg:japji_pauri3_tuk6_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk6_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਜੀਅ ਲੈ"@pa ;
     gg:transliteration "jīa lai"@en-Latn ;
@@ -261,7 +261,7 @@ gg:japji_pauri3_tuk6_gu2 a gg:GlossUnit ;
 
 ### Tuk 6 – GlossUnit 3: ਫਿਰਿ ਦੇਹ
 
-gg:japji_pauri3_tuk6_gu3 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk6_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਫਿਰਿ ਦੇਹ"@pa ;
     gg:transliteration "fir deh"@en-Latn ;
@@ -272,23 +272,23 @@ gg:japji_pauri3_tuk6_gu3 a gg:GlossUnit ;
 ### ਗਾਵੈ ਕੋ ਜਾਪੈ ਦਿਸੈ ਦੂਰਿ ॥
 #################################################################
 
-gg:japji_pauri3_tuk7 a gg:Tuk ;
+gg:sggs_japji_pauri3_tuk7 a gg:Tuk ;
     gg:id "sggs_japji_pauri3_tuk7" ;
     gg:index "7"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri3 ;
+    gg:belongsTo gg:sggs_japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਜਾਪੈ ਦਿਸੈ ਦੂਰਿ ॥"@pa ;
     gg:transliteration "Gāvai ko jāpai disai dūr."@en-Latn ;
     gg:translation "Some sing that He seems to be far away, appearing distant."@en ;
     gg:hasTheme gg:Praise,
                    gg:TranscendenceImmanence ;
     rdfs:comment "Some praise Him as the One who appears far away, beyond perception and reach."@en ;
-    gg:hasGlossUnit gg:japji_pauri3_tuk7_gu1,
-                    gg:japji_pauri3_tuk7_gu2,
-                    gg:japji_pauri3_tuk7_gu3 .
+    gg:hasGlossUnit gg:sggs_japji_pauri3_tuk7_gu1,
+                    gg:sggs_japji_pauri3_tuk7_gu2,
+                    gg:sggs_japji_pauri3_tuk7_gu3 .
 
 ### Tuk 7 – GlossUnit 1: ਗਾਵੈ ਕੋ
 
-gg:japji_pauri3_tuk7_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk7_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ"@pa ;
     gg:transliteration "gāvai ko"@en-Latn ;
@@ -296,7 +296,7 @@ gg:japji_pauri3_tuk7_gu1 a gg:GlossUnit ;
 
 ### Tuk 7 – GlossUnit 2: ਜਾਪੈ
 
-gg:japji_pauri3_tuk7_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk7_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਜਾਪੈ"@pa ;
     gg:transliteration "jāpai"@en-Latn ;
@@ -304,7 +304,7 @@ gg:japji_pauri3_tuk7_gu2 a gg:GlossUnit ;
 
 ### Tuk 7 – GlossUnit 3: ਦਿਸੈ ਦੂਰਿ
 
-gg:japji_pauri3_tuk7_gu3 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk7_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਦਿਸੈ ਦੂਰਿ"@pa ;
     gg:transliteration "disai dūr"@en-Latn ;
@@ -315,23 +315,23 @@ gg:japji_pauri3_tuk7_gu3 a gg:GlossUnit ;
 ### ਗਾਵੈ ਕੋ ਵੇਖੈ ਹਾਦਰਾ ਹਦੂਰਿ ॥
 #################################################################
 
-gg:japji_pauri3_tuk8 a gg:Tuk ;
+gg:sggs_japji_pauri3_tuk8 a gg:Tuk ;
     gg:id "sggs_japji_pauri3_tuk8" ;
     gg:index "8"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri3 ;
+    gg:belongsTo gg:sggs_japji_pauri3 ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ ਵੇਖੈ ਹਾਦਰਾ ਹਦੂਰਿ ॥"@pa ;
     gg:transliteration "Gāvai ko vekhai hādarā hadūr."@en-Latn ;
     gg:translation "Some sing that He is seen to be ever-present, here and near at hand."@en ;
     gg:hasTheme gg:Praise,
                    gg:TranscendenceImmanence ;
     rdfs:comment "Some praise Him as the One who is present here and now, immediately near and close."@en ;
-    gg:hasGlossUnit gg:japji_pauri3_tuk8_gu1,
-                    gg:japji_pauri3_tuk8_gu2,
-                    gg:japji_pauri3_tuk8_gu3 .
+    gg:hasGlossUnit gg:sggs_japji_pauri3_tuk8_gu1,
+                    gg:sggs_japji_pauri3_tuk8_gu2,
+                    gg:sggs_japji_pauri3_tuk8_gu3 .
 
 ### Tuk 8 – GlossUnit 1: ਗਾਵੈ ਕੋ
 
-gg:japji_pauri3_tuk8_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk8_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਗਾਵੈ ਕੋ"@pa ;
     gg:transliteration "gāvai ko"@en-Latn ;
@@ -339,7 +339,7 @@ gg:japji_pauri3_tuk8_gu1 a gg:GlossUnit ;
 
 ### Tuk 8 – GlossUnit 2: ਵੇਖੈ
 
-gg:japji_pauri3_tuk8_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk8_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਵੇਖੈ"@pa ;
     gg:transliteration "vekhai"@en-Latn ;
@@ -347,7 +347,7 @@ gg:japji_pauri3_tuk8_gu2 a gg:GlossUnit ;
 
 ### Tuk 8 – GlossUnit 3: ਹਾਦਰਾ ਹਦੂਰਿ
 
-gg:japji_pauri3_tuk8_gu3 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk8_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਹਾਦਰਾ ਹਦੂਰਿ"@pa ;
     gg:transliteration "hādarā hadūr"@en-Latn ;
@@ -358,23 +358,23 @@ gg:japji_pauri3_tuk8_gu3 a gg:GlossUnit ;
 ### ਕਥਨਾ ਕਥੀ ਨ ਆਵੈ ਤੋਟਿ ॥
 #################################################################
 
-gg:japji_pauri3_tuk9 a gg:Tuk ;
+gg:sggs_japji_pauri3_tuk9 a gg:Tuk ;
     gg:id "sggs_japji_pauri3_tuk9" ;
     gg:index "9"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri3 ;
+    gg:belongsTo gg:sggs_japji_pauri3 ;
     gg:gurmukhi "ਕਥਨਾ ਕਥੀ ਨ ਆਵੈ ਤੋਟਿ ॥"@pa ;
     gg:transliteration "Kathnā kathī na āvai ṭot."@en-Latn ;
     gg:translation "In speaking and describing, His story never comes to an end."@en ;
     gg:hasTheme gg:Ineffability,
                    gg:Praise ;
     rdfs:comment "No matter how much is said about the Divine, His description never runs short; He is beyond full telling."@en ;
-    gg:hasGlossUnit gg:japji_pauri3_tuk9_gu1,
-                    gg:japji_pauri3_tuk9_gu2,
-                    gg:japji_pauri3_tuk9_gu3 .
+    gg:hasGlossUnit gg:sggs_japji_pauri3_tuk9_gu1,
+                    gg:sggs_japji_pauri3_tuk9_gu2,
+                    gg:sggs_japji_pauri3_tuk9_gu3 .
 
 ### Tuk 9 – GlossUnit 1: ਕਥਨਾ
 
-gg:japji_pauri3_tuk9_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk9_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਕਥਨਾ"@pa ;
     gg:transliteration "kathnā"@en-Latn ;
@@ -382,7 +382,7 @@ gg:japji_pauri3_tuk9_gu1 a gg:GlossUnit ;
 
 ### Tuk 9 – GlossUnit 2: ਕਥੀ ਨ ਆਵੈ
 
-gg:japji_pauri3_tuk9_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk9_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਕਥੀ ਨ ਆਵੈ"@pa ;
     gg:transliteration "kathī na āvai"@en-Latn ;
@@ -390,7 +390,7 @@ gg:japji_pauri3_tuk9_gu2 a gg:GlossUnit ;
 
 ### Tuk 9 – GlossUnit 3: ਤੋਟਿ
 
-gg:japji_pauri3_tuk9_gu3 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk9_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਤੋਟਿ"@pa ;
     gg:transliteration "ṭot"@en-Latn ;
@@ -401,23 +401,23 @@ gg:japji_pauri3_tuk9_gu3 a gg:GlossUnit ;
 ### ਕਥਿ ਕਥਿ ਕਥੀ ਕੋਟੀ ਕੋਟਿ ਕੋਟਿ ॥
 #################################################################
 
-gg:japji_pauri3_tuk10 a gg:Tuk ;
+gg:sggs_japji_pauri3_tuk10 a gg:Tuk ;
     gg:id "sggs_japji_pauri3_tuk10" ;
     gg:index "10"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri3 ;
+    gg:belongsTo gg:sggs_japji_pauri3 ;
     gg:gurmukhi "ਕਥਿ ਕਥਿ ਕਥੀ ਕੋਟੀ ਕੋਟਿ ਕੋਟਿ ॥"@pa ;
     gg:transliteration "Kath kath kathī koṭī koṭ kot."@en-Latn ;
     gg:translation "Speaking and speaking in many ways, millions upon millions continue to describe Him."@en ;
     gg:hasTheme gg:Ineffability,
                    gg:Praise ;
     rdfs:comment "Countless beings keep on speaking His praises in infinite ways, yet He still remains beyond full description."@en ;
-    gg:hasGlossUnit gg:japji_pauri3_tuk10_gu1,
-                    gg:japji_pauri3_tuk10_gu2,
-                    gg:japji_pauri3_tuk10_gu3 .
+    gg:hasGlossUnit gg:sggs_japji_pauri3_tuk10_gu1,
+                    gg:sggs_japji_pauri3_tuk10_gu2,
+                    gg:sggs_japji_pauri3_tuk10_gu3 .
 
 ### Tuk 10 – GlossUnit 1: ਕਥਿ ਕਥਿ ਕਥੀ
 
-gg:japji_pauri3_tuk10_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk10_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਕਥਿ ਕਥਿ ਕਥੀ"@pa ;
     gg:transliteration "kath kath kathī"@en-Latn ;
@@ -425,7 +425,7 @@ gg:japji_pauri3_tuk10_gu1 a gg:GlossUnit ;
 
 ### Tuk 10 – GlossUnit 2: ਕੋਟੀ ਕੋਟਿ ਕੋਟਿ
 
-gg:japji_pauri3_tuk10_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk10_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਕੋਟੀ ਕੋਟਿ ਕੋਟਿ"@pa ;
     gg:transliteration "koṭī koṭ kot"@en-Latn ;
@@ -436,23 +436,23 @@ gg:japji_pauri3_tuk10_gu2 a gg:GlossUnit ;
 ### ਦੇਦੇ ਲੈਂਦੇ ਥਕਿ ਪਾਹਿ ॥
 #################################################################
 
-gg:japji_pauri3_tuk11 a gg:Tuk ;
+gg:sggs_japji_pauri3_tuk11 a gg:Tuk ;
     gg:id "sggs_japji_pauri3_tuk11" ;
     gg:index "11"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri3 ;
+    gg:belongsTo gg:sggs_japji_pauri3 ;
     gg:gurmukhi "ਦੇਦੇ ਲੈਂਦੇ ਥਕਿ ਪਾਹਿ ॥"@pa ;
     gg:transliteration "Dede lainde thak pāh."@en-Latn ;
     gg:translation "Those who receive grow weary of receiving, but His giving never stops."@en ;
     gg:hasTheme gg:GivingReceiving,
                    gg:DivineGifts ;
     rdfs:comment "In the endless exchange of giving and receiving, receivers may tire, but the Giver never tires of giving."@en ;
-    gg:hasGlossUnit gg:japji_pauri3_tuk11_gu1,
-                    gg:japji_pauri3_tuk11_gu2,
-                    gg:japji_pauri3_tuk11_gu3 .
+    gg:hasGlossUnit gg:sggs_japji_pauri3_tuk11_gu1,
+                    gg:sggs_japji_pauri3_tuk11_gu2,
+                    gg:sggs_japji_pauri3_tuk11_gu3 .
 
 ### Tuk 11 – GlossUnit 1: ਦੇਦੇ
 
-gg:japji_pauri3_tuk11_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk11_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਦੇਦੇ"@pa ;
     gg:transliteration "dede"@en-Latn ;
@@ -460,7 +460,7 @@ gg:japji_pauri3_tuk11_gu1 a gg:GlossUnit ;
 
 ### Tuk 11 – GlossUnit 2: ਲੈਂਦੇ
 
-gg:japji_pauri3_tuk11_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk11_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਲੈਂਦੇ"@pa ;
     gg:transliteration "lainde"@en-Latn ;
@@ -468,7 +468,7 @@ gg:japji_pauri3_tuk11_gu2 a gg:GlossUnit ;
 
 ### Tuk 11 – GlossUnit 3: ਥਕਿ ਪਾਹਿ
 
-gg:japji_pauri3_tuk11_gu3 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk11_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਥਕਿ ਪਾਹਿ"@pa ;
     gg:transliteration "thak pāh"@en-Latn ;
@@ -479,22 +479,22 @@ gg:japji_pauri3_tuk11_gu3 a gg:GlossUnit ;
 ### ਜੁਗਾ ਜੁਗੰਤਰਿ ਖਾਹੀ ਖਾਹਿ ॥
 #################################################################
 
-gg:japji_pauri3_tuk12 a gg:Tuk ;
+gg:sggs_japji_pauri3_tuk12 a gg:Tuk ;
     gg:id "sggs_japji_pauri3_tuk12" ;
     gg:index "12"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri3 ;
+    gg:belongsTo gg:sggs_japji_pauri3 ;
     gg:gurmukhi "ਜੁਗਾ ਜੁਗੰਤਰਿ ਖਾਹੀ ਖਾਹਿ ॥"@pa ;
     gg:transliteration "Jugā jugantar khāhī khāh."@en-Latn ;
     gg:translation "For ages upon ages, beings consume and keep on consuming His gifts."@en ;
     gg:hasTheme gg:Provision,
                    gg:GivingReceiving ;
     rdfs:comment "Across countless ages, beings keep partaking of what He provides; His sustenance never ceases."@en ;
-    gg:hasGlossUnit gg:japji_pauri3_tuk12_gu1,
-                    gg:japji_pauri3_tuk12_gu2 .
+    gg:hasGlossUnit gg:sggs_japji_pauri3_tuk12_gu1,
+                    gg:sggs_japji_pauri3_tuk12_gu2 .
 
 ### Tuk 12 – GlossUnit 1: ਜੁਗਾ ਜੁਗੰਤਰਿ
 
-gg:japji_pauri3_tuk12_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk12_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਜੁਗਾ ਜੁਗੰਤਰਿ"@pa ;
     gg:transliteration "jugā jugantar"@en-Latn ;
@@ -502,7 +502,7 @@ gg:japji_pauri3_tuk12_gu1 a gg:GlossUnit ;
 
 ### Tuk 12 – GlossUnit 2: ਖਾਹੀ ਖਾਹਿ
 
-gg:japji_pauri3_tuk12_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk12_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਖਾਹੀ ਖਾਹਿ"@pa ;
     gg:transliteration "khāhī khāh"@en-Latn ;
@@ -513,22 +513,22 @@ gg:japji_pauri3_tuk12_gu2 a gg:GlossUnit ;
 ### ਹੁਕਮੀ ਹੁਕਮੁ ਚਲਾਏ ਰਾਹੁ ॥
 #################################################################
 
-gg:japji_pauri3_tuk13 a gg:Tuk ;
+gg:sggs_japji_pauri3_tuk13 a gg:Tuk ;
     gg:id "sggs_japji_pauri3_tuk13" ;
     gg:index "13"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri3 ;
+    gg:belongsTo gg:sggs_japji_pauri3 ;
     gg:gurmukhi "ਹੁਕਮੀ ਹੁਕਮੁ ਚਲਾਏ ਰਾਹੁ ॥"@pa ;
     gg:transliteration "Hukmī hukam calāe rāh."@en-Latn ;
     gg:translation "By His command, He directs the path of Hukam."@en ;
     gg:hasTheme gg:Hukam ;
     rdfs:comment "The Sovereign One Himself issues and sets in motion the Hukam that governs the pathways of all beings."@en ;
-    gg:hasGlossUnit gg:japji_pauri3_tuk13_gu1,
-                    gg:japji_pauri3_tuk13_gu2,
-                    gg:japji_pauri3_tuk13_gu3 .
+    gg:hasGlossUnit gg:sggs_japji_pauri3_tuk13_gu1,
+                    gg:sggs_japji_pauri3_tuk13_gu2,
+                    gg:sggs_japji_pauri3_tuk13_gu3 .
 
 ### Tuk 13 – GlossUnit 1: ਹੁਕਮੀ
 
-gg:japji_pauri3_tuk13_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk13_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੀ"@pa ;
     gg:transliteration "hukmī"@en-Latn ;
@@ -536,7 +536,7 @@ gg:japji_pauri3_tuk13_gu1 a gg:GlossUnit ;
 
 ### Tuk 13 – GlossUnit 2: ਹੁਕਮੁ ਚਲਾਏ
 
-gg:japji_pauri3_tuk13_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk13_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੁ ਚਲਾਏ"@pa ;
     gg:transliteration "hukam calāe"@en-Latn ;
@@ -544,7 +544,7 @@ gg:japji_pauri3_tuk13_gu2 a gg:GlossUnit ;
 
 ### Tuk 13 – GlossUnit 3: ਰਾਹੁ
 
-gg:japji_pauri3_tuk13_gu3 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk13_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਰਾਹੁ"@pa ;
     gg:transliteration "rāh"@en-Latn ;
@@ -555,23 +555,23 @@ gg:japji_pauri3_tuk13_gu3 a gg:GlossUnit ;
 ### ਨਾਨਕ ਵਿਗਸੈ ਵੇਪਰਵਾਹੁ ॥੩॥
 #################################################################
 
-gg:japji_pauri3_tuk14 a gg:Tuk ;
+gg:sggs_japji_pauri3_tuk14 a gg:Tuk ;
     gg:id "sggs_japji_pauri3_tuk14" ;
     gg:index "14"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri3 ;
+    gg:belongsTo gg:sggs_japji_pauri3 ;
     gg:gurmukhi "ਨਾਨਕ ਵਿਗਸੈ ਵੇਪਰਵਾਹੁ ॥੩॥"@pa ;
     gg:transliteration "Nānak vigasai veparvāh. ||3||"@en-Latn ;
     gg:translation "O Nanak, the carefree Lord ever blossoms in joy, beyond all anxiety."@en ;
     gg:hasTheme gg:CarefreeDivine,
                    gg:Hukam ;
     rdfs:comment "Nanak declares that the carefree, unconcerned Lord rejoices eternally, untouched by worry or limitation; all unfolds under His Hukam."@en ;
-    gg:hasGlossUnit gg:japji_pauri3_tuk14_gu1,
-                    gg:japji_pauri3_tuk14_gu2,
-                    gg:japji_pauri3_tuk14_gu3 .
+    gg:hasGlossUnit gg:sggs_japji_pauri3_tuk14_gu1,
+                    gg:sggs_japji_pauri3_tuk14_gu2,
+                    gg:sggs_japji_pauri3_tuk14_gu3 .
 
 ### Tuk 14 – GlossUnit 1: ਨਾਨਕ
 
-gg:japji_pauri3_tuk14_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk14_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਨਾਨਕ"@pa ;
     gg:transliteration "Nānak"@en-Latn ;
@@ -579,7 +579,7 @@ gg:japji_pauri3_tuk14_gu1 a gg:GlossUnit ;
 
 ### Tuk 14 – GlossUnit 2: ਵਿਗਸੈ
 
-gg:japji_pauri3_tuk14_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk14_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਵਿਗਸੈ"@pa ;
     gg:transliteration "vigasai"@en-Latn ;
@@ -587,7 +587,7 @@ gg:japji_pauri3_tuk14_gu2 a gg:GlossUnit ;
 
 ### Tuk 14 – GlossUnit 3: ਵੇਪਰਵਾਹੁ
 
-gg:japji_pauri3_tuk14_gu3 a gg:GlossUnit ;
+gg:sggs_japji_pauri3_tuk14_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਵੇਪਰਵਾਹੁ"@pa ;
     gg:transliteration "veparvāh"@en-Latn ;

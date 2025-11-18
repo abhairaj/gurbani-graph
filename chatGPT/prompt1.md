@@ -6,6 +6,8 @@ I have reference data here: https://raw.githubusercontent.com/abhairaj/gurbani-g
 
 Here's a good shabd instance exmaple I've alreay implemented: https://raw.githubusercontent.com/abhairaj/gurbani-graph/refs/heads/feature/poc_01/ttl/japji_pauri10.ttl 
 
-A key thing to note is the granularity of the GlossUnit instances. I'd like them to be decompositions of a Tuk where they encapsulate semantically meaningful phrases - usually just two or three per Tuk
+A key thing to note is the granularity of the GlossUnit instances. I'd like them to be decompositions of a Tuk where they encapsulate semantically meaningful phrases - usually just a few words or a single word
 
 Also, please feel free to generate new Themes.
+
+The shabd I'm interested in starts on SGGS Ang ? with Tuk ? and ends on Ang ? with Tuk ?

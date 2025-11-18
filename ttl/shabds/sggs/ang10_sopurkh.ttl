@@ -20,7 +20,7 @@ gg:RaagAasaa a gg:Raag ;
 #################################################################
 
 gg:ang10_sopurkh a gg:Shabd ;
-    gg:id "sggs_ang10-sopurkh" ;
+    gg:id "sggs_ang10_sopurkh" ;
     dct:title "So Purkh"@en ;
     dct:title "ਸੋ ਪੁਰਖੁ"@pa ;
     gg:ang "10"^^xsd:integer ;
@@ -84,7 +84,7 @@ gg:ang10_sopurkh a gg:Shabd ;
 #################################################################
 
 gg:ang10_sopurkh_tuk1 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk1" ;
+    gg:id "sggs_ang10_sopurkh_tuk1" ;
     gg:index "1"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਸੋ ਪੁਰਖੁ ਨਿਰੰਜਨੁ ਹਰਿ ਪੁਰਖੁ ਨਿਰੰਜਨੁ ਹਰਿ ਅਗਮਾ ਅਗਮ ਅਪਾਰਾ ॥"@pa ;
@@ -120,7 +120,7 @@ gg:ang10_sopurkh_tuk1_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk2 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk2" ;
+    gg:id "sggs_ang10_sopurkh_tuk2" ;
     gg:index "2"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਸਭਿ ਧਿਆਵਹਿ ਸਭਿ ਧਿਆਵਹਿ ਤੁਧੁ ਜੀ ਹਰਿ ਸਚੇ ਸਿਰਜਣਹਾਰਾ ॥"@pa ;
@@ -156,7 +156,7 @@ gg:ang10_sopurkh_tuk2_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk3 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk3" ;
+    gg:id "sggs_ang10_sopurkh_tuk3" ;
     gg:index "3"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਸਭਿ ਜੀਅ ਤੁਮਾਰੇ ਜੀ ਤੂੰ ਜੀਆ ਕਾ ਦਾਤਾਰਾ ॥"@pa ;
@@ -192,7 +192,7 @@ gg:ang10_sopurkh_tuk3_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk4 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk4" ;
+    gg:id "sggs_ang10_sopurkh_tuk4" ;
     gg:index "4"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਹਰਿ ਧਿਆਵਹੁ ਸੰਤਹੁ ਜੀ ਸਭਿ ਦੂਖ ਵਿਸਾਰਣਹਾਰਾ ॥"@pa ;
@@ -228,7 +228,7 @@ gg:ang10_sopurkh_tuk4_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk5 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk5" ;
+    gg:id "sggs_ang10_sopurkh_tuk5" ;
     gg:index "5"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਹਰਿ ਆਪੇ ਠਾਕੁਰੁ ਹਰਿ ਆਪੇ ਸੇਵਕੁ ਜੀ ਕਿਆ ਨਾਨਕ ਜੰਤ ਵਿਚਾਰਾ ॥੧॥"@pa ;
@@ -264,7 +264,7 @@ gg:ang10_sopurkh_tuk5_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk6 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk6" ;
+    gg:id "sggs_ang10_sopurkh_tuk6" ;
     gg:index "6"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਤੂੰ ਘਟ ਘਟ ਅੰਤਰਿ ਸਰਬ ਨਿਰੰਤਰਿ ਜੀ ਹਰਿ ਏਕੋ ਪੁਰਖੁ ਸਮਾਣਾ ॥"@pa ;
@@ -300,7 +300,7 @@ gg:ang10_sopurkh_tuk6_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk7 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk7" ;
+    gg:id "sggs_ang10_sopurkh_tuk7" ;
     gg:index "7"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਇਕਿ ਦਾਤੇ ਇਕਿ ਭੇਖਾਰੀ ਜੀ ਸਭਿ ਤੇਰੇ ਚੋਜ ਵਿਡਾਣਾ ॥"@pa ;
@@ -336,7 +336,7 @@ gg:ang10_sopurkh_tuk7_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk8 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk8" ;
+    gg:id "sggs_ang10_sopurkh_tuk8" ;
     gg:index "8"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਤੂੰ ਆਪੇ ਦਾਤਾ ਆਪੇ ਭੁਗਤਾ ਜੀ ਹਉ ਤੁਧੁ ਬਿਨੁ ਅਵਰੁ ਨ ਜਾਣਾ ॥"@pa ;
@@ -372,7 +372,7 @@ gg:ang10_sopurkh_tuk8_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk9 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk9" ;
+    gg:id "sggs_ang10_sopurkh_tuk9" ;
     gg:index "9"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਤੂੰ ਪਾਰਬ੍ਰਹਮੁ ਬੇਅੰਤੁ ਬੇਅੰਤੁ ਜੀ ਤੇਰੇ ਕਿਆ ਗੁਣ ਆਖਿ ਵਖਾਣਾ ॥"@pa ;
@@ -408,7 +408,7 @@ gg:ang10_sopurkh_tuk9_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk10 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk10" ;
+    gg:id "sggs_ang10_sopurkh_tuk10" ;
     gg:index "10"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਜੋ ਸੇਵਹਿ ਜੋ ਸੇਵਹਿ ਤੁਧੁ ਜੀ ਜਨੁ ਨਾਨਕੁ ਤਿਨ ਕੁਰਬਾਣਾ ॥੨॥"@pa ;
@@ -444,7 +444,7 @@ gg:ang10_sopurkh_tuk10_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk11 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk11" ;
+    gg:id "sggs_ang10_sopurkh_tuk11" ;
     gg:index "11"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਹਰਿ ਧਿਆਵਹਿ ਹਰਿ ਧਿਆਵਹਿ ਤੁਧੁ ਜੀ ਸੇ ਜਨ ਜੁਗ ਮਹਿ ਸੁਖਵਾਸੀ ॥"@pa ;
@@ -480,7 +480,7 @@ gg:ang10_sopurkh_tuk11_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk12 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk12" ;
+    gg:id "sggs_ang10_sopurkh_tuk12" ;
     gg:index "12"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਸੇ ਮੁਕਤੁ ਸੇ ਮੁਕਤੁ ਭਏ ਜਿਨ ਹਰਿ ਧਿਆਇਆ ਜੀ ਤਿਨ ਤੂਟੀ ਜਮ ਕੀ ਫਾਸੀ ॥"@pa ;
@@ -516,7 +516,7 @@ gg:ang10_sopurkh_tuk12_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk13 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk13" ;
+    gg:id "sggs_ang10_sopurkh_tuk13" ;
     gg:index "13"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਜਿਨ ਨਿਰਭਉ ਜਿਨ ਹਰਿ ਨਿਰਭਉ ਧਿਆਇਆ ਜੀ ਤਿਨ ਕਾ ਭਉ ਸਭੁ ਗਵਾਸੀ ॥"@pa ;
@@ -552,7 +552,7 @@ gg:ang10_sopurkh_tuk13_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk14 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk14" ;
+    gg:id "sggs_ang10_sopurkh_tuk14" ;
     gg:index "14"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਜਿਨ ਸੇਵਿਆ ਜਿਨ ਸੇਵਿਆ ਮੇਰਾ ਹਰਿ ਜੀ ਤੇ ਹਰਿ ਹਰਿ ਰੂਪਿ ਸਮਾਸੀ ॥"@pa ;
@@ -588,7 +588,7 @@ gg:ang10_sopurkh_tuk14_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk15 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk15" ;
+    gg:id "sggs_ang10_sopurkh_tuk15" ;
     gg:index "15"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਸੇ ਧੰਨੁ ਸੇ ਧੰਨੁ ਜਿਨ ਹਰਿ ਧਿਆਇਆ ਜੀ ਜਨੁ ਨਾਨਕੁ ਤਿਨ ਬਲਿ ਜਾਸੀ ॥੩॥"@pa ;
@@ -624,7 +624,7 @@ gg:ang10_sopurkh_tuk15_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk16 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk16" ;
+    gg:id "sggs_ang10_sopurkh_tuk16" ;
     gg:index "16"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਤੇਰੀ ਭਗਤਿ ਤੇਰੀ ਭਗਤਿ ਭੰਡਾਰ ਜੀ ਭਰੇ ਬਿਅੰਤ ਬੇਅੰਤਾ ॥"@pa ;
@@ -660,7 +660,7 @@ gg:ang10_sopurkh_tuk16_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk17 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk17" ;
+    gg:id "sggs_ang10_sopurkh_tuk17" ;
     gg:index "17"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਤੇਰੇ ਭਗਤ ਤੇਰੇ ਭਗਤ ਸਲਾਹਨਿ ਤੁਧੁ ਜੀ ਹਰਿ ਅਨਿਕ ਅਨੇਕ ਅਨੰਤਾ ॥"@pa ;
@@ -696,7 +696,7 @@ gg:ang10_sopurkh_tuk17_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk18 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk18" ;
+    gg:id "sggs_ang10_sopurkh_tuk18" ;
     gg:index "18"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਤੇਰੀ ਅਨਿਕ ਤੇਰੀ ਅਨਿਕ ਕਰਹਿ ਹਰਿ ਪੂਜਾ ਜੀ ਤਪੁ ਤਾਪਹਿ ਜਪਹਿ ਬੇਅੰਤਾ ॥"@pa ;
@@ -732,7 +732,7 @@ gg:ang10_sopurkh_tuk18_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk19 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk19" ;
+    gg:id "sggs_ang10_sopurkh_tuk19" ;
     gg:index "19"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਸੇ ਭਗਤ ਸੇ ਭਗਤ ਭਲੇ ਜਨ ਨਾਨਕ ਜੀ ਜੋ ਭਾਵਹਿ ਮੇਰੇ ਹਰਿ ਭਗਵੰਤਾ ॥੪॥"@pa ;
@@ -768,7 +768,7 @@ gg:ang10_sopurkh_tuk19_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk20 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk20" ;
+    gg:id "sggs_ang10_sopurkh_tuk20" ;
     gg:index "20"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਤੇਰੇ ਅਨੇਕ ਤੇਰੇ ਅਨੇਕ ਪੜਹਿ ਬਹੁ ਸਿਮ੍ਰਿਤਿ ਸਾਸਤ ਜੀ ਕਰਿ ਕਿਰਿਆ ਖਟੁ ਕਰਮ ਕਰੰਤਾ ॥"@pa ;
@@ -804,7 +804,7 @@ gg:ang10_sopurkh_tuk20_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk21 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk21" ;
+    gg:id "sggs_ang10_sopurkh_tuk21" ;
     gg:index "21"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਤੂੰ ਆਦਿ ਪੁਰਖੁ ਅਪਰੰਪਰੁ ਕਰਤਾ ਜੀ ਤੁਧੁ ਜੇਵਡੁ ਅਵਰੁ ਨ ਕੋਈ ॥"@pa ;
@@ -840,7 +840,7 @@ gg:ang10_sopurkh_tuk21_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk22 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk22" ;
+    gg:id "sggs_ang10_sopurkh_tuk22" ;
     gg:index "22"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਤੂੰ ਜੁਗੁ ਜੁਗੁ ਏਕੋ ਸਦਾ ਸਦਾ ਤੂੰ ਏਕੋ ਜੀ ਤੂੰ ਨਿਹਚਲੁ ਕਰਤਾ ਸੋਈ ॥"@pa ;
@@ -876,7 +876,7 @@ gg:ang10_sopurkh_tuk22_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk23 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk23" ;
+    gg:id "sggs_ang10_sopurkh_tuk23" ;
     gg:index "23"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਤੁਧੁ ਆਪੇ ਭਾਵੈ ਸੋਈ ਵਰਤੈ ਜੀ ਤੂੰ ਆਪੇ ਕਰਹਿ ਸੁ ਹੋਈ ॥"@pa ;
@@ -912,7 +912,7 @@ gg:ang10_sopurkh_tuk23_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk24 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk24" ;
+    gg:id "sggs_ang10_sopurkh_tuk24" ;
     gg:index "24"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਤੁਧੁ ਆਪੇ ਸ੍ਰਿਸਟਿ ਸਭ ਉਪਾਈ ਜੀ ਤੁਧੁ ਆਪੇ ਸਿਰਜਿ ਸਭ ਗੋਈ ॥"@pa ;
@@ -948,7 +948,7 @@ gg:ang10_sopurkh_tuk24_gu3 a gg:GlossUnit ;
 #################################################################
 
 gg:ang10_sopurkh_tuk25 a gg:Tuk ;
-    gg:id "sggs_ang10-sopurkh_tuk25" ;
+    gg:id "sggs_ang10_sopurkh_tuk25" ;
     gg:index "25"^^xsd:integer ;
     gg:belongsTo gg:ang10_sopurkh ;
     gg:gurmukhi "ਜਨੁ ਨਾਨਕੁ ਗੁਣ ਗਾਵੈ ਕਰਤੇ ਕੇ ਜੀ ਜੋ ਸਭਸੈ ਕਾ ਜਾਣੋਈ ॥੫॥੧॥"@pa ;

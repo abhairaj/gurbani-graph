@@ -16,8 +16,8 @@ gg:Ang1 a gg:AngReference ;
 ### Japji Sahib – Pauri 2 (modeled as a Pauri / Shabd)
 #################################################################
 
-gg:japji_pauri2 a gg:Pauri ;
-    gg:id "sggs_japji-pauri2" ;
+gg:sggs_japji_pauri2 a gg:Pauri ;
+    gg:id "sggs_japji_pauri2" ;
     dct:title "Japji Sahib – Pauri 2"@en ;
     gg:ang "1"^^xsd:integer ;
     gg:inBani gg:JapJiSahib ;
@@ -33,35 +33,35 @@ gg:japji_pauri2 a gg:Pauri ;
                    gg:Wandering,
                    gg:Ego ;
     rdfs:comment "Japji Pauri 2 teaches that all forms, beings, status, suffering, joy, grace, and wandering arise under Hukam, the Divine Command; nothing is outside this Order. Spiritual realization lies in understanding Hukam so deeply that ego no longer asserts itself."@en ;
-    gg:hasTuk gg:japji_pauri2_tuk1,
-                  gg:japji_pauri2_tuk2,
-                  gg:japji_pauri2_tuk3,
-                  gg:japji_pauri2_tuk4,
-                  gg:japji_pauri2_tuk5,
-                  gg:japji_pauri2_tuk6 .
+    gg:hasTuk gg:sggs_japji_pauri2_tuk1,
+                  gg:sggs_japji_pauri2_tuk2,
+                  gg:sggs_japji_pauri2_tuk3,
+                  gg:sggs_japji_pauri2_tuk4,
+                  gg:sggs_japji_pauri2_tuk5,
+                  gg:sggs_japji_pauri2_tuk6 .
 
 #################################################################
 ### Tuk 1
 ### ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥
 #################################################################
 
-gg:japji_pauri2_tuk1 a gg:Tuk ;
-    gg:id "sggs_japji-pauri2_tuk1" ;
+gg:sggs_japji_pauri2_tuk1 a gg:Tuk ;
+    gg:id "sggs_japji_pauri2_tuk1" ;
     gg:index "1"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri2 ;
+    gg:belongsTo gg:sggs_japji_pauri2 ;
     gg:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਆਕਾਰ ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ ॥"@pa ;
     gg:transliteration "Hukmī hovan ākār hukam na kahiā jāī."@en-Latn ;
     gg:translation "By His Hukam, forms come into being; His Hukam cannot be fully described."@en ;
     gg:hasTheme gg:Hukam,
                    gg:CreationDestruction ;
     rdfs:comment "All manifest forms arise under Divine Command, yet the nature of Hukam itself transcends complete description or conceptual capture."@en ;
-    gg:hasGlossUnit gg:japji_pauri2_tuk1_gu1,
-                    gg:japji_pauri2_tuk1_gu2,
-                    gg:japji_pauri2_tuk1_gu3 .
+    gg:hasGlossUnit gg:sggs_japji_pauri2_tuk1_gu1,
+                    gg:sggs_japji_pauri2_tuk1_gu2,
+                    gg:sggs_japji_pauri2_tuk1_gu3 .
 
 ### Tuk 1 – GlossUnit 1: ਹੁਕਮੀ
 
-gg:japji_pauri2_tuk1_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk1_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੀ"@pa ;
     gg:transliteration "Hukmī"@en-Latn ;
@@ -69,7 +69,7 @@ gg:japji_pauri2_tuk1_gu1 a gg:GlossUnit ;
 
 ### Tuk 1 – GlossUnit 2: ਹੋਵਨਿ ਆਕਾਰ
 
-gg:japji_pauri2_tuk1_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk1_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਹੋਵਨਿ ਆਕਾਰ"@pa ;
     gg:transliteration "hovan ākār"@en-Latn ;
@@ -77,7 +77,7 @@ gg:japji_pauri2_tuk1_gu2 a gg:GlossUnit ;
 
 ### Tuk 1 – GlossUnit 3: ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ
 
-gg:japji_pauri2_tuk1_gu3 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk1_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੁ ਨ ਕਹਿਆ ਜਾਈ"@pa ;
     gg:transliteration "hukam na kahiā jāī"@en-Latn ;
@@ -88,10 +88,10 @@ gg:japji_pauri2_tuk1_gu3 a gg:GlossUnit ;
 ### ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥
 #################################################################
 
-gg:japji_pauri2_tuk2 a gg:Tuk ;
-    gg:id "sggs_japji-pauri2_tuk2" ;
+gg:sggs_japji_pauri2_tuk2 a gg:Tuk ;
+    gg:id "sggs_japji_pauri2_tuk2" ;
     gg:index "2"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri2 ;
+    gg:belongsTo gg:sggs_japji_pauri2 ;
     gg:gurmukhi "ਹੁਕਮੀ ਹੋਵਨਿ ਜੀਅ ਹੁਕਮਿ ਮਿਲੈ ਵਡਿਆਈ ॥"@pa ;
     gg:transliteration "Hukmī hovan jīa hukam milai vaḍiāī."@en-Latn ;
     gg:translation "By His Hukam, beings come into existence; by His Hukam, honor and greatness are received."@en ;
@@ -99,14 +99,14 @@ gg:japji_pauri2_tuk2 a gg:Tuk ;
                    gg:CreationDestruction,
                    gg:GloryStatus ;
     rdfs:comment "Not only life itself but also any honor or greatness one receives flows from Hukam, not from independent personal merit."@en ;
-    gg:hasGlossUnit gg:japji_pauri2_tuk2_gu1,
-                    gg:japji_pauri2_tuk2_gu2,
-                    gg:japji_pauri2_tuk2_gu3,
-                    gg:japji_pauri2_tuk2_gu4 .
+    gg:hasGlossUnit gg:sggs_japji_pauri2_tuk2_gu1,
+                    gg:sggs_japji_pauri2_tuk2_gu2,
+                    gg:sggs_japji_pauri2_tuk2_gu3,
+                    gg:sggs_japji_pauri2_tuk2_gu4 .
 
 ### Tuk 2 – GlossUnit 1: ਹੁਕਮੀ
 
-gg:japji_pauri2_tuk2_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk2_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੀ"@pa ;
     gg:transliteration "Hukmī"@en-Latn ;
@@ -114,7 +114,7 @@ gg:japji_pauri2_tuk2_gu1 a gg:GlossUnit ;
 
 ### Tuk 2 – GlossUnit 2: ਹੋਵਨਿ ਜੀਅ
 
-gg:japji_pauri2_tuk2_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk2_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਹੋਵਨਿ ਜੀਅ"@pa ;
     gg:transliteration "hovan jīa"@en-Latn ;
@@ -122,7 +122,7 @@ gg:japji_pauri2_tuk2_gu2 a gg:GlossUnit ;
 
 ### Tuk 2 – GlossUnit 3: ਹੁਕਮਿ ਮਿਲੈ
 
-gg:japji_pauri2_tuk2_gu3 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk2_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮਿ ਮਿਲੈ"@pa ;
     gg:transliteration "hukam milai"@en-Latn ;
@@ -130,7 +130,7 @@ gg:japji_pauri2_tuk2_gu3 a gg:GlossUnit ;
 
 ### Tuk 2 – GlossUnit 4: ਵਡਿਆਈ
 
-gg:japji_pauri2_tuk2_gu4 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk2_gu4 a gg:GlossUnit ;
     gg:index "4"^^xsd:integer ;
     gg:gurmukhi "ਵਡਿਆਈ"@pa ;
     gg:transliteration "vaḍiāī"@en-Latn ;
@@ -141,10 +141,10 @@ gg:japji_pauri2_tuk2_gu4 a gg:GlossUnit ;
 ### ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥
 #################################################################
 
-gg:japji_pauri2_tuk3 a gg:Tuk ;
-    gg:id "sggs_japji-pauri2_tuk3" ;
+gg:sggs_japji_pauri2_tuk3 a gg:Tuk ;
+    gg:id "sggs_japji_pauri2_tuk3" ;
     gg:index "3"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri2 ;
+    gg:belongsTo gg:sggs_japji_pauri2 ;
     gg:gurmukhi "ਹੁਕਮੀ ਉਤਮੁ ਨੀਚੁ ਹੁਕਮਿ ਲਿਖਿ ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ ॥"@pa ;
     gg:transliteration "Hukmī utam nīc hukam likh dukh sukh pāīah(i)."@en-Latn ;
     gg:translation "By His Hukam, some are high and some low; by His Hukam, suffering and joy are inscribed and experienced."@en ;
@@ -152,14 +152,14 @@ gg:japji_pauri2_tuk3 a gg:Tuk ;
                    gg:HighLow,
                    gg:SufferingJoy ;
     rdfs:comment "States of high and low, as well as experiences of pain and pleasure, are written under Hukam, undermining egoic claims of absolute control."@en ;
-    gg:hasGlossUnit gg:japji_pauri2_tuk3_gu1,
-                    gg:japji_pauri2_tuk3_gu2,
-                    gg:japji_pauri2_tuk3_gu3,
-                    gg:japji_pauri2_tuk3_gu4 .
+    gg:hasGlossUnit gg:sggs_japji_pauri2_tuk3_gu1,
+                    gg:sggs_japji_pauri2_tuk3_gu2,
+                    gg:sggs_japji_pauri2_tuk3_gu3,
+                    gg:sggs_japji_pauri2_tuk3_gu4 .
 
 ### Tuk 3 – GlossUnit 1: ਹੁਕਮੀ
 
-gg:japji_pauri2_tuk3_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk3_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੀ"@pa ;
     gg:transliteration "Hukmī"@en-Latn ;
@@ -167,7 +167,7 @@ gg:japji_pauri2_tuk3_gu1 a gg:GlossUnit ;
 
 ### Tuk 3 – GlossUnit 2: ਉਤਮੁ ਨੀਚੁ
 
-gg:japji_pauri2_tuk3_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk3_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਉਤਮੁ ਨੀਚੁ"@pa ;
     gg:transliteration "utam nīc"@en-Latn ;
@@ -175,7 +175,7 @@ gg:japji_pauri2_tuk3_gu2 a gg:GlossUnit ;
 
 ### Tuk 3 – GlossUnit 3: ਹੁਕਮਿ ਲਿਖਿ
 
-gg:japji_pauri2_tuk3_gu3 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk3_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮਿ ਲਿਖਿ"@pa ;
     gg:transliteration "hukam likh"@en-Latn ;
@@ -183,7 +183,7 @@ gg:japji_pauri2_tuk3_gu3 a gg:GlossUnit ;
 
 ### Tuk 3 – GlossUnit 4: ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ
 
-gg:japji_pauri2_tuk3_gu4 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk3_gu4 a gg:GlossUnit ;
     gg:index "4"^^xsd:integer ;
     gg:gurmukhi "ਦੁਖ ਸੁਖ ਪਾਈਅਹਿ"@pa ;
     gg:transliteration "dukh sukh pāīah(i)"@en-Latn ;
@@ -194,10 +194,10 @@ gg:japji_pauri2_tuk3_gu4 a gg:GlossUnit ;
 ### ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥
 #################################################################
 
-gg:japji_pauri2_tuk4 a gg:Tuk ;
-    gg:id "sggs_japji-pauri2_tuk4" ;
+gg:sggs_japji_pauri2_tuk4 a gg:Tuk ;
+    gg:id "sggs_japji_pauri2_tuk4" ;
     gg:index "4"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri2 ;
+    gg:belongsTo gg:sggs_japji_pauri2 ;
     gg:gurmukhi "ਇਕਨਾ ਹੁਕਮੀ ਬਖਸੀਸ ਇਕਿ ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ ॥"@pa ;
     gg:transliteration "Ikna hukmī bakhsīs ik hukmī sadā bhavāīah(i)."@en-Latn ;
     gg:translation "By His Hukam, some are blessed with grace; by His Hukam, others are made to wander forever."@en ;
@@ -205,14 +205,14 @@ gg:japji_pauri2_tuk4 a gg:Tuk ;
                    gg:DivineGrace,
                    gg:Wandering ;
     rdfs:comment "Both grace and wandering are under Hukam; the contrast emphasizes Divine sovereignty and the mystery of why some awaken while others remain lost."@en ;
-    gg:hasGlossUnit gg:japji_pauri2_tuk4_gu1,
-                    gg:japji_pauri2_tuk4_gu2,
-                    gg:japji_pauri2_tuk4_gu3,
-                    gg:japji_pauri2_tuk4_gu4 .
+    gg:hasGlossUnit gg:sggs_japji_pauri2_tuk4_gu1,
+                    gg:sggs_japji_pauri2_tuk4_gu2,
+                    gg:sggs_japji_pauri2_tuk4_gu3,
+                    gg:sggs_japji_pauri2_tuk4_gu4 .
 
 ### Tuk 4 – GlossUnit 1: ਇਕਨਾ
 
-gg:japji_pauri2_tuk4_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk4_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਇਕਨਾ"@pa ;
     gg:transliteration "iknā"@en-Latn ;
@@ -220,7 +220,7 @@ gg:japji_pauri2_tuk4_gu1 a gg:GlossUnit ;
 
 ### Tuk 4 – GlossUnit 2: ਹੁਕਮੀ ਬਖਸੀਸ
 
-gg:japji_pauri2_tuk4_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk4_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੀ ਬਖਸੀਸ"@pa ;
     gg:transliteration "hukmī bakhsīs"@en-Latn ;
@@ -228,7 +228,7 @@ gg:japji_pauri2_tuk4_gu2 a gg:GlossUnit ;
 
 ### Tuk 4 – GlossUnit 3: ਇਕਿ
 
-gg:japji_pauri2_tuk4_gu3 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk4_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਇਕਿ"@pa ;
     gg:transliteration "ik"@en-Latn ;
@@ -236,7 +236,7 @@ gg:japji_pauri2_tuk4_gu3 a gg:GlossUnit ;
 
 ### Tuk 4 – GlossUnit 4: ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ
 
-gg:japji_pauri2_tuk4_gu4 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk4_gu4 a gg:GlossUnit ;
     gg:index "4"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੀ ਸਦਾ ਭਵਾਈਅਹਿ"@pa ;
     gg:transliteration "hukmī sadā bhavāīah(i)"@en-Latn ;
@@ -247,22 +247,22 @@ gg:japji_pauri2_tuk4_gu4 a gg:GlossUnit ;
 ### ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥
 #################################################################
 
-gg:japji_pauri2_tuk5 a gg:Tuk ;
-    gg:id "sggs_japji-pauri2_tuk5" ;
+gg:sggs_japji_pauri2_tuk5 a gg:Tuk ;
+    gg:id "sggs_japji_pauri2_tuk5" ;
     gg:index "5"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri2 ;
+    gg:belongsTo gg:sggs_japji_pauri2 ;
     gg:gurmukhi "ਹੁਕਮੈ ਅੰਦਰਿ ਸਭੁ ਕੋ ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ ॥"@pa ;
     gg:transliteration "Hukmai andar sabh ko bāhar hukam na koe."@en-Latn ;
     gg:translation "All are within Hukam; none at all is outside His Command."@en ;
     gg:hasTheme gg:Hukam ;
     rdfs:comment "Hukam is all-encompassing; no being, event, or state of existence lies outside Divine Order."@en ;
-    gg:hasGlossUnit gg:japji_pauri2_tuk5_gu1,
-                    gg:japji_pauri2_tuk5_gu2,
-                    gg:japji_pauri2_tuk5_gu3 .
+    gg:hasGlossUnit gg:sggs_japji_pauri2_tuk5_gu1,
+                    gg:sggs_japji_pauri2_tuk5_gu2,
+                    gg:sggs_japji_pauri2_tuk5_gu3 .
 
 ### Tuk 5 – GlossUnit 1: ਹੁਕਮੈ ਅੰਦਰਿ
 
-gg:japji_pauri2_tuk5_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk5_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੈ ਅੰਦਰਿ"@pa ;
     gg:transliteration "hukmai andar"@en-Latn ;
@@ -270,7 +270,7 @@ gg:japji_pauri2_tuk5_gu1 a gg:GlossUnit ;
 
 ### Tuk 5 – GlossUnit 2: ਸਭੁ ਕੋ
 
-gg:japji_pauri2_tuk5_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk5_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਸਭੁ ਕੋ"@pa ;
     gg:transliteration "sabh ko"@en-Latn ;
@@ -278,7 +278,7 @@ gg:japji_pauri2_tuk5_gu2 a gg:GlossUnit ;
 
 ### Tuk 5 – GlossUnit 3: ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ
 
-gg:japji_pauri2_tuk5_gu3 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk5_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਬਾਹਰਿ ਹੁਕਮ ਨ ਕੋਇ"@pa ;
     gg:transliteration "bāhar hukam na koe"@en-Latn ;
@@ -289,23 +289,23 @@ gg:japji_pauri2_tuk5_gu3 a gg:GlossUnit ;
 ### ਨਾਨਕ ਹੁਕਮੈ ਜੇ ਬੁਝੈ ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ ॥੨॥
 #################################################################
 
-gg:japji_pauri2_tuk6 a gg:Tuk ;
-    gg:id "sggs_japji-pauri2_tuk6" ;
+gg:sggs_japji_pauri2_tuk6 a gg:Tuk ;
+    gg:id "sggs_japji_pauri2_tuk6" ;
     gg:index "6"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri2 ;
+    gg:belongsTo gg:sggs_japji_pauri2 ;
     gg:gurmukhi "ਨਾਨਕ ਹੁਕਮੈ ਜੇ ਬੁਝੈ ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ ॥੨॥"@pa ;
     gg:transliteration "Nānak hukmai je bujhai ta haumai kahai na koe. ||2||"@en-Latn ;
     gg:translation "O Nanak, one who truly understands Hukam no longer speaks from ego."@en ;
     gg:hasTheme gg:Hukam,
                    gg:Ego ;
     rdfs:comment "Realization of Hukam dissolves ego; the one who understands Divine Order ceases to assert ‘I’ as the ultimate doer or controller."@en ;
-    gg:hasGlossUnit gg:japji_pauri2_tuk6_gu1,
-                    gg:japji_pauri2_tuk6_gu2,
-                    gg:japji_pauri2_tuk6_gu3 .
+    gg:hasGlossUnit gg:sggs_japji_pauri2_tuk6_gu1,
+                    gg:sggs_japji_pauri2_tuk6_gu2,
+                    gg:sggs_japji_pauri2_tuk6_gu3 .
 
 ### Tuk 6 – GlossUnit 1: ਨਾਨਕ
 
-gg:japji_pauri2_tuk6_gu1 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk6_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਨਾਨਕ"@pa ;
     gg:transliteration "Nānak"@en-Latn ;
@@ -313,7 +313,7 @@ gg:japji_pauri2_tuk6_gu1 a gg:GlossUnit ;
 
 ### Tuk 6 – GlossUnit 2: ਹੁਕਮੈ ਜੇ ਬੁਝੈ
 
-gg:japji_pauri2_tuk6_gu2 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk6_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਹੁਕਮੈ ਜੇ ਬੁਝੈ"@pa ;
     gg:transliteration "hukmai je bujhai"@en-Latn ;
@@ -321,7 +321,7 @@ gg:japji_pauri2_tuk6_gu2 a gg:GlossUnit ;
 
 ### Tuk 6 – GlossUnit 3: ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ
 
-gg:japji_pauri2_tuk6_gu3 a gg:GlossUnit ;
+gg:sggs_japji_pauri2_tuk6_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਤ ਹਉਮੈ ਕਹੈ ਨ ਕੋਇ"@pa ;
     gg:transliteration "ta haumai kahai na koe"@en-Latn ;

@@ -1,0 +1,180 @@
+@prefix gg:  <http://gurbani-graph.org/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+###############################################################
+### Pauri: Japji Sahib – Mool Mantar + first three lines
+### SGGS Ang 1
+###############################################################
+
+gg:sggs_japji_mool_mantr a gg:Pauri ;
+  gg:id "sggs_japji_mool_mantr" ;
+  dct:title "Japji Sahib – Mool Mantar and first lines"@en ;
+  dct:title "ਜਪੁਜੀ ਸਾਹਿਬ – ਮੂਲ ਮੰਤ੍ਰ ਅਤੇ ਪਹਿਲੀਆਂ ਤਿੰਨ ਲਾਈਨਾਂ"@pa ;
+  gg:ang "1"^^xsd:integer ;
+  gg:inScripture gg:SGGS ;
+  gg:inBani gg:JapjiSahib ;
+  gg:indexInBani "0"^^xsd:integer ;
+  gg:hasAuthor gg:GuruNanakDevJi ;
+  gg:hasTheme gg:UncreatedDivine ,
+              gg:DivinePervasion ,
+              gg:Truth ,
+              gg:DivineGrace ,
+              gg:Naam ;
+  gg:hasTuk gg:sggs_japji_mool_mantr_tuk1 ,
+            gg:sggs_japji_mool_mantr_tuk2 ,
+            gg:sggs_japji_mool_mantr_tuk3 ,
+            gg:sggs_japji_mool_mantr_tuk4 .
+
+###############################################################
+### Tuk 1 – Mool Mantar (full)
+### ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ 
+### ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥
+###############################################################
+
+gg:sggs_japji_mool_mantr_tuk1 a gg:Tuk ;
+  gg:id "sggs_japji_mool_mantr_tuk1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:belongsTo gg:sggs_japji_mool_mantr ;
+  gg:gurmukhi "ੴ ਸਤਿ ਨਾਮੁ ਕਰਤਾ ਪੁਰਖੁ ਨਿਰਭਉ ਨਿਰਵੈਰੁ ਅਕਾਲ ਮੂਰਤਿ ਅਜੂਨੀ ਸੈਭੰ ਗੁਰ ਪ੍ਰਸਾਦਿ ॥"@pa ;
+  gg:transliteration "ik oankaar sat naam kartaa purakh nirbhao nirvair akaal moorat ajoonee saibhan gur prasaadh ||"@en-Latn ;
+  gg:translation "One Universal Creator Being; Truth is the Name; Creator; Without Fear; Without Enmity; Timeless Form; Unborn; Self-existent; realized by the Guru's Grace."@en ;
+  gg:hasGlossUnit 
+     gg:sggs_japji_mool_mantr_tuk1_gu1 ,
+     gg:sggs_japji_mool_mantr_tuk1_gu2 ,
+     gg:sggs_japji_mool_mantr_tuk1_gu3 ,
+     gg:sggs_japji_mool_mantr_tuk1_gu4 ,
+     gg:sggs_japji_mool_mantr_tuk1_gu5 ,
+     gg:sggs_japji_mool_mantr_tuk1_gu6 ,
+     gg:sggs_japji_mool_mantr_tuk1_gu7 ,
+     gg:sggs_japji_mool_mantr_tuk1_gu8 ,
+     gg:sggs_japji_mool_mantr_tuk1_gu9 .
+
+# GlossUnits for Tuk 1 (fine granularity)
+
+gg:sggs_japji_mool_mantr_tuk1_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ੴ"@pa ;
+  gg:transliteration "ik oankaar"@en-Latn ;
+  gg:translation "The One Universal Creative Reality."@en .
+
+gg:sggs_japji_mool_mantr_tuk1_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸਤਿ ਨਾਮੁ"@pa ;
+  gg:transliteration "sat naam"@en-Latn ;
+  gg:translation "The True Name; the Real Identity underlying all phenomena."@en .
+
+gg:sggs_japji_mool_mantr_tuk1_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਕਰਤਾ ਪੁਰਖੁ"@pa ;
+  gg:transliteration "kartaa purakh"@en-Latn ;
+  gg:translation "the Creative Being."@en .
+
+gg:sggs_japji_mool_mantr_tuk1_gu4 a gg:GlossUnit ;
+  gg:index "4"^^xsd:integer ;
+  gg:gurmukhi "ਨਿਰਭਉ"@pa ;
+  gg:transliteration "nirbhao"@en-Latn ;
+  gg:translation "without fear."@en .
+
+gg:sggs_japji_mool_mantr_tuk1_gu5 a gg:GlossUnit ;
+  gg:index "5"^^xsd:integer ;
+  gg:gurmukhi "ਨਿਰਵੈਰੁ"@pa ;
+  gg:transliteration "nirvair"@en-Latn ;
+  gg:translation "without enmity."@en .
+
+gg:sggs_japji_mool_mantr_tuk1_gu6 a gg:GlossUnit ;
+  gg:index "6"^^xsd:integer ;
+  gg:gurmukhi "ਅਕਾਲ ਮੂਰਤਿ"@pa ;
+  gg:transliteration "akaal moorat"@en-Latn ;
+  gg:translation "the Timeless, Deathless Form."@en .
+
+gg:sggs_japji_mool_mantr_tuk1_gu7 a gg:GlossUnit ;
+  gg:index "7"^^xsd:integer ;
+  gg:gurmukhi "ਅਜੂਨੀ"@pa ;
+  gg:transliteration "ajoonee"@en-Latn ;
+  gg:translation "unborn, beyond incarnation."@en .
+
+gg:sggs_japji_mool_mantr_tuk1_gu8 a gg:GlossUnit ;
+  gg:index "8"^^xsd:integer ;
+  gg:gurmukhi "ਸੈਭੰ"@pa ;
+  gg:transliteration "saibhan"@en-Latn ;
+  gg:translation "self-existent."@en .
+
+gg:sggs_japji_mool_mantr_tuk1_gu9 a gg:GlossUnit ;
+  gg:index "9"^^xsd:integer ;
+  gg:gurmukhi "ਗੁਰ ਪ੍ਰਸਾਦਿ"@pa ;
+  gg:transliteration "gur prasaadh"@en-Latn ;
+  gg:translation "known by the Guru’s Grace."@en .
+
+###############################################################
+### Tuk 2 – ਜਪੁ
+###############################################################
+
+gg:sggs_japji_mool_mantr_tuk2 a gg:Tuk ;
+  gg:id "sggs_japji_mool_mantr_tuk2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:belongsTo gg:sggs_japji_mool_mantr ;
+  gg:gurmukhi "ਜਪੁ"@pa ;
+  gg:transliteration "jap"@en-Latn ;
+  gg:translation "Chant / recite / meditate."@en ;
+  gg:hasGlossUnit gg:sggs_japji_mool_mantr_tuk2_gu1 .
+
+gg:sggs_japji_mool_mantr_tuk2_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਜਪੁ"@pa ;
+  gg:transliteration "jap"@en-Latn ;
+  gg:translation "Meditative utterance, repeated remembrance."@en .
+
+###############################################################
+### Tuk 3 – ਆਦਿ ਸਚੁ  ਜੁਗਾਦਿ ਸਚੁ
+###############################################################
+
+gg:sggs_japji_mool_mantr_tuk3 a gg:Tuk ;
+  gg:id "sggs_japji_mool_mantr_tuk3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:belongsTo gg:sggs_japji_mool_mantr ;
+  gg:gurmukhi "ਆਦਿ ਸਚੁ ਜੁਗਾਦਿ ਸਚੁ"@pa ;
+  gg:transliteration "aad sach jugaad sach"@en-Latn ;
+  gg:translation "True in the primal beginning; True throughout the ages."@en ;
+  gg:hasGlossUnit gg:sggs_japji_mool_mantr_tuk3_gu1 ,
+                  gg:sggs_japji_mool_mantr_tuk3_gu2 .
+
+gg:sggs_japji_mool_mantr_tuk3_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਆਦਿ ਸਚੁ"@pa ;
+  gg:transliteration "aad sach"@en-Latn ;
+  gg:translation "True in the primal beginning."@en .
+
+gg:sggs_japji_mool_mantr_tuk3_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਜੁਗਾਦਿ ਸਚੁ"@pa ;
+  gg:transliteration "jugaad sach"@en-Latn ;
+  gg:translation "True throughout the ages."@en .
+
+###############################################################
+### Tuk 4 – ਹੈ ਭੀ ਸਚੁ ਨਾਨਕ ਹੋਸੀ ਭੀ ਸਚੁ
+###############################################################
+
+gg:sggs_japji_mool_mantr_tuk4 a gg:Tuk ;
+  gg:id "sggs_japji_mool_mantr_tuk4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:belongsTo gg:sggs_japji_mool_mantr ;
+  gg:gurmukhi "ਹੈ ਭੀ ਸਚੁ ਨਾਨਕ ਹੋਸੀ ਭੀ ਸਚੁ"@pa ;
+  gg:transliteration "hai bhee sach naanak hosee bhee sach"@en-Latn ;
+  gg:translation "He is True now; O Nanak, He shall forever be True."@en ;
+  gg:hasGlossUnit gg:sggs_japji_mool_mantr_tuk4_gu1 ,
+                  gg:sggs_japji_mool_mantr_tuk4_gu2 .
+
+gg:sggs_japji_mool_mantr_tuk4_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਹੈ ਭੀ ਸਚੁ"@pa ;
+  gg:transliteration "hai bhee sach"@en-Latn ;
+  gg:translation "He is True now."@en .
+
+gg:sggs_japji_mool_mantr_tuk4_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਨਾਨਕ ਹੋਸੀ ਭੀ ਸਚੁ"@pa ;
+  gg:transliteration "naanak hosee bhee sach"@en-Latn ;
+  gg:translation "O Nanak, He shall forever be True."@en .

@@ -9,9 +9,9 @@
 ### Japji Sahib – Pauri 10
 #################################################################
 
-gg:japji_pauri10
+gg:sggs_japji_pauri10
     a gg:Pauri ;
-    gg:id "sggs_japji-pauri10" ;
+    gg:id "sggs_japji_pauri10" ;
     dct:title "Japji Sahib – Pauri 10"@en ;
     dct:title "ਜਪੁਜੀ ਸਾਹਿਬ – ਪਉੜੀ ੧੦"@pa ;
 
@@ -33,12 +33,12 @@ gg:japji_pauri10
     rdfs:comment "Pauri 10 continues the 'suṇiai' (listening) section. By truly listening, one receives truth, contentment, and spiritual wisdom; listening is likened to bathing at all holy places; it brings honor through study, stabilizes effortless meditation, and removes suffering and sin for the bhagats."@en ;
 
     gg:hasTuk
-        gg:japji_pauri10_tuk1 ,
-        gg:japji_pauri10_tuk2 ,
-        gg:japji_pauri10_tuk3 ,
-        gg:japji_pauri10_tuk4 ,
-        gg:japji_pauri10_tuk5 ,
-        gg:japji_pauri10_tuk6
+        gg:sggs_japji_pauri10_tuk1 ,
+        gg:sggs_japji_pauri10_tuk2 ,
+        gg:sggs_japji_pauri10_tuk3 ,
+        gg:sggs_japji_pauri10_tuk4 ,
+        gg:sggs_japji_pauri10_tuk5 ,
+        gg:sggs_japji_pauri10_tuk6
 .
 
 #################################################################
@@ -46,11 +46,11 @@ gg:japji_pauri10
 ### ਸੁਣਿਐ ਸਤਿ ਸੰਤੋਖੁ ਗਿਆਨੁ ॥
 #################################################################
 
-gg:japji_pauri10_tuk1
+gg:sggs_japji_pauri10_tuk1
     a gg:Tuk ;
     gg:id "sggs_japji_pauri10_tuk1" ;
     gg:index "1"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri10 ;
+    gg:belongsTo gg:sggs_japji_pauri10 ;
 
     gg:gurmukhi "ਸੁਣਿਐ ਸਤਿ ਸੰਤੋਖੁ ਗਿਆਨੁ ॥"@pa ;
     gg:transliteration "suṇiai sat santokh gi-aan ||"@en-Latn ;
@@ -61,11 +61,11 @@ gg:japji_pauri10_tuk1
         gg:Wisdom ;
 
     gg:hasGlossUnit
-        gg:japji_pauri10_tuk1_gu1 ,
-        gg:japji_pauri10_tuk1_gu2
+        gg:sggs_japji_pauri10_tuk1_gu1 ,
+        gg:sggs_japji_pauri10_tuk1_gu2
 .
 
-gg:japji_pauri10_tuk1_gu1
+gg:sggs_japji_pauri10_tuk1_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਸੁਣਿਐ ਸਤਿ ਸੰਤੋਖੁ"@pa ;
@@ -73,7 +73,7 @@ gg:japji_pauri10_tuk1_gu1
     gg:translation "by listening, truth and contentment arise"@en
 .
 
-gg:japji_pauri10_tuk1_gu2
+gg:sggs_japji_pauri10_tuk1_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਗਿਆਨੁ"@pa ;
@@ -86,11 +86,11 @@ gg:japji_pauri10_tuk1_gu2
 ### ਸੁਣਿਐ ਅਠਸਠਿ ਕਾ ਇਸਨਾਨੁ ॥
 #################################################################
 
-gg:japji_pauri10_tuk2
+gg:sggs_japji_pauri10_tuk2
     a gg:Tuk ;
     gg:id "sggs_japji_pauri10_tuk2" ;
     gg:index "2"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri10 ;
+    gg:belongsTo gg:sggs_japji_pauri10 ;
 
     gg:gurmukhi "ਸੁਣਿਐ ਅਠਸਠਿ ਕਾ ਇਸਨਾਨੁ ॥"@pa ;
     gg:transliteration "suṇiai aṭhasath kaa isnaan ||"@en-Latn ;
@@ -101,11 +101,11 @@ gg:japji_pauri10_tuk2
         gg:PilgrimageRitual ;
 
     gg:hasGlossUnit
-        gg:japji_pauri10_tuk2_gu1 ,
-        gg:japji_pauri10_tuk2_gu2
+        gg:sggs_japji_pauri10_tuk2_gu1 ,
+        gg:sggs_japji_pauri10_tuk2_gu2
 .
 
-gg:japji_pauri10_tuk2_gu1
+gg:sggs_japji_pauri10_tuk2_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਸੁਣਿਐ ਅਠਸਠਿ ਕਾ"@pa ;
@@ -113,7 +113,7 @@ gg:japji_pauri10_tuk2_gu1
     gg:translation "by listening, one gains the fruit of all sixty-eight tirths"@en
 .
 
-gg:japji_pauri10_tuk2_gu2
+gg:sggs_japji_pauri10_tuk2_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਇਸਨਾਨੁ"@pa ;
@@ -126,11 +126,11 @@ gg:japji_pauri10_tuk2_gu2
 ### ਸੁਣਿਐ ਪੜਿ ਪੜਿ ਪਾਵਹਿ ਮਾਨੁ ॥
 #################################################################
 
-gg:japji_pauri10_tuk3
+gg:sggs_japji_pauri10_tuk3
     a gg:Tuk ;
     gg:id "sggs_japji_pauri10_tuk3" ;
     gg:index "3"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri10 ;
+    gg:belongsTo gg:sggs_japji_pauri10 ;
 
     gg:gurmukhi "ਸੁਣਿਐ ਪੜਿ ਪੜਿ ਪਾਵਹਿ ਮਾਨੁ ॥"@pa ;
     gg:transliteration "suṇiai paṛh paṛh paavahi maan ||"@en-Latn ;
@@ -141,11 +141,11 @@ gg:japji_pauri10_tuk3
         gg:ServiceAndHonor ;
 
     gg:hasGlossUnit
-        gg:japji_pauri10_tuk3_gu1 ,
-        gg:japji_pauri10_tuk3_gu2
+        gg:sggs_japji_pauri10_tuk3_gu1 ,
+        gg:sggs_japji_pauri10_tuk3_gu2
 .
 
-gg:japji_pauri10_tuk3_gu1
+gg:sggs_japji_pauri10_tuk3_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਸੁਣਿਐ ਪੜਿ ਪੜਿ"@pa ;
@@ -153,7 +153,7 @@ gg:japji_pauri10_tuk3_gu1
     gg:translation "through listening, study and recitation"@en
 .
 
-gg:japji_pauri10_tuk3_gu2
+gg:sggs_japji_pauri10_tuk3_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਪਾਵਹਿ ਮਾਨੁ"@pa ;
@@ -166,11 +166,11 @@ gg:japji_pauri10_tuk3_gu2
 ### ਸੁਣਿਐ ਲਾਗੈ ਸਹਜਿ ਧਿਆਨੁ ॥
 #################################################################
 
-gg:japji_pauri10_tuk4
+gg:sggs_japji_pauri10_tuk4
     a gg:Tuk ;
     gg:id "sggs_japji_pauri10_tuk4" ;
     gg:index "4"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri10 ;
+    gg:belongsTo gg:sggs_japji_pauri10 ;
 
     gg:gurmukhi "ਸੁਣਿਐ ਲਾਗੈ ਸਹਜਿ ਧਿਆਨੁ ॥"@pa ;
     gg:transliteration "suṇiai laagai sahaj dhi-aan ||"@en-Latn ;
@@ -182,11 +182,11 @@ gg:japji_pauri10_tuk4
         gg:Peace ;
 
     gg:hasGlossUnit
-        gg:japji_pauri10_tuk4_gu1 ,
-        gg:japji_pauri10_tuk4_gu2
+        gg:sggs_japji_pauri10_tuk4_gu1 ,
+        gg:sggs_japji_pauri10_tuk4_gu2
 .
 
-gg:japji_pauri10_tuk4_gu1
+gg:sggs_japji_pauri10_tuk4_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਸੁਣਿਐ ਲਾਗੈ"@pa ;
@@ -194,7 +194,7 @@ gg:japji_pauri10_tuk4_gu1
     gg:translation "by listening, the mind becomes gently attached"@en
 .
 
-gg:japji_pauri10_tuk4_gu2
+gg:sggs_japji_pauri10_tuk4_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਸਹਜਿ ਧਿਆਨੁ"@pa ;
@@ -207,11 +207,11 @@ gg:japji_pauri10_tuk4_gu2
 ### ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥
 #################################################################
 
-gg:japji_pauri10_tuk5
+gg:sggs_japji_pauri10_tuk5
     a gg:Tuk ;
     gg:id "sggs_japji_pauri10_tuk5" ;
     gg:index "5"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri10 ;
+    gg:belongsTo gg:sggs_japji_pauri10 ;
 
     gg:gurmukhi "ਨਾਨਕ ਭਗਤਾ ਸਦਾ ਵਿਗਾਸੁ ॥"@pa ;
     gg:transliteration "naanak bhagtaa sadaa vigaas ||"@en-Latn ;
@@ -223,11 +223,11 @@ gg:japji_pauri10_tuk5
         gg:Peace ;
 
     gg:hasGlossUnit
-        gg:japji_pauri10_tuk5_gu1 ,
-        gg:japji_pauri10_tuk5_gu2
+        gg:sggs_japji_pauri10_tuk5_gu1 ,
+        gg:sggs_japji_pauri10_tuk5_gu2
 .
 
-gg:japji_pauri10_tuk5_gu1
+gg:sggs_japji_pauri10_tuk5_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਨਾਨਕ ਭਗਤਾ"@pa ;
@@ -235,7 +235,7 @@ gg:japji_pauri10_tuk5_gu1
     gg:translation "O Nanak, the bhagats, the devoted ones"@en
 .
 
-gg:japji_pauri10_tuk5_gu2
+gg:sggs_japji_pauri10_tuk5_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਸਦਾ ਵਿਗਾਸੁ"@pa ;
@@ -248,11 +248,11 @@ gg:japji_pauri10_tuk5_gu2
 ### ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੧੦॥
 #################################################################
 
-gg:japji_pauri10_tuk6
+gg:sggs_japji_pauri10_tuk6
     a gg:Tuk ;
     gg:id "sggs_japji_pauri10_tuk6" ;
     gg:index "6"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri10 ;
+    gg:belongsTo gg:sggs_japji_pauri10 ;
 
     gg:gurmukhi "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ ਨਾਸੁ ॥੧੦॥"@pa ;
     gg:transliteration "suṇiai dookh paap kaa naas ||10||"@en-Latn ;
@@ -264,11 +264,11 @@ gg:japji_pauri10_tuk6
     ;
 
     gg:hasGlossUnit
-        gg:japji_pauri10_tuk6_gu1 ,
-        gg:japji_pauri10_tuk6_gu2
+        gg:sggs_japji_pauri10_tuk6_gu1 ,
+        gg:sggs_japji_pauri10_tuk6_gu2
 .
 
-gg:japji_pauri10_tuk6_gu1
+gg:sggs_japji_pauri10_tuk6_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਸੁਣਿਐ ਦੂਖ ਪਾਪ ਕਾ"@pa ;
@@ -276,7 +276,7 @@ gg:japji_pauri10_tuk6_gu1
     gg:translation "through listening, pain and the burden of sin"@en
 .
 
-gg:japji_pauri10_tuk6_gu2
+gg:sggs_japji_pauri10_tuk6_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਨਾਸੁ ॥੧੦॥"@pa ;

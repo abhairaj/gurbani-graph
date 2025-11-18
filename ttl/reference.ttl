@@ -15,74 +15,6 @@ gg:SDG a gg:Scripture ;
     rdfs:label "Sri Dasam Granth"@en .
 
 #################################################################
-### Banis
-#################################################################
-gg:JapJiSahib a gg:Bani ;
-    gg:inScripture gg:SGGS ;
-    rdfs:label "Jap Ji Sahib"@en ;
-    rdfs:comment "Attaining knowledge of God (Brahm Gyan)"@en .
-
-gg:JaapSahib a gg:Bani ;
-    gg:inScripture gg:SDS ;
-    rdfs:label "Jaap Sahib"@en ;
-    rdfs:comment "Salutation to the Timeless Lord, protection"@en .
-
-gg:TavPrasadSavaiye a gg:Bani ;
-    gg:inScripture gg:SDS ;
-    rdfs:label "Tav-Prasad Savaiye"@en ;
-    rdfs:comment "Attaining worldly detachment, abolishing false practices"@en .
-
-gg:BentiChaupai a gg:Bani ;
-    gg:inScripture gg:SDS ;
-    rdfs:label "Benti Chaupai (Chaupai Sahib)"@en ;
-    rdfs:comment "A personal prayer for protection and strength"@en .
-
-gg:AnandSahib a gg:Bani ;
-    gg:inScripture gg:SGGS ;
-    rdfs:label "Anand Sahib"@en ;
-    rdfs:comment "For bliss and liberation from the cycle of births/deaths"@en .
-
-gg:RehrasSahib a gg:Bani ;
-    gg:inScripture gg:SGGS ;
-    rdfs:label "Rehras Sahib"@en ;
-    rdfs:comment "Adds energy to one's being and brings prosperity"@en .
-
-gg:KirtanSohila a gg:Bani ;
-    gg:inScripture gg:SGGS ;
-    rdfs:label "Kirtan Sohila"@en ;
-    rdfs:comment "For peace before sleep and protection from negative thoughts/dreams"@en .
-
-gg:SukhmaniSahib a gg:Bani ;
-    # gg:inScripture gg:SGGS ;
-    rdfs:label "Sukhmani Sahib"@en ;
-    rdfs:comment "The \"Jewel of Peace\"; known for providing tranquility of mind"@en .
-
-gg:AsaDiVar a gg:Bani ;
-    # gg:inScripture gg:SGGS ;
-    rdfs:label "Asa Di Var"@en ;
-    rdfs:comment "A collection of hymns usually recited in the morning congregations at Gurdwaras."@en .
-
-gg:ShabadHazaaray a gg:Bani ;
-    gg:inScripture gg:SGGS ;
-    rdfs:label "Shabad Hazaaray"@en ;
-    rdfs:comment "An deep expression of devotion and desire for the Divine"@en .
-
-gg:DakhniOankar a gg:Bani ;
-    gg:inScripture gg:SGGS ;
-    rdfs:label "Dakhni Oankar"@en ;
-    rdfs:comment "Longer philosophical composition"@en .
-
-gg:SiddhaGosh a gg:Bani ;
-    gg:inScripture gg:SGGS ;
-    rdfs:label "Siddha Gosh"@en ;
-    rdfs:comment "Longer philosophical composition"@en .
-
-gg:Lavaan a gg:Bani ;
-    gg:inScripture gg:SGGS ;
-    rdfs:label "Lavaan"@en ;
-    rdfs:comment "Wedding hymns recited during the Sikh marriage ceremony (Anand Karaj)"@en .
-
-#################################################################
 ### People
 #################################################################
 
@@ -99,12 +31,92 @@ gg:GuruRamDasJi a gg:Person ;
     gg:role "Guru"@en .
 
 #################################################################
+### Banis
+#################################################################
+
+gg:AnandSahib a gg:Bani ;
+    gg:inScripture gg:SGGS ;
+    rdfs:label "Anand Sahib"@en ;
+    rdfs:comment "For bliss and liberation from the cycle of births/deaths"@en .
+
+gg:AsaDiVar a gg:Bani ;
+    # gg:inScripture gg:SGGS ;
+    rdfs:label "Asa Di Var"@en ;
+    rdfs:comment "A collection of hymns usually recited in the morning congregations at Gurdwaras."@en .
+
+gg:BentiChaupai a gg:Bani ;
+    gg:inScripture gg:SDS ;
+    rdfs:label "Benti Chaupai (Chaupai Sahib)"@en ;
+    rdfs:comment "A personal prayer for protection and strength"@en .
+
+gg:DakhniOankar a gg:Bani ;
+    gg:inScripture gg:SGGS ;
+    rdfs:label "Dakhni Oankar"@en ;
+    rdfs:comment "Longer philosophical composition"@en .
+
+gg:JaapSahib a gg:Bani ;
+    gg:inScripture gg:SDS ;
+    rdfs:label "Jaap Sahib"@en ;
+    rdfs:comment "Salutation to the Timeless Lord, protection"@en .
+
+gg:JaitsreeVaar a gg:Bani ;
+  gg:inScripture gg:SGGS ;
+  rdfs:label "Jaitsree Ki Vaar (Mahalla 5)"@en ;
+  rdfs:comment "Vaar in Raag Jaitsree by Guru Arjan Dev Ji, beginning on Ang 705 of Sri Guru Granth Sahib Ji."@en .
+
+gg:JapJiSahib a gg:Bani ;
+    gg:inScripture gg:SGGS ;
+    rdfs:label "Jap Ji Sahib"@en ;
+    rdfs:comment "Attaining knowledge of God (Brahm Gyan)"@en .
+
+gg:KirtanSohila a gg:Bani ;
+    gg:inScripture gg:SGGS ;
+    rdfs:label "Kirtan Sohila"@en ;
+    rdfs:comment "For peace before sleep and protection from negative thoughts/dreams"@en .
+
+gg:Lavaan a gg:Bani ;
+    gg:inScripture gg:SGGS ;
+    rdfs:label "Lavaan"@en ;
+    rdfs:comment "Wedding hymns recited during the Sikh marriage ceremony (Anand Karaj)"@en .
+
+gg:RehrasSahib a gg:Bani ;
+    gg:inScripture gg:SGGS ;
+    rdfs:label "Rehras Sahib"@en ;
+    rdfs:comment "Adds energy to one's being and brings prosperity"@en .
+
+gg:ShabadHazaaray a gg:Bani ;
+    gg:inScripture gg:SGGS ;
+    rdfs:label "Shabad Hazaaray"@en ;
+    rdfs:comment "An deep expression of devotion and desire for the Divine"@en .
+
+gg:SiddhaGosh a gg:Bani ;
+    gg:inScripture gg:SGGS ;
+    rdfs:label "Siddha Gosh"@en ;
+    rdfs:comment "Longer philosophical composition"@en .
+
+gg:SukhmaniSahib a gg:Bani ;
+    gg:inScripture gg:SGGS ;
+    rdfs:label "Sukhmani Sahib"@en ;
+    rdfs:comment "The \"Jewel of Peace\"; Composition of Guru Arjan Dev Ji in Raag Gauri, structured as 24 ashtpadis with preceding saloks."@en .
+
+gg:TavPrasadSavaiye a gg:Bani ;
+    gg:inScripture gg:SDS ;
+    rdfs:label "Tav-Prasad Savaiye"@en ;
+    rdfs:comment "Attaining worldly detachment, abolishing false practices"@en .
+
+
+#################################################################
 ### Raags
 #################################################################
 
 gg:RaagAasaa a gg:Raag ;
     rdfs:label "ਆਸਾ"@pa .
 
+gg:RaagJaitsree a gg:Raag ;
+  rdfs:label "ਜੈਤਸਰੀ"@pa .
+
 gg:RaagVadhans a gg:Raag ;
     rdfs:label "Vadhans"@en .
 
+gg:RaagGauri a gg:Raag ;
+  rdfs:label "ਗਉੜੀ"@pa .

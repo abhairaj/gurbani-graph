@@ -9,9 +9,9 @@
 ### Pauri / Shabd: Japji Sahib – Pauri 7
 #################################################################
 
-gg:japji_pauri7
+gg:sggs_japji_pauri7
     a gg:Pauri ;
-    gg:id "sggs_japji-pauri7" ;
+    gg:id "sggs_japji_pauri7" ;
     dct:title "Japji Sahib – Pauri 7"@en ;
     dct:title "ਜਪੁਜੀ ਸਾਹਿਬ – ਪਉੜੀ ੭"@pa ;
     gg:ang "2"^^xsd:integer ;
@@ -30,13 +30,13 @@ gg:japji_pauri7
     rdfs:comment "Japji Sahib Pauri 7 relativizes immensely long life, global fame, and worldly honor by asserting that without Divine Nadar (grace), none of it truly counts. In contrast, the Divine freely overturns low and high, making even the ‘nirgun’ (without virtues) into virtuous, and granting yet more virtues to the virtuous; no one can add to the Divine’s own virtue."@en ;
 
     gg:hasTuk
-        gg:japji_pauri7_tuk1 ,
-        gg:japji_pauri7_tuk2 ,
-        gg:japji_pauri7_tuk3 ,
-        gg:japji_pauri7_tuk4 ,
-        gg:japji_pauri7_tuk5 ,
-        gg:japji_pauri7_tuk6 ,
-        gg:japji_pauri7_tuk7
+        gg:sggs_japji_pauri7_tuk1 ,
+        gg:sggs_japji_pauri7_tuk2 ,
+        gg:sggs_japji_pauri7_tuk3 ,
+        gg:sggs_japji_pauri7_tuk4 ,
+        gg:sggs_japji_pauri7_tuk5 ,
+        gg:sggs_japji_pauri7_tuk6 ,
+        gg:sggs_japji_pauri7_tuk7
 .
 
 #################################################################
@@ -44,11 +44,11 @@ gg:japji_pauri7
 ### ਜੇ ਜੁਗ ਚਾਰੇ ਆਰਜਾ ਹੋਰ ਦਸੂਣੀ ਹੋਇ ॥
 #################################################################
 
-gg:japji_pauri7_tuk1
+gg:sggs_japji_pauri7_tuk1
     a gg:Tuk ;
-    gg:id "sggs_japji-pauri7_tuk1" ;
+    gg:id "sggs_japji_pauri7_tuk1" ;
     gg:index "1"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri7 ;
+    gg:belongsTo gg:sggs_japji_pauri7 ;
 
     gg:gurmukhi "ਜੇ ਜੁਗ ਚਾਰੇ ਆਰਜਾ ਹੋਰ ਦਸੂਣੀ ਹੋਇ ॥"@pa ;
     gg:transliteration "je jug chāre ārjā hor dasūṇī hoi ||"@en-Latn ;
@@ -57,12 +57,12 @@ gg:japji_pauri7_tuk1
     gg:hasTheme gg:GloryStatus ;
 
     gg:hasGlossUnit
-        gg:japji_pauri7_tuk1_gu1 ,
-        gg:japji_pauri7_tuk1_gu2
+        gg:sggs_japji_pauri7_tuk1_gu1 ,
+        gg:sggs_japji_pauri7_tuk1_gu2
 .
 
 # GU1: ਜੇ ਜੁਗ ਚਾਰੇ ਆਰਜਾ
-gg:japji_pauri7_tuk1_gu1
+gg:sggs_japji_pauri7_tuk1_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਜੇ ਜੁਗ ਚਾਰੇ ਆਰਜਾ"@pa ;
@@ -71,7 +71,7 @@ gg:japji_pauri7_tuk1_gu1
 .
 
 # GU2: ਹੋਰ ਦਸੂਣੀ ਹੋਇ
-gg:japji_pauri7_tuk1_gu2
+gg:sggs_japji_pauri7_tuk1_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਹੋਰ ਦਸੂਣੀ ਹੋਇ"@pa ;
@@ -84,11 +84,11 @@ gg:japji_pauri7_tuk1_gu2
 ### ਨਵਾ ਖੰਡਾ ਵਿਚਿ ਜਾਣੀਐ ਨਾਲਿ ਚਲੈ ਸਭੁ ਕੋਇ ॥
 #################################################################
 
-gg:japji_pauri7_tuk2
+gg:sggs_japji_pauri7_tuk2
     a gg:Tuk ;
-    gg:id "sggs_japji-pauri7_tuk2" ;
+    gg:id "sggs_japji_pauri7_tuk2" ;
     gg:index "2"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri7 ;
+    gg:belongsTo gg:sggs_japji_pauri7 ;
 
     gg:gurmukhi "ਨਵਾ ਖੰਡਾ ਵਿਚਿ ਜਾਣੀਐ ਨਾਲਿ ਚਲੈ ਸਭੁ ਕੋਇ ॥"@pa ;
     gg:transliteration "navā khandā vich jāṇīai nāl chalai sabh koi ||"@en-Latn ;
@@ -97,12 +97,12 @@ gg:japji_pauri7_tuk2
     gg:hasTheme gg:GloryStatus ;
 
     gg:hasGlossUnit
-        gg:japji_pauri7_tuk2_gu1 ,
-        gg:japji_pauri7_tuk2_gu2
+        gg:sggs_japji_pauri7_tuk2_gu1 ,
+        gg:sggs_japji_pauri7_tuk2_gu2
 .
 
 # GU1: ਨਵਾ ਖੰਡਾ ਵਿਚਿ ਜਾਣੀਐ
-gg:japji_pauri7_tuk2_gu1
+gg:sggs_japji_pauri7_tuk2_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਨਵਾ ਖੰਡਾ ਵਿਚਿ ਜਾਣੀਐ"@pa ;
@@ -111,7 +111,7 @@ gg:japji_pauri7_tuk2_gu1
 .
 
 # GU2: ਨਾਲਿ ਚਲੈ ਸਭੁ ਕੋਇ
-gg:japji_pauri7_tuk2_gu2
+gg:sggs_japji_pauri7_tuk2_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਨਾਲਿ ਚਲੈ ਸਭੁ ਕੋਇ"@pa ;
@@ -124,11 +124,11 @@ gg:japji_pauri7_tuk2_gu2
 ### ਚੰਗਾ ਨਾਉ ਰਖਾਇ ਕੈ ਜਸੁ ਕੀਰਤਿ ਜਗਿ ਲੇਇ ॥
 #################################################################
 
-gg:japji_pauri7_tuk3
+gg:sggs_japji_pauri7_tuk3
     a gg:Tuk ;
-    gg:id "sggs_japji-pauri7_tuk3" ;
+    gg:id "sggs_japji_pauri7_tuk3" ;
     gg:index "3"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri7 ;
+    gg:belongsTo gg:sggs_japji_pauri7 ;
 
     gg:gurmukhi "ਚੰਗਾ ਨਾਉ ਰਖਾਇ ਕੈ ਜਸੁ ਕੀਰਤਿ ਜਗਿ ਲੇਇ ॥"@pa ;
     gg:transliteration "caṅgā nāu rakhāe kai jas kīrat jag lei ||"@en-Latn ;
@@ -137,12 +137,12 @@ gg:japji_pauri7_tuk3
     gg:hasTheme gg:GloryStatus ;
 
     gg:hasGlossUnit
-        gg:japji_pauri7_tuk3_gu1 ,
-        gg:japji_pauri7_tuk3_gu2
+        gg:sggs_japji_pauri7_tuk3_gu1 ,
+        gg:sggs_japji_pauri7_tuk3_gu2
 .
 
 # GU1: ਚੰਗਾ ਨਾਉ ਰਖਾਇ ਕੈ
-gg:japji_pauri7_tuk3_gu1
+gg:sggs_japji_pauri7_tuk3_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਚੰਗਾ ਨਾਉ ਰਖਾਇ ਕੈ"@pa ;
@@ -151,7 +151,7 @@ gg:japji_pauri7_tuk3_gu1
 .
 
 # GU2: ਜਸੁ ਕੀਰਤਿ ਜਗਿ ਲੇਇ
-gg:japji_pauri7_tuk3_gu2
+gg:sggs_japji_pauri7_tuk3_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਜਸੁ ਕੀਰਤਿ ਜਗਿ ਲੇਇ"@pa ;
@@ -164,11 +164,11 @@ gg:japji_pauri7_tuk3_gu2
 ### ਜੇ ਤਿਸੁ ਨਦਰਿ ਨ ਆਵਈ ਤ ਵਾਤ ਨ ਪੁਛੈ ਕੇ ॥
 #################################################################
 
-gg:japji_pauri7_tuk4
+gg:sggs_japji_pauri7_tuk4
     a gg:Tuk ;
-    gg:id "sggs_japji-pauri7_tuk4" ;
+    gg:id "sggs_japji_pauri7_tuk4" ;
     gg:index "4"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri7 ;
+    gg:belongsTo gg:sggs_japji_pauri7 ;
 
     gg:gurmukhi "ਜੇ ਤਿਸੁ ਨਦਰਿ ਨ ਆਵਈ ਤ ਵਾਤ ਨ ਪੁਛੈ ਕੇ ॥"@pa ;
     gg:transliteration "je tis nadar na āvaī ta vāt na pucchai ke ||"@en-Latn ;
@@ -180,12 +180,12 @@ gg:japji_pauri7_tuk4
         gg:GloryStatus ;
 
     gg:hasGlossUnit
-        gg:japji_pauri7_tuk4_gu1 ,
-        gg:japji_pauri7_tuk4_gu2
+        gg:sggs_japji_pauri7_tuk4_gu1 ,
+        gg:sggs_japji_pauri7_tuk4_gu2
 .
 
 # GU1: ਜੇ ਤਿਸੁ ਨਦਰਿ ਨ ਆਵਈ
-gg:japji_pauri7_tuk4_gu1
+gg:sggs_japji_pauri7_tuk4_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਜੇ ਤਿਸੁ ਨਦਰਿ ਨ ਆਵਈ"@pa ;
@@ -194,7 +194,7 @@ gg:japji_pauri7_tuk4_gu1
 .
 
 # GU2: ਤ ਵਾਤ ਨ ਪੁਛੈ ਕੇ
-gg:japji_pauri7_tuk4_gu2
+gg:sggs_japji_pauri7_tuk4_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਤ ਵਾਤ ਨ ਪੁਛੈ ਕੇ"@pa ;
@@ -207,11 +207,11 @@ gg:japji_pauri7_tuk4_gu2
 ### ਕੀਟਾ ਅੰਦਰਿ ਕੀਟੁ ਕਰਿ ਦੋਸੀ ਦੋਸੁ ਧਰੇ ॥
 #################################################################
 
-gg:japji_pauri7_tuk5
+gg:sggs_japji_pauri7_tuk5
     a gg:Tuk ;
-    gg:id "sggs_japji-pauri7_tuk5" ;
+    gg:id "sggs_japji_pauri7_tuk5" ;
     gg:index "5"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri7 ;
+    gg:belongsTo gg:sggs_japji_pauri7 ;
 
     gg:gurmukhi "ਕੀਟਾ ਅੰਦਰਿ ਕੀਟੁ ਕਰਿ ਦੋਸੀ ਦੋਸੁ ਧਰੇ ॥"@pa ;
     gg:transliteration "kīṭā andar kīṭ kar dosī dos dhare ||"@en-Latn ;
@@ -222,12 +222,12 @@ gg:japji_pauri7_tuk5
         gg:Ego ;
 
     gg:hasGlossUnit
-        gg:japji_pauri7_tuk5_gu1 ,
-        gg:japji_pauri7_tuk5_gu2
+        gg:sggs_japji_pauri7_tuk5_gu1 ,
+        gg:sggs_japji_pauri7_tuk5_gu2
 .
 
 # GU1: ਕੀਟਾ ਅੰਦਰਿ ਕੀਟੁ ਕਰਿ
-gg:japji_pauri7_tuk5_gu1
+gg:sggs_japji_pauri7_tuk5_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਕੀਟਾ ਅੰਦਰਿ ਕੀਟੁ ਕਰਿ"@pa ;
@@ -236,7 +236,7 @@ gg:japji_pauri7_tuk5_gu1
 .
 
 # GU2: ਦੋਸੀ ਦੋਸੁ ਧਰੇ
-gg:japji_pauri7_tuk5_gu2
+gg:sggs_japji_pauri7_tuk5_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਦੋਸੀ ਦੋਸੁ ਧਰੇ"@pa ;
@@ -249,11 +249,11 @@ gg:japji_pauri7_tuk5_gu2
 ### ਨਾਨਕ ਨਿਰਗੁਣਿ ਗੁਣੁ ਕਰੇ ਗੁਣਵੰਤਿਆ ਗੁਣੁ ਦੇ ॥
 #################################################################
 
-gg:japji_pauri7_tuk6
+gg:sggs_japji_pauri7_tuk6
     a gg:Tuk ;
-    gg:id "sggs_japji-pauri7_tuk6" ;
+    gg:id "sggs_japji_pauri7_tuk6" ;
     gg:index "6"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri7 ;
+    gg:belongsTo gg:sggs_japji_pauri7 ;
 
     gg:gurmukhi "ਨਾਨਕ ਨਿਰਗੁਣਿ ਗੁਣੁ ਕਰੇ ਗੁਣਵੰਤਿਆ ਗੁਣੁ ਦੇ ॥"@pa ;
     gg:transliteration "nānak nirguṇ guṇ kare guṇvantiā guṇ de ||"@en-Latn ;
@@ -265,12 +265,12 @@ gg:japji_pauri7_tuk6
         gg:Virtues ;
 
     gg:hasGlossUnit
-        gg:japji_pauri7_tuk6_gu1 ,
-        gg:japji_pauri7_tuk6_gu2
+        gg:sggs_japji_pauri7_tuk6_gu1 ,
+        gg:sggs_japji_pauri7_tuk6_gu2
 .
 
 # GU1: ਨਾਨਕ ਨਿਰਗੁਣਿ ਗੁਣੁ ਕਰੇ
-gg:japji_pauri7_tuk6_gu1
+gg:sggs_japji_pauri7_tuk6_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਨਾਨਕ ਨਿਰਗੁਣਿ ਗੁਣੁ ਕਰੇ"@pa ;
@@ -279,7 +279,7 @@ gg:japji_pauri7_tuk6_gu1
 .
 
 # GU2: ਗੁਣਵੰਤਿਆ ਗੁਣੁ ਦੇ
-gg:japji_pauri7_tuk6_gu2
+gg:sggs_japji_pauri7_tuk6_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਗੁਣਵੰਤਿਆ ਗੁਣੁ ਦੇ"@pa ;
@@ -292,11 +292,11 @@ gg:japji_pauri7_tuk6_gu2
 ### ਤੇਹਾ ਕੋਇ ਨ ਸੁਝਈ ਜਿ ਤਿਸੁ ਗੁਣੁ ਕੋਇ ਕਰੇ ॥੭॥
 #################################################################
 
-gg:japji_pauri7_tuk7
+gg:sggs_japji_pauri7_tuk7
     a gg:Tuk ;
-    gg:id "sggs_japji-pauri7_tuk7" ;
+    gg:id "sggs_japji_pauri7_tuk7" ;
     gg:index "7"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri7 ;
+    gg:belongsTo gg:sggs_japji_pauri7 ;
 
     gg:gurmukhi "ਤੇਹਾ ਕੋਇ ਨ ਸੁਝਈ ਜਿ ਤਿਸੁ ਗੁਣੁ ਕੋਇ ਕਰੇ ॥੭॥"@pa ;
     gg:transliteration "tehā koi na sujhī je tis guṇ koi kare ||7||"@en-Latn ;
@@ -307,12 +307,12 @@ gg:japji_pauri7_tuk7
         gg:DivineSovereignty ;
 
     gg:hasGlossUnit
-        gg:japji_pauri7_tuk7_gu1 ,
-        gg:japji_pauri7_tuk7_gu2
+        gg:sggs_japji_pauri7_tuk7_gu1 ,
+        gg:sggs_japji_pauri7_tuk7_gu2
 .
 
 # GU1: ਤੇਹਾ ਕੋਇ ਨ ਸੁਝਈ
-gg:japji_pauri7_tuk7_gu1
+gg:sggs_japji_pauri7_tuk7_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਤੇਹਾ ਕੋਇ ਨ ਸੁਝਈ"@pa ;
@@ -321,7 +321,7 @@ gg:japji_pauri7_tuk7_gu1
 .
 
 # GU2: ਜਿ ਤਿਸੁ ਗੁਣੁ ਕੋਇ ਕਰੇ ॥੭॥
-gg:japji_pauri7_tuk7_gu2
+gg:sggs_japji_pauri7_tuk7_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਜਿ ਤਿਸੁ ਗੁਣੁ ਕੋਇ ਕਰੇ ॥੭॥"@pa ;

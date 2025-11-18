@@ -9,9 +9,9 @@
 ### ਮੰਨੈ ਪਾਵਹਿ ਮੋਖੁ ਦੁਆਰੁ ॥ ... ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੫॥
 #################################################################
 
-gg:japji_pauri15
+gg:sggs_japji_pauri15
     a                 gg:Pauri ;
-    gg:id             "sggs_japji-pauri15" ;
+    gg:id             "sggs_japji_pauri15" ;
     dct:title         "Japji Sahib – Pauri 15"@en ;
     dct:title         "ਜਪੁਜੀ ਸਾਹਿਬ – ਪਉੜੀ ੧੫"@pa ;
     gg:ang            "3"^^xsd:integer ;
@@ -28,12 +28,12 @@ gg:japji_pauri15
                       gg:DivineName ,
                       gg:Niranjan ;
 
-    gg:hasTuk         gg:japji_pauri15_tuk1 ,
-                      gg:japji_pauri15_tuk2 ,
-                      gg:japji_pauri15_tuk3 ,
-                      gg:japji_pauri15_tuk4 ,
-                      gg:japji_pauri15_tuk5 ,
-                      gg:japji_pauri15_tuk6 ;
+    gg:hasTuk         gg:sggs_japji_pauri15_tuk1 ,
+                      gg:sggs_japji_pauri15_tuk2 ,
+                      gg:sggs_japji_pauri15_tuk3 ,
+                      gg:sggs_japji_pauri15_tuk4 ,
+                      gg:sggs_japji_pauri15_tuk5 ,
+                      gg:sggs_japji_pauri15_tuk6 ;
 
     rdfs:comment      "Pauri 15 climaxes the 'mannai' section. It explains that through the faithful state one finds the gate of liberation, becomes a support for family, carries others across with the Guru’s Sikhs, is freed from wandering and spiritual begging, and all this arises through the immaculate Naam."@en
 .
@@ -43,22 +43,22 @@ gg:japji_pauri15
 ### ਮੰਨੈ ਪਾਵਹਿ ਮੋਖੁ ਦੁਆਰੁ ॥
 #################################################################
 
-gg:japji_pauri15_tuk1
+gg:sggs_japji_pauri15_tuk1
     a                  gg:Tuk ;
     gg:id              "sggs_japji_pauri15_tuk1" ;
     gg:index           "1"^^xsd:integer ;
-    gg:belongsTo       gg:japji_pauri15 ;
+    gg:belongsTo       gg:sggs_japji_pauri15 ;
     gg:gurmukhi        "ਮੰਨੈ ਪਾਵਹਿ ਮੋਖੁ ਦੁਆਰੁ ॥"@pa ;
     gg:transliteration "mannai paavahi mokh du-aar ||"@en-Latn ;
     gg:translation     "Through faith, one finds the gate of liberation."@en ;
     gg:hasTheme        gg:FaithfulState ,
                        gg:LiberationDoor ,
                        gg:LifeDeathCycle ;
-    gg:hasGlossUnit    gg:japji_pauri15_tuk1_gu1 ,
-                       gg:japji_pauri15_tuk1_gu2
+    gg:hasGlossUnit    gg:sggs_japji_pauri15_tuk1_gu1 ,
+                       gg:sggs_japji_pauri15_tuk1_gu2
 .
 
-gg:japji_pauri15_tuk1_gu1
+gg:sggs_japji_pauri15_tuk1_gu1
     a                  gg:GlossUnit ;
     gg:index           "1"^^xsd:integer ;
     gg:gurmukhi        "ਮੰਨੈ ਪਾਵਹਿ"@pa ;
@@ -66,7 +66,7 @@ gg:japji_pauri15_tuk1_gu1
     gg:translation     "in the faithful state one truly attains"@en
 .
 
-gg:japji_pauri15_tuk1_gu2
+gg:sggs_japji_pauri15_tuk1_gu2
     a                  gg:GlossUnit ;
     gg:index           "2"^^xsd:integer ;
     gg:gurmukhi        "ਮੋਖੁ ਦੁਆਰੁ"@pa ;
@@ -79,22 +79,22 @@ gg:japji_pauri15_tuk1_gu2
 ### ਮੰਨੈ ਪਰਵਾਰੈ ਸਾਧਾਰੁ ॥
 #################################################################
 
-gg:japji_pauri15_tuk2
+gg:sggs_japji_pauri15_tuk2
     a                  gg:Tuk ;
     gg:id              "sggs_japji_pauri15_tuk2" ;
     gg:index           "2"^^xsd:integer ;
-    gg:belongsTo       gg:japji_pauri15 ;
+    gg:belongsTo       gg:sggs_japji_pauri15 ;
     gg:gurmukhi        "ਮੰਨੈ ਪਰਵਾਰੈ ਸਾਧਾਰੁ ॥"@pa ;
     gg:transliteration "mannai parvaarai saadhaar ||"@en-Latn ;
     gg:translation     "Through faith, one becomes a true support for one’s family and relations."@en ;
     gg:hasTheme        gg:FaithfulState ,
                        gg:FamilyUplift ,
                        gg:UniversalLove ;
-    gg:hasGlossUnit    gg:japji_pauri15_tuk2_gu1 ,
-                       gg:japji_pauri15_tuk2_gu2
+    gg:hasGlossUnit    gg:sggs_japji_pauri15_tuk2_gu1 ,
+                       gg:sggs_japji_pauri15_tuk2_gu2
 .
 
-gg:japji_pauri15_tuk2_gu1
+gg:sggs_japji_pauri15_tuk2_gu1
     a                  gg:GlossUnit ;
     gg:index           "1"^^xsd:integer ;
     gg:gurmukhi        "ਮੰਨੈ ਪਰਵਾਰੈ"@pa ;
@@ -102,7 +102,7 @@ gg:japji_pauri15_tuk2_gu1
     gg:translation     "the faithful one’s state touches their whole family"@en
 .
 
-gg:japji_pauri15_tuk2_gu2
+gg:sggs_japji_pauri15_tuk2_gu2
     a                  gg:GlossUnit ;
     gg:index           "2"^^xsd:integer ;
     gg:gurmukhi        "ਸਾਧਾਰੁ"@pa ;
@@ -115,22 +115,22 @@ gg:japji_pauri15_tuk2_gu2
 ### ਮੰਨੈ ਤਰੈ ਤਾਰੇ ਗੁਰੁ ਸਿਖ ॥
 #################################################################
 
-gg:japji_pauri15_tuk3
+gg:sggs_japji_pauri15_tuk3
     a                  gg:Tuk ;
     gg:id              "sggs_japji_pauri15_tuk3" ;
     gg:index           "3"^^xsd:integer ;
-    gg:belongsTo       gg:japji_pauri15 ;
+    gg:belongsTo       gg:sggs_japji_pauri15 ;
     gg:gurmukhi        "ਮੰਨੈ ਤਰੈ ਤਾਰੇ ਗੁਰੁ ਸਿਖ ॥"@pa ;
     gg:transliteration "mannai tarai taare gur sikh ||"@en-Latn ;
     gg:translation     "Through faith, one crosses over and carries others across along with the Guru’s Sikhs."@en ;
     gg:hasTheme        gg:FaithfulState ,
                        gg:GurmukhPath ,
                        gg:Bhagat ;
-    gg:hasGlossUnit    gg:japji_pauri15_tuk3_gu1 ,
-                       gg:japji_pauri15_tuk3_gu2
+    gg:hasGlossUnit    gg:sggs_japji_pauri15_tuk3_gu1 ,
+                       gg:sggs_japji_pauri15_tuk3_gu2
 .
 
-gg:japji_pauri15_tuk3_gu1
+gg:sggs_japji_pauri15_tuk3_gu1
     a                  gg:GlossUnit ;
     gg:index           "1"^^xsd:integer ;
     gg:gurmukhi        "ਮੰਨੈ ਤਰੈ"@pa ;
@@ -138,7 +138,7 @@ gg:japji_pauri15_tuk3_gu1
     gg:translation     "living in faith, one is carried across the ocean of existence"@en
 .
 
-gg:japji_pauri15_tuk3_gu2
+gg:sggs_japji_pauri15_tuk3_gu2
     a                  gg:GlossUnit ;
     gg:index           "2"^^xsd:integer ;
     gg:gurmukhi        "ਤਾਰੇ ਗੁਰੁ ਸਿਖ"@pa ;
@@ -151,22 +151,22 @@ gg:japji_pauri15_tuk3_gu2
 ### ਮੰਨੈ ਨਾਨਕ ਭਵਹਿ ਨ ਭਿਖ ॥
 #################################################################
 
-gg:japji_pauri15_tuk4
+gg:sggs_japji_pauri15_tuk4
     a                  gg:Tuk ;
     gg:id              "sggs_japji_pauri15_tuk4" ;
     gg:index           "4"^^xsd:integer ;
-    gg:belongsTo       gg:japji_pauri15 ;
+    gg:belongsTo       gg:sggs_japji_pauri15 ;
     gg:gurmukhi        "ਮੰਨੈ ਨਾਨਕ ਭਵਹਿ ਨ ਭਿਖ ॥"@pa ;
     gg:transliteration "mannai naanak bhavahi na bhikh ||"@en-Latn ;
     gg:translation     "O Nanak, the faithful do not wander in spiritual poverty and begging."@en ;
     gg:hasTheme        gg:FaithfulState ,
                        gg:Restlessness ,
                        gg:Provision ;
-    gg:hasGlossUnit    gg:japji_pauri15_tuk4_gu1 ,
-                       gg:japji_pauri15_tuk4_gu2
+    gg:hasGlossUnit    gg:sggs_japji_pauri15_tuk4_gu1 ,
+                       gg:sggs_japji_pauri15_tuk4_gu2
 .
 
-gg:japji_pauri15_tuk4_gu1
+gg:sggs_japji_pauri15_tuk4_gu1
     a                  gg:GlossUnit ;
     gg:index           "1"^^xsd:integer ;
     gg:gurmukhi        "ਮੰਨੈ ਨਾਨਕ"@pa ;
@@ -174,7 +174,7 @@ gg:japji_pauri15_tuk4_gu1
     gg:translation     "O Nanak, wherever there is true faith"@en
 .
 
-gg:japji_pauri15_tuk4_gu2
+gg:sggs_japji_pauri15_tuk4_gu2
     a                  gg:GlossUnit ;
     gg:index           "2"^^xsd:integer ;
     gg:gurmukhi        "ਭਵਹਿ ਨ ਭਿਖ"@pa ;
@@ -187,22 +187,22 @@ gg:japji_pauri15_tuk4_gu2
 ### ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥
 #################################################################
 
-gg:japji_pauri15_tuk5
+gg:sggs_japji_pauri15_tuk5
     a                  gg:Tuk ;
     gg:id              "sggs_japji_pauri15_tuk5" ;
     gg:index           "5"^^xsd:integer ;
-    gg:belongsTo       gg:japji_pauri15 ;
+    gg:belongsTo       gg:sggs_japji_pauri15 ;
     gg:gurmukhi        "ਐਸਾ ਨਾਮੁ ਨਿਰੰਜਨੁ ਹੋਇ ॥"@pa ;
     gg:transliteration "aisaa naam niranjan ho-ay ||"@en-Latn ;
     gg:translation     "Such is the immaculate Naam that produces this state."@en ;
     gg:hasTheme        gg:DivineName ,
                        gg:Niranjan ,
                        gg:UncreatedDivine ;
-    gg:hasGlossUnit    gg:japji_pauri15_tuk5_gu1 ,
-                       gg:japji_pauri15_tuk5_gu2
+    gg:hasGlossUnit    gg:sggs_japji_pauri15_tuk5_gu1 ,
+                       gg:sggs_japji_pauri15_tuk5_gu2
 .
 
-gg:japji_pauri15_tuk5_gu1
+gg:sggs_japji_pauri15_tuk5_gu1
     a                  gg:GlossUnit ;
     gg:index           "1"^^xsd:integer ;
     gg:gurmukhi        "ਐਸਾ ਨਾਮੁ"@pa ;
@@ -210,7 +210,7 @@ gg:japji_pauri15_tuk5_gu1
     gg:translation     "such is this Naam"@en
 .
 
-gg:japji_pauri15_tuk5_gu2
+gg:sggs_japji_pauri15_tuk5_gu2
     a                  gg:GlossUnit ;
     gg:index           "2"^^xsd:integer ;
     gg:gurmukhi        "ਨਿਰੰਜਨੁ ਹੋਇ"@pa ;
@@ -223,21 +223,21 @@ gg:japji_pauri15_tuk5_gu2
 ### ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੫॥
 #################################################################
 
-gg:japji_pauri15_tuk6
+gg:sggs_japji_pauri15_tuk6
     a                  gg:Tuk ;
     gg:id              "sggs_japji_pauri15_tuk6" ;
     gg:index           "6"^^xsd:integer ;
-    gg:belongsTo       gg:japji_pauri15 ;
+    gg:belongsTo       gg:sggs_japji_pauri15 ;
     gg:gurmukhi        "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ ਮਨਿ ਕੋਇ ॥੧੫॥"@pa ;
     gg:transliteration "jay ko mann jaanai man ko-ay ||15||"@en-Latn ;
     gg:translation     "Only one who truly realizes this faithful state can know such a mind. ||15||"@en ;
     gg:hasTheme        gg:FaithfulState ,
                        gg:Wisdom ;
-    gg:hasGlossUnit    gg:japji_pauri15_tuk6_gu1 ,
-                       gg:japji_pauri15_tuk6_gu2
+    gg:hasGlossUnit    gg:sggs_japji_pauri15_tuk6_gu1 ,
+                       gg:sggs_japji_pauri15_tuk6_gu2
 .
 
-gg:japji_pauri15_tuk6_gu1
+gg:sggs_japji_pauri15_tuk6_gu1
     a                  gg:GlossUnit ;
     gg:index           "1"^^xsd:integer ;
     gg:gurmukhi        "ਜੇ ਕੋ ਮੰਨਿ ਜਾਣੈ"@pa ;
@@ -245,7 +245,7 @@ gg:japji_pauri15_tuk6_gu1
     gg:translation     "if someone truly knows and lives mannai"@en
 .
 
-gg:japji_pauri15_tuk6_gu2
+gg:sggs_japji_pauri15_tuk6_gu2
     a                  gg:GlossUnit ;
     gg:index           "2"^^xsd:integer ;
     gg:gurmukhi        "ਮਨਿ ਕੋਇ ॥੧੫॥"@pa ;

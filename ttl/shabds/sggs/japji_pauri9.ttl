@@ -9,9 +9,9 @@
 ### Pauri / Shabd: Japji Sahib – Pauri 9
 #################################################################
 
-gg:japji_pauri9
+gg:sggs_japji_pauri9
     a gg:Pauri ;
-    gg:id "sggs_japji-pauri9" ;
+    gg:id "sggs_japji_pauri9" ;
     dct:title "Japji Sahib – Pauri 9"@en ;
     dct:title "ਜਪੁਜੀ ਸਾਹਿਬ – ਪਉੜੀ ੯"@pa ;
 
@@ -31,10 +31,10 @@ gg:japji_pauri9
     rdfs:comment "Pauri 9 continues the 'suṇiai' (listening) section, outlining the spiritual effects of deep, attuned listening: removal of sorrow and sin, growth of wisdom, transformation of the body-mind, and alignment with the Divine. Each line describes a different fruit of true listening."@en ;
 
     gg:hasTuk
-        gg:japji_pauri9_tuk1 ,
-        gg:japji_pauri9_tuk2 ,
-        gg:japji_pauri9_tuk3 ,
-        gg:japji_pauri9_tuk4
+        gg:sggs_japji_pauri9_tuk1 ,
+        gg:sggs_japji_pauri9_tuk2 ,
+        gg:sggs_japji_pauri9_tuk3 ,
+        gg:sggs_japji_pauri9_tuk4
 .
 
 #################################################################
@@ -42,11 +42,11 @@ gg:japji_pauri9
 ### ਸੁਣਿਐ ਸਿਧ ਪੀਰ ਸੁਰਿ ਨਾਥ ॥
 #################################################################
 
-gg:japji_pauri9_tuk1
+gg:sggs_japji_pauri9_tuk1
     a gg:Tuk ;
     gg:id "sggs_japji_pauri9_tuk1" ;
     gg:index "1"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri9 ;
+    gg:belongsTo gg:sggs_japji_pauri9 ;
 
     gg:gurmukhi "ਸੁਣਿਐ ਸਿਧ ਪੀਰ ਸੁਰਿ ਨਾਥ ॥"@pa ;
     gg:transliteration "suṇiai siddh pīr sur nāth ||"@en-Latn ;
@@ -56,12 +56,12 @@ gg:japji_pauri9_tuk1
     gg:hasTheme gg:Listening ;
 
     gg:hasGlossUnit
-        gg:japji_pauri9_tuk1_gu1 ,
-        gg:japji_pauri9_tuk1_gu2
+        gg:sggs_japji_pauri9_tuk1_gu1 ,
+        gg:sggs_japji_pauri9_tuk1_gu2
 .
 
 # GU1
-gg:japji_pauri9_tuk1_gu1
+gg:sggs_japji_pauri9_tuk1_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਸੁਣਿਐ ਸਿਧ ਪੀਰ"@pa ;
@@ -70,7 +70,7 @@ gg:japji_pauri9_tuk1_gu1
 .
 
 # GU2
-gg:japji_pauri9_tuk1_gu2
+gg:sggs_japji_pauri9_tuk1_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਸੁਰਿ ਨਾਥ"@pa ;
@@ -83,11 +83,11 @@ gg:japji_pauri9_tuk1_gu2
 ### ਸੁਣਿਐ ਧਰਤਿ ਧਵਲ ਆਕਾਸ ॥
 #################################################################
 
-gg:japji_pauri9_tuk2
+gg:sggs_japji_pauri9_tuk2
     a gg:Tuk ;
     gg:id "sggs_japji_pauri9_tuk2" ;
     gg:index "2"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri9 ;
+    gg:belongsTo gg:sggs_japji_pauri9 ;
 
     gg:gurmukhi "ਸੁਣਿਐ ਧਰਤਿ ਧਵਲ ਆਕਾਸ ॥"@pa ;
     gg:transliteration "suṇiai dharat dhaval ākās ||"@en-Latn ;
@@ -97,12 +97,12 @@ gg:japji_pauri9_tuk2
     gg:hasTheme gg:DivineWisdom ;
 
     gg:hasGlossUnit
-        gg:japji_pauri9_tuk2_gu1 ,
-        gg:japji_pauri9_tuk2_gu2
+        gg:sggs_japji_pauri9_tuk2_gu1 ,
+        gg:sggs_japji_pauri9_tuk2_gu2
 .
 
 # GU1
-gg:japji_pauri9_tuk2_gu1
+gg:sggs_japji_pauri9_tuk2_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਸੁਣਿਐ ਧਰਤਿ ਧਵਲ"@pa ;
@@ -111,7 +111,7 @@ gg:japji_pauri9_tuk2_gu1
 .
 
 # GU2
-gg:japji_pauri9_tuk2_gu2
+gg:sggs_japji_pauri9_tuk2_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਆਕਾਸ"@pa ;
@@ -124,11 +124,11 @@ gg:japji_pauri9_tuk2_gu2
 ### ਸੁਣਿਐ ਦੀਪ ਲੋਅ ਪਾਤਾਲ ॥
 #################################################################
 
-gg:japji_pauri9_tuk3
+gg:sggs_japji_pauri9_tuk3
     a gg:Tuk ;
     gg:id "sggs_japji_pauri9_tuk3" ;
     gg:index "3"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri9 ;
+    gg:belongsTo gg:sggs_japji_pauri9 ;
 
     gg:gurmukhi "ਸੁਣਿਐ ਦੀਪ ਲੋਅ ਪਾਤਾਲ ॥"@pa ;
     gg:transliteration "suṇiai dīp loa pātāl ||"@en-Latn ;
@@ -138,12 +138,12 @@ gg:japji_pauri9_tuk3
     gg:hasTheme gg:DivineWisdom ;
 
     gg:hasGlossUnit
-        gg:japji_pauri9_tuk3_gu1 ,
-        gg:japji_pauri9_tuk3_gu2
+        gg:sggs_japji_pauri9_tuk3_gu1 ,
+        gg:sggs_japji_pauri9_tuk3_gu2
 .
 
 # GU1
-gg:japji_pauri9_tuk3_gu1
+gg:sggs_japji_pauri9_tuk3_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਸੁਣਿਐ ਦੀਪ ਲੋਅ"@pa ;
@@ -152,7 +152,7 @@ gg:japji_pauri9_tuk3_gu1
 .
 
 # GU2
-gg:japji_pauri9_tuk3_gu2
+gg:sggs_japji_pauri9_tuk3_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਪਾਤਾਲ"@pa ;
@@ -165,11 +165,11 @@ gg:japji_pauri9_tuk3_gu2
 ### ਸੁਣਿਐ ਪੋਖੁ ਪਵਣੁ ਨਿਰਬਾਣੁ ॥੯॥
 #################################################################
 
-gg:japji_pauri9_tuk4
+gg:sggs_japji_pauri9_tuk4
     a gg:Tuk ;
     gg:id "sggs_japji_pauri9_tuk4" ;
     gg:index "4"^^xsd:integer ;
-    gg:belongsTo gg:japji_pauri9 ;
+    gg:belongsTo gg:sggs_japji_pauri9 ;
 
     gg:gurmukhi "ਸੁਣਿਐ ਪੋਖੁ ਪਵਣੁ ਨਿਰਬਾਣੁ ॥੯॥"@pa ;
     gg:transliteration "suṇiai pokh pavaṇ nirbāṇ ||9||"@en-Latn ;
@@ -181,12 +181,12 @@ gg:japji_pauri9_tuk4
         gg:Fearlessness ;
 
     gg:hasGlossUnit
-        gg:japji_pauri9_tuk4_gu1 ,
-        gg:japji_pauri9_tuk4_gu2
+        gg:sggs_japji_pauri9_tuk4_gu1 ,
+        gg:sggs_japji_pauri9_tuk4_gu2
 .
 
 # GU1
-gg:japji_pauri9_tuk4_gu1
+gg:sggs_japji_pauri9_tuk4_gu1
     a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਸੁਣਿਐ ਪੋਖੁ ਪਵਣੁ"@pa ;
@@ -195,7 +195,7 @@ gg:japji_pauri9_tuk4_gu1
 .
 
 # GU2
-gg:japji_pauri9_tuk4_gu2
+gg:sggs_japji_pauri9_tuk4_gu2
     a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਨਿਰਬਾਣੁ ॥੯॥"@pa ;

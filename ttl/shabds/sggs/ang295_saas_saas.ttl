@@ -1,0 +1,370 @@
+@prefix gg:  <http://gurbani-graph.org/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+#################################################################
+### Shabd: Saas Saas Simrahu Gobind
+### SGGS Ang 295 – Ashtpadi 24, Pauri 1
+#################################################################
+
+gg:sggs_ang295_saas_saas a gg:Shabd ;
+  gg:id "sggs_ang295_saas_saas" ;
+  dct:title "Saas Saas Simrahu Gobind – Ashtpadi 24, Pauri 1"@en ;
+  dct:title "ਸਾਸਿ ਸਾਸਿ ਸਿਮਰਹੁ ਗੋਬਿੰਦ – ਅਸਟਪਦੀ ੨੪, ਪਉੜੀ ੧"@pa ;
+  gg:ang "295"^^xsd:integer ;
+  gg:inScripture gg:SGGS ;
+  gg:inBani gg:SukhmaniSahib ;
+  gg:indexInBani "24"^^xsd:integer ;
+  gg:inRaag gg:RaagGauri ;
+  gg:hasAuthor gg:GuruArjanDevJi ;
+  gg:hasTheme gg:Naam ,
+              gg:ListeningAndLove ,
+              gg:GuruTeaching ,
+              gg:Satguru ,
+              gg:Ego ,
+              gg:WorldOcean ,
+              gg:Peace ,
+              gg:PrayerAndAsking ;
+  rdfs:comment "Guru Arjan Dev Ji urges the seeker to listen to the Perfect Guru’s teaching, see the Parbrahm as near, remember Gobind with every breath, drop impermanent hopes, seek the dust of saints, let go of ego through humble prayer, cross the fiery ocean of vices in sadh sangat, and fill the stores with Hari’s wealth, bowing to the Perfect Guru."@en ;
+  gg:hasTuk gg:sggs_ang295_saas_saas_tuk1 ,
+            gg:sggs_ang295_saas_saas_tuk2 ,
+            gg:sggs_ang295_saas_saas_tuk3 ,
+            gg:sggs_ang295_saas_saas_tuk4 ,
+            gg:sggs_ang295_saas_saas_tuk5 ,
+            gg:sggs_ang295_saas_saas_tuk6 ,
+            gg:sggs_ang295_saas_saas_tuk7 ,
+            gg:sggs_ang295_saas_saas_tuk8 ,
+            gg:sggs_ang295_saas_saas_tuk9 ,
+            gg:sggs_ang295_saas_saas_tuk10 ,
+            gg:sggs_ang295_saas_saas_tuk11 .
+
+#################################################################
+### Tuk 1 – Ashtpadi marker
+### ਅਸਟਪਦੀ ॥
+#################################################################
+
+gg:sggs_ang295_saas_saas_tuk1 a gg:Tuk ;
+  gg:id "sggs_ang295_saas_saas_tuk1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang295_saas_saas ;
+  gg:gurmukhi "ਅਸਟਪਦੀ ॥"@pa ;
+  gg:transliteration "asatpadee ||"@en-Latn ;
+  gg:translation "Ashtpadee (hymn of eight parts)."@en ;
+  gg:hasTheme gg:GuruTeaching ;
+  gg:hasGlossUnit gg:sggs_ang295_saas_saas_tuk1_gu1 .
+
+gg:sggs_ang295_saas_saas_tuk1_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਅਸਟਪਦੀ ॥"@pa ;
+  gg:transliteration "asatpadee ||"@en-Latn ;
+  gg:translation "An ashtpadi section begins."@en .
+
+#################################################################
+### Tuk 2 – Listen to the perfect Guru’s teaching
+### ਪੂਰੇ ਗੁਰ ਕਾ ਸੁਨਿ ਉਪਦੇਸੁ ॥
+#################################################################
+
+gg:sggs_ang295_saas_saas_tuk2 a gg:Tuk ;
+  gg:id "sggs_ang295_saas_saas_tuk2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang295_saas_saas ;
+  gg:gurmukhi "ਪੂਰੇ ਗੁਰ ਕਾ ਸੁਨਿ ਉਪਦੇਸੁ ॥"@pa ;
+  gg:transliteration "pooray gur kaa sun updays ||"@en-Latn ;
+  gg:translation "Listen to the teachings of the Perfect Guru."@en ;
+  gg:hasTheme gg:GuruTeaching , gg:Satguru ;
+  gg:hasGlossUnit gg:sggs_ang295_saas_saas_tuk2_gu1 ,
+                  gg:sggs_ang295_saas_saas_tuk2_gu2 .
+
+gg:sggs_ang295_saas_saas_tuk2_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਪੂਰੇ ਗੁਰ ਕਾ"@pa ;
+  gg:transliteration "pooray gur kaa"@en-Latn ;
+  gg:translation "of the Perfect Guru"@en .
+
+gg:sggs_ang295_saas_saas_tuk2_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸੁਨਿ ਉਪਦੇਸੁ ॥"@pa ;
+  gg:transliteration "sun updays ||"@en-Latn ;
+  gg:translation "listen to the teaching."@en .
+
+#################################################################
+### Tuk 3 – See Parbrahm as near
+### ਪਾਰਬ੍ਰਹਮੁ ਨਿਕਟਿ ਕਰਿ ਪੇਖੁ ॥
+#################################################################
+
+gg:sggs_ang295_saas_saas_tuk3 a gg:Tuk ;
+  gg:id "sggs_ang295_saas_saas_tuk3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang295_saas_saas ;
+  gg:gurmukhi "ਪਾਰਬ੍ਰਹਮੁ ਨਿਕਟਿ ਕਰਿ ਪੇਖੁ ॥"@pa ;
+  gg:transliteration "paarbrahm nikat kar paykh ||"@en-Latn ;
+  gg:translation "See the Supreme Parbrahm as near at hand."@en ;
+  gg:hasTheme gg:TranscendenceImmanence , gg:Wisdom ;
+  gg:hasGlossUnit gg:sggs_ang295_saas_saas_tuk3_gu1 ,
+                  gg:sggs_ang295_saas_saas_tuk3_gu2 .
+
+gg:sggs_ang295_saas_saas_tuk3_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਪਾਰਬ੍ਰਹਮੁ"@pa ;
+  gg:transliteration "paarbrahm"@en-Latn ;
+  gg:translation "the Supreme, All-transcendent Lord"@en .
+
+gg:sggs_ang295_saas_saas_tuk3_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਨਿਕਟਿ ਕਰਿ ਪੇਖੁ ॥"@pa ;
+  gg:transliteration "nikat kar paykh ||"@en-Latn ;
+  gg:translation "regard and behold Him as near."@en .
+
+#################################################################
+### Tuk 4 – Saas saas simrahu Gobind
+### ਸਾਸਿ ਸਾਸਿ ਸਿਮਰਹੁ ਗੋਬਿੰਦ ॥
+#################################################################
+
+gg:sggs_ang295_saas_saas_tuk4 a gg:Tuk ;
+  gg:id "sggs_ang295_saas_saas_tuk4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang295_saas_saas ;
+  gg:gurmukhi "ਸਾਸਿ ਸਾਸਿ ਸਿਮਰਹੁ ਗੋਬਿੰਦ ॥"@pa ;
+  gg:transliteration "saas saas simrahu gobind ||"@en-Latn ;
+  gg:translation "With each and every breath, remember Gobind."@en ;
+  gg:hasTheme gg:Naam , gg:ListeningAndLove , gg:Peace ;
+  gg:hasGlossUnit gg:sggs_ang295_saas_saas_tuk4_gu1 ,
+                  gg:sggs_ang295_saas_saas_tuk4_gu2 .
+
+gg:sggs_ang295_saas_saas_tuk4_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਾਸਿ ਸਾਸਿ"@pa ;
+  gg:transliteration "saas saas"@en-Latn ;
+  gg:translation "with every single breath"@en .
+
+gg:sggs_ang295_saas_saas_tuk4_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸਿਮਰਹੁ ਗੋਬਿੰਦ ॥"@pa ;
+  gg:transliteration "simrahu gobind ||"@en-Latn ;
+  gg:translation "meditate in remembrance on Gobind."@en .
+
+#################################################################
+### Tuk 5 – Inner anxiety departs
+### ਮਨ ਅੰਤਰ ਕੀ ਉਤਰੈ ਚਿੰਦ ॥
+#################################################################
+
+gg:sggs_ang295_saas_saas_tuk5 a gg:Tuk ;
+  gg:id "sggs_ang295_saas_saas_tuk5" ;
+  gg:index "5"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang295_saas_saas ;
+  gg:gurmukhi "ਮਨ ਅੰਤਰ ਕੀ ਉਤਰੈ ਚਿੰਦ ॥"@pa ;
+  gg:transliteration "man antar kee utrai chind ||"@en-Latn ;
+  gg:translation "Then the anxiety within the mind is lifted away."@en ;
+  gg:hasTheme gg:Peace , gg:SufferingJoy , gg:Naam ;
+  gg:hasGlossUnit gg:sggs_ang295_saas_saas_tuk5_gu1 ,
+                  gg:sggs_ang295_saas_saas_tuk5_gu2 .
+
+gg:sggs_ang295_saas_saas_tuk5_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਮਨ ਅੰਤਰ ਕੀ"@pa ;
+  gg:transliteration "man antar kee"@en-Latn ;
+  gg:translation "of the inner mind"@en .
+
+gg:sggs_ang295_saas_saas_tuk5_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਉਤਰੈ ਚਿੰਦ ॥"@pa ;
+  gg:transliteration "utrai chind ||"@en-Latn ;
+  gg:translation "the worry and anxiety are removed."@en .
+
+#################################################################
+### Tuk 6 – Abandon impermanent hopes
+### ਆਸ ਅਨਿਤ ਤਿਆਗਹੁ ਤਰੰਗ ॥
+#################################################################
+
+gg:sggs_ang295_saas_saas_tuk6 a gg:Tuk ;
+  gg:id "sggs_ang295_saas_saas_tuk6" ;
+  gg:index "6"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang295_saas_saas ;
+  gg:gurmukhi "ਆਸ ਅਨਿਤ ਤਿਆਗਹੁ ਤਰੰਗ ॥"@pa ;
+  gg:transliteration "aas anit ti-aagahu tarang ||"@en-Latn ;
+  gg:translation "Abandon the waves of hope for what is transient."@en ;
+  gg:hasTheme gg:Maya , gg:Desire , gg:Wisdom ;
+  gg:hasGlossUnit gg:sggs_ang295_saas_saas_tuk6_gu1 ,
+                  gg:sggs_ang295_saas_saas_tuk6_gu2 ,
+                  gg:sggs_ang295_saas_saas_tuk6_gu3 .
+
+gg:sggs_ang295_saas_saas_tuk6_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਆਸ ਅਨਿਤ"@pa ;
+  gg:transliteration "aas anit"@en-Latn ;
+  gg:translation "the hopes tied to what does not last"@en .
+
+gg:sggs_ang295_saas_saas_tuk6_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਤਿਆਗਹੁ"@pa ;
+  gg:transliteration "ti-aagahu"@en-Latn ;
+  gg:translation "give them up, renounce them"@en .
+
+gg:sggs_ang295_saas_saas_tuk6_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਤਰੰਗ ॥"@pa ;
+  gg:transliteration "tarang ||"@en-Latn ;
+  gg:translation "these restless waves."@en .
+
+#################################################################
+### Tuk 7 – Seek the dust of the saints
+### ਸੰਤ ਜਨਾ ਕੀ ਧੂਰਿ ਮਨ ਮੰਗ ॥
+#################################################################
+
+gg:sggs_ang295_saas_saas_tuk7 a gg:Tuk ;
+  gg:id "sggs_ang295_saas_saas_tuk7" ;
+  gg:index "7"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang295_saas_saas ;
+  gg:gurmukhi "ਸੰਤ ਜਨਾ ਕੀ ਧੂਰਿ ਮਨ ਮੰਗ ॥"@pa ;
+  gg:transliteration "sant janaa kee Dhoor man mang ||"@en-Latn ;
+  gg:translation "O mind, ask for the dust of the saints."@en ;
+  gg:hasTheme gg:Bhagat , gg:ServiceAndHonor , gg:DivineHumility ;
+  gg:hasGlossUnit gg:sggs_ang295_saas_saas_tuk7_gu1 ,
+                  gg:sggs_ang295_saas_saas_tuk7_gu2 .
+
+gg:sggs_ang295_saas_saas_tuk7_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸੰਤ ਜਨਾ ਕੀ ਧੂਰਿ"@pa ;
+  gg:transliteration "sant janaa kee Dhoor"@en-Latn ;
+  gg:translation "the dust of the feet of the saintly ones"@en .
+
+gg:sggs_ang295_saas_saas_tuk7_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਮਨ ਮੰਗ ॥"@pa ;
+  gg:transliteration "man mang ||"@en-Latn ;
+  gg:translation "let your mind beg for this."@en .
+
+#################################################################
+### Tuk 8 – Drop self and make humble prayer
+### ਆਪੁ ਛੋਡਿ ਬੇਨਤੀ ਕਰਹੁ ॥
+#################################################################
+
+gg:sggs_ang295_saas_saas_tuk8 a gg:Tuk ;
+  gg:id "sggs_ang295_saas_saas_tuk8" ;
+  gg:index "8"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang295_saas_saas ;
+  gg:gurmukhi "ਆਪੁ ਛੋਡਿ ਬੇਨਤੀ ਕਰਹੁ ॥"@pa ;
+  gg:transliteration "aap chhod bayntee karahu ||"@en-Latn ;
+  gg:translation "Let go of self-conceit and make a humble supplication."@en ;
+  gg:hasTheme gg:Ego , gg:PrayerAndAsking , gg:DivineGrace ;
+  gg:hasGlossUnit gg:sggs_ang295_saas_saas_tuk8_gu1 ,
+                  gg:sggs_ang295_saas_saas_tuk8_gu2 .
+
+gg:sggs_ang295_saas_saas_tuk8_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਆਪੁ ਛੋਡਿ"@pa ;
+  gg:transliteration "aap chhod"@en-Latn ;
+  gg:translation "renounce your self-importance, your ego"@en .
+
+gg:sggs_ang295_saas_saas_tuk8_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਬੇਨਤੀ ਕਰਹੁ ॥"@pa ;
+  gg:transliteration "bayntee karahu ||"@en-Latn ;
+  gg:translation "offer a humble plea."@en .
+
+#################################################################
+### Tuk 9 – Cross the fiery ocean in sadh sangat
+### ਸਾਧਸੰਗਿ ਅਗਨਿ ਸਾਗਰੁ ਤਰਹੁ ॥
+#################################################################
+
+gg:sggs_ang295_saas_saas_tuk9 a gg:Tuk ;
+  gg:id "sggs_ang295_saas_saas_tuk9" ;
+  gg:index "9"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang295_saas_saas ;
+  gg:gurmukhi "ਸਾਧਸੰਗਿ ਅਗਨਿ ਸਾਗਰੁ ਤਰਹੁ ॥"@pa ;
+  gg:transliteration "saaDhsang agan saagar tarahu ||"@en-Latn ;
+  gg:translation "In the company of the holy, cross the fiery ocean."@en ;
+  gg:hasTheme gg:WorldOcean , gg:Bhagat , gg:Peace ;
+  gg:hasGlossUnit gg:sggs_ang295_saas_saas_tuk9_gu1 ,
+                  gg:sggs_ang295_saas_saas_tuk9_gu2 ,
+                  gg:sggs_ang295_saas_saas_tuk9_gu3 .
+
+gg:sggs_ang295_saas_saas_tuk9_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਾਧਸੰਗਿ"@pa ;
+  gg:transliteration "saaDhsang"@en-Latn ;
+  gg:translation "in the company of the holy (sadh sangat)"@en .
+
+gg:sggs_ang295_saas_saas_tuk9_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਅਗਨਿ ਸਾਗਰੁ"@pa ;
+  gg:transliteration "agan saagar"@en-Latn ;
+  gg:translation "the blazing ocean of worldly vices"@en .
+
+gg:sggs_ang295_saas_saas_tuk9_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਤਰਹੁ ॥"@pa ;
+  gg:transliteration "tarahu ||"@en-Latn ;
+  gg:translation "cross over it."@en .
+
+#################################################################
+### Tuk 10 – Fill the stores with Hari’s wealth
+### ਹਰਿ ਧਨ ਕੇ ਭਰਿ ਲੇਹੁ ਭੰਡਾਰ ॥
+#################################################################
+
+gg:sggs_ang295_saas_saas_tuk10 a gg:Tuk ;
+  gg:id "sggs_ang295_saas_saas_tuk10" ;
+  gg:index "10"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang295_saas_saas ;
+  gg:gurmukhi "ਹਰਿ ਧਨ ਕੇ ਭਰਿ ਲੇਹੁ ਭੰਡਾਰ ॥"@pa ;
+  gg:transliteration "har Dhan kay bhar layho bhandaar ||"@en-Latn ;
+  gg:translation "Fill your stores with the wealth of Hari."@en ;
+  gg:hasTheme gg:Naam , gg:InnerJewels , gg:DivineGifts ;
+  gg:hasGlossUnit gg:sggs_ang295_saas_saas_tuk10_gu1 ,
+                  gg:sggs_ang295_saas_saas_tuk10_gu2 ,
+                  gg:sggs_ang295_saas_saas_tuk10_gu3 .
+
+gg:sggs_ang295_saas_saas_tuk10_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਹਰਿ ਧਨ ਕੇ"@pa ;
+  gg:transliteration "har Dhan kay"@en-Latn ;
+  gg:translation "of Hari’s wealth (Naam as treasure)"@en .
+
+gg:sggs_ang295_saas_saas_tuk10_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਭਰਿ ਲੇਹੁ"@pa ;
+  gg:transliteration "bhar layho"@en-Latn ;
+  gg:translation "fill up completely, take in fully"@en .
+
+gg:sggs_ang295_saas_saas_tuk10_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਭੰਡਾਰ ॥"@pa ;
+  gg:transliteration "bhandaar ||"@en-Latn ;
+  gg:translation "your inner stores, the treasure-houses."@en .
+
+#################################################################
+### Tuk 11 – Bow to the Perfect Guru
+### ਨਾਨਕ ਗੁਰ ਪੂਰੇ ਨਮਸਕਾਰ ॥੧॥
+#################################################################
+
+gg:sggs_ang295_saas_saas_tuk11 a gg:Tuk ;
+  gg:id "sggs_ang295_saas_saas_tuk11" ;
+  gg:index "11"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang295_saas_saas ;
+  gg:gurmukhi "ਨਾਨਕ ਗੁਰ ਪੂਰੇ ਨਮਸਕਾਰ ॥੧॥"@pa ;
+  gg:transliteration "naanak gur pooray namaskaar ||1||"@en-Latn ;
+  gg:translation "O Nanak, offer your bowing reverence to the Perfect Guru. ||1||"@en ;
+  gg:hasTheme gg:Satguru , gg:ServiceAndHonor , gg:DivineHumility ;
+  gg:hasGlossUnit gg:sggs_ang295_saas_saas_tuk11_gu1 ,
+                  gg:sggs_ang295_saas_saas_tuk11_gu2 ,
+                  gg:sggs_ang295_saas_saas_tuk11_gu3 .
+
+gg:sggs_ang295_saas_saas_tuk11_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਨਾਨਕ"@pa ;
+  gg:transliteration "naanak"@en-Latn ;
+  gg:translation "O Nanak"@en .
+
+gg:sggs_ang295_saas_saas_tuk11_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਗੁਰ ਪੂਰੇ"@pa ;
+  gg:transliteration "gur pooray"@en-Latn ;
+  gg:translation "to the Perfect Guru"@en .
+
+gg:sggs_ang295_saas_saas_tuk11_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਨਮਸਕਾਰ ॥੧॥"@pa ;
+  gg:transliteration "namaskaar ||1||"@en-Latn ;
+  gg:translation "offer your deep bow of reverence. ||1||"@en .

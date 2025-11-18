@@ -115,7 +115,7 @@ gg:inRaag a owl:ObjectProperty ;
 
 gg:id a owl:DatatypeProperty ;
     rdfs:label "id"@en ;
-    rdfs:comment "A stable identifier for a Shabd, Tuk, or GlossUnit within the Gurbani Graph (e.g., sggs-ang555-shabd17, sggs-japji-pauri1)."@en ;
+    rdfs:comment "A stable identifier for a Shabd, Tuk, or GlossUnit within the Gurbani Graph (e.g., sggs-ang555-shabd17, sggs-japji_pauri1)."@en ;
     rdfs:range xsd:string .
 
 gg:indexInBani a owl:DatatypeProperty ;

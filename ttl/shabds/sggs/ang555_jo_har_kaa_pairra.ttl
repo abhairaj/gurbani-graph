@@ -10,8 +10,8 @@
 ### Shabd: "Jo Har Kaa Piaraa" (Ang 555, sequence 17)
 #################################################################
 
-gg:ang555_shabd17 a gg:Shabd ;
-    gg:id "sggs_ang555-shabd17" ;
+gg:ang555_jo_har_kaa_piarra a gg:Shabd ;
+    gg:id "sggs_ang555_jo_har_kaa_piarra" ;
     dct:title "Jo Har Kaa Piaraa"@en ;
     dct:title "ਜੋ ਹਰਿ ਕਾ ਪਿਆਰਾ"@pa ;
     gg:ang "555"^^xsd:integer ;
@@ -31,34 +31,34 @@ gg:ang555_shabd17 a gg:Shabd ;
                    gg:UniversalLove,
                    gg:Restlessness ;
     rdfs:comment "This shabd describes a grace-driven spiritual journey: God awakens Naam, unites the soul with the Satguru and peace, protects and exalts the devotee, lifts them beyond karmic judgment, and makes the beloved of the Lord into a source of universal love, while those without this connection remain in restless wandering."@en ;
-    gg:hasTuk gg:ang555_shabd17_tuk1,
-                  gg:ang555_shabd17_tuk2,
-                  gg:ang555_shabd17_tuk3,
-                  gg:ang555_shabd17_tuk4,
-                  gg:ang555_shabd17_tuk5 .
+    gg:hasTuk gg:ang555_jo_har_kaa_piarra_tuk1,
+                  gg:ang555_jo_har_kaa_piarra_tuk2,
+                  gg:ang555_jo_har_kaa_piarra_tuk3,
+                  gg:ang555_jo_har_kaa_piarra_tuk4,
+                  gg:ang555_jo_har_kaa_piarra_tuk5 .
 
 #################################################################
 ### Tuk 1
 ### ਜਾ ਆਪਿ ਕ੍ਰਿਪਾਲੁ ਹੋਵੈ ਹਰਿ ਸੁਆਮੀ ਤਾ ਆਪਣਾਂ ਨਾਉ ਹਰਿ ਆਪਿ ਜਪਾਵੈ ॥
 #################################################################
 
-gg:ang555_shabd17_tuk1 a gg:Tuk ;
-    gg:id "sggs_ang555-shabd17_tuk1" ;
+gg:ang555_jo_har_kaa_piarra_tuk1 a gg:Tuk ;
+    gg:id "sggs_ang555_jo_har_kaa_piarra_tuk1" ;
     gg:index "1"^^xsd:integer ;
-    gg:belongsTo gg:ang555_shabd17 ;
+    gg:belongsTo gg:ang555_jo_har_kaa_piarra ;
     gg:gurmukhi "ਜਾ ਆਪਿ ਕ੍ਰਿਪਾਲੁ ਹੋਵੈ ਹਰਿ ਸੁਆਮੀ ਤਾ ਆਪਣਾਂ ਨਾਉ ਹਰਿ ਆਪਿ ਜਪਾਵੈ ॥"@pa ;
     gg:transliteration "Jā āp kirpāl hovai har suāmī, tā āpaṇāṅ nāu har āp japāvai."@en-Latn ;
     gg:translation "When the Lord, the Master, becomes merciful, then He Himself causes His Name to be chanted."@en ;
     gg:hasTheme gg:DivineGrace,
                    gg:Naam ;
     rdfs:comment "Naam remembrance does not originate in ego-effort; it begins when the Lord Himself, out of His mercy, causes His Name to vibrate within the devotee."@en ;
-    gg:hasGlossUnit gg:ang555_shabd17_tuk1_gu1,
-                    gg:ang555_shabd17_tuk1_gu2,
-                    gg:ang555_shabd17_tuk1_gu3 .
+    gg:hasGlossUnit gg:ang555_jo_har_kaa_piarra_tuk1_gu1,
+                    gg:ang555_jo_har_kaa_piarra_tuk1_gu2,
+                    gg:ang555_jo_har_kaa_piarra_tuk1_gu3 .
 
 ### Tuk 1 – GlossUnit 1: ਜਾ
 
-gg:ang555_shabd17_tuk1_gu1 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk1_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਜਾ"@pa ;
     gg:transliteration "Jā"@en-Latn ;
@@ -66,7 +66,7 @@ gg:ang555_shabd17_tuk1_gu1 a gg:GlossUnit ;
 
 ### Tuk 1 – GlossUnit 2: ਆਪਿ ਕ੍ਰਿਪਾਲੁ ਹੋਵੈ ਹਰਿ ਸੁਆਮੀ
 
-gg:ang555_shabd17_tuk1_gu2 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk1_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਆਪਿ ਕ੍ਰਿਪਾਲੁ ਹੋਵੈ ਹਰਿ ਸੁਆਮੀ"@pa ;
     gg:transliteration "āp kirpāl hovai har suāmī"@en-Latn ;
@@ -74,7 +74,7 @@ gg:ang555_shabd17_tuk1_gu2 a gg:GlossUnit ;
 
 ### Tuk 1 – GlossUnit 3: ਤਾ ਆਪਣਾਂ ਨਾਉ ਹਰਿ ਆਪਿ ਜਪਾਵੈ
 
-gg:ang555_shabd17_tuk1_gu3 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk1_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਤਾ ਆਪਣਾਂ ਨਾਉ ਹਰਿ ਆਪਿ ਜਪਾਵੈ"@pa ;
     gg:transliteration "tā āpaṇāṅ nāu har āp japāvai"@en-Latn ;
@@ -85,10 +85,10 @@ gg:ang555_shabd17_tuk1_gu3 a gg:GlossUnit ;
 ### ਆਪੇ ਸਤਿਗੁਰੁ ਮੇਲਿ ਸੁਖੁ ਦੇਵੈ ਆਪਣਾਂ ਸੇਵਕੁ ਆਪਿ ਹਰਿ ਭਾਵੈ ॥
 #################################################################
 
-gg:ang555_shabd17_tuk2 a gg:Tuk ;
-    gg:id "sggs_ang555-shabd17_tuk2" ;
+gg:ang555_jo_har_kaa_piarra_tuk2 a gg:Tuk ;
+    gg:id "sggs_ang555_jo_har_kaa_piarra_tuk2" ;
     gg:index "2"^^xsd:integer ;
-    gg:belongsTo gg:ang555_shabd17 ;
+    gg:belongsTo gg:ang555_jo_har_kaa_piarra ;
     gg:gurmukhi "ਆਪੇ ਸਤਿਗੁਰੁ ਮੇਲਿ ਸੁਖੁ ਦੇਵੈ ਆਪਣਾਂ ਸੇਵਕੁ ਆਪਿ ਹਰਿ ਭਾਵੈ ॥"@pa ;
     gg:transliteration "Āpe satigur mel sukh devai, āpaṇāṅ sevak āp har bhāvai."@en-Latn ;
     gg:translation "The Lord Himself unites one with the True Guru, grants peace, and He Himself becomes pleased with His servant."@en ;
@@ -96,14 +96,14 @@ gg:ang555_shabd17_tuk2 a gg:Tuk ;
                    gg:Peace,
                    gg:DivineDelight ;
     rdfs:comment "Meeting the Satguru and receiving inner peace are acts of Divine Will; God delights in the devotee who is brought into alignment with Truth."@en ;
-    gg:hasGlossUnit gg:ang555_shabd17_tuk2_gu1,
-                    gg:ang555_shabd17_tuk2_gu2,
-                    gg:ang555_shabd17_tuk2_gu3,
-                    gg:ang555_shabd17_tuk2_gu4 .
+    gg:hasGlossUnit gg:ang555_jo_har_kaa_piarra_tuk2_gu1,
+                    gg:ang555_jo_har_kaa_piarra_tuk2_gu2,
+                    gg:ang555_jo_har_kaa_piarra_tuk2_gu3,
+                    gg:ang555_jo_har_kaa_piarra_tuk2_gu4 .
 
 ### Tuk 2 – GlossUnit 1: ਆਪੇ ਸਤਿਗੁਰੁ ਮੇਲਿ
 
-gg:ang555_shabd17_tuk2_gu1 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk2_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਆਪੇ ਸਤਿਗੁਰੁ ਮੇਲਿ"@pa ;
     gg:transliteration "āpe satigur mel"@en-Latn ;
@@ -111,7 +111,7 @@ gg:ang555_shabd17_tuk2_gu1 a gg:GlossUnit ;
 
 ### Tuk 2 – GlossUnit 2: ਸੁਖੁ ਦੇਵੈ
 
-gg:ang555_shabd17_tuk2_gu2 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk2_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਸੁਖੁ ਦੇਵੈ"@pa ;
     gg:transliteration "sukh devai"@en-Latn ;
@@ -119,7 +119,7 @@ gg:ang555_shabd17_tuk2_gu2 a gg:GlossUnit ;
 
 ### Tuk 2 – GlossUnit 3: ਆਪਣਾਂ ਸੇਵਕੁ
 
-gg:ang555_shabd17_tuk2_gu3 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk2_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਆਪਣਾਂ ਸੇਵਕੁ"@pa ;
     gg:transliteration "āpaṇāṅ sevak"@en-Latn ;
@@ -127,7 +127,7 @@ gg:ang555_shabd17_tuk2_gu3 a gg:GlossUnit ;
 
 ### Tuk 2 – GlossUnit 4: ਆਪਿ ਹਰਿ ਭਾਵੈ
 
-gg:ang555_shabd17_tuk2_gu4 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk2_gu4 a gg:GlossUnit ;
     gg:index "4"^^xsd:integer ;
     gg:gurmukhi "ਆਪਿ ਹਰਿ ਭਾਵੈ"@pa ;
     gg:transliteration "āp har bhāvai"@en-Latn ;
@@ -138,10 +138,10 @@ gg:ang555_shabd17_tuk2_gu4 a gg:GlossUnit ;
 ### ਆਪਣਿਆ ਸੇਵਕਾ ਕੀ ਆਪਿ ਪੈਜ ਰਖੈ ਆਪਣਿਆ ਭਗਤਾ ਕੀ ਪੈਰੀ ਪਾਵੈ ॥
 #################################################################
 
-gg:ang555_shabd17_tuk3 a gg:Tuk ;
-    gg:id "sggs_ang555-shabd17_tuk3" ;
+gg:ang555_jo_har_kaa_piarra_tuk3 a gg:Tuk ;
+    gg:id "sggs_ang555_jo_har_kaa_piarra_tuk3" ;
     gg:index "3"^^xsd:integer ;
-    gg:belongsTo gg:ang555_shabd17 ;
+    gg:belongsTo gg:ang555_jo_har_kaa_piarra ;
     gg:gurmukhi "ਆਪਣਿਆ ਸੇਵਕਾ ਕੀ ਆਪਿ ਪੈਜ ਰਖੈ ਆਪਣਿਆ ਭਗਤਾ ਕੀ ਪੈਰੀ ਪਾਵੈ ॥"@pa ;
     gg:transliteration "Āpaṇiā sevakā kī āp paij rakhai, āpaṇiā bhagtā kī pairī pāvai."@en-Latn ;
     gg:translation "He Himself preserves the honor of His servants; He Himself bows at the feet of His devotees."@en ;
@@ -149,14 +149,14 @@ gg:ang555_shabd17_tuk3 a gg:Tuk ;
                    gg:DivineHumility,
                    gg:Bhagat ;
     rdfs:comment "God personally safeguards the honor of His servants and exalts His devotees with such love that He is poetically described as bowing at their feet, revealing Divine humility."@en ;
-    gg:hasGlossUnit gg:ang555_shabd17_tuk3_gu1,
-                    gg:ang555_shabd17_tuk3_gu2,
-                    gg:ang555_shabd17_tuk3_gu3,
-                    gg:ang555_shabd17_tuk3_gu4 .
+    gg:hasGlossUnit gg:ang555_jo_har_kaa_piarra_tuk3_gu1,
+                    gg:ang555_jo_har_kaa_piarra_tuk3_gu2,
+                    gg:ang555_jo_har_kaa_piarra_tuk3_gu3,
+                    gg:ang555_jo_har_kaa_piarra_tuk3_gu4 .
 
 ### Tuk 3 – GlossUnit 1: ਆਪਣਿਆ ਸੇਵਕਾ ਕੀ
 
-gg:ang555_shabd17_tuk3_gu1 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk3_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਆਪਣਿਆ ਸੇਵਕਾ ਕੀ"@pa ;
     gg:transliteration "āpaṇiā sevakā kī"@en-Latn ;
@@ -164,7 +164,7 @@ gg:ang555_shabd17_tuk3_gu1 a gg:GlossUnit ;
 
 ### Tuk 3 – GlossUnit 2: ਆਪਿ ਪੈਜ ਰਖੈ
 
-gg:ang555_shabd17_tuk3_gu2 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk3_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਆਪਿ ਪੈਜ ਰਖੈ"@pa ;
     gg:transliteration "āp paij rakhai"@en-Latn ;
@@ -172,7 +172,7 @@ gg:ang555_shabd17_tuk3_gu2 a gg:GlossUnit ;
 
 ### Tuk 3 – GlossUnit 3: ਆਪਣਿਆ ਭਗਤਾ ਕੀ
 
-gg:ang555_shabd17_tuk3_gu3 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk3_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਆਪਣਿਆ ਭਗਤਾ ਕੀ"@pa ;
     gg:transliteration "āpaṇiā bhagtā kī"@en-Latn ;
@@ -180,7 +180,7 @@ gg:ang555_shabd17_tuk3_gu3 a gg:GlossUnit ;
 
 ### Tuk 3 – GlossUnit 4: ਪੈਰੀ ਪਾਵੈ
 
-gg:ang555_shabd17_tuk3_gu4 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk3_gu4 a gg:GlossUnit ;
     gg:index "4"^^xsd:integer ;
     gg:gurmukhi "ਪੈਰੀ ਪਾਵੈ"@pa ;
     gg:transliteration "pairī pāvai"@en-Latn ;
@@ -191,23 +191,23 @@ gg:ang555_shabd17_tuk3_gu4 a gg:GlossUnit ;
 ### ਧਰਮ ਰਾਇ ਹੈ ਹਰਿ ਕਾ ਕੀਆ ਹਰਿ ਜਨ ਸੇਵਕ ਨੇੜਿ ਨ ਆਵੈ ॥
 #################################################################
 
-gg:ang555_shabd17_tuk4 a gg:Tuk ;
-    gg:id "sggs_ang555-shabd17_tuk4" ;
+gg:ang555_jo_har_kaa_piarra_tuk4 a gg:Tuk ;
+    gg:id "sggs_ang555_jo_har_kaa_piarra_tuk4" ;
     gg:index "4"^^xsd:integer ;
-    gg:belongsTo gg:ang555_shabd17 ;
+    gg:belongsTo gg:ang555_jo_har_kaa_piarra ;
     gg:gurmukhi "ਧਰਮ ਰਾਇ ਹੈ ਹਰਿ ਕਾ ਕੀਆ ਹਰਿ ਜਨ ਸੇਵਕ ਨੇੜਿ ਨ ਆਵੈ ॥"@pa ;
     gg:transliteration "Dharam rāe hai har kā kīā, har jan sevak neṛ na āvai."@en-Latn ;
     gg:translation "Dharam Rai, the judge, is created by the Lord; he does not come near the Lord’s devotees."@en ;
     gg:hasTheme gg:Karma ;
     rdfs:comment "Dharam Rai, representing karmic judgment, is merely a servant of the Divine and has no claim over those whom the Lord embraces as His own devotees."@en ;
-    gg:hasGlossUnit gg:ang555_shabd17_tuk4_gu1,
-                    gg:ang555_shabd17_tuk4_gu2,
-                    gg:ang555_shabd17_tuk4_gu3,
-                    gg:ang555_shabd17_tuk4_gu4 .
+    gg:hasGlossUnit gg:ang555_jo_har_kaa_piarra_tuk4_gu1,
+                    gg:ang555_jo_har_kaa_piarra_tuk4_gu2,
+                    gg:ang555_jo_har_kaa_piarra_tuk4_gu3,
+                    gg:ang555_jo_har_kaa_piarra_tuk4_gu4 .
 
 ### Tuk 4 – GlossUnit 1: ਧਰਮ ਰਾਇ
 
-gg:ang555_shabd17_tuk4_gu1 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk4_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਧਰਮ ਰਾਇ"@pa ;
     gg:transliteration "dharam rāe"@en-Latn ;
@@ -215,7 +215,7 @@ gg:ang555_shabd17_tuk4_gu1 a gg:GlossUnit ;
 
 ### Tuk 4 – GlossUnit 2: ਹੈ ਹਰਿ ਕਾ ਕੀਆ
 
-gg:ang555_shabd17_tuk4_gu2 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk4_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਹੈ ਹਰਿ ਕਾ ਕੀਆ"@pa ;
     gg:transliteration "hai har kā kīā"@en-Latn ;
@@ -223,7 +223,7 @@ gg:ang555_shabd17_tuk4_gu2 a gg:GlossUnit ;
 
 ### Tuk 4 – GlossUnit 3: ਹਰਿ ਜਨ ਸੇਵਕ
 
-gg:ang555_shabd17_tuk4_gu3 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk4_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਹਰਿ ਜਨ ਸੇਵਕ"@pa ;
     gg:transliteration "har jan sevak"@en-Latn ;
@@ -231,7 +231,7 @@ gg:ang555_shabd17_tuk4_gu3 a gg:GlossUnit ;
 
 ### Tuk 4 – GlossUnit 4: ਨੇੜਿ ਨ ਆਵੈ
 
-gg:ang555_shabd17_tuk4_gu4 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk4_gu4 a gg:GlossUnit ;
     gg:index "4"^^xsd:integer ;
     gg:gurmukhi "ਨੇੜਿ ਨ ਆਵੈ"@pa ;
     gg:transliteration "neṛ na āvai"@en-Latn ;
@@ -242,25 +242,25 @@ gg:ang555_shabd17_tuk4_gu4 a gg:GlossUnit ;
 ### ਜੋ ਹਰਿ ਕਾ ਪਿਆਰਾ ਸੋ ਸਭਨਾ ਕਾ ਪਿਆਰਾ ਹੋਰ ਕੇਤੀ ਝਖਿ ਝਖਿ ਆਵੈ ਜਾਵੈ ॥੧੭॥
 #################################################################
 
-gg:ang555_shabd17_tuk5 a gg:Tuk ;
-    gg:id "sggs_ang555-shabd17_tuk5" ;
+gg:ang555_jo_har_kaa_piarra_tuk5 a gg:Tuk ;
+    gg:id "sggs_ang555_jo_har_kaa_piarra_tuk5" ;
     gg:index "5"^^xsd:integer ;
-    gg:belongsTo gg:ang555_shabd17 ;
+    gg:belongsTo gg:ang555_jo_har_kaa_piarra ;
     gg:gurmukhi "ਜੋ ਹਰਿ ਕਾ ਪਿਆਰਾ ਸੋ ਸਭਨਾ ਕਾ ਪਿਆਰਾ ਹੋਰ ਕੇਤੀ ਝਖਿ ਝਖਿ ਆਵੈ ਜਾਵੈ ॥੧੭॥"@pa ;
     gg:transliteration "Jo har kā piārā so sabhnā kā piārā; hor ketī jhakh jhakh āvai jāvai. ||17||"@en-Latn ;
     gg:translation "One who is beloved of the Lord becomes beloved of all. All others wander restlessly, coming and going again and again."@en ;
     gg:hasTheme gg:UniversalLove,
                    gg:Restlessness ;
     rdfs:comment "The one loved by the Divine naturally becomes beloved of all beings, radiating universal love, while those without this Divine connection remain in cycles of restless wandering and coming and going."@en ;
-    gg:hasGlossUnit gg:ang555_shabd17_tuk5_gu1,
-                    gg:ang555_shabd17_tuk5_gu2,
-                    gg:ang555_shabd17_tuk5_gu3,
-                    gg:ang555_shabd17_tuk5_gu4,
-                    gg:ang555_shabd17_tuk5_gu5 .
+    gg:hasGlossUnit gg:ang555_jo_har_kaa_piarra_tuk5_gu1,
+                    gg:ang555_jo_har_kaa_piarra_tuk5_gu2,
+                    gg:ang555_jo_har_kaa_piarra_tuk5_gu3,
+                    gg:ang555_jo_har_kaa_piarra_tuk5_gu4,
+                    gg:ang555_jo_har_kaa_piarra_tuk5_gu5 .
 
 ### Tuk 5 – GlossUnit 1: ਜੋ ਹਰਿ ਕਾ ਪਿਆਰਾ
 
-gg:ang555_shabd17_tuk5_gu1 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk5_gu1 a gg:GlossUnit ;
     gg:index "1"^^xsd:integer ;
     gg:gurmukhi "ਜੋ ਹਰਿ ਕਾ ਪਿਆਰਾ"@pa ;
     gg:transliteration "jo har kā piārā"@en-Latn ;
@@ -268,7 +268,7 @@ gg:ang555_shabd17_tuk5_gu1 a gg:GlossUnit ;
 
 ### Tuk 5 – GlossUnit 2: ਸੋ ਸਭਨਾ ਕਾ ਪਿਆਰਾ
 
-gg:ang555_shabd17_tuk5_gu2 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk5_gu2 a gg:GlossUnit ;
     gg:index "2"^^xsd:integer ;
     gg:gurmukhi "ਸੋ ਸਭਨਾ ਕਾ ਪਿਆਰਾ"@pa ;
     gg:transliteration "so sabhnā kā piārā"@en-Latn ;
@@ -276,7 +276,7 @@ gg:ang555_shabd17_tuk5_gu2 a gg:GlossUnit ;
 
 ### Tuk 5 – GlossUnit 3: ਹੋਰ ਕੇਤੀ
 
-gg:ang555_shabd17_tuk5_gu3 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk5_gu3 a gg:GlossUnit ;
     gg:index "3"^^xsd:integer ;
     gg:gurmukhi "ਹੋਰ ਕੇਤੀ"@pa ;
     gg:transliteration "hor ketī"@en-Latn ;
@@ -284,7 +284,7 @@ gg:ang555_shabd17_tuk5_gu3 a gg:GlossUnit ;
 
 ### Tuk 5 – GlossUnit 4: ਝਖਿ ਝਖਿ
 
-gg:ang555_shabd17_tuk5_gu4 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk5_gu4 a gg:GlossUnit ;
     gg:index "4"^^xsd:integer ;
     gg:gurmukhi "ਝਖਿ ਝਖਿ"@pa ;
     gg:transliteration "jhakh jhakh"@en-Latn ;
@@ -292,7 +292,7 @@ gg:ang555_shabd17_tuk5_gu4 a gg:GlossUnit ;
 
 ### Tuk 5 – GlossUnit 5: ਆਵੈ ਜਾਵੈ
 
-gg:ang555_shabd17_tuk5_gu5 a gg:GlossUnit ;
+gg:ang555_jo_har_kaa_piarra_tuk5_gu5 a gg:GlossUnit ;
     gg:index "5"^^xsd:integer ;
     gg:gurmukhi "ਆਵੈ ਜਾਵੈ"@pa ;
     gg:transliteration "āvai jāvai"@en-Latn ;

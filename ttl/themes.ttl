@@ -8,179 +8,250 @@
 ### Theme nodes used in Japji Sahib – Pauri 1
 #################################################################
 
+#################################################################
+# Theme Descriptions for Gurbani Graph
+#################################################################
+
 gg:AmritVela a gg:Theme ;
-    rdfs:label "Amrit Vela, True Name, and Contemplation"@en .
+  rdfs:label "Amrit Vela, True Name, and Contemplation"@en ;
+  dct:description "Early ambrosial hours of deep contemplation and remembrance of the Divine, where clarity, stillness, and Naam reflection naturally arise."@en .
 
 gg:Bhagat a gg:Theme ;
-    rdfs:label "Bhagat / Devotee"@en .
+  rdfs:label "Bhagat / Devotee"@en ;
+  dct:description "A devotee whose life is centered in love, remembrance, humility, and service toward the Divine."@en .
 
 gg:CarefreeDivine a gg:Theme ;
-    rdfs:label "Carefree, Ever-Blissful Divine (Veparvāhu)"@en .
+  rdfs:label "Carefree, Ever-Blissful Divine (Veparvāhu)"@en ;
+  dct:description "The Divine as utterly carefree, beyond worldly worry, dwelling in perfect bliss and independence."@en .
+
+gg:ContemplativeRemembrance a gg:Theme ;
+  rdfs:label "Contemplative remembrance (simran) of the all-pervading Divine"@en ;
+  dct:description "Deep inward remembrance (simran) of the all-pervading Divine, sustained through awareness, breath, and loving attention."@en .
 
 gg:CreationDestruction a gg:Theme ;
-    rdfs:label "Creation and Dissolution of Forms"@en .
+  rdfs:label "Creation and Dissolution of Forms"@en ;
+  dct:description "The continuous cycle of Divine creativity, sustenance, and dissolution of forms, revealing impermanence and Divine authorship."@en .
 
 gg:DevotionalLove a gg:Theme ;
-    rdfs:label "Devotional Love / Bhāo"@en .
+  rdfs:label "Devotional Love / Bhāo"@en ;
+  dct:description "Heart-centered love (bhāo) that draws the seeker toward the Divine with longing, sweetness, and emotional intimacy."@en .
 
 gg:Desire a gg:Theme ;
-    rdfs:label "Desire / Craving / Bhukh"@en .
+  rdfs:label "Desire / Craving / Bhukh"@en ;
+  dct:description "Restless craving and attachment to sensory or worldly fulfillment that obscures inner peace and clarity."@en .
 
 gg:DharmaAlignment a gg:Theme ;
-    rdfs:label "Alignment with Dharma (Cosmic Righteousness / Dharam)"@en .
+  rdfs:label "Alignment with Dharma (Cosmic Righteousness / Dharam)"@en ;
+  dct:description "Living in harmony with cosmic righteousness (dharam), supporting truthfulness, justice, compassion, and rightful conduct."@en .
 
 gg:DivineDelight a gg:Theme ;
-    rdfs:label "Divine Delight in the Devotee"@en .
+  rdfs:label "Divine Delight in the Devotee"@en ;
+  dct:description "The Divine's joyous care, affection, and delight toward the devotee who is absorbed in remembrance and humility."@en .
 
 gg:DivineGifts a gg:Theme ;
-    rdfs:label "Divine Gifts / Bounty"@en .
+  rdfs:label "Divine Gifts / Bounty"@en ;
+  dct:description "Spiritual and material blessings bestowed freely by the Divine, independent of one’s deservingness or effort."@en .
 
 gg:DivineGrace a gg:Theme ;
-    rdfs:label "Divine grace and selection"@en .
+  rdfs:label "Divine grace and selection"@en ;
+  dct:description "The Divine’s compassionate glance (nadar) that transforms, uplifts, and grants spiritual realization beyond personal merit."@en .
 
 gg:DivineHumility a gg:Theme ;
-    rdfs:label "Divine Humility (God exalting the devotee)"@en .
+  rdfs:label "Divine Humility (God exalting the devotee)"@en ;
+  dct:description "The Divine exalting the lowly, uplifting the humble, and honoring those who renounce ego — reversing worldly power dynamics."@en .
 
 gg:DivineName a gg:Theme ;
-    rdfs:label "Divine Name (Sach Naam)"@en .
+  rdfs:label "Divine Name (Sach Naam)"@en ;
+  dct:description "The eternal Naam — the Divine Presence and qualities — realized through remembrance, love, and immersion in Truth."@en .
+
+gg:DivinePervasion a gg:Theme ;
+  rdfs:label "Divine pervading all spaces and times"@en ;
+  dct:description "The Divine present everywhere across all spaces, times, forms, and subtle realms — immanent within all existence."@en .
 
 gg:DivinePower a gg:Theme ;
-    rdfs:label "Divine Power / Might"@en .
+  rdfs:label "Divine Power / Might"@en ;
+  dct:description "The might, force, and sovereign capability of the Divine to create, sustain, protect, and dissolve all."@en .
 
 gg:DivineProtection a gg:Theme ;
-    rdfs:label "Divine Protection / Preservation of Honor"@en .
-
-gg:DivineWill a gg:Theme ;
-    rdfs:label "Divine Will / Raza"@en .
+  rdfs:label "Divine Protection / Preservation of Honor"@en ;
+  dct:description "The Divine safeguarding the honor, dignity, and spiritual wellbeing of devotees, especially in times of hardship."@en .
 
 gg:DivineSovereignty a gg:Theme ;
-    rdfs:label "Divine Sovereignty / God Alone is True"@en .
+  rdfs:label "Divine Sovereignty / God Alone is True"@en ;
+  dct:description "The Divine as the ultimate and only True Being whose command, presence, and reality surpass all other powers."@en .
+
+gg:DivineWill a gg:Theme ;
+  rdfs:label "Divine Will / Raza"@en ;
+  dct:description "Recognition that everything unfolds through the Divine Order (razā / bhāṇā), bringing acceptance and inner peace."@en .
 
 gg:Ego a gg:Theme ;
-    rdfs:label "Ego (haumai) and its dissolution"@en .
+  rdfs:label "Ego (haumai) and its dissolution"@en ;
+  dct:description "The sense of separateness and self-importance (haumai) that obstructs Divine realization and causes suffering."@en .
 
 gg:FaithfulState a gg:Theme ;
-    rdfs:label "Faithful State (Mannai – deep trusting acceptance)"@en .
+  rdfs:label "Faithful State (Mannai – deep trusting acceptance)"@en ;
+  dct:description "The deep, transformative trust (mannai) that aligns the seeker’s inner world with Truth and dissolves doubt."@en .
 
 gg:FamilyUplift a gg:Theme ;
-    rdfs:label "Uplift of Family and Community"@en .
+  rdfs:label "Uplift of Family and Community"@en ;
+  dct:description "The spiritual uplift and benefit that radiates from one devotee to their family, lineage, and community."@en .
 
 gg:GivingReceiving a gg:Theme ;
-    rdfs:label "Endless Giving and Receiving"@en .
+  rdfs:label "Endless Giving and Receiving"@en ;
+  dct:description "The endless cycle of Divine giving and the limited capacity of beings to receive or comprehend that generosity."@en .
 
 gg:GloryStatus a gg:Theme ;
-    rdfs:label "Glory, rank, and status"@en .
+  rdfs:label "Glory, rank, and status"@en ;
+  dct:description "Worldly honor, rank, or status — often portrayed as fleeting, deceptive, or insignificant compared to spiritual glory."@en .
 
 gg:GraceAndKarma a gg:Theme ;
-    rdfs:label "Interplay of Karma (Karmi) and Grace (Nadar)"@en .
+  rdfs:label "Interplay of Karma (Karmi) and Grace (Nadar)"@en ;
+  dct:description "The interplay between actions (karma) and Divine compassion (nadar), where grace ultimately supersedes effort."@en .
 
 gg:GurmukhManmukh a gg:Theme ;
-    rdfs:label "Gurmukh – as one who consciously seeks and faces toward the Divine and Manmukh as one who does not."@en .
+  rdfs:label "Gurmukh – as one who consciously seeks and faces toward the Divine and Manmukh as one who does not."@en ;
+  dct:description "The contrast between one who faces and aligns with the Divine (gurmukh) and one driven by egoic impulses (manmukh)."@en .
 
 gg:GurmukhPath a gg:Theme ;
-    rdfs:label "Gurmukh – sound, knowledge, and Divine pervasion"@en .
+  rdfs:label "Gurmukh – sound, knowledge, and Divine pervasion"@en ;
+  dct:description "The path of the gurmukh characterized by Divine wisdom, spiritual sound-current, and awareness of Divine pervasion."@en .
 
 gg:GuruAsDivineForm a gg:Theme ;
-    rdfs:label "Guru as embodiment of Divine powers"@en .
+  rdfs:label "Guru as embodiment of Divine powers"@en ;
+  dct:description "The Guru recognized as the living embodiment of Divine qualities, wisdom, and power — the channel of realization."@en .
 
 gg:GuruTeaching a gg:Theme ;
-    rdfs:label "Transformative Guru-Teaching"@en .
+  rdfs:label "Transformative Guru-Teaching"@en ;
+  dct:description "Transformative spiritual instruction that reorients perception, dissolves ignorance, and awakens Divine awareness."@en .
 
 gg:HighLow a gg:Theme ;
-    rdfs:label "High and low states"@en .
+  rdfs:label "High and low states"@en ;
+  dct:description "The contrast between high and low states — spiritual, social, or emotional — illustrating Divine sovereignty over status."@en .
 
 gg:Hukam a gg:Theme ;
-    rdfs:label "Hukam (Divine Command / Order)"@en .
+  rdfs:label "Hukam (Divine Command / Order)"@en ;
+  dct:description "The Divine command that governs all creation, bringing order, harmony, and a pathway to acceptance."@en .
 
 gg:HusbandLordSoulBride a gg:Theme ;
-    rdfs:label "Husband Lord and Soul Bride"@en .
+  rdfs:label "Husband Lord and Soul Bride"@en ;
+  dct:description "The intimate metaphor of the soul as bride yearning for union with the Divine Husband Lord."@en .
 
 gg:Ineffability a gg:Theme ;
-    rdfs:label "Ineffability of Divine Description"@en .
+  rdfs:label "Ineffability of Divine Description"@en ;
+  dct:description "The Divine’s nature as beyond full expression, language, or conceptual grasp — known through experience, not words."@en .
 
 gg:InnerJewels a gg:Theme ;
-    rdfs:label "Inner Gems, Jewels, and Rubies"@en .
+  rdfs:label "Inner Gems, Jewels, and Rubies"@en ;
+  dct:description "Inner spiritual treasures revealed through remembrance, virtue, and Divine grace — surpassing worldly wealth."@en .
 
 gg:Intellect a gg:Theme ;
-    rdfs:label "Intellect / Cleverness / Siaṇap"@en .
+  rdfs:label "Intellect / Cleverness / Siaṇap"@en ;
+  dct:description "The limits of human cleverness and intellect when used without spiritual grounding or humility."@en .
 
 gg:Karma a gg:Theme ;
-    rdfs:label "Karma and Receiving"@en .
+  rdfs:label "Karma and Receiving"@en ;
+  dct:description "The principle that actions shape outcomes, yet remain ultimately subordinate to Divine compassion and grace."@en .
 
 gg:LiberationDoor a gg:Theme ;
-    rdfs:label "Gate of Liberation (Mokh Duar)"@en .
+  rdfs:label "Gate of Liberation (Mokh Duar)"@en ;
+  dct:description "The doorway to liberation opened through Naam, virtue, grace, and union with the Divine."@en .
 
 gg:LifeDeathCycle a gg:Theme ;
-    rdfs:label "Taking and Giving of Life"@en .
+  rdfs:label "Taking and Giving of Life"@en ;
+  dct:description "The Divine as the giver and taker of life, governing birth, death, and the cycles of existence."@en .
 
 gg:ListeningAndLove a gg:Theme ;
-    rdfs:label "Singing, Listening, and Keeping Love in the Mind"@en .
+  rdfs:label "Singing, Listening, and Keeping Love in the Mind"@en ;
+  dct:description "The transformative power of singing, listening, and lovingly absorbing Divine qualities."@en .
 
 gg:Maya a gg:Theme ;
-    rdfs:label "Excessive entanglement with the World and physical reality"@en .
+  rdfs:label "Excessive entanglement with the World and physical reality"@en ;
+  dct:description "Attachment to the transient world that leads to distraction, ego, and spiritual forgetfulness."@en .
 
 gg:Naam a gg:Theme ;
-    rdfs:label "Naam (Divine Name / Remembrance)"@en .
+  rdfs:label "Naam (Divine Name / Remembrance)"@en ;
+  dct:description "Living remembrance of the Divine’s presence, qualities, and reality — the central path to liberation."@en .
 
 gg:Niranjan a gg:Theme ;
-    rdfs:label "Niranjan – Immaculate, Beyond Maya"@en .
+  rdfs:label "Niranjan – Immaculate, Beyond Maya"@en ;
+  dct:description "The Divine as pure, stainless, untouched by Maya or worldly impurities."@en .
 
 gg:OneGiver a gg:Theme ;
-    rdfs:label "The One Giver of all beings"@en .
+  rdfs:label "The One Giver of all beings"@en ;
+  dct:description "The Divine as the single source of all nourishment, wisdom, protection, and life itself."@en .
 
 gg:Peace a gg:Theme ;
-    rdfs:label "Spiritual Peace / Sukh"@en .
+  rdfs:label "Spiritual Peace / Sukh"@en ;
+  dct:description "Inner tranquility, comfort, and bliss that arise from Divine connection and the dissolution of ego."@en .
 
 gg:PilgrimageRitual a gg:Theme ;
-    rdfs:label "Outer Pilgrimage vs Inner Divine Pleasure"@en .
+  rdfs:label "Outer Pilgrimage vs Inner Divine Pleasure"@en ;
+  dct:description "Contrasting external rituals with the inward journey of remembrance and Divine-centered living."@en .
 
 gg:Praise a gg:Theme ;
-    rdfs:label "Praise (Gāvai – singing Divine qualities)"@en .
+  rdfs:label "Praise (Gāvai – singing Divine qualities)"@en ;
+  dct:description "Singing or speaking of Divine virtues as an act of devotion, joy, and spiritual awakening."@en .
 
 gg:PrayerAndAsking a gg:Theme ;
-    rdfs:label "Prayer, Asking, and Receiving"@en .
+  rdfs:label "Prayer, Asking, and Receiving"@en ;
+  dct:description "Heartfelt supplication and humility before the Divine, trusting in grace and provision."@en .
 
 gg:Provision a gg:Theme ;
-    rdfs:label "Provision Across Ages (Jugs)"@en .
+  rdfs:label "Provision Across Ages (Jugs)"@en ;
+  dct:description "The Divine providing sustenance and guidance across all ages, eras, and generations."@en .
 
 gg:Restlessness a gg:Theme ;
-    rdfs:label "Restless Wandering / Coming and Going"@en .
+  rdfs:label "Restless Wandering / Coming and Going"@en ;
+  dct:description "The soul’s wandering through desires, doubts, or cycles of rebirth — resolved through Divine remembrance."@en .
 
 gg:RightOffering a gg:Theme ;
-    rdfs:label "What to Offer / How to Approach"@en .
+  rdfs:label "What to Offer / How to Approach"@en ;
+  dct:description "Guidance on what truly matters in devotion — sincerity, humility, and remembrance over external offerings."@en .
 
 gg:Satguru a gg:Theme ;
-    rdfs:label "Satguru (True Guru Principle)"@en .
+  rdfs:label "Satguru (True Guru Principle)"@en ;
+  dct:description "The True Guru as the guiding principle of wisdom, grace, and liberation."@en .
 
 gg:ServiceAndHonor a gg:Theme ;
-    rdfs:label "Service (Seva) and Honor (Mān)"@en .
+  rdfs:label "Service (Seva) and Honor (Mān)"@en ;
+  dct:description "Selfless service and honor rooted not in ego but in devotion and compassion."@en .
 
 gg:SpiritualMethodFailure a gg:Theme ;
-    rdfs:label "Failure of superficial methods to realize Truth"@en .
-    
+  rdfs:label "Failure of superficial methods to realize Truth"@en ;
+  dct:description "Critique of hollow ritualism or intellectualism without inner transformation and remembrance."@en .
+
 gg:SufferingJoy a gg:Theme ;
-    rdfs:label "Suffering and joy (dukh / sukh)"@en .
+  rdfs:label "Suffering and joy (dukh / sukh)"@en ;
+  dct:description "The interplay of pain and pleasure in life, shaped by ego and resolved through Divine awareness."@en .
 
 gg:TranscendenceImmanence a gg:Theme ;
-    rdfs:label "Divine as Distant and Present (Transcendent/Immanent)"@en .
+  rdfs:label "Divine as Distant and Present (Transcendent/Immanent)"@en ;
+  dct:description "The Divine as both beyond all and simultaneously fully present within all creation."@en .
 
 gg:Truth a gg:Theme ;
-    rdfs:label "Truth / Sach"@en .
+  rdfs:label "Truth / Sach"@en ;
+  dct:description "The eternal, unchanging reality of the Divine, beyond illusion and time."@en .
 
 gg:UncreatedDivine a gg:Theme ;
-    rdfs:label "Uncreated, Self-Existent Divine"@en .
+  rdfs:label "Uncreated, Self-Existent Divine"@en ;
+  dct:description "The Divine as unborn, self-existent, timeless, and the cause of all causes."@en .
 
 gg:UniversalLove a gg:Theme ;
-    rdfs:label "Universal Love"@en .
+  rdfs:label "Universal Love"@en ;
+  dct:description "The Divine’s boundless love that embraces all beings without distinction or condition."@en .
 
 gg:Virtues a gg:Theme ;
-    rdfs:label "Divine Virtues and Glory"@en .
+  rdfs:label "Divine Virtues and Glory"@en ;
+  dct:description "The qualities and excellences of the Divine that inspire devotion, praise, and transformation."@en .
 
 gg:Wandering a gg:Theme ;
-    rdfs:label "Endless wandering / bhavanaa"@en .
+  rdfs:label "Endless wandering / bhavanaa"@en ;
+  dct:description "The restless roaming of the mind or soul through doubt, distraction, or cycles of birth and death."@en .
 
 gg:Wisdom a gg:Theme ;
-    rdfs:label "Spiritual Wisdom and Contemplation"@en .
+  rdfs:label "Spiritual Wisdom and Contemplation"@en ;
+  dct:description "Insight and clarity arising from contemplation, Guru’s teaching, and inner realization."@en .
 
 gg:WorldOcean a gg:Theme ;
-    rdfs:label "Crossing the World Ocean as a metaphor for transcending Maya"@en .
+  rdfs:label "Crossing the World Ocean as a metaphor for transcending Maya"@en ;
+  dct:description "The metaphor of the turbulent world-ocean (bhavjal) representing suffering, vices, and the cycles of birth and death — crossed through Divine remembrance and grace."@en .
