@@ -64,7 +64,7 @@ gg:FaithfulState a gg:Theme ;
 
 gg:FamilyUplift a gg:Theme ;
     rdfs:label "Uplift of Family and Community"@en .
-    
+
 gg:GivingReceiving a gg:Theme ;
     rdfs:label "Endless Giving and Receiving"@en .
 
@@ -73,6 +73,9 @@ gg:GloryStatus a gg:Theme ;
 
 gg:GraceAndKarma a gg:Theme ;
     rdfs:label "Interplay of Karma (Karmi) and Grace (Nadar)"@en .
+
+gg:GurmukhManmukh a gg:Theme ;
+    rdfs:label "Gurmukh – as one who consciously seeks and faces toward the Divine and Manmukh as one who does not."@en .
 
 gg:GurmukhPath a gg:Theme ;
     rdfs:label "Gurmukh – sound, knowledge, and Divine pervasion"@en .
@@ -88,6 +91,9 @@ gg:HighLow a gg:Theme ;
 
 gg:Hukam a gg:Theme ;
     rdfs:label "Hukam (Divine Command / Order)"@en .
+
+gg:HusbandLordSoulBride a gg:Theme ;
+    rdfs:label "Husband Lord and Soul Bride"@en .
 
 gg:Ineffability a gg:Theme ;
     rdfs:label "Ineffability of Divine Description"@en .
@@ -109,6 +115,9 @@ gg:LifeDeathCycle a gg:Theme ;
 
 gg:ListeningAndLove a gg:Theme ;
     rdfs:label "Singing, Listening, and Keeping Love in the Mind"@en .
+
+gg:Maya a gg:Theme ;
+    rdfs:label "Excessive entanglement with the World and physical reality"@en .
 
 gg:Naam a gg:Theme ;
     rdfs:label "Naam (Divine Name / Remembrance)"@en .
@@ -173,3 +182,5 @@ gg:Wandering a gg:Theme ;
 gg:Wisdom a gg:Theme ;
     rdfs:label "Spiritual Wisdom and Contemplation"@en .
 
+gg:WorldOcean a gg:Theme ;
+    rdfs:label "Crossing the World Ocean as a metaphor for transcending Maya"@en .
