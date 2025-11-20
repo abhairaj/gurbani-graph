@@ -1,0 +1,438 @@
+@prefix gg:  <http://gurbani-graph.org/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+###############################################################
+# Anand Sahib – Pauris 11-15
+# SGGS Ang 918
+###############################################################
+
+###############################################################
+# Anand Sahib – Pauri 11 (Corrected)
+# SGGS Ang 918
+# Pauri ID: sggs_ang917_anand_sahib_pauri11
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri11 a gg:Pauri ;
+  gg:id "sggs_ang917_anand_sahib_pauri11" ;
+  gg:ang "918"^^xsd:integer ;
+  gg:indexInBani "11"^^xsd:integer ;
+  gg:inScripture gg:SGGS ;
+  gg:inBani gg:AnandSahib ;
+  gg:inRaag gg:RaagRamkali ;
+  gg:hasAuthor gg:GuruAmarDasJi ;
+  dct:title "Anand Sahib – Pauri 11"@en ;
+  gg:hasTheme
+      gg:Truth ,
+      gg:GuruTeaching ,
+      gg:ListeningAndLove ,
+      gg:Naam ,
+      gg:Peace ;
+  gg:hasTuk
+      gg:sggs_ang917_anand_sahib_pauri11_tuk1 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk2 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk3 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk4 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk5 .
+
+###############################################################
+# Tuk 1 – ਏ ਮਨ ਪਿਆਰਿਆ ਤੂ ਸਦਾ ਸਚੁ ਸਮਾਲੇ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk1 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri11 ;
+  gg:gurmukhi "ਏ ਮਨ ਪਿਆਰਿਆ ਤੂ ਸਦਾ ਸਚੁ ਸਮਾਲੇ ॥"@pa ;
+  gg:transliteration "ay man pi-aari-aa too sadaa sach samaalay ||"@en-Latn ;
+  gg:translation "O my beloved mind, forever dwell upon the True."@en ;
+  gg:hasTheme gg:Truth , gg:GuruTeaching ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri11_tuk1_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk1_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk1_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk1_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk1_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਏ ਮਨ ਪਿਆਰਿਆ"@pa ;
+  gg:transliteration "ay man pi-aari-aa"@en-Latn ;
+  gg:translation "O beloved mind"@en .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk1_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk1_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਤੂ ਸਦਾ"@pa ;
+  gg:transliteration "too sadaa"@en-Latn ;
+  gg:translation "you should forever"@en .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk1_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk1_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਸਚੁ ਸਮਾਲੇ ॥"@pa ;
+  gg:transliteration "sach samaalay ||"@en-Latn ;
+  gg:translation "remember and dwell upon the True"@en .
+
+###############################################################
+# Tuk 2 – ਸਚੁ ਸਮਾਲੇ ਗੁਰ ਸਿਖਹੁ ਹਰਿ ਨਿਤ ਸਚੁ ਸਮਾਲੇ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk2 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri11 ;
+  gg:gurmukhi "ਸਚੁ ਸਮਾਲੇ ਗੁਰ ਸਿਖਹੁ ਹਰਿ ਨਿਤ ਸਚੁ ਸਮਾਲੇ ॥"@pa ;
+  gg:transliteration "sach samaalay gur sikhahu har nit sach samaalay ||"@en-Latn ;
+  gg:translation "O Sikhs of the Guru, remember the True Lord; continually dwell on the True."@en ;
+  gg:hasTheme gg:Truth , gg:GuruTeaching , gg:Naam ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri11_tuk2_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk2_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk2_gu3 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk2_gu4 .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk2_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk2_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਚੁ ਸਮਾਲੇ"@pa ;
+  gg:transliteration "sach samaalay"@en-Latn ;
+  gg:translation "dwell on the True"@en .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk2_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk2_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਗੁਰ ਸਿਖਹੁ"@pa ;
+  gg:transliteration "gur sikhahu"@en-Latn ;
+  gg:translation "O Sikhs of the Guru"@en .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk2_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk2_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਹਰਿ ਨਿਤ"@pa ;
+  gg:transliteration "har nit"@en-Latn ;
+  gg:translation "the Divine, continually"@en .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk2_gu4 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk2_gu4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:gurmukhi "ਸਚੁ ਸਮਾਲੇ ॥"@pa ;
+  gg:transliteration "sach samaalay ||"@en-Latn ;
+  gg:translation "remember and dwell upon the True"@en .
+
+###############################################################
+# Tuk 3 – ਹਰਿ ਨਿਤ ਸਚੁ ਸਮਾਲੇ ਸਦਾ ਸਚੁ ਸਮਾਲੇ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk3 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri11 ;
+  gg:gurmukhi "ਹਰਿ ਨਿਤ ਸਚੁ ਸਮਾਲੇ ਸਦਾ ਸਚੁ ਸਮਾਲੇ ॥"@pa ;
+  gg:transliteration "har nit sach samaalay sadaa sach samaalay ||"@en-Latn ;
+  gg:translation "Continually remember the Divine; forever dwell upon the True."@en ;
+  gg:hasTheme gg:Truth , gg:Naam , gg:Peace ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri11_tuk3_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk3_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk3_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk3_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk3_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਹਰਿ ਨਿਤ"@pa ;
+  gg:transliteration "har nit"@en-Latn ;
+  gg:translation "the Divine, continually"@en .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk3_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk3_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸਚੁ ਸਮਾਲੇ"@pa ;
+  gg:transliteration "sach samaalay"@en-Latn ;
+  gg:translation "remember / dwell upon the True"@en .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk3_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk3_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਸਦਾ ਸਚੁ ਸਮਾਲੇ ॥"@pa ;
+  gg:transliteration "sadaa sach samaalay ||"@en-Latn ;
+  gg:translation "forever dwell upon the True"@en .
+
+###############################################################
+# Tuk 4 – ਸਦਾ ਸਚੁ ਸਮਾਲੇ ਹਰਿ ਨਿਤ ਸਚੁ ਸਮਾਲੇ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk4 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri11 ;
+  gg:gurmukhi "ਸਦਾ ਸਚੁ ਸਮਾਲੇ ਹਰਿ ਨਿਤ ਸਚੁ ਸਮਾਲੇ ॥"@pa ;
+  gg:transliteration "sadaa sach samaalay har nit sach samaalay ||"@en-Latn ;
+  gg:translation "Forever remember the True; continually dwell upon the Divine."@en ;
+  gg:hasTheme gg:Truth , gg:Naam , gg:Peace ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri11_tuk4_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk4_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk4_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk4_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk4_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਦਾ ਸਚੁ ਸਮਾਲੇ"@pa ;
+  gg:transliteration "sadaa sach samaalay"@en-Latn ;
+  gg:translation "forever dwell upon the True"@en .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk4_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk4_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਹਰਿ ਨਿਤ"@pa ;
+  gg:transliteration "har nit"@en-Latn ;
+  gg:translation "the Divine, continually"@en .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk4_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk4_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਸਚੁ ਸਮਾਲੇ ॥"@pa ;
+  gg:transliteration "sach samaalay ||"@en-Latn ;
+  gg:translation "remember and dwell upon the True"@en .
+
+###############################################################
+# Tuk 5 – ਕਹੈ ਨਾਨਕੁ ਮਨ ਪਿਆਰੇ ਤੂ ਸਦਾ ਸਚੁ ਸਮਾਲੇ ॥੧੧॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk5 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk5" ;
+  gg:index "5"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri11 ;
+  gg:gurmukhi "ਕਹੈ ਨਾਨਕੁ ਮਨ ਪਿਆਰੇ ਤੂ ਸਦਾ ਸਚੁ ਸਮਾਲੇ ॥੧੧॥"@pa ;
+  gg:transliteration "kahai naanak man pi-aare too sadaa sach samaalay ||11||"@en-Latn ;
+  gg:translation "Says Nanak: O beloved mind, forever dwell upon the True. ||11||"@en ;
+  gg:hasTheme gg:Truth , gg:GuruTeaching ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri11_tuk5_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk5_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri11_tuk5_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk5_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk5_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਕਹੈ ਨਾਨਕੁ"@pa ;
+  gg:transliteration "kahai naanak"@en-Latn ;
+  gg:translation "says Nanak"@en .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk5_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk5_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਮਨ ਪਿਆਰੇ"@pa ;
+  gg:transliteration "man pi-aare"@en-Latn ;
+  gg:translation "O beloved mind"@en .
+
+gg:sggs_ang917_anand_sahib_pauri11_tuk5_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri11_tuk5_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਤੂ ਸਦਾ ਸਚੁ ਸਮਾਲੇ ॥੧੧॥"@pa ;
+  gg:transliteration "too sadaa sach samaalay ||11||"@en-Latn ;
+  gg:translation "forever dwell upon the True. ||11||"@en .
+
+###############################################################
+# Anand Sahib – Pauri 12
+# SGGS Ang 918
+# Pauri ID: sggs_ang917_anand_sahib_pauri12
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri12 a gg:Pauri ;
+  gg:id "sggs_ang917_anand_sahib_pauri12" ;
+  gg:ang "918"^^xsd:integer ;
+  gg:indexInBani "12"^^xsd:integer ;
+  gg:inScripture gg:SGGS ;
+  gg:inBani gg:AnandSahib ;
+  gg:inRaag gg:RaagRamkali ;
+  gg:hasAuthor gg:GuruAmarDasJi ;
+  dct:title "Anand Sahib – Pauri 12"@en ;
+  gg:hasTheme
+      gg:Ineffability ,
+      gg:TranscendenceImmanence ,
+      gg:CreationDestruction ,
+      gg:DivinePervasion ,
+      gg:UncreatedDivine ;
+  gg:hasTuk
+      gg:sggs_ang917_anand_sahib_pauri12_tuk1 ,
+      gg:sggs_ang917_anand_sahib_pauri12_tuk2 ,
+      gg:sggs_ang917_anand_sahib_pauri12_tuk3 ,
+      gg:sggs_ang917_anand_sahib_pauri12_tuk4 ,
+      gg:sggs_ang917_anand_sahib_pauri12_tuk5 .
+
+###############################################################
+# Tuk 1 – ਅਗਮ ਅਗੋਚਰਾ ਤੇਰਾ ਅੰਤੁ ਨ ਪਾਇਆ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk1 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri12 ;
+  gg:gurmukhi "ਅਗਮ ਅਗੋਚਰਾ ਤੇਰਾ ਅੰਤੁ ਨ ਪਾਇਆ ॥"@pa ;
+  gg:transliteration "agam agocharaa tayraa ant na paa-i-aa ||"@en-Latn ;
+  gg:translation "O Inaccessible, Unfathomable One — Your limits cannot be found."@en ;
+  gg:hasTheme gg:Ineffability , gg:TranscendenceImmanence ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri12_tuk1_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri12_tuk1_gu2 .
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk1_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk1_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਅਗਮ ਅਗੋਚਰਾ"@pa ;
+  gg:transliteration "agam agocharaa"@en-Latn ;
+  gg:translation "O Inaccessible, beyond perception"@en .
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk1_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk1_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਤੇਰਾ ਅੰਤੁ ਨ ਪਾਇਆ ॥"@pa ;
+  gg:transliteration "tayraa ant na paa-i-aa ||"@en-Latn ;
+  gg:translation "Your limit has never been found"@en .
+
+###############################################################
+# Tuk 2 – ਅੰਤੋ ਨ ਪਾਇਆ ਕਿਨੈ ਤੇਰਾ ਆਪਣਾ ਆਪੁ ਤੂ ਜਾਣਹੇ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk2 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri12 ;
+  gg:gurmukhi "ਅੰਤੋ ਨ ਪਾਇਆ ਕਿਨੈ ਤੇਰਾ ਆਪਣਾ ਆਪੁ ਤੂ ਜਾਣਹੇ ॥"@pa ;
+  gg:transliteration "anto na paa-i-aa kinai tayraa aapnaa aap too jaanhay ||"@en-Latn ;
+  gg:translation "No one has ever found Your extent; only You Yourself know Your own Self."@en ;
+  gg:hasTheme gg:Ineffability , gg:UncreatedDivine ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri12_tuk2_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri12_tuk2_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri12_tuk2_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk2_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk2_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਅੰਤੋ ਨ ਪਾਇਆ"@pa ;
+  gg:transliteration "anto na paa-i-aa"@en-Latn ;
+  gg:translation "no limit has been found"@en .
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk2_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk2_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਕਿਨੈ ਤੇਰਾ"@pa ;
+  gg:transliteration "kinai tayraa"@en-Latn ;
+  gg:translation "by anyone, of Yours"@en .
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk2_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk2_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਆਪਣਾ ਆਪੁ ਤੂ ਜਾਣਹੇ ॥"@pa ;
+  gg:transliteration "aapnaa aap too jaanhay ||"@en-Latn ;
+  gg:translation "only You Yourself know Your own Self"@en .
+
+###############################################################
+# Tuk 3 – ਜੀਅ ਜੰਤ ਸਭਿ ਖੇਲੁ ਤੇਰਾ ਕਿਆ ਕੋ ਆਖਿ ਵਖਾਣਏ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk3 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri12 ;
+  gg:gurmukhi "ਜੀਅ ਜੰਤ ਸਭਿ ਖੇਲੁ ਤੇਰਾ ਕਿਆ ਕੋ ਆਖਿ ਵਖਾਣਏ ॥"@pa ;
+  gg:transliteration "jee-a jant sabh khayl tayraa ki-aa ko aakh vakhaanae ||"@en-Latn ;
+  gg:translation "All beings and creatures are Your play — how could anyone describe You?"@en ;
+  gg:hasTheme gg:CreationDestruction , gg:DivinePervasion , gg:Ineffability ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri12_tuk3_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri12_tuk3_gu2 .
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk3_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk3_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਜੀਅ ਜੰਤ ਸਭਿ ਖੇਲੁ ਤੇਰਾ"@pa ;
+  gg:transliteration "jee-a jant sabh khayl tayraa"@en-Latn ;
+  gg:translation "all beings and creatures are Your play"@en .
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk3_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk3_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਕਿਆ ਕੋ ਆਖਿ ਵਖਾਣਏ ॥"@pa ;
+  gg:transliteration "ki-aa ko aakh vakhaanae ||"@en-Latn ;
+  gg:translation "who could possibly speak and fully describe You?"@en .
+
+###############################################################
+# Tuk 4 – ਆਖਹਿ ਤ ਵੇਖਹਿ ਸਭੁ ਤੂਹੈ ਜਿਨਿ ਜਗਤੁ ਉਪਾਇਆ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk4 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri12 ;
+  gg:gurmukhi "ਆਖਹਿ ਤ ਵੇਖਹਿ ਸਭੁ ਤੂਹੈ ਜਿਨਿ ਜਗਤੁ ਉਪਾਇਆ ॥"@pa ;
+  gg:transliteration "aakhahi ta vaykheh sabh toohai jin jagat upaa-i-aa ||"@en-Latn ;
+  gg:translation "If one tries to speak of You, they see only You pervading everywhere — You who created the world."@en ;
+  gg:hasTheme gg:DivinePervasion , gg:CreationDestruction , gg:TranscendenceImmanence ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri12_tuk4_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri12_tuk4_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri12_tuk4_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk4_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk4_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਆਖਹਿ ਤ ਵੇਖਹਿ"@pa ;
+  gg:transliteration "aakhahi ta vaykheh"@en-Latn ;
+  gg:translation "when they speak (of You), they see"@en .
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk4_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk4_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸਭੁ ਤੂਹੈ"@pa ;
+  gg:transliteration "sabh toohai"@en-Latn ;
+  gg:translation "that all is You"@en .
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk4_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk4_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਜਿਨਿ ਜਗਤੁ ਉਪਾਇਆ ॥"@pa ;
+  gg:transliteration "jin jagat upaa-i-aa ||"@en-Latn ;
+  gg:translation "You who created the entire world"@en .
+
+###############################################################
+# Tuk 5 – ਕਹੈ ਨਾਨਕੁ ਤੂ ਸਦਾ ਅਗੰਮੁ ਹੈ ਤੇਰਾ ਅੰਤੁ ਨ ਪਾਇਆ ॥੧੨॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk5 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk5" ;
+  gg:index "5"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri12 ;
+  gg:gurmukhi "ਕਹੈ ਨਾਨਕੁ ਤੂ ਸਦਾ ਅਗੰਮੁ ਹੈ ਤੇਰਾ ਅੰਤੁ ਨ ਪਾਇਆ ॥੧੨॥"@pa ;
+  gg:transliteration "kahai naanak too sadaa agamm hai tayraa ant na paa-i-aa ||12||"@en-Latn ;
+  gg:translation "Says Nanak: You are forever Inaccessible — Your limits have never been found. ||12||"@en ;
+  gg:hasTheme gg:Ineffability , gg:UncreatedDivine ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri12_tuk5_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri12_tuk5_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri12_tuk5_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk5_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk5_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਕਹੈ ਨਾਨਕੁ"@pa ;
+  gg:transliteration "kahai naanak"@en-Latn ;
+  gg:translation "says Nanak"@en .
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk5_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk5_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਤੂ ਸਦਾ ਅਗੰਮੁ ਹੈ"@pa ;
+  gg:transliteration "too sadaa agamm hai"@en-Latn ;
+  gg:translation "You are forever Inaccessible (beyond reach)"@en .
+
+gg:sggs_ang917_anand_sahib_pauri12_tuk5_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri12_tuk5_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਤੇਰਾ ਅੰਤੁ ਨ ਪਾਇਆ ॥੧੨॥"@pa ;
+  gg:transliteration "tayraa ant na paa-i-aa ||12||"@en-Latn ;
+  gg:translation "Your limit has never been found. ||12||"@en .

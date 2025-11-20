@@ -1,0 +1,1197 @@
+@prefix gg:  <http://gurbani-graph.org/core#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+
+###############################################################
+# Anand Sahib – Pauri 1 (with header tuks)
+# SGGS Ang 917
+# Shabd ID: sggs_ang917_anand_sahib_pauri1
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri1 a gg:Pauri ;
+  gg:id "sggs_ang917_anand_sahib_pauri1" ;
+  gg:ang "917"^^xsd:integer ;
+  gg:inScripture gg:SGGS ;
+  gg:inBani gg:AnandSahib ;
+  gg:indexInBani "1"^^xsd:integer ;
+  gg:inRaag gg:RaagRamkali ;
+  gg:hasAuthor gg:GuruAmarDasJi ;
+  dct:title "Anand Sahib – Pauri 1"@en ;
+  gg:hasTheme gg:Peace ,
+              gg:Naam ,
+              gg:GuruTeaching ,
+              gg:DivineGifts ;
+  gg:hasTuk
+      gg:sggs_ang917_anand_sahib_pauri1_tuk1 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk2 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk3 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk4 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk5 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk6 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk7 .
+
+###############################################################
+# Tuk 1 – Header: ਰਾਮਕਲੀ ਮਹਲਾ ੩ ਅਨੰਦੁ
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk1 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri1_tuk1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri1 ;
+  gg:gurmukhi "ਰਾਮਕਲੀ ਮਹਲਾ ੩ ਅਨੰਦੁ"@pa ;
+  gg:transliteration "raamkalee mehlaa 3 anand"@en-Latn ;
+  gg:translation "Raag Ramkali, Third Mehl, Anand – the Song of Bliss."@en ;
+  gg:hasTheme gg:GuruTeaching ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri1_tuk1_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk1_gu2 .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk1_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਰਾਮਕਲੀ ਮਹਲਾ ੩"@pa ;
+  gg:transliteration "raamkalee mehlaa 3"@en-Latn ;
+  gg:translation "In Raag Ramkali, by the Third Guru."@en .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk1_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਅਨੰਦੁ"@pa ;
+  gg:transliteration "anand"@en-Latn ;
+  gg:translation "Anand – the hymn of spiritual bliss."@en .
+
+###############################################################
+# Tuk 2 – ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk2 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri1_tuk2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri1 ;
+  gg:gurmukhi "ੴ ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥"@pa ;
+  gg:transliteration "ik oankaar satigur prasaad ||"@en-Latn ;
+  gg:translation "One Universal Creator Being, realized by the grace of the True Guru."@en ;
+  gg:hasTheme gg:UncreatedDivine , gg:DivineGrace , gg:Satguru ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri1_tuk2_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk2_gu2 .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk2_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ੴ"@pa ;
+  gg:transliteration "ik oankaar"@en-Latn ;
+  gg:translation "The One, all-pervading Creative Reality."@en .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk2_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸਤਿਗੁਰ ਪ੍ਰਸਾਦਿ ॥"@pa ;
+  gg:transliteration "satigur prasaad ||"@en-Latn ;
+  gg:translation "by the grace of the True Guru."@en .
+
+###############################################################
+# Tuk 3 – ਅਨੰਦੁ ਭਇਆ ਮੇਰੀ ਮਾਏ ਸਤਿਗੁਰੂ ਮੈ ਪਾਇਆ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk3 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri1_tuk3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri1 ;
+  gg:gurmukhi "ਅਨੰਦੁ ਭਇਆ ਮੇਰੀ ਮਾਏ ਸਤਿਗੁਰੂ ਮੈ ਪਾਇਆ ॥"@pa ;
+  gg:transliteration "anand bhaiaa meri maae satguru mai paaiaa ||"@en-Latn ;
+  gg:translation "Bliss has welled up within me, O my mother; I have found the True Guru."@en ;
+  gg:hasTheme gg:Peace , gg:GuruTeaching , gg:DivineGifts ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri1_tuk3_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk3_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk3_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk3_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਅਨੰਦੁ ਭਇਆ"@pa ;
+  gg:transliteration "anand bhaiaa"@en-Latn ;
+  gg:translation "bliss has arisen"@en .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk3_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਮੇਰੀ ਮਾਏ"@pa ;
+  gg:transliteration "meri maae"@en-Latn ;
+  gg:translation "O my mother"@en .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk3_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਸਤਿਗੁਰੂ ਮੈ ਪਾਇਆ ॥"@pa ;
+  gg:transliteration "satguru mai paaiaa ||"@en-Latn ;
+  gg:translation "for I have found the True Guru."@en .
+
+###############################################################
+# Tuk 4 – ਸਤਿਗੁਰੁ ਤ ਪਾਇਆ ਸਹਜ ਸੇਤੀ ਮਨਿ ਵਜੀਆ ਵਾਧਾਈਆ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk4 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri1_tuk4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri1 ;
+  gg:gurmukhi "ਸਤਿਗੁਰੁ ਤ ਪਾਇਆ ਸਹਜ ਸੇਤੀ ਮਨਿ ਵਜੀਆ ਵਾਧਾਈਆ ॥"@pa ;
+  gg:transliteration "satguru ta paaiaa sahaj setee man vajeeaa vaadhaiiaa ||"@en-Latn ;
+  gg:translation "I have found the True Guru with intuitive ease, and my mind resounds with songs of congratulations."@en ;
+  gg:hasTheme gg:Peace , gg:GuruTeaching , gg:ListeningAndLove ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri1_tuk4_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk4_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk4_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk4_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਤਿਗੁਰੁ ਤ ਪਾਇਆ"@pa ;
+  gg:transliteration "satguru ta paaiaa"@en-Latn ;
+  gg:translation "indeed, I have found the True Guru"@en .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk4_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸਹਜ ਸੇਤੀ"@pa ;
+  gg:transliteration "sahaj setee"@en-Latn ;
+  gg:translation "with intuitive, natural ease"@en .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk4_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਮਨਿ ਵਜੀਆ ਵਾਧਾਈਆ ॥"@pa ;
+  gg:transliteration "man vajeeaa vaadhaiiaa ||"@en-Latn ;
+  gg:translation "my mind vibrates with melodies of joyous congratulations."@en .
+
+###############################################################
+# Tuk 5 – ਰਾਗ ਰਤਨ ਪਰਵਾਰ ਪਰੀਆ ਸਬਦ ਗਾਵਣ ਆਈਆ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk5 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri1_tuk5" ;
+  gg:index "5"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri1 ;
+  gg:gurmukhi "ਰਾਗ ਰਤਨ ਪਰਵਾਰ ਪਰੀਆ ਸਬਦ ਗਾਵਣ ਆਈਆ ॥"@pa ;
+  gg:transliteration "raag ratan parvaar pareeaa sabad gaavan aaeeaa ||"@en-Latn ;
+  gg:translation "The jeweled raags, together with their families, have come to sing the Shabad."@en ;
+  gg:hasTheme gg:ListeningAndLove , gg:Praise , gg:InnerJewels ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri1_tuk5_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk5_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk5_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk5_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਰਾਗ ਰਤਨ"@pa ;
+  gg:transliteration "raag ratan"@en-Latn ;
+  gg:translation "the jewel-like musical raags"@en .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk5_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਪਰਵਾਰ ਪਰੀਆ"@pa ;
+  gg:transliteration "parvaar pareeaa"@en-Latn ;
+  gg:translation "arrayed with their families and variations"@en .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk5_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਸਬਦ ਗਾਵਣ ਆਈਆ ॥"@pa ;
+  gg:transliteration "sabad gaavan aaeeaa ||"@en-Latn ;
+  gg:translation "have come to sing the Divine Shabad."@en .
+
+###############################################################
+# Tuk 6 – ਸਬਦੋ ਤ ਗਾਵਹੁ ਹਰੀ ਕੇਰਾ ਮਨਿ ਜਿਨੀ ਵਸਾਇਆ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk6 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri1_tuk6" ;
+  gg:index "6"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri1 ;
+  gg:gurmukhi "ਸਬਦੋ ਤ ਗਾਵਹੁ ਹਰੀ ਕੇਰਾ ਮਨਿ ਜਿਨੀ ਵਸਾਇਆ ॥"@pa ;
+  gg:transliteration "sabdo ta gaavahu haree keraa man jinee vasaaiaa ||"@en-Latn ;
+  gg:translation "So sing only the Shabad of the Lord, you in whose minds He dwells."@en ;
+  gg:hasTheme gg:Naam , gg:Praise , gg:ListeningAndLove ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri1_tuk6_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk6_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk6_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk6_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਬਦੋ ਤ ਗਾਵਹੁ"@pa ;
+  gg:transliteration "sabdo ta gaavahu"@en-Latn ;
+  gg:translation "therefore sing only the Shabad"@en .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk6_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਹਰੀ ਕੇਰਾ"@pa ;
+  gg:transliteration "haree keraa"@en-Latn ;
+  gg:translation "that belongs to Hari, the Lord"@en .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk6_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਮਨਿ ਜਿਨੀ ਵਸਾਇਆ ॥"@pa ;
+  gg:transliteration "man jinee vasaaiaa ||"@en-Latn ;
+  gg:translation "you who enshrine Him within your minds."@en .
+
+###############################################################
+# Tuk 7 – ਕਹੈ ਨਾਨਕੁ ਅਨੰਦੁ ਹੋਆ ਸਤਿਗੁਰੂ ਮੈ ਪਾਇਆ ॥੧॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk7 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri1_tuk7" ;
+  gg:index "7"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri1 ;
+  gg:gurmukhi "ਕਹੈ ਨਾਨਕੁ ਅਨੰਦੁ ਹੋਆ ਸਤਿਗੁਰੂ ਮੈ ਪਾਇਆ ॥੧॥"@pa ;
+  gg:transliteration "kahai naanak anand hoaa satguru mai paaiaa ||1||"@en-Latn ;
+  gg:translation "Says Nanak, bliss has dawned within me, for I have found the True Guru. ||1||"@en ;
+  gg:hasTheme gg:Peace , gg:GuruTeaching , gg:DivineGifts ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri1_tuk7_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk7_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri1_tuk7_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk7_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਕਹੈ ਨਾਨਕੁ"@pa ;
+  gg:transliteration "kahai naanak"@en-Latn ;
+  gg:translation "says Nanak"@en .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk7_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਅਨੰਦੁ ਹੋਆ"@pa ;
+  gg:transliteration "anand hoaa"@en-Latn ;
+  gg:translation "bliss has arisen"@en .
+
+gg:sggs_ang917_anand_sahib_pauri1_tuk7_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਸਤਿਗੁਰੂ ਮੈ ਪਾਇਆ ॥੧॥"@pa ;
+  gg:transliteration "satguru mai paaiaa ||1||"@en-Latn ;
+  gg:translation "for I have found the True Guru. ||1||"@en .
+
+###############################################################
+# Anand Sahib – Pauri 2
+# SGGS Ang 917
+# Pauri ID: sggs_ang917_anand_sahib_pauri2
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri2 a gg:Pauri ;
+  gg:id "sggs_ang917_anand_sahib_pauri2" ;
+  gg:ang "917"^^xsd:integer ;
+  gg:inScripture gg:SGGS ;
+  gg:inBani gg:AnandSahib ;
+  gg:indexInBani "2"^^xsd:integer ;
+  gg:inRaag gg:RaagRamkali ;
+  gg:hasAuthor gg:GuruAmarDasJi ;
+  dct:title "Anand Sahib – Pauri 2"@en ;
+  gg:hasTheme gg:DevotionalLove ,
+              gg:Peace ,
+              gg:DivineProtection ,
+              gg:Naam ;
+  gg:hasTuk
+      gg:sggs_ang917_anand_sahib_pauri2_tuk1 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk2 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk3 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk4 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk5 .
+
+###############################################################
+# Tuk 1 – ਏ ਮਨ ਮੇਰਿਆ ਤੂੰ ਸਦਾ ਰਹੁ ਹਰਿ ਨਾਲੇ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk1 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri2_tuk1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri2 ;
+  gg:gurmukhi "ਏ ਮਨ ਮੇਰਿਆ ਤੂੰ ਸਦਾ ਰਹੁ ਹਰਿ ਨਾਲੇ ॥"@pa ;
+  gg:transliteration "e man meriaa toon sada rah har naale ||"@en-Latn ;
+  gg:translation "O my mind, remain always with the Lord."@en ;
+  gg:hasTheme gg:DevotionalLove , gg:Naam ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri2_tuk1_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk1_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk1_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk1_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਏ ਮਨ ਮੇਰਿਆ"@pa ;
+  gg:transliteration "e man meriaa"@en-Latn ;
+  gg:translation "O my mind"@en .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk1_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਤੂੰ ਸਦਾ ਰਹੁ"@pa ;
+  gg:transliteration "toon sada rah"@en-Latn ;
+  gg:translation "you should ever remain"@en .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk1_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਹਰਿ ਨਾਲੇ ॥"@pa ;
+  gg:transliteration "har naale ||"@en-Latn ;
+  gg:translation "in the company of Hari, the Lord."@en .
+
+###############################################################
+# Tuk 2 – ਹਰਿ ਨਾਲਿ ਰਹੁ ਤੂ ਮਨ ਮੇਰੇ ਦੂਖ ਸਭਿ ਵਿਸਾਰਣਾ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk2 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri2_tuk2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri2 ;
+  gg:gurmukhi "ਹਰਿ ਨਾਲਿ ਰਹੁ ਤੂ ਮਨ ਮੇਰੇ ਦੂਖ ਸਭਿ ਵਿਸਾਰਣਾ ॥"@pa ;
+  gg:transliteration "har naal rah too man mere dukh sabh visaarnaa ||"@en-Latn ;
+  gg:translation "Remain with the Lord, O my mind; He will cause all your sorrows to be forgotten."@en ;
+  gg:hasTheme gg:Peace , gg:DivineProtection ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri2_tuk2_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk2_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk2_gu3 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk2_gu4 .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk2_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਹਰਿ ਨਾਲਿ ਰਹੁ"@pa ;
+  gg:transliteration "har naal rah"@en-Latn ;
+  gg:translation "remain in the Lord’s presence"@en .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk2_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਤੂ ਮਨ ਮੇਰੇ"@pa ;
+  gg:transliteration "too man mere"@en-Latn ;
+  gg:translation "you, O my mind"@en .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk2_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਦੂਖ ਸਭਿ"@pa ;
+  gg:transliteration "dukh sabh"@en-Latn ;
+  gg:translation "all pains, all sorrows"@en .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk2_gu4 a gg:GlossUnit ;
+  gg:index "4"^^xsd:integer ;
+  gg:gurmukhi "ਵਿਸਾਰਣਾ ॥"@pa ;
+  gg:transliteration "visaarnaa ||"@en-Latn ;
+  gg:translation "He causes to be forgotten, removed."@en .
+
+###############################################################
+# Tuk 3 – ਅੰਗੀਕਾਰੁ ਓਹੁ ਕਰੇ ਤੇਰਾ ਕਾਰਜ ਸਭਿ ਸਵਾਰਣਾ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk3 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri2_tuk3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri2 ;
+  gg:gurmukhi "ਅੰਗੀਕਾਰੁ ਓਹੁ ਕਰੇ ਤੇਰਾ ਕਾਰਜ ਸਭਿ ਸਵਾਰਣਾ ॥"@pa ;
+  gg:transliteration "angeekaar oh kare tera kaaraj sabh savaaranaa ||"@en-Latn ;
+  gg:translation "He will accept you, and will Himself perfectly arrange all your affairs."@en ;
+  gg:hasTheme gg:DivineProtection , gg:DivineGifts , gg:GraceAndKarma ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri2_tuk3_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk3_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk3_gu3 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk3_gu4 .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk3_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਅੰਗੀਕਾਰੁ ਓਹੁ ਕਰੇ"@pa ;
+  gg:transliteration "angeekaar oh kare"@en-Latn ;
+  gg:translation "He takes you into His care, accepts you"@en .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk3_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਤੇਰਾ ਕਾਰਜ"@pa ;
+  gg:transliteration "tera kaaraj"@en-Latn ;
+  gg:translation "your undertakings, your affairs"@en .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk3_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਸਭਿ"@pa ;
+  gg:transliteration "sabh"@en-Latn ;
+  gg:translation "all of them"@en .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk3_gu4 a gg:GlossUnit ;
+  gg:index "4"^^xsd:integer ;
+  gg:gurmukhi "ਸਵਾਰਣਾ ॥"@pa ;
+  gg:transliteration "savaaranaa ||"@en-Latn ;
+  gg:translation "He Himself will settle, perfect, and resolve."@en .
+
+###############################################################
+# Tuk 4 – ਸਭਨਾ ਗਲਾ ਸਮਰਥੁ ਸੁਆਮੀ ਸੋ ਕਿਉ ਮਨਹੁ ਵਿਸਾਰੇ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk4 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri2_tuk4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri2 ;
+  gg:gurmukhi "ਸਭਨਾ ਗਲਾ ਸਮਰਥੁ ਸੁਆਮੀ ਸੋ ਕਿਉ ਮਨਹੁ ਵਿਸਾਰੇ ॥"@pa ;
+  gg:transliteration "sabhnaa gala samrath suaamee so kio manahu visaaray ||"@en-Latn ;
+  gg:translation "He is the All-powerful Master of all things; how could you ever forget Him from your mind?"@en ;
+  gg:hasTheme gg:DivinePower , gg:DevotionalLove , gg:Truth ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri2_tuk4_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk4_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk4_gu3 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk4_gu4 .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk4_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਭਨਾ ਗਲਾ"@pa ;
+  gg:transliteration "sabhnaa gala"@en-Latn ;
+  gg:translation "of all matters, all affairs"@en .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk4_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸਮਰਥੁ ਸੁਆਮੀ"@pa ;
+  gg:transliteration "samrath suaamee"@en-Latn ;
+  gg:translation "the All-capable, sovereign Lord"@en .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk4_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਸੋ ਕਿਉ"@pa ;
+  gg:transliteration "so kio"@en-Latn ;
+  gg:translation "so how"@en .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk4_gu4 a gg:GlossUnit ;
+  gg:index "4"^^xsd:integer ;
+  gg:gurmukhi "ਮਨਹੁ ਵਿਸਾਰੇ ॥"@pa ;
+  gg:transliteration "manahu visaaray ||"@en-Latn ;
+  gg:translation "can you forget Him from your mind?"@en .
+
+###############################################################
+# Tuk 5 – ਕਹੈ ਨਾਨਕੁ ਮਨ ਮੇਰੇ ਸਦਾ ਰਹੁ ਹਰਿ ਨਾਲੇ ॥੨॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk5 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri2_tuk5" ;
+  gg:index "5"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri2 ;
+  gg:gurmukhi "ਕਹੈ ਨਾਨਕੁ ਮਨ ਮੇਰੇ ਸਦਾ ਰਹੁ ਹਰਿ ਨਾਲੇ ॥੨॥"@pa ;
+  gg:transliteration "kahai naanak man mere sada rah har naale ||2||"@en-Latn ;
+  gg:translation "Says Nanak, O my mind, remain forever with the Lord. ||2||"@en ;
+  gg:hasTheme gg:DevotionalLove , gg:Naam , gg:Peace ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri2_tuk5_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk5_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri2_tuk5_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk5_gu1 a gg:GlossUnit ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਕਹੈ ਨਾਨਕੁ"@pa ;
+  gg:transliteration "kahai naanak"@en-Latn ;
+  gg:translation "says Nanak"@en .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk5_gu2 a gg:GlossUnit ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਮਨ ਮੇਰੇ"@pa ;
+  gg:transliteration "man mere"@en-Latn ;
+  gg:translation "O my mind"@en .
+
+gg:sggs_ang917_anand_sahib_pauri2_tuk5_gu3 a gg:GlossUnit ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਸਦਾ ਰਹੁ ਹਰਿ ਨਾਲੇ ॥੨॥"@pa ;
+  gg:transliteration "sada rah har naale ||2||"@en-Latn ;
+  gg:translation "remain always with the Lord. ||2||"@en .
+
+
+###############################################################
+# Anand Sahib – Pauri 3
+# SGGS Ang 917
+# Pauri ID: sggs_ang917_anand_sahib_pauri3
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri3 a gg:Pauri ;
+  gg:id "sggs_ang917_anand_sahib_pauri3" ;
+  gg:ang "917"^^xsd:integer ;
+  gg:indexInBani "3"^^xsd:integer ;
+  gg:inScripture gg:SGGS ;
+  gg:inBani gg:AnandSahib ;
+  gg:inRaag gg:RaagRamkali ;
+  gg:hasAuthor gg:GuruAmarDasJi ;
+  dct:title "Anand Sahib – Pauri 3"@en ;
+  gg:hasTheme gg:Provision ,
+              gg:OneGiver ,
+              gg:Naam ,
+              gg:Praise ,
+              gg:DivineGifts ;
+  gg:hasTuk
+      gg:sggs_ang917_anand_sahib_pauri3_tuk1 ,
+      gg:sggs_ang917_anand_sahib_pauri3_tuk2 ,
+      gg:sggs_ang917_anand_sahib_pauri3_tuk3 ,
+      gg:sggs_ang917_anand_sahib_pauri3_tuk4 ,
+      gg:sggs_ang917_anand_sahib_pauri3_tuk5 .
+
+###############################################################
+# Tuk 1 – ਸਾਚੇ ਸਾਹਿਬਾ ਕਿਆ ਨਾਹੀ ਘਰਿ ਤੇਰੈ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk1 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri3 ;
+  gg:gurmukhi "ਸਾਚੇ ਸਾਹਿਬਾ ਕਿਆ ਨਾਹੀ ਘਰਿ ਤੇਰੈ ॥"@pa ;
+  gg:transliteration "saachay saahibaa ki-aa naahee ghar tayrai ||"@en-Latn ;
+  gg:translation "O True Master, what is there that is not in Your home?"@en ;
+  gg:hasTheme gg:Provision , gg:DivineGifts , gg:DivineSovereignty ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri3_tuk1_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri3_tuk1_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri3_tuk1_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk1_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk1_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਾਚੇ ਸਾਹਿਬਾ"@pa ;
+  gg:transliteration "saachay saahibaa"@en-Latn ;
+  gg:translation "O True Master"@en .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk1_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk1_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਕਿਆ ਨਾਹੀ"@pa ;
+  gg:transliteration "ki-aa naahee"@en-Latn ;
+  gg:translation "what is lacking"@en .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk1_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk1_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਘਰਿ ਤੇਰੈ ॥"@pa ;
+  gg:transliteration "ghar tayrai ||"@en-Latn ;
+  gg:translation "in Your home?"@en .
+
+###############################################################
+# Tuk 2 – ਘਰਿ ਤ ਤੇਰੈ ਸਭੁ ਕਿਛੁ ਹੈ ਜਿਸੁ ਦੇਹਿ ਸੁ ਪਾਵਏ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk2 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri3 ;
+  gg:gurmukhi "ਘਰਿ ਤ ਤੇਰੈ ਸਭੁ ਕਿਛੁ ਹੈ ਜਿਸੁ ਦੇਹਿ ਸੁ ਪਾਵਏ ॥"@pa ;
+  gg:transliteration "ghar ta tayrai sabh kichh hai jis deh so paav-ay ||"@en-Latn ;
+  gg:translation "In Your home is everything; whoever You give to, that one receives."@en ;
+  gg:hasTheme gg:Provision , gg:OneGiver , gg:GraceAndKarma ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri3_tuk2_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri3_tuk2_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri3_tuk2_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk2_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk2_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਘਰਿ ਤ ਤੇਰੈ"@pa ;
+  gg:transliteration "ghar ta tayrai"@en-Latn ;
+  gg:translation "in Your home alone"@en .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk2_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk2_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸਭੁ ਕਿਛੁ ਹੈ"@pa ;
+  gg:transliteration "sabh kichh hai"@en-Latn ;
+  gg:translation "everything is present"@en .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk2_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk2_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਜਿਸੁ ਦੇਹਿ ਸੁ ਪਾਵਏ ॥"@pa ;
+  gg:transliteration "jis deh so paav-ay ||"@en-Latn ;
+  gg:translation "whoever You choose to give, that one receives."@en .
+
+###############################################################
+# Tuk 3 – ਸਦਾ ਸਿਫਤਿ ਸਲਾਹ ਤੇਰੀ ਨਾਮੁ ਮਨਿ ਵਸਾਵਏ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk3 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri3 ;
+  gg:gurmukhi "ਸਦਾ ਸਿਫਤਿ ਸਲਾਹ ਤੇਰੀ ਨਾਮੁ ਮਨਿ ਵਸਾਵਏ ॥"@pa ;
+  gg:transliteration "sadaa sifat salaah tayree naam man vasaava-ay ||"@en-Latn ;
+  gg:translation "May Your praise be sung forever; may Your Naam dwell within the mind."@en ;
+  gg:hasTheme gg:Praise , gg:Naam ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri3_tuk3_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri3_tuk3_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri3_tuk3_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk3_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk3_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਦਾ"@pa ;
+  gg:transliteration "sadaa"@en-Latn ;
+  gg:translation "forever, continually"@en .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk3_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk3_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸਿਫਤਿ ਸਲਾਹ ਤੇਰੀ"@pa ;
+  gg:transliteration "sifat salaah tayree"@en-Latn ;
+  gg:translation "Your praise and glorification"@en .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk3_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk3_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਨਾਮੁ ਮਨਿ ਵਸਾਵਏ ॥"@pa ;
+  gg:transliteration "naam man vasaava-ay ||"@en-Latn ;
+  gg:translation "may the Naam be firmly installed in the mind."@en .
+
+###############################################################
+# Tuk 4 – ਨਾਮੁ ਜਿਨ ਕੈ ਮਨਿ ਵਸਿਆ ਵਾਜੇ ਸਬਦ ਘਨੇਰੇ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk4 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri3 ;
+  gg:gurmukhi "ਨਾਮੁ ਜਿਨ ਕੈ ਮਨਿ ਵਸਿਆ ਵਾਜੇ ਸਬਦ ਘਨੇਰੇ ॥"@pa ;
+  gg:transliteration "naam jin kai man vasi-aa vaajay sabad ghanayray ||"@en-Latn ;
+  gg:translation "In those whose minds the Naam abides, the many melodies of the Shabad resound."@en ;
+  gg:hasTheme gg:Naam , gg:InnerJewels , gg:ListeningAndLove ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri3_tuk4_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri3_tuk4_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri3_tuk4_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk4_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk4_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਨਾਮੁ ਜਿਨ ਕੈ ਮਨਿ ਵਸਿਆ"@pa ;
+  gg:transliteration "naam jin kai man vasi-aa"@en-Latn ;
+  gg:translation "for those in whose mind the Naam abides"@en .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk4_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk4_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਵਾਜੇ"@pa ;
+  gg:transliteration "vaajay"@en-Latn ;
+  gg:translation "there resound"@en .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk4_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk4_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਸਬਦ ਘਨੇਰੇ ॥"@pa ;
+  gg:transliteration "sabad ghanayray ||"@en-Latn ;
+  gg:translation "many deep strains of the Shabad."@en .
+
+###############################################################
+# Tuk 5 – ਕਹੈ ਨਾਨਕੁ ਸਚੇ ਸਾਹਿਬ ਕਿਆ ਨਾਹੀ ਘਰਿ ਤੇਰੈ ॥੩॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk5 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk5" ;
+  gg:index "5"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri3 ;
+  gg:gurmukhi "ਕਹੈ ਨਾਨਕੁ ਸਚੇ ਸਾਹਿਬ ਕਿਆ ਨਾਹੀ ਘਰਿ ਤੇਰੈ ॥੩॥"@pa ;
+  gg:transliteration "kahai naanak sachay saahib ki-aa naahee ghar tayrai ||3||"@en-Latn ;
+  gg:translation "Says Nanak, O True Master, what is there that is not in Your home? ||3||"@en ;
+  gg:hasTheme gg:Provision , gg:OneGiver , gg:DivineSovereignty ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri3_tuk5_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri3_tuk5_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri3_tuk5_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk5_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk5_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਕਹੈ ਨਾਨਕੁ"@pa ;
+  gg:transliteration "kahai naanak"@en-Latn ;
+  gg:translation "says Nanak"@en .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk5_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk5_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸਚੇ ਸਾਹਿਬ"@pa ;
+  gg:transliteration "sachay saahib"@en-Latn ;
+  gg:translation "O True Master"@en .
+
+gg:sggs_ang917_anand_sahib_pauri3_tuk5_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri3_tuk5_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਕਿਆ ਨਾਹੀ ਘਰਿ ਤੇਰੈ ॥੩॥"@pa ;
+  gg:transliteration "ki-aa naahee ghar tayrai ||3||"@en-Latn ;
+  gg:translation "what is there that is not in Your home? ||3||"@en .
+
+###############################################################
+# Anand Sahib – Pauri 4
+# SGGS Ang 917
+# Pauri ID: sggs_ang917_anand_sahib_pauri4
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri4 a gg:Pauri ;
+  gg:id "sggs_ang917_anand_sahib_pauri4" ;
+  gg:ang "917"^^xsd:integer ;
+  gg:indexInBani "4"^^xsd:integer ;
+  gg:inScripture gg:SGGS ;
+  gg:inBani gg:AnandSahib ;
+  gg:inRaag gg:RaagRamkali ;
+  gg:hasAuthor gg:GuruAmarDasJi ;
+  dct:title "Anand Sahib – Pauri 4"@en ;
+  gg:hasTheme gg:Naam ,
+              gg:Peace ,
+              gg:DivineGifts ,
+              gg:GuruTeaching ,
+              gg:ServiceAndHonor ,
+              gg:Desire ;
+  gg:hasTuk
+      gg:sggs_ang917_anand_sahib_pauri4_tuk1 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk2 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk3 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk4 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk5 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk6 .
+
+###############################################################
+# Tuk 1 – ਸਾਚਾ ਨਾਮੁ ਮੇਰਾ ਆਧਾਰੋ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk1 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri4 ;
+  gg:gurmukhi "ਸਾਚਾ ਨਾਮੁ ਮੇਰਾ ਆਧਾਰੋ ॥"@pa ;
+  gg:transliteration "saachaa naam mayraa aaDhaaro ||"@en-Latn ;
+  gg:translation "The True Naam is the support of my life."@en ;
+  gg:hasTheme gg:Naam , gg:Peace ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri4_tuk1_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk1_gu2 .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk1_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk1_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਾਚਾ ਨਾਮੁ"@pa ;
+  gg:transliteration "saachaa naam"@en-Latn ;
+  gg:translation "the True, eternal Naam"@en .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk1_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk1_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਮੇਰਾ ਆਧਾਰੋ ॥"@pa ;
+  gg:transliteration "mayraa aaDhaaro ||"@en-Latn ;
+  gg:translation "is my only support."@en .
+
+###############################################################
+# Tuk 2 – ਸਾਚੁ ਨਾਮੁ ਅਧਾਰੁ ਮੇਰਾ ਜਿਨਿ ਭੁਖਾ ਸਭਿ ਗਵਾਈਆ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk2 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri4 ;
+  gg:gurmukhi "ਸਾਚੁ ਨਾਮੁ ਅਧਾਰੁ ਮੇਰਾ ਜਿਨਿ ਭੁਖਾ ਸਭਿ ਗਵਾਈਆ ॥"@pa ;
+  gg:transliteration "saach naam aDhaar mayraa jin bhukhaa sabh gavaa-ee-aa ||"@en-Latn ;
+  gg:translation "The True Naam is my foundation; it has removed all my craving."@en ;
+  gg:hasTheme gg:Naam , gg:Desire , gg:Peace ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri4_tuk2_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk2_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk2_gu3 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk2_gu4 .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk2_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk2_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਾਚੁ ਨਾਮੁ"@pa ;
+  gg:transliteration "saach naam"@en-Latn ;
+  gg:translation "the True Naam"@en .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk2_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk2_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਅਧਾਰੁ ਮੇਰਾ"@pa ;
+  gg:transliteration "aDhaar mayraa"@en-Latn ;
+  gg:translation "is my support and ground"@en .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk2_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk2_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਜਿਨਿ ਭੁਖਾ"@pa ;
+  gg:transliteration "jin bhukhaa"@en-Latn ;
+  gg:translation "by which my hunger, craving"@en .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk2_gu4 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk2_gu4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:gurmukhi "ਸਭਿ ਗਵਾਈਆ ॥"@pa ;
+  gg:transliteration "sabh gavaa-ee-aa ||"@en-Latn ;
+  gg:translation "has been completely driven out."@en .
+
+###############################################################
+# Tuk 3 – ਕਰਿ ਸਾਂਤਿ ਸੁਖ ਮਨਿ ਆਇ ਵਸਿਆ ਜਿਨਿ ਇਛਾ ਸਭਿ ਪੁਜਾਈਆ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk3 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri4 ;
+  gg:gurmukhi "ਕਰਿ ਸਾਂਤਿ ਸੁਖ ਮਨਿ ਆਇ ਵਸਿਆ ਜਿਨਿ ਇਛਾ ਸਭਿ ਪੁਜਾਈਆ ॥"@pa ;
+  gg:transliteration "kar saaNt sukh man aa-ay vasi-aa jin ichhaa sabh pujaa-ee-aa ||"@en-Latn ;
+  gg:translation "It has brought peace and joy; it has come to dwell in the mind, fulfilling all true longings."@en ;
+  gg:hasTheme gg:Peace , gg:DivineGifts ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri4_tuk3_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk3_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk3_gu3 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk3_gu4 .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk3_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk3_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਕਰਿ ਸਾਂਤਿ ਸੁਖ"@pa ;
+  gg:transliteration "kar saaNt sukh"@en-Latn ;
+  gg:translation "creating peace and happiness"@en .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk3_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk3_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਮਨਿ ਆਇ ਵਸਿਆ"@pa ;
+  gg:transliteration "man aa-ay vasi-aa"@en-Latn ;
+  gg:translation "it has come and taken residence in the mind"@en .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk3_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk3_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਜਿਨਿ ਇਛਾ"@pa ;
+  gg:transliteration "jin ichhaa"@en-Latn ;
+  gg:translation "and through which desires"@en .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk3_gu4 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk3_gu4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:gurmukhi "ਸਭਿ ਪੁਜਾਈਆ ॥"@pa ;
+  gg:transliteration "sabh pujaa-ee-aa ||"@en-Latn ;
+  gg:translation "are all properly fulfilled."@en .
+
+###############################################################
+# Tuk 4 – ਸਦਾ ਕੁਰਬਾਣੁ ਕੀਤਾ ਗੁਰੂ ਵਿਟਹੁ ਜਿਸ ਦੀਆ ਏਹਿ ਵਡਿਆਈਆ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk4 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri4 ;
+  gg:gurmukhi "ਸਦਾ ਕੁਰਬਾਣੁ ਕੀਤਾ ਗੁਰੂ ਵਿਟਹੁ ਜਿਸ ਦੀਆ ਏਹਿ ਵਡਿਆਈਆ ॥"@pa ;
+  gg:transliteration "sadaa kurbaan keetaa guroo vitahu jis dee-aa ayhi vadi-aa-ee-aa ||"@en-Latn ;
+  gg:translation "I am forever a sacrifice to the Guru, who has blessed me with such greatness."@en ;
+  gg:hasTheme gg:GuruTeaching , gg:ServiceAndHonor , gg:DivineGifts ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri4_tuk4_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk4_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk4_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk4_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk4_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਦਾ ਕੁਰਬਾਣੁ ਕੀਤਾ"@pa ;
+  gg:transliteration "sadaa kurbaan keetaa"@en-Latn ;
+  gg:translation "I am forever devoted, sacrificed"@en .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk4_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk4_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਗੁਰੂ ਵਿਟਹੁ"@pa ;
+  gg:transliteration "guroo vitahu"@en-Latn ;
+  gg:translation "to the Guru, at whose feet I fall"@en .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk4_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk4_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਜਿਸ ਦੀਆ ਏਹਿ ਵਡਿਆਈਆ ॥"@pa ;
+  gg:transliteration "jis dee-aa ayhi vadi-aa-ee-aa ||"@en-Latn ;
+  gg:translation "who has granted these excellences."@en .
+
+###############################################################
+# Tuk 5 – ਕਹੈ ਨਾਨਕੁ ਸੁਣਹੁ ਸੰਤਹੁ ਸਬਦਿ ਧਰਹੁ ਪਿਆਰੋ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk5 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk5" ;
+  gg:index "5"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri4 ;
+  gg:gurmukhi "ਕਹੈ ਨਾਨਕੁ ਸੁਣਹੁ ਸੰਤਹੁ ਸਬਦਿ ਧਰਹੁ ਪਿਆਰੋ ॥"@pa ;
+  gg:transliteration "kahai naanak sunhu santahu sabad Dharahu pi-aaro ||"@en-Latn ;
+  gg:translation "Says Nanak, listen, O saints; place your loving affection in the Shabad."@en ;
+  gg:hasTheme gg:GuruTeaching , gg:ListeningAndLove ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri4_tuk5_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk5_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk5_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk5_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk5_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਕਹੈ ਨਾਨਕੁ"@pa ;
+  gg:transliteration "kahai naanak"@en-Latn ;
+  gg:translation "says Nanak"@en .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk5_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk5_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸੁਣਹੁ ਸੰਤਹੁ"@pa ;
+  gg:transliteration "sunhu santahu"@en-Latn ;
+  gg:translation "listen, O saints"@en .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk5_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk5_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਸਬਦਿ ਧਰਹੁ ਪਿਆਰੋ ॥"@pa ;
+  gg:transliteration "sabad Dharahu pi-aaro ||"@en-Latn ;
+  gg:translation "let your love be fixed in the Guru’s Shabad."@en .
+
+###############################################################
+# Tuk 6 – ਸਾਚਾ ਨਾਮੁ ਮੇਰਾ ਆਧਾਰੋ ॥੪॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk6 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk6" ;
+  gg:index "6"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri4 ;
+  gg:gurmukhi "ਸਾਚਾ ਨਾਮੁ ਮੇਰਾ ਆਧਾਰੋ ॥੪॥"@pa ;
+  gg:transliteration "saachaa naam mayraa aaDhaaro ||4||"@en-Latn ;
+  gg:translation "The True Naam is my support. ||4||"@en ;
+  gg:hasTheme gg:Naam , gg:Peace ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri4_tuk6_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri4_tuk6_gu2 .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk6_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk6_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਸਾਚਾ ਨਾਮੁ"@pa ;
+  gg:transliteration "saachaa naam"@en-Latn ;
+  gg:translation "the True Naam"@en .
+
+gg:sggs_ang917_anand_sahib_pauri4_tuk6_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri4_tuk6_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਮੇਰਾ ਆਧਾਰੋ ॥੪॥"@pa ;
+  gg:transliteration "mayraa aaDhaaro ||4||"@en-Latn ;
+  gg:translation "is my support. ||4||"@en .
+
+###############################################################
+# Anand Sahib – Pauri 5
+# SGGS Ang 917
+# Pauri ID: sggs_ang917_anand_sahib_pauri5
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri5 a gg:Pauri ;
+  gg:id "sggs_ang917_anand_sahib_pauri5" ;
+  gg:ang "917"^^xsd:integer ;
+  gg:indexInBani "5"^^xsd:integer ;
+  gg:inScripture gg:SGGS ;
+  gg:inBani gg:AnandSahib ;
+  gg:inRaag gg:RaagRamkali ;
+  gg:hasAuthor gg:GuruAmarDasJi ;
+  dct:title "Anand Sahib – Pauri 5"@en ;
+  gg:hasTheme
+      gg:InnerJewels ,
+      gg:ListeningAndLove ,
+      gg:Ego ,
+      gg:DivinePower ,
+      gg:GraceAndKarma ,
+      gg:Naam ,
+      gg:Peace ;
+  gg:hasTuk
+      gg:sggs_ang917_anand_sahib_pauri5_tuk1 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk2 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk3 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk4 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk5 .
+
+###############################################################
+# Tuk 1 – ਵਾਜੇ ਪੰਚ ਸਬਦ ਤਿਤੁ ਘਰਿ ਸਭਾਗੈ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk1 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri5 ;
+  gg:gurmukhi "ਵਾਜੇ ਪੰਚ ਸਬਦ ਤਿਤੁ ਘਰਿ ਸਭਾਗੈ ॥"@pa ;
+  gg:transliteration "vaajay panch sabad tit ghar sabhaagai ||"@en-Latn ;
+  gg:translation "In that blessed inner home, the five-fold celestial music of the Shabad resounds."@en ;
+  gg:hasTheme gg:InnerJewels , gg:ListeningAndLove ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri5_tuk1_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk1_gu2 .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk1_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk1_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਵਾਜੇ ਪੰਚ ਸਬਦ"@pa ;
+  gg:transliteration "vaajay panch sabad"@en-Latn ;
+  gg:translation "the fivefold, harmonious sounds of the Shabad resound"@en .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk1_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk1_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਤਿਤੁ ਘਰਿ ਸਭਾਗੈ ॥"@pa ;
+  gg:transliteration "tit ghar sabhaagai ||"@en-Latn ;
+  gg:translation "within that auspicious, blessed inner home."@en .
+
+###############################################################
+# Tuk 2 – ਘਰਿ ਸਭਾਗੈ ਸਬਦ ਵਾਜੇ ਕਲਾ ਜਿਤੁ ਘਰਿ ਧਾਰੀਆ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk2 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri5 ;
+  gg:gurmukhi "ਘਰਿ ਸਭਾਗੈ ਸਬਦ ਵਾਜੇ ਕਲਾ ਜਿਤੁ ਘਰਿ ਧਾਰੀਆ ॥"@pa ;
+  gg:transliteration "ghar sabhaagai sabad vaajay kalaa jit ghar Dhaaree-aa ||"@en-Latn ;
+  gg:translation "In that blessed home, the Shabad vibrates, where the Divine has infused His power."@en ;
+  gg:hasTheme gg:InnerJewels , gg:DivinePower , gg:ListeningAndLove ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri5_tuk2_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk2_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk2_gu3 .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk2_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk2_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਘਰਿ ਸਭਾਗੈ"@pa ;
+  gg:transliteration "ghar sabhaagai"@en-Latn ;
+  gg:translation "in that blessed inner home"@en .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk2_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk2_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਸਬਦ ਵਾਜੇ"@pa ;
+  gg:transliteration "sabad vaajay"@en-Latn ;
+  gg:translation "the Shabad’s music resounds"@en .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk2_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk2_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਕਲਾ ਜਿਤੁ ਘਰਿ ਧਾਰੀਆ ॥"@pa ;
+  gg:transliteration "kalaa jit ghar Dhaaree-aa ||"@en-Latn ;
+  gg:translation "in the heart where Divine power has been established."@en .
+
+###############################################################
+# Tuk 3 – ਪੰਚ ਦੂਤ ਤੁਧੁ ਵਸਿ ਕੀਤੇ ਕਾਲੁ ਕੰਟਕੁ ਮਾਰਿਆ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk3 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri5 ;
+  gg:gurmukhi "ਪੰਚ ਦੂਤ ਤੁਧੁ ਵਸਿ ਕੀਤੇ ਕਾਲੁ ਕੰਟਕੁ ਮਾਰਿਆ ॥"@pa ;
+  gg:transliteration "panch doot tuDh vas keetay kaal kantak maari-aa ||"@en-Latn ;
+  gg:translation "You subdue the five inner thieves and strike down the torturing thorn of death."@en ;
+  gg:hasTheme gg:Ego , gg:DivinePower , gg:Peace ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri5_tuk3_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk3_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk3_gu3 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk3_gu4 .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk3_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk3_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਪੰਚ ਦੂਤ"@pa ;
+  gg:transliteration "panch doot"@en-Latn ;
+  gg:translation "the five inner enemies (lust, anger, greed, attachment, ego)"@en .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk3_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk3_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਤੁਧੁ ਵਸਿ ਕੀਤੇ"@pa ;
+  gg:transliteration "tuDh vas keetay"@en-Latn ;
+  gg:translation "You have brought under Your control"@en .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk3_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk3_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਕਾਲੁ ਕੰਟਕੁ"@pa ;
+  gg:transliteration "kaal kantak"@en-Latn ;
+  gg:translation "death, the tormenting thorn"@en .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk3_gu4 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk3_gu4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:gurmukhi "ਮਾਰਿਆ ॥"@pa ;
+  gg:transliteration "maari-aa ||"@en-Latn ;
+  gg:translation "You have struck down and destroyed."@en .
+
+###############################################################
+# Tuk 4 – ਧੁਰਿ ਕਰਮਿ ਪਾਇਆ ਤੁਧੁ ਜਿਨ ਕਉ ਸਿ ਨਾਮਿ ਹਰਿ ਕੈ ਲਾਗੇ ॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk4 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri5 ;
+  gg:gurmukhi "ਧੁਰਿ ਕਰਮਿ ਪਾਇਆ ਤੁਧੁ ਜਿਨ ਕਉ ਸਿ ਨਾਮਿ ਹਰਿ ਕੈ ਲਾਗੇ ॥"@pa ;
+  gg:transliteration "Dhur karam paa-i-aa tuDh jin ka-o se naam har kai laagay ||"@en-Latn ;
+  gg:translation "Those whom You have blessed from the very beginning are attached to Hari’s Naam."@en ;
+  gg:hasTheme gg:GraceAndKarma , gg:Naam ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri5_tuk4_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk4_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk4_gu3 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk4_gu4 .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk4_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk4_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਧੁਰਿ ਕਰਮਿ"@pa ;
+  gg:transliteration "Dhur karam"@en-Latn ;
+  gg:translation "by primal, pre-ordained grace"@en .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk4_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk4_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਪਾਇਆ ਤੁਧੁ ਜਿਨ ਕਉ"@pa ;
+  gg:transliteration "paa-i-aa tuDh jin ka-o"@en-Latn ;
+  gg:translation "those whom You have thus favored"@en .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk4_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk4_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਸਿ ਨਾਮਿ"@pa ;
+  gg:transliteration "se naam"@en-Latn ;
+  gg:translation "those ones to the Naam"@en .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk4_gu4 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk4_gu4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:gurmukhi "ਹਰਿ ਕੈ ਲਾਗੇ ॥"@pa ;
+  gg:transliteration "har kai laagay ||"@en-Latn ;
+  gg:translation "are lovingly attached to Hari."@en .
+
+###############################################################
+# Tuk 5 – ਕਹੈ ਨਾਨਕੁ ਤਹ ਸੁਖੁ ਹੋਆ ਤਿਤੁ ਘਰਿ ਅਨਹਦ ਵਾਜੇ ॥੫॥
+###############################################################
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk5 a gg:Tuk ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk5" ;
+  gg:index "5"^^xsd:integer ;
+  gg:belongsTo gg:sggs_ang917_anand_sahib_pauri5 ;
+  gg:gurmukhi "ਕਹੈ ਨਾਨਕੁ ਤਹ ਸੁਖੁ ਹੋਆ ਤਿਤੁ ਘਰਿ ਅਨਹਦ ਵਾਜੇ ॥੫॥"@pa ;
+  gg:transliteration "kahai naanak tah sukh ho-aa tit ghar anhad vaajay ||5||"@en-Latn ;
+  gg:translation "Says Nanak, there peace abides, where the unstruck melody resounds within that inner home. ||5||"@en ;
+  gg:hasTheme gg:Peace , gg:InnerJewels , gg:ListeningAndLove ;
+  gg:hasGlossUnit
+      gg:sggs_ang917_anand_sahib_pauri5_tuk5_gu1 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk5_gu2 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk5_gu3 ,
+      gg:sggs_ang917_anand_sahib_pauri5_tuk5_gu4 .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk5_gu1 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk5_gu1" ;
+  gg:index "1"^^xsd:integer ;
+  gg:gurmukhi "ਕਹੈ ਨਾਨਕੁ"@pa ;
+  gg:transliteration "kahai naanak"@en-Latn ;
+  gg:translation "says Nanak"@en .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk5_gu2 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk5_gu2" ;
+  gg:index "2"^^xsd:integer ;
+  gg:gurmukhi "ਤਹ ਸੁਖੁ ਹੋਆ"@pa ;
+  gg:transliteration "tah sukh ho-aa"@en-Latn ;
+  gg:translation "there, true peace has arisen"@en .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk5_gu3 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk5_gu3" ;
+  gg:index "3"^^xsd:integer ;
+  gg:gurmukhi "ਤਿਤੁ ਘਰਿ"@pa ;
+  gg:transliteration "tit ghar"@en-Latn ;
+  gg:translation "in that inner home"@en .
+
+gg:sggs_ang917_anand_sahib_pauri5_tuk5_gu4 a gg:GlossUnit ;
+  gg:id "sggs_ang917_anand_sahib_pauri5_tuk5_gu4" ;
+  gg:index "4"^^xsd:integer ;
+  gg:gurmukhi "ਅਨਹਦ ਵਾਜੇ ॥੫॥"@pa ;
+  gg:transliteration "anhad vaajay ||5||"@en-Latn ;
+  gg:translation "where the unstruck, continuous melody resounds. ||5||"@en .

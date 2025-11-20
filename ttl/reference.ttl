@@ -30,14 +30,18 @@ gg:GuruRamDasJi a gg:Person ;
     rdfs:label "Guru Ram Das Ji"@en ;
     gg:role "Guru"@en .
 
+gg:GuruAmarDasJi a gg:Author ;
+    rdfs:label "Guru Amar Das Ji"@en ;
+    gg:role "Guru"@en .
+
 #################################################################
 ### Banis
 #################################################################
 
-gg:AnandSahib a gg:Bani ;
+    gg:AnandSahib a gg:Bani ;
     gg:inScripture gg:SGGS ;
     rdfs:label "Anand Sahib"@en ;
-    rdfs:comment "For bliss and liberation from the cycle of births/deaths"@en .
+    rdfs:comment "Bani of Guru Amar Das Ji, commonly recited daily; Anand Sahib contains 40 pauris. For bliss and liberation from the cycle of births/deaths."@en .
 
 gg:AsaDiVar a gg:Bani ;
     # gg:inScripture gg:SGGS ;
@@ -112,11 +116,14 @@ gg:TavPrasadSavaiye a gg:Bani ;
 gg:RaagAasaa a gg:Raag ;
     rdfs:label "ਆਸਾ"@pa .
 
+gg:RaagGauri a gg:Raag ;
+  rdfs:label "ਗਉੜੀ"@pa .
+
 gg:RaagJaitsree a gg:Raag ;
   rdfs:label "ਜੈਤਸਰੀ"@pa .
 
+gg:RaagRamkali a gg:Raag ;
+  rdfs:label "ਰਾਮਕਲੀ"@pa .
+
 gg:RaagVadhans a gg:Raag ;
     rdfs:label "Vadhans"@en .
-
-gg:RaagGauri a gg:Raag ;
-  rdfs:label "ਗਉੜੀ"@pa .
